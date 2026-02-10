@@ -1,7 +1,8 @@
 # Scheinfirmen Österreich
 
 [![CI](https://github.com/arjoma/scheinfirmen-at/actions/workflows/ci.yml/badge.svg)](https://github.com/arjoma/scheinfirmen-at/actions/workflows/ci.yml)
-[![Update Data](https://github.com/arjoma/scheinfirmen-at/actions/workflows/update.yml/badge.svg)](https://github.com/arjoma/scheinfirmen-at/actions/workflows/update.yml)
+[![Daten Aktualisieren](https://github.com/arjoma/scheinfirmen-at/actions/workflows/update.yml/badge.svg)](https://github.com/arjoma/scheinfirmen-at/actions/workflows/update.yml)
+[![PyPI](https://img.shields.io/pypi/v/scheinfirmen-at)](https://pypi.org/project/scheinfirmen-at/)
 
 Automatischer Download und Konvertierung der österreichischen BMF **Scheinfirmenliste**
 (Liste der Scheinunternehmen) in maschinenlesbare Formate.
@@ -35,11 +36,11 @@ Die konvertierten Daten befinden sich im `data/` Verzeichnis:
 
 | Datei | Format | Beschreibung |
 |-------|--------|--------------|
-| [`data/scheinfirmen.csv`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv) | CSV (UTF-8 mit BOM) | Komma-getrennt, Excel-kompatibel |
-| [`data/scheinfirmen.jsonl`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.jsonl) | JSONL | Eine JSON-Zeile pro Eintrag, erste Zeile Metadaten |
-| [`data/scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | `<scheinfirma>`-Elemente mit Attributen |
-| [`data/scheinfirmen.json-schema.json`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json) | JSON Schema | Schema-Definition (Draft 2020-12) |
-| [`data/scheinfirmen.xsd`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd) | XSD | XML Schema Definition |
+| [`scheinfirmen.csv`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv) | CSV (UTF-8 mit BOM) | Komma-getrennt, Excel-kompatibel |
+| [`scheinfirmen.jsonl`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.jsonl) | JSONL | Eine JSON-Zeile pro Eintrag, erste Zeile Metadaten |
+| [`scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | `<scheinfirma>`-Elemente mit Attributen |
+| [`scheinfirmen.json-schema.json`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json) | JSON Schema | Schema-Definition (Draft 2020-12) |
+| [`scheinfirmen.xsd`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd) | XSD | XML Schema Definition |
 
 ### Datenfelder
 
