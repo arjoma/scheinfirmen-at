@@ -13,3 +13,4 @@ build/
 venv/
 .uv/
 *.pyc
+.claude/settings.local.json
