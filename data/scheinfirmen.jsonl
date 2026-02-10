@@ -1,4 +1,4 @@
-{"_metadata": {"stand": "2026-02-10T11:34:39", "source": "https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp", "count": 1270}}
+{"$schema": "https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json", "_metadata": {"stand": "2026-02-10T15:12:00", "source": "https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp", "count": 1270}}
 {"name": "A & HK Bau und Handels GmbH", "anschrift": "1100 Wien, Quellenstraße 145", "veroeffentlichung": "2023-12-14", "rechtskraeftig": "2023-12-12", "seit": null, "geburtsdatum": null, "firmenbuch_nr": "597821z", "uid_nr": "ATU79209223", "kennziffer_ur": null}
 {"name": "A & U Teambau GmbH", "anschrift": "1020 Wien, Rembrandtstraße 15", "veroeffentlichung": "2025-01-21", "rechtskraeftig": "2025-01-11", "seit": "2024-06-06", "geburtsdatum": null, "firmenbuch_nr": "575302h", "uid_nr": "ATU78016816", "kennziffer_ur": "R133R5574"}
 {"name": "AAS Installationen GmbH", "anschrift": "1210 Wien, Siegfriedgasse 23, Tor 1", "veroeffentlichung": "2018-12-04", "rechtskraeftig": "2018-11-22", "seit": null, "geburtsdatum": null, "firmenbuch_nr": "476240d", "uid_nr": "ATU72572156", "kennziffer_ur": null}

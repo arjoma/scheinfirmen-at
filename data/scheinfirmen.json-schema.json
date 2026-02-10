@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/haraldschilly/scheinfirmen-oesterreich/main/data/scheinfirmen.json-schema.json",
+  "$id": "https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json",
   "title": "Scheinfirma",
   "description": "A company or person listed on the Austrian BMF Scheinfirmen (shell company) list",
   "type": "object",
