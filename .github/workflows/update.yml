@@ -38,10 +38,14 @@ jobs:
           fi
           echo "value=$STAND" >> "$GITHUB_OUTPUT"
 
-      - name: Check for changes in data/
+      - name: Check for changes in data/ (ignore timestamp-only changes)
         id: changes
         run: |
-          git diff --quiet data/ \
+          git diff \
+            -I "# Stand:" \
+            -I '"_metadata"' \
+            -I "<scheinfirmen " \
+            --quiet data/ \
             && echo "changed=false" >> "$GITHUB_OUTPUT" \
             || echo "changed=true" >> "$GITHUB_OUTPUT"
 
