@@ -1,3 +1,6 @@
+# Copyright 2026 Harald Schilly <info@arjoma.at>, ARJOMA FlexCo.
+# SPDX-License-Identifier: Apache-2.0
+
 """scheinfirmen-at: Austrian BMF shell company data in machine-readable formats."""
 
 from importlib.metadata import version as _version

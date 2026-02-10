@@ -1,3 +1,6 @@
+# Copyright 2026 Harald Schilly <info@arjoma.at>, ARJOMA FlexCo.
+# SPDX-License-Identifier: Apache-2.0
+
 """Convert Scheinfirma records to CSV, JSONL, and XML output formats."""
 
 import csv

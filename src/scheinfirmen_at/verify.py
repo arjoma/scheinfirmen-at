@@ -1,3 +1,6 @@
+# Copyright 2026 Harald Schilly <info@arjoma.at>, ARJOMA FlexCo.
+# SPDX-License-Identifier: Apache-2.0
+
 """Cross-format verification: re-read all output files and check consistency."""
 
 import csv

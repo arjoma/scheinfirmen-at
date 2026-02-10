@@ -1,3 +1,6 @@
+# Copyright 2026 Harald Schilly <info@arjoma.at>, ARJOMA FlexCo.
+# SPDX-License-Identifier: Apache-2.0
+
 """Command-line interface for scheinfirmen-at."""
 
 import argparse
