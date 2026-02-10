@@ -16,7 +16,7 @@ JSON_SCHEMA: dict[str, object] = {
         "(shell company) list"
     ),
     "type": "object",
-    "required": ["name", "anschrift", "veroeffentlichung", "rechtskraeftig"],
+    "required": ["name", "anschrift", "veroeffentlicht", "rechtskraeftig"],
     "additionalProperties": False,
     "properties": {
         "name": {
@@ -29,7 +29,7 @@ JSON_SCHEMA: dict[str, object] = {
             "description": "Address (PLZ Ort, Strasse Nr)",
             "minLength": 1,
         },
-        "veroeffentlichung": {
+        "veroeffentlicht": {
             "type": "string",
             "format": "date",
             "description": "Publication date (ISO 8601)",
@@ -49,17 +49,17 @@ JSON_SCHEMA: dict[str, object] = {
             "format": "date",
             "description": "Birth date for natural persons (ISO 8601)",
         },
-        "firmenbuch_nr": {
+        "fbnr": {
             "type": ["string", "null"],
             "description": "Company register number (Firmenbuchnummer)",
             "pattern": r"^\d{5,6}[a-zA-Z]$",
         },
-        "uid_nr": {
+        "uid": {
             "type": ["string", "null"],
             "description": "VAT identification number (UID-Nummer)",
             "pattern": r"^ATU\d{8}$",
         },
-        "kennziffer_ur": {
+        "kennziffer": {
             "type": ["string", "null"],
             "description": (
                 "Register reference code (Kennziffer des Unternehmensregisters)"
@@ -76,27 +76,28 @@ XSD_CONTENT = """\
   <xs:element name="scheinfirmen">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="eintrag" type="EintragType" maxOccurs="unbounded"/>
+        <xs:element name="scheinfirma" type="ScheinfirmaType" maxOccurs="unbounded"/>
       </xs:sequence>
-      <xs:attribute name="stand"   type="xs:date"         use="required"/>
-      <xs:attribute name="zeit"    type="xs:time"         use="required"/>
-      <xs:attribute name="quelle"  type="xs:anyURI"       use="required"/>
+      <xs:attribute name="stand"   type="xs:date"            use="required"/>
+      <xs:attribute name="zeit"    type="xs:time"            use="required"/>
+      <xs:attribute name="quelle"  type="xs:anyURI"          use="required"/>
       <xs:attribute name="anzahl"  type="xs:positiveInteger" use="required"/>
     </xs:complexType>
   </xs:element>
 
-  <xs:complexType name="EintragType">
-    <xs:all>
-      <xs:element name="name"                        type="xs:string"/>
-      <xs:element name="anschrift"                   type="xs:string"/>
-      <xs:element name="veroeffentlichung"           type="xs:date"/>
-      <xs:element name="rechtskraeftig"             type="xs:date"/>
-      <xs:element name="seit"                        type="xs:date"   minOccurs="0"/>
-      <xs:element name="geburtsdatum"                type="xs:date"   minOccurs="0"/>
-      <xs:element name="firmenbuch_nr"               type="xs:string" minOccurs="0"/>
-      <xs:element name="uid_nr"                      type="xs:string" minOccurs="0"/>
-      <xs:element name="kennziffer_ur"               type="xs:string" minOccurs="0"/>
-    </xs:all>
+  <xs:complexType name="ScheinfirmaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="anschrift"      type="xs:string" use="required"/>
+        <xs:attribute name="veroeffentlicht"      type="xs:date"   use="required"/>
+        <xs:attribute name="rechtskraeftig" type="xs:date"   use="required"/>
+        <xs:attribute name="seit"           type="xs:date"/>
+        <xs:attribute name="geburtsdatum"   type="xs:date"/>
+        <xs:attribute name="fbnr"           type="xs:string"/>
+        <xs:attribute name="uid"            type="xs:string"/>
+        <xs:attribute name="kennziffer"     type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
   </xs:complexType>
 
 </xs:schema>

@@ -26,7 +26,7 @@ def sample_result() -> ParseResult:
 
             anschrift="1010 Wien, Graben 1",
 
-            veroeffentlichung="2023-01-01",
+            veroeffentlicht="2023-01-01",
 
             rechtskraeftig="2023-01-01",
 
@@ -34,11 +34,11 @@ def sample_result() -> ParseResult:
 
             geburtsdatum=None,
 
-            firmenbuch_nr="123456x",
+            fbnr="123456x",
 
-            uid_nr="ATU12345678",
+            uid="ATU12345678",
 
-            kennziffer_ur="K123456",
+            kennziffer="K123456",
 
         ),
 
@@ -48,7 +48,7 @@ def sample_result() -> ParseResult:
 
             anschrift="8010 Graz, Hauptplatz 1",
 
-            veroeffentlichung="2023-02-01",
+            veroeffentlicht="2023-02-01",
 
             rechtskraeftig="2023-02-15",
 
@@ -56,11 +56,11 @@ def sample_result() -> ParseResult:
 
             geburtsdatum="1980-05-20",
 
-            firmenbuch_nr=None,
+            fbnr=None,
 
-            uid_nr=None,
+            uid=None,
 
-            kennziffer_ur=None,
+            kennziffer=None,
 
         )
 

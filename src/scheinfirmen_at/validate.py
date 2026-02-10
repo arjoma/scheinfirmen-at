@@ -99,7 +99,7 @@ def _validate_record(
 
     # Required date fields
     for field_name, value in [
-        ("veroeffentlichung", rec.veroeffentlichung),
+        ("veroeffentlicht", rec.veroeffentlicht),
         ("rechtskraeftig", rec.rechtskraeftig),
     ]:
         if not _RE_ISO_DATE.match(value):
@@ -114,22 +114,22 @@ def _validate_record(
             err(field_name, opt_value, f"Expected ISO date YYYY-MM-DD, got {opt_value!r}")
 
     # UID-Nr format
-    if rec.uid_nr is not None and not _RE_UID.match(rec.uid_nr):
-        err("uid_nr", rec.uid_nr, "Expected format ATU followed by 8 digits")
+    if rec.uid is not None and not _RE_UID.match(rec.uid):
+        err("uid", rec.uid, "Expected format ATU followed by 8 digits")
 
     # Firmenbuch-Nr format
-    if rec.firmenbuch_nr is not None and not _RE_FIRMENBUCH.match(rec.firmenbuch_nr):
+    if rec.fbnr is not None and not _RE_FIRMENBUCH.match(rec.fbnr):
         err(
-            "firmenbuch_nr",
-            rec.firmenbuch_nr,
+            "fbnr",
+            rec.fbnr,
             "Expected 5-6 digits followed by a letter",
         )
 
     # Kennziffer — warning only (BMF data has known inconsistencies)
-    if rec.kennziffer_ur is not None and not _RE_KENNZIFFER.match(rec.kennziffer_ur):
+    if rec.kennziffer is not None and not _RE_KENNZIFFER.match(rec.kennziffer):
         warn(
-            "kennziffer_ur",
-            rec.kennziffer_ur,
+            "kennziffer",
+            rec.kennziffer,
             "Unexpected Kennziffer format (expected R + digits + letter pattern)",
         )
 

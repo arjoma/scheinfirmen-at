@@ -30,7 +30,7 @@ def test_parse_stand_extraction(sample_raw_bytes: bytes) -> None:
 def test_parse_date_conversion(sample_raw_bytes: bytes) -> None:
     result = parse_bmf_csv(sample_raw_bytes)
     # First row: Veröffentlichung 14.12.2023 → 2023-12-14
-    assert result.records[0].veroeffentlichung == "2023-12-14"
+    assert result.records[0].veroeffentlicht == "2023-12-14"
     assert result.records[0].rechtskraeftig == "2023-12-12"
 
 
@@ -40,9 +40,9 @@ def test_parse_optional_fields_none(sample_raw_bytes: bytes) -> None:
     rec = result.records[0]
     assert rec.seit is None
     assert rec.geburtsdatum is None
-    assert rec.firmenbuch_nr == "597821z"
-    assert rec.uid_nr == "ATU79209223"
-    assert rec.kennziffer_ur is None
+    assert rec.fbnr == "597821z"
+    assert rec.uid == "ATU79209223"
+    assert rec.kennziffer is None
 
 
 def test_parse_optional_fields_filled(sample_raw_bytes: bytes) -> None:
@@ -50,9 +50,9 @@ def test_parse_optional_fields_filled(sample_raw_bytes: bytes) -> None:
     # Second row (index 1) has Zeitpunkt, Firmenbuch-Nr, UID, Kennziffer
     rec = result.records[1]
     assert rec.seit == "2024-06-06"
-    assert rec.firmenbuch_nr == "575302h"
-    assert rec.uid_nr == "ATU78016816"
-    assert rec.kennziffer_ur == "R133R5574"
+    assert rec.fbnr == "575302h"
+    assert rec.uid == "ATU78016816"
+    assert rec.kennziffer == "R133R5574"
 
 
 def test_parse_natural_person_with_geburtsdatum(sample_raw_bytes: bytes) -> None:
@@ -65,7 +65,7 @@ def test_parse_natural_person_with_geburtsdatum(sample_raw_bytes: bytes) -> None
 def test_parse_html_entity_kennziffer(sample_raw_bytes: bytes) -> None:
     result = parse_bmf_csv(sample_raw_bytes)
     # Row with &quot;R567Z890&quot; → should become R567Z890
-    kennziffer_values = [r.kennziffer_ur for r in result.records]
+    kennziffer_values = [r.kennziffer for r in result.records]
     assert "R567Z890" in kennziffer_values
 
 
@@ -90,9 +90,9 @@ def test_parse_empty_all_optionals(sample_raw_bytes: bytes) -> None:
     rec = result.records[5]
     assert rec.seit is None
     assert rec.geburtsdatum is None
-    assert rec.firmenbuch_nr is None
-    assert rec.uid_nr is None
-    assert rec.kennziffer_ur is None
+    assert rec.fbnr is None
+    assert rec.uid is None
+    assert rec.kennziffer is None
 
 
 def test_parse_wrong_header_raises() -> None:
@@ -143,4 +143,4 @@ def test_parse_firmenbuch_5digit(sample_raw_bytes: bytes) -> None:
     result = parse_bmf_csv(sample_raw_bytes)
     # Row index 4: Firmenbuch-Nr 12345c (5 digits)
     rec = result.records[4]
-    assert rec.firmenbuch_nr == "12345c"
+    assert rec.fbnr == "12345c"

@@ -29,13 +29,13 @@ class ScheinfirmaRecord:
 
     name: str
     anschrift: str
-    veroeffentlichung: str  # ISO 8601: YYYY-MM-DD
+    veroeffentlicht: str  # ISO 8601: YYYY-MM-DD
     rechtskraeftig: str  # ISO 8601: YYYY-MM-DD
     seit: str | None  # ISO 8601 or None
     geburtsdatum: str | None  # ISO 8601 or None (only for natural persons)
-    firmenbuch_nr: str | None
-    uid_nr: str | None  # ATUxxxxxxxx or None
-    kennziffer_ur: str | None
+    fbnr: str | None
+    uid: str | None  # ATUxxxxxxxx or None
+    kennziffer: str | None
 
 
 @dataclass
@@ -144,13 +144,13 @@ def parse_bmf_csv(raw_data: bytes, encoding: str = "iso-8859-1") -> ParseResult:
         record = ScheinfirmaRecord(
             name=_clean_field(fields[0]),
             anschrift=_clean_field(fields[1]),
-            veroeffentlichung=_convert_date(_clean_field(fields[2])),
+            veroeffentlicht=_convert_date(_clean_field(fields[2])),
             rechtskraeftig=_convert_date(_clean_field(fields[3])),
             seit=opt_date(fields[4]),
             geburtsdatum=opt_date(fields[5]),
-            firmenbuch_nr=opt(fields[6]),
-            uid_nr=opt(fields[7]),
-            kennziffer_ur=_clean_kennziffer(fields[8]),
+            fbnr=opt(fields[6]),
+            uid=opt(fields[7]),
+            kennziffer=_clean_kennziffer(fields[8]),
         )
         records.append(record)
 

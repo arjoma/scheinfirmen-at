@@ -141,7 +141,7 @@ def test_write_xml_row_count(sample_result: ParseResult, tmp_path: Path) -> None
 
     tree = ET.parse(path)
     root = tree.getroot()
-    assert len(root.findall("eintrag")) == sample_result.raw_row_count
+    assert len(root.findall("scheinfirma")) == sample_result.raw_row_count
 
 
 def test_write_xml_root_attributes(sample_result: ParseResult, tmp_path: Path) -> None:
@@ -168,10 +168,10 @@ def test_write_xml_null_optional_omitted(sample_result: ParseResult, tmp_path: P
     write_xml(sample_result, path)
     tree = ET.parse(path)
     root = tree.getroot()
-    # At least one eintrag should have no geburtsdatum element (None → omitted)
+    # At least one scheinfirma should have no geburtsdatum attribute (None → omitted)
     has_missing = any(
-        entry.find("geburtsdatum") is None
-        for entry in root.findall("eintrag")
+        entry.get("geburtsdatum") is None
+        for entry in root.findall("scheinfirma")
     )
     assert has_missing
 

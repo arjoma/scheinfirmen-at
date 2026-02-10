@@ -26,13 +26,13 @@ CSV_HEADERS = [
 _FIELD_ORDER = [
     "name",
     "anschrift",
-    "veroeffentlichung",
+    "veroeffentlicht",
     "rechtskraeftig",
     "seit",
     "geburtsdatum",
-    "firmenbuch_nr",
-    "uid_nr",
-    "kennziffer_ur",
+    "fbnr",
+    "uid",
+    "kennziffer",
 ]
 
 
@@ -106,12 +106,11 @@ def write_xml(result: ParseResult, output: str | Path) -> int:
     Structure:
         <scheinfirmen stand="YYYY-MM-DD" zeit="HH:MM:SS"
                       quelle="..." anzahl="N">
-          <eintrag>
-            <name>...</name>
-            ...
-            <geburtsdatum/>   <!-- empty/None → self-closing element -->
-          </eintrag>
+          <scheinfirma anschrift="..." published="..." ...>Name</scheinfirma>
         </scheinfirmen>
+
+    Each record is a <scheinfirma> element with the name as text content
+    and all other fields as attributes. Null fields are omitted.
 
     Returns number of records written.
     """
@@ -125,11 +124,13 @@ def write_xml(result: ParseResult, output: str | Path) -> int:
     root.set("anzahl", str(result.raw_row_count))
 
     for rec in result.records:
-        eintrag = ET.SubElement(root, "eintrag")
+        attribs = {}
         for field_name, value in _record_to_dict(rec).items():
-            if value is not None:
-                child = ET.SubElement(eintrag, field_name)
-                child.text = value
+            if field_name == "name" or value is None:
+                continue
+            attribs[field_name] = value
+        elem = ET.SubElement(root, "scheinfirma", attribs)
+        elem.text = rec.name
 
     ET.indent(root, space="  ")
     tree = ET.ElementTree(root)

@@ -19,7 +19,7 @@ def verify_outputs(
     Checks:
     1. CSV: count data rows (skip # comment lines and header row)
     2. JSONL: count non-metadata lines (skip lines with _metadata key)
-    3. XML: count <eintrag> elements
+    3. XML: count <scheinfirma> elements
     4. All three counts must equal expected_count
     5. Spot-check: first and last record's name must match across all formats
     6. If schema paths are provided, validate JSONL and XML against them.
@@ -135,10 +135,7 @@ def _count_xml(path: Path) -> tuple[int, list[str]]:
     """Return (data row count, [first_name, last_name]) from an XML output file."""
     tree = ET.parse(path)
     root = tree.getroot()
-    entries = root.findall("eintrag")
-    names: list[str] = []
-    for entry in entries:
-        name_el = entry.find("name")
-        names.append(name_el.text or "" if name_el is not None else "")
+    entries = root.findall("scheinfirma")
+    names: list[str] = [entry.text or "" for entry in entries]
     count = len(entries)
     return count, ([names[0], names[-1]] if len(names) >= 2 else names)

@@ -7,7 +7,7 @@
   "required": [
     "name",
     "anschrift",
-    "veroeffentlichung",
+    "veroeffentlicht",
     "rechtskraeftig"
   ],
   "additionalProperties": false,
@@ -22,7 +22,7 @@
       "description": "Address (PLZ Ort, Strasse Nr)",
       "minLength": 1
     },
-    "veroeffentlichung": {
+    "veroeffentlicht": {
       "type": "string",
       "format": "date",
       "description": "Publication date (ISO 8601)"
@@ -48,7 +48,7 @@
       "format": "date",
       "description": "Birth date for natural persons (ISO 8601)"
     },
-    "firmenbuch_nr": {
+    "fbnr": {
       "type": [
         "string",
         "null"
@@ -56,7 +56,7 @@
       "description": "Company register number (Firmenbuchnummer)",
       "pattern": "^\\d{5,6}[a-zA-Z]$"
     },
-    "uid_nr": {
+    "uid": {
       "type": [
         "string",
         "null"
@@ -64,7 +64,7 @@
       "description": "VAT identification number (UID-Nummer)",
       "pattern": "^ATU\\d{8}$"
     },
-    "kennziffer_ur": {
+    "kennziffer": {
       "type": [
         "string",
         "null"
