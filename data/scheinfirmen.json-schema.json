@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/haraldschilly/scheinfirmen-oesterreich/main/data/scheinfirmen.json-schema.json",
+  "title": "Scheinfirma",
+  "description": "A company or person listed on the Austrian BMF Scheinfirmen (shell company) list",
+  "type": "object",
+  "required": [
+    "name",
+    "anschrift",
+    "veroeffentlichung",
+    "rechtskraeftig"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the company or natural person",
+      "minLength": 1
+    },
+    "anschrift": {
+      "type": "string",
+      "description": "Address (PLZ Ort, Strasse Nr)",
+      "minLength": 1
+    },
+    "veroeffentlichung": {
+      "type": "string",
+      "format": "date",
+      "description": "Publication date (ISO 8601)"
+    },
+    "rechtskraeftig": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the decree became legally binding (ISO 8601)"
+    },
+    "seit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "description": "Date designated as shell company (ISO 8601)"
+    },
+    "geburtsdatum": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "description": "Birth date for natural persons (ISO 8601)"
+    },
+    "firmenbuch_nr": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Company register number (Firmenbuchnummer)",
+      "pattern": "^\\d{5,6}[a-zA-Z]$"
+    },
+    "uid_nr": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "VAT identification number (UID-Nummer)",
+      "pattern": "^ATU\\d{8}$"
+    },
+    "kennziffer_ur": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Register reference code (Kennziffer des Unternehmensregisters)"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="scheinfirmen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="eintrag" type="EintragType" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="stand"   type="xs:date"         use="required"/>
+      <xs:attribute name="zeit"    type="xs:time"         use="required"/>
+      <xs:attribute name="quelle"  type="xs:anyURI"       use="required"/>
+      <xs:attribute name="anzahl"  type="xs:positiveInteger" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="EintragType">
+    <xs:all>
+      <xs:element name="name"                        type="xs:string"/>
+      <xs:element name="anschrift"                   type="xs:string"/>
+      <xs:element name="veroeffentlichung"           type="xs:date"/>
+      <xs:element name="rechtskraeftig"             type="xs:date"/>
+      <xs:element name="seit"                        type="OptionalDate"  minOccurs="0"/>
+      <xs:element name="geburtsdatum"                type="OptionalDate"  minOccurs="0"/>
+      <xs:element name="firmenbuch_nr"               type="OptionalString" minOccurs="0"/>
+      <xs:element name="uid_nr"                      type="OptionalString" minOccurs="0"/>
+      <xs:element name="kennziffer_ur"               type="OptionalString" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="OptionalDate">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:anyAttribute namespace="##other" processContents="lax"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="OptionalString">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+</xs:schema>

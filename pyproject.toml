@@ -1,0 +1,66 @@
+[project]
+name = "scheinfirmen-at"
+version = "0.1.0"
+description = "Scheinfirmen Österreich: Download and convert Austrian BMF shell company data to machine-readable formats"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Harald Schilly", email = "info@arjoma.at" }
+]
+keywords = [
+    "austria", "österreich", "bmf", "finanzministerium",
+    "scheinfirmen", "scheinunternehmen", "shell-companies", "open-data",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Database",
+    "Topic :: Office/Business :: Financial",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+]
+
+[project.urls]
+Homepage = "https://github.com/arjoma/scheinfirmen-at"
+Repository = "https://github.com/arjoma/scheinfirmen-at"
+Issues = "https://github.com/arjoma/scheinfirmen-at/issues"
+
+[project.scripts]
+scheinfirmen-at = "scheinfirmen_at.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/scheinfirmen_at"]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0",
+    "lxml>=5.0",
+    "jsonschema>=4.0",
+]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

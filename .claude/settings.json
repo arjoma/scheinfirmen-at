@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-tree:*)",
+      "Bash(wget:*)",
+      "Bash(echo:*)",
+      "Bash(iconv:*)",
+      "Bash(awk:*)"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+name: Update Scheinfirmen Data
+
+on:
+  schedule:
+    # 2 AM UTC = 3 AM CET (winter) / 4 AM CEST (summer)
+    - cron: "0 2 * * *"
+  workflow_dispatch:  # Allow manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        run: uv python install 3.12
+
+      - name: Install package
+        run: uv sync
+
+      - name: Download, validate, and convert Scheinfirmen data
+        run: uv run scheinfirmen-at --output-dir data/ --verbose
+
+      - name: Extract Stand timestamp (fails if not present)
+        id: stand
+        run: |
+          # CSV starts with UTF-8 BOM, so grep without ^ anchor
+          STAND=$(grep "# Stand:" data/scheinfirmen.csv | head -1 | sed 's/.*# Stand: //')
+          if [ -z "$STAND" ]; then
+            echo "ERROR: Could not extract Stand timestamp from data/scheinfirmen.csv" >&2
+            exit 1
+          fi
+          echo "value=$STAND" >> "$GITHUB_OUTPUT"
+
+      - name: Check for changes in data/
+        id: changes
+        run: |
+          git diff --quiet data/ \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Update Scheinfirmen data (Stand: ${{ steps.stand.outputs.value }})"
+          git pull --rebase
+          git push
+
+      - name: No changes detected
+        if: steps.changes.outputs.changed == 'false'
+        run: |
+          echo "Data is already up to date (Stand: ${{ steps.stand.outputs.value }})"
