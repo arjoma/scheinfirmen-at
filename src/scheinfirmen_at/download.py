@@ -9,7 +9,7 @@ import urllib.request
 
 BMF_URL = "https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp"
 _USER_AGENT = (
-    "scheinfirmen-at/0.1 (https://github.com/haraldschilly/scheinfirmen-at)"
+    "scheinfirmen-at/1.1.0 (https://github.com/arjoma/scheinfirmen-at)"
 )
 
 
