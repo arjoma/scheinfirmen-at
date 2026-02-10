@@ -1,6 +1,8 @@
 """scheinfirmen-at: Austrian BMF shell company data in machine-readable formats."""
 
-__version__ = "0.1.0"
+from importlib.metadata import version as _version
+
+__version__ = _version("scheinfirmen-at")
 
 from scheinfirmen_at.convert import write_csv, write_jsonl, write_xml
 from scheinfirmen_at.download import download_csv
