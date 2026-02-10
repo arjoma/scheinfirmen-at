@@ -104,7 +104,9 @@ def write_xml(result: ParseResult, output: str | Path) -> int:
     """Write records to a pretty-printed XML file.
 
     Structure:
-        <scheinfirmen stand="YYYY-MM-DD" zeit="HH:MM:SS"
+        <scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="..."
+                      stand="YYYY-MM-DD" zeit="HH:MM:SS"
                       quelle="..." anzahl="N">
           <scheinfirma anschrift="..." published="..." ...>Name</scheinfirma>
         </scheinfirmen>
@@ -118,6 +120,11 @@ def write_xml(result: ParseResult, output: str | Path) -> int:
     path.parent.mkdir(parents=True, exist_ok=True)
 
     root = ET.Element("scheinfirmen")
+    root.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+    root.set(
+        "xsi:noNamespaceSchemaLocation",
+        "https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd",
+    )
     root.set("stand", result.stand_datum)
     root.set("zeit", result.stand_zeit)
     root.set("quelle", BMF_URL)
