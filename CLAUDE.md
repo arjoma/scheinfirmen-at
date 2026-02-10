@@ -46,9 +46,9 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 
 - **CSV**: UTF-8 with BOM, comma delimiter, # Stand: comment first line
 - **JSONL**: metadata object on first line (incl. `$schema` link), then one JSON object per record
-- **XML**: <scheinfirmen> root with stand/zeit/quelle/anzahl attributes, <eintrag> children
+- **XML**: `<scheinfirmen>` root with stand/zeit/quelle/anzahl attributes, `<scheinfirma>` children (name as text content, all other fields as attributes)
 - Dates converted to ISO 8601 (YYYY-MM-DD)
-- Empty/null fields: empty string in CSV, null in JSON, self-closing tag in XML
+- Empty/null fields: empty string in CSV, null in JSON, attribute omitted in XML
 
 ## Development Dependencies
 

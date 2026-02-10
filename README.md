@@ -37,7 +37,7 @@ Die konvertierten Daten befinden sich im `data/` Verzeichnis:
 |-------|--------|--------------|
 | [`data/scheinfirmen.csv`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv) | CSV (UTF-8 mit BOM) | Komma-getrennt, Excel-kompatibel |
 | [`data/scheinfirmen.jsonl`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.jsonl) | JSONL | Eine JSON-Zeile pro Eintrag, erste Zeile Metadaten |
-| [`data/scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | Mit `stand`/`anzahl` Attributen am Root-Element |
+| [`data/scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | `<scheinfirma>`-Elemente mit Attributen |
 | [`data/scheinfirmen.json-schema.json`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json) | JSON Schema | Schema-Definition (Draft 2020-12) |
 | [`data/scheinfirmen.xsd`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd) | XSD | XML Schema Definition |
 
@@ -47,13 +47,13 @@ Die konvertierten Daten befinden sich im `data/` Verzeichnis:
 |------|-----|--------------|
 | `name` | String | Name des Unternehmens oder der natürlichen Person |
 | `anschrift` | String | Adresse (PLZ Ort, Straße Nr) |
-| `veroeffentlichung` | Datum | Veröffentlichungsdatum (ISO 8601) |
+| `veroeffentlicht` | Datum | Veröffentlichungsdatum (ISO 8601) |
 | `rechtskraeftig` | Datum | Datum der Rechtskraft des Bescheids (ISO 8601) |
 | `seit` | Datum\|null | Zeitpunkt als Scheinunternehmen (ISO 8601) |
 | `geburtsdatum` | Datum\|null | Geburtsdatum (nur bei natürlichen Personen) |
-| `firmenbuch_nr` | String\|null | Firmenbuchnummer (z.B. `597821z`) |
-| `uid_nr` | String\|null | UID-Nummer (z.B. `ATU79209223`) |
-| `kennziffer_ur` | String\|null | Kennziffer des Unternehmensregisters |
+| `fbnr` | String\|null | Firmenbuchnummer (z.B. `597821z`) |
+| `uid` | String\|null | UID-Nummer (z.B. `ATU79209223`) |
+| `kennziffer` | String\|null | Kennziffer des Unternehmensregisters |
 
 Alle Datumsfelder sind im ISO-8601-Format (`YYYY-MM-DD`).
 
@@ -130,7 +130,7 @@ write_xml(result, "scheinfirmen.xml")
 
 # Zugriff auf einzelne Einträge
 for rec in result.records:
-    print(rec.name, rec.uid_nr)
+    print(rec.name, rec.uid)
 ```
 
 ## Entwicklung

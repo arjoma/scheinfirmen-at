@@ -11,13 +11,10 @@
 - [x] Kreuz-Format-Verifizierung
 - [x] GitHub CI (Lint + Tests, Python 3.10/3.11/3.12)
 - [x] GitHub Action: tägliches Update um 3 Uhr MEZ
+- [x] PyPI-Veröffentlichung als `scheinfirmen-at` (Trusted Publishing via OIDC)
+- [x] Release-Workflow (`.github/workflows/release.yml`, Tag-basiert `v*`)
 
 ## Offen
-
-- [ ] PyPI-Veröffentlichung als `scheinfirmen-at`
-  - [ ] PyPI API Token in GitHub Secrets hinterlegen
-  - [ ] Release-Workflow (`.github/workflows/release.yml`)
-  - [ ] Versionierung (z.B. CalVer: `2026.02`)
 - [ ] Historische Daten: Git-History enthält Zeitverlauf — Tools dafür?
 - [ ] Differenz-Bericht: welche Firmen wurden hinzugefügt/entfernt?
   - [ ] Bei jedem Update ein Diff-Summary in der Commit-Message
