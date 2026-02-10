@@ -163,17 +163,17 @@ def test_write_xml_well_formed(sample_result: ParseResult, tmp_path: Path) -> No
     assert tree is not None
 
 
-def test_write_xml_empty_optional_elements(sample_result: ParseResult, tmp_path: Path) -> None:
+def test_write_xml_null_optional_omitted(sample_result: ParseResult, tmp_path: Path) -> None:
     path = tmp_path / "out.xml"
     write_xml(sample_result, path)
     tree = ET.parse(path)
     root = tree.getroot()
-    # At least one eintrag should have an empty geburtsdatum element
-    has_empty = any(
-        (e := entry.find("geburtsdatum")) is not None and (e.text is None or e.text == "")
+    # At least one eintrag should have no geburtsdatum element (None → omitted)
+    has_missing = any(
+        entry.find("geburtsdatum") is None
         for entry in root.findall("eintrag")
     )
-    assert has_empty
+    assert has_missing
 
 
 def test_write_xml_umlaut_preserved(sample_result: ParseResult, tmp_path: Path) -> None:

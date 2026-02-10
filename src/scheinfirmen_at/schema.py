@@ -91,25 +91,13 @@ XSD_CONTENT = """\
       <xs:element name="anschrift"                   type="xs:string"/>
       <xs:element name="veroeffentlichung"           type="xs:date"/>
       <xs:element name="rechtskraeftig"             type="xs:date"/>
-      <xs:element name="seit"                        type="OptionalDate"  minOccurs="0"/>
-      <xs:element name="geburtsdatum"                type="OptionalDate"  minOccurs="0"/>
-      <xs:element name="firmenbuch_nr"               type="OptionalString" minOccurs="0"/>
-      <xs:element name="uid_nr"                      type="OptionalString" minOccurs="0"/>
-      <xs:element name="kennziffer_ur"               type="OptionalString" minOccurs="0"/>
+      <xs:element name="seit"                        type="xs:date"   minOccurs="0"/>
+      <xs:element name="geburtsdatum"                type="xs:date"   minOccurs="0"/>
+      <xs:element name="firmenbuch_nr"               type="xs:string" minOccurs="0"/>
+      <xs:element name="uid_nr"                      type="xs:string" minOccurs="0"/>
+      <xs:element name="kennziffer_ur"               type="xs:string" minOccurs="0"/>
     </xs:all>
   </xs:complexType>
-
-  <xs:complexType name="OptionalDate">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-        <xs:anyAttribute namespace="##other" processContents="lax"/>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
-
-  <xs:simpleType name="OptionalString">
-    <xs:restriction base="xs:string"/>
-  </xs:simpleType>
 
 </xs:schema>
 """

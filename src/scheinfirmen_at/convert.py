@@ -127,8 +127,8 @@ def write_xml(result: ParseResult, output: str | Path) -> int:
     for rec in result.records:
         eintrag = ET.SubElement(root, "eintrag")
         for field_name, value in _record_to_dict(rec).items():
-            child = ET.SubElement(eintrag, field_name)
             if value is not None:
+                child = ET.SubElement(eintrag, field_name)
                 child.text = value
 
     ET.indent(root, space="  ")
