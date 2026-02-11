@@ -6,11 +6,21 @@
 import time
 import urllib.error
 import urllib.request
+from importlib.metadata import PackageNotFoundError
+from importlib.metadata import version as get_version
 
 BMF_URL = "https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp"
-_USER_AGENT = (
-    "scheinfirmen-at/1.2.0 (https://github.com/arjoma/scheinfirmen-at)"
-)
+
+
+def _get_user_agent() -> str:
+    try:
+        version = get_version("scheinfirmen-at")
+    except PackageNotFoundError:
+        version = "0.0.0-dev"
+    return f"scheinfirmen-at/{version} (https://github.com/arjoma/scheinfirmen-at)"
+
+
+_USER_AGENT = _get_user_agent()
 
 
 def download_csv(

@@ -154,6 +154,8 @@ uv run ruff check src/ tests/
 uv run mypy src/
 ```
 
+Siehe [CHANGELOG.md](CHANGELOG.md) für die Versionshistorie.
+
 ## Technische Details
 
 - **Abhängigkeiten:** Keine (reines Python stdlib, >= 3.10)
