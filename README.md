@@ -67,7 +67,7 @@ Dieses Projekt verwendet [uv](https://docs.astral.sh/uv/) für das Paket- und De
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Installation unter Windows (PowerShell)
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 Ausführliche Informationen finden Sie in der [uv-Dokumentation](https://docs.astral.sh/uv/getting-started/installation/).
