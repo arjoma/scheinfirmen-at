@@ -7,7 +7,7 @@
 Automatischer Download und Konvertierung der österreichischen BMF **Scheinfirmenliste**
 (Liste der Scheinunternehmen) in maschinenlesbare Formate.
 
-Die Daten werden täglich um ca. 3 Uhr früh (MEZ) automatisch aktualisiert.
+Die Daten werden täglich um ca. 3:15 Uhr früh (MEZ) automatisch aktualisiert.
 
 > [!WARNING]
 > **Haftungsausschluss:** Dieses Projekt ist ein inoffizieller, automatisierter Spiegel

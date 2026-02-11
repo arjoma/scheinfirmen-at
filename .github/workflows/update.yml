@@ -2,8 +2,9 @@ name: Daten Aktualisieren
 
 on:
   schedule:
-    # 2 AM UTC = 3 AM CET (winter) / 4 AM CEST (summer)
-    - cron: "0 2 * * *"
+    # 2:15 AM UTC = 3:15 AM CET (winter) / 4:15 AM CEST (summer)
+    # Using 15 past the hour to avoid peak load delays on GitHub Actions
+    - cron: "15 2 * * *"
   workflow_dispatch:  # Allow manual trigger for testing
 
 permissions:
