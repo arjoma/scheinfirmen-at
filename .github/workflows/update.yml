@@ -31,10 +31,10 @@ jobs:
       - name: Extract Stand timestamp (fails if not present)
         id: stand
         run: |
-          # CSV starts with UTF-8 BOM, so grep without ^ anchor
-          STAND=$(grep "# Stand:" data/scheinfirmen.csv | head -1 | sed 's/.*# Stand: //')
+          # Extract from JSONL metadata line
+          STAND=$(grep '"_metadata"' data/scheinfirmen.jsonl | sed 's/.*"stand": "\([^"]*\)".*/\1/')
           if [ -z "$STAND" ]; then
-            echo "ERROR: Could not extract Stand timestamp from data/scheinfirmen.csv" >&2
+            echo "ERROR: Could not extract Stand timestamp from data/scheinfirmen.jsonl" >&2
             exit 1
           fi
           echo "value=$STAND" >> "$GITHUB_OUTPUT"
@@ -43,7 +43,7 @@ jobs:
         id: changes
         run: |
           git diff \
-            -I "# Stand:" \
+            -I '"stand":' \
             -I '"_metadata"' \
             -I "<scheinfirmen " \
             --quiet data/ \

@@ -17,9 +17,8 @@ def test_write_csv_row_count(sample_result: ParseResult, tmp_path: Path) -> None
     with path.open(encoding="utf-8-sig", newline="") as f:
         lines = f.readlines()
 
-    # Skip comment line and header
-    data_lines = [ln for ln in lines if not ln.startswith("#") and ln.strip()]
-    assert len(data_lines) == sample_result.raw_row_count + 1  # +1 for header row
+    # Header + data
+    assert len(lines) == sample_result.raw_row_count + 1
 
 
 def test_write_csv_utf8_bom(sample_result: ParseResult, tmp_path: Path) -> None:
@@ -29,21 +28,11 @@ def test_write_csv_utf8_bom(sample_result: ParseResult, tmp_path: Path) -> None:
     assert raw[:3] == b"\xef\xbb\xbf", "CSV file must start with UTF-8 BOM"
 
 
-def test_write_csv_stand_comment(sample_result: ParseResult, tmp_path: Path) -> None:
-    path = tmp_path / "out.csv"
-    write_csv(sample_result, path)
-    with path.open(encoding="utf-8-sig") as f:
-        first_line = f.readline()
-    assert first_line.startswith("# Stand:")
-    assert sample_result.stand_datum in first_line
-
-
 def test_write_csv_valid_csv(sample_result: ParseResult, tmp_path: Path) -> None:
     path = tmp_path / "out.csv"
     write_csv(sample_result, path)
     with path.open(encoding="utf-8-sig", newline="") as f:
-        # Skip comment
-        reader = csv.reader(ln for ln in f if not ln.startswith("#"))
+        reader = csv.reader(f)
         rows = list(reader)
     assert len(rows) == sample_result.raw_row_count + 1  # header + data
 
@@ -52,7 +41,7 @@ def test_write_csv_german_headers(sample_result: ParseResult, tmp_path: Path) ->
     path = tmp_path / "out.csv"
     write_csv(sample_result, path)
     with path.open(encoding="utf-8-sig", newline="") as f:
-        reader = csv.reader(ln for ln in f if not ln.startswith("#"))
+        reader = csv.reader(f)
         header = next(reader)
     assert "Name" in header
     assert "UID-Nr." in header
@@ -72,7 +61,7 @@ def test_write_csv_empty_optional_as_empty_string(
     path = tmp_path / "out.csv"
     write_csv(sample_result, path)
     with path.open(encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(ln for ln in f if not ln.startswith("#"))
+        reader = csv.DictReader(f)
         rows = list(reader)
     # At least one row should have empty optional fields
     has_empty = any(row["Geburts-Datum"] == "" for row in rows)

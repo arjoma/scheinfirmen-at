@@ -60,9 +60,6 @@ def write_csv(result: ParseResult, output: str | Path) -> int:
     path.parent.mkdir(parents=True, exist_ok=True)
 
     with path.open("w", encoding="utf-8-sig", newline="") as f:
-        # Write Stand comment (utf-8-sig adds BOM automatically before this)
-        f.write(f"# Stand: {result.stand_datum} {result.stand_zeit}\n")
-
         writer = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
         writer.writerow(CSV_HEADERS)
 
