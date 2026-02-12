@@ -5,6 +5,12 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.2.1] - 2026-02-12
+
+### Behoben
+- **Abhängigkeiten:** `uv.lock` wurde mit der aktuellen Projektversion synchronisiert.
+- **CI/CD:** Der automatisierte Update-Workflow wurde robuster gestaltet (Fehlerbehandlung bei Push-Konflikten).
+
 ## [1.2.0] - 2026-02-11
 
 ### Hinzugefügt
