@@ -17,4 +17,4 @@
 ## Offen
 - [ ] CLI `--stats`: Zusammenfassung aus Git-History (Zugänge/Abgänge pro Woche)
 - [ ] SQLite-Output als zusätzliches Format
-- [ ] Tests für CLI (`test_cli.py`)
+- [x] Tests für CLI (`test_cli.py`)
