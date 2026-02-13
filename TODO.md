@@ -15,9 +15,6 @@
 - [x] Release-Workflow (`.github/workflows/release.yml`, Tag-basiert `v*`)
 
 ## Offen
-- [ ] Historische Daten: Git-History enthält Zeitverlauf — Tools dafür?
-- [ ] Differenz-Bericht: welche Firmen wurden hinzugefügt/entfernt?
-  - [ ] Bei jedem Update ein Diff-Summary in der Commit-Message
+- [ ] CLI `--stats`: Zusammenfassung aus Git-History (Zugänge/Abgänge pro Woche)
 - [ ] SQLite-Output als zusätzliches Format
 - [ ] Tests für CLI (`test_cli.py`)
-- [ ] Automatischer GitHub-Release bei Datenänderung
