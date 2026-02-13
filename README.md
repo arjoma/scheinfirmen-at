@@ -41,6 +41,7 @@ Die konvertierten Daten befinden sich im `data/` Verzeichnis:
 | [`scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | `<scheinfirma>`-Elemente mit Attributen |
 | [`scheinfirmen.json-schema.json`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json) | JSON Schema | Schema-Definition (Draft 2020-12) |
 | [`scheinfirmen.xsd`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd) | XSD | XML Schema Definition |
+| [`STATS.md`](data/STATS.md) | Markdown | Statistiken, neue Einträge und Verlauf |
 
 ### Datenfelder
 

@@ -26,7 +26,7 @@ jobs:
         run: uv sync
 
       - name: Download, validate, and convert Scheinfirmen data
-        run: uv run scheinfirmen-at --output-dir data/ --verbose
+        run: uv run scheinfirmen-at --output-dir data/ --stats data/STATS.md --verbose
 
       - name: Extract Stand timestamp (fails if not present)
         id: stand

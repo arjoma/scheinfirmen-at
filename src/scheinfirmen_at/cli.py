@@ -13,6 +13,7 @@ from scheinfirmen_at.convert import write_csv, write_jsonl, write_xml
 from scheinfirmen_at.download import BMF_URL, download_csv
 from scheinfirmen_at.parse import parse_bmf_csv
 from scheinfirmen_at.schema import write_json_schema, write_xsd
+from scheinfirmen_at.stats import generate_stats
 from scheinfirmen_at.validate import validate_records
 from scheinfirmen_at.verify import verify_outputs
 
@@ -62,6 +63,13 @@ def main(argv: list[str] | None = None) -> None:
         "--skip-verify",
         action="store_true",
         help="Skip cross-format verification step",
+    )
+    parser.add_argument(
+        "--stats",
+        type=Path,
+        default=None,
+        metavar="FILE",
+        help="Generate a Markdown statistics report (e.g. data/STATS.md)",
     )
     parser.add_argument(
         "-v",
@@ -166,6 +174,14 @@ def main(argv: list[str] | None = None) -> None:
             logger.error("Cross-format verification failed — outputs may be inconsistent")
             sys.exit(1)
         logger.info("Verification passed: all formats contain %d records", result.raw_row_count)
+
+    # --- Step 6: Stats report (optional) ---
+    if args.stats is not None:
+        try:
+            repo_dir = Path.cwd()
+            generate_stats(jsonl_path.resolve(), args.stats.resolve(), repo_dir)
+        except Exception as exc:
+            logger.warning("Stats generation failed (non-fatal): %s", exc)
 
     # --- Done ---
     print(
