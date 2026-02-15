@@ -1,6 +1,6 @@
 # Scheinfirmen Österreich — Statistik
 
-> Stand: 2026-02-14T06:32:45 | Gesamt: 1274 | Tracking seit: 2026-02-13
+> Stand: 2026-02-15T06:44:30 | Gesamt: 1274 | Tracking seit: 2026-02-14
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
 
