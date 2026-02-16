@@ -12,7 +12,7 @@ from scheinfirmen_at import __version__
 from scheinfirmen_at.convert import write_csv, write_jsonl, write_xml
 from scheinfirmen_at.download import BMF_URL, download_csv
 from scheinfirmen_at.parse import parse_bmf_csv
-from scheinfirmen_at.schema import write_json_schema, write_xsd
+from scheinfirmen_at.schema import write_csvw_metadata, write_json_schema, write_xsd
 from scheinfirmen_at.stats import generate_stats
 from scheinfirmen_at.validate import validate_records
 from scheinfirmen_at.verify import verify_outputs
@@ -139,6 +139,7 @@ def main(argv: list[str] | None = None) -> None:
     jsonl_path = out / "scheinfirmen.jsonl"
     xml_path = out / "scheinfirmen.xml"
     json_schema_path = out / "scheinfirmen.json-schema.json"
+    csvw_path = out / "scheinfirmen.csv-metadata.json"
     xsd_path = out / "scheinfirmen.xsd"
 
     logger.info("Writing outputs to %s/", out)
@@ -153,6 +154,9 @@ def main(argv: list[str] | None = None) -> None:
 
     write_json_schema(json_schema_path)
     logger.debug("Wrote JSON Schema to %s", json_schema_path)
+
+    write_csvw_metadata(csvw_path)
+    logger.debug("Wrote CSVW metadata to %s", csvw_path)
 
     write_xsd(xsd_path)
     logger.debug("Wrote XSD to %s", xsd_path)

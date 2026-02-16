@@ -37,11 +37,9 @@ Die konvertierten Daten befinden sich im `data/` Verzeichnis:
 
 | Datei | Format | Beschreibung |
 |-------|--------|--------------|
-| [`scheinfirmen.csv`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv) | CSV (UTF-8 mit BOM) | Komma-getrennt, Excel-kompatibel |
-| [`scheinfirmen.jsonl`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.jsonl) | JSONL | Eine JSON-Zeile pro Eintrag, erste Zeile Metadaten |
-| [`scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | `<scheinfirma>`-Elemente mit Attributen |
-| [`scheinfirmen.json-schema.json`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json) | JSON Schema | Schema-Definition (Draft 2020-12) |
-| [`scheinfirmen.xsd`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd) | XSD | XML Schema Definition |
+| [`scheinfirmen.csv`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv) | CSV (UTF-8 mit BOM) | Komma-getrennt, Excel-kompatibel ([CSVW](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv-metadata.json)) |
+| [`scheinfirmen.jsonl`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.jsonl) | JSONL | Eine JSON-Zeile pro Eintrag, erste Zeile Metadaten ([Schema](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json)) |
+| [`scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | `<scheinfirma>`-Elemente mit Attributen ([XSD](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd)) |
 | [`STATS.md`](data/STATS.md) | Markdown | Statistiken, neue Einträge und Verlauf |
 
 ### Datenfelder

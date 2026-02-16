@@ -1,0 +1,98 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "scheinfirmen.csv",
+  "dc:title": "Scheinfirmenliste Österreich",
+  "dc:description": "Liste der Scheinunternehmen gemäß § 8 SBBG, veröffentlicht vom BMF Österreich",
+  "dc:source": "https://service.bmf.gv.at/service/allg/lsu/",
+  "dc:license": {
+    "@id": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "dialect": {
+    "encoding": "utf-8",
+    "lineTerminators": [
+      "\r\n",
+      "\n"
+    ],
+    "header": true,
+    "skipRows": 0
+  },
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "name",
+        "titles": "Name",
+        "datatype": "string",
+        "required": true,
+        "dc:description": "Name des Unternehmens oder der natürlichen Person"
+      },
+      {
+        "name": "anschrift",
+        "titles": "Anschrift",
+        "datatype": "string",
+        "required": true,
+        "dc:description": "Adresse (PLZ Ort, Straße Nr)"
+      },
+      {
+        "name": "veroeffentlicht",
+        "titles": "Veröffentlichung",
+        "datatype": {
+          "base": "date",
+          "format": "yyyy-MM-dd"
+        },
+        "required": true,
+        "dc:description": "Veröffentlichungsdatum"
+      },
+      {
+        "name": "rechtskraeftig",
+        "titles": "Rechtskräftig",
+        "datatype": {
+          "base": "date",
+          "format": "yyyy-MM-dd"
+        },
+        "required": true,
+        "dc:description": "Datum der Rechtskraft des Bescheids"
+      },
+      {
+        "name": "seit",
+        "titles": "Seit",
+        "datatype": {
+          "base": "date",
+          "format": "yyyy-MM-dd"
+        },
+        "required": false,
+        "dc:description": "Zeitpunkt als Scheinunternehmen"
+      },
+      {
+        "name": "geburtsdatum",
+        "titles": "Geburts-Datum",
+        "datatype": {
+          "base": "date",
+          "format": "yyyy-MM-dd"
+        },
+        "required": false,
+        "dc:description": "Geburtsdatum (nur bei natürlichen Personen)"
+      },
+      {
+        "name": "fbnr",
+        "titles": "Firmenbuch-Nr",
+        "datatype": "string",
+        "required": false,
+        "dc:description": "Firmenbuchnummer"
+      },
+      {
+        "name": "uid",
+        "titles": "UID-Nr.",
+        "datatype": "string",
+        "required": false,
+        "dc:description": "UID-Nummer (Umsatzsteuer-Identifikationsnummer)"
+      },
+      {
+        "name": "kennziffer",
+        "titles": "Kennziffer des UR",
+        "datatype": "string",
+        "required": false,
+        "dc:description": "Kennziffer des Unternehmensregisters"
+      }
+    ]
+  }
+}

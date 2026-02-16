@@ -1,7 +1,7 @@
 # Copyright 2026 Harald Schilly <info@arjoma.at>, ARJOMA FlexCo.
 # SPDX-License-Identifier: Apache-2.0
 
-"""JSON Schema and XSD definitions for Scheinfirma data."""
+"""JSON Schema, XSD, and CSVW metadata definitions for Scheinfirma data."""
 
 import json
 from pathlib import Path
@@ -71,6 +71,93 @@ JSON_SCHEMA: dict[str, object] = {
     },
 }
 
+# CSVW metadata (W3C CSV on the Web)
+# See: https://www.w3.org/TR/tabular-data-primer/
+CSVW_METADATA: dict[str, object] = {
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "scheinfirmen.csv",
+    "dc:title": "Scheinfirmenliste Österreich",
+    "dc:description": (
+        "Liste der Scheinunternehmen gemäß § 8 SBBG, "
+        "veröffentlicht vom BMF Österreich"
+    ),
+    "dc:source": "https://service.bmf.gv.at/service/allg/lsu/",
+    "dc:license": {"@id": "https://creativecommons.org/publicdomain/mark/1.0/"},
+    "dialect": {
+        "encoding": "utf-8",
+        "lineTerminators": ["\r\n", "\n"],
+        "header": True,
+        "skipRows": 0,
+    },
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "name",
+                "titles": "Name",
+                "datatype": "string",
+                "required": True,
+                "dc:description": "Name des Unternehmens oder der natürlichen Person",
+            },
+            {
+                "name": "anschrift",
+                "titles": "Anschrift",
+                "datatype": "string",
+                "required": True,
+                "dc:description": "Adresse (PLZ Ort, Straße Nr)",
+            },
+            {
+                "name": "veroeffentlicht",
+                "titles": "Veröffentlichung",
+                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
+                "required": True,
+                "dc:description": "Veröffentlichungsdatum",
+            },
+            {
+                "name": "rechtskraeftig",
+                "titles": "Rechtskräftig",
+                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
+                "required": True,
+                "dc:description": "Datum der Rechtskraft des Bescheids",
+            },
+            {
+                "name": "seit",
+                "titles": "Seit",
+                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
+                "required": False,
+                "dc:description": "Zeitpunkt als Scheinunternehmen",
+            },
+            {
+                "name": "geburtsdatum",
+                "titles": "Geburts-Datum",
+                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
+                "required": False,
+                "dc:description": "Geburtsdatum (nur bei natürlichen Personen)",
+            },
+            {
+                "name": "fbnr",
+                "titles": "Firmenbuch-Nr",
+                "datatype": "string",
+                "required": False,
+                "dc:description": "Firmenbuchnummer",
+            },
+            {
+                "name": "uid",
+                "titles": "UID-Nr.",
+                "datatype": "string",
+                "required": False,
+                "dc:description": "UID-Nummer (Umsatzsteuer-Identifikationsnummer)",
+            },
+            {
+                "name": "kennziffer",
+                "titles": "Kennziffer des UR",
+                "datatype": "string",
+                "required": False,
+                "dc:description": "Kennziffer des Unternehmensregisters",
+            },
+        ],
+    },
+}
+
 # XSD schema
 XSD_CONTENT = """\
 <?xml version="1.0" encoding="UTF-8"?>
@@ -105,6 +192,16 @@ XSD_CONTENT = """\
 
 </xs:schema>
 """
+
+
+def write_csvw_metadata(output: str | Path) -> None:
+    """Write the CSVW metadata to a file."""
+    path = Path(output)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(CSVW_METADATA, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def write_json_schema(output: str | Path) -> None:
