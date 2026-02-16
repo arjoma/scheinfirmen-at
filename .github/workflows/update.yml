@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history needed for STATS.md git-based analysis
+          fetch-depth: 0
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -46,7 +49,7 @@ jobs:
             -I '"stand":' \
             -I '"_metadata"' \
             -I "<scheinfirmen " \
-            --quiet data/ \
+            --quiet -- data/ ':!data/STATS.md' \
             && echo "changed=false" >> "$GITHUB_OUTPUT" \
             || echo "changed=true" >> "$GITHUB_OUTPUT"
 
