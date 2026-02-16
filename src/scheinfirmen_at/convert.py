@@ -49,9 +49,8 @@ def write_csv(result: ParseResult, output: str | Path) -> int:
     """Write records to a UTF-8 CSV file (with BOM for Excel compatibility).
 
     Format:
-    - Line 1: # Stand: YYYY-MM-DD HH:MM:SS  (comment)
-    - Line 2: header row (German column names)
-    - Lines 3+: data rows, comma-delimited, quoted as needed
+    - Line 1: header row (German column names)
+    - Lines 2+: data rows, comma-delimited, quoted as needed
     - None fields are written as empty strings
 
     Returns number of data rows written.

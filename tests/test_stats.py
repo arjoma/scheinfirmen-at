@@ -3,13 +3,20 @@
 
 """Tests for the stats module."""
 
+import json
+import subprocess
 from datetime import date
+from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 from scheinfirmen_at.stats import (
     RecordInfo,
     Snapshot,
+    _parse_jsonl_names,
     compute_weekly_changes,
     find_recent_additions,
+    generate_stats,
+    get_data_history,
     render_stats_md,
 )
 
@@ -148,3 +155,121 @@ class TestRenderStatsMd:
         md = render_stats_md([s1], weekly, [], "2026-01-05", 1)
 
         assert "Keine neuen Einträge" in md
+
+
+class TestParseJsonlNames:
+    def test_basic(self) -> None:
+        text = (
+            '{"_metadata": {"stand": "2026-01-01"}}\n'
+            '{"name": "Firma A", "uid": "ATU11111111", "anschrift": "Wien"}\n'
+            '{"name": "Firma B", "uid": null, "anschrift": "Graz"}\n'
+        )
+        records, count = _parse_jsonl_names(text)
+        assert count == 2
+        assert "Firma A" in records
+        assert "Firma B" in records
+        assert records["Firma A"].uid == "ATU11111111"
+        assert records["Firma B"].uid is None
+
+    def test_empty(self) -> None:
+        records, count = _parse_jsonl_names("")
+        assert count == 0
+        assert records == {}
+
+    def test_metadata_only(self) -> None:
+        text = '{"_metadata": {"stand": "2026-01-01"}}\n'
+        records, count = _parse_jsonl_names(text)
+        assert count == 0
+
+
+class TestGetDataHistory:
+    @patch("scheinfirmen_at.stats._git")
+    def test_basic_history(self, mock_git: MagicMock) -> None:
+        jsonl_v1 = (
+            '{"_metadata": {"stand": "2026-01-01"}}\n'
+            '{"name": "A", "uid": null, "anschrift": "Wien"}\n'
+        )
+        jsonl_v2 = (
+            '{"_metadata": {"stand": "2026-01-08"}}\n'
+            '{"name": "A", "uid": null, "anschrift": "Wien"}\n'
+            '{"name": "B", "uid": null, "anschrift": "Graz"}\n'
+        )
+        mock_git.side_effect = [
+            # git log output (newest first)
+            "bbbb2222 2026-01-08T02:00:00+01:00\naaaa1111 2026-01-01T02:00:00+01:00\n",
+            # git show for commit bbbb (newest)
+            jsonl_v2,
+            # git show for commit aaaa (oldest)
+            jsonl_v1,
+        ]
+
+        repo = Path("/fake/repo")
+        snapshots = get_data_history(repo / "data" / "sf.jsonl", repo)
+
+        assert len(snapshots) == 2
+        assert snapshots[0].total == 1  # oldest first
+        assert snapshots[1].total == 2
+        assert "B" in snapshots[1].names
+
+    @patch("scheinfirmen_at.stats._git")
+    def test_deduplicates_unchanged(self, mock_git: MagicMock) -> None:
+        jsonl = (
+            '{"_metadata": {"stand": "2026-01-01"}}\n'
+            '{"name": "A", "uid": null, "anschrift": "Wien"}\n'
+        )
+        mock_git.side_effect = [
+            "bbbb 2026-01-02T02:00:00+01:00\naaaa 2026-01-01T02:00:00+01:00\n",
+            jsonl,  # same content
+            jsonl,  # same content
+        ]
+
+        repo = Path("/fake/repo")
+        snapshots = get_data_history(repo / "data" / "sf.jsonl", repo)
+        # Both have identical name sets, so only first kept
+        assert len(snapshots) == 1
+
+    @patch("scheinfirmen_at.stats._git")
+    def test_skips_failed_show(self, mock_git: MagicMock) -> None:
+        mock_git.side_effect = [
+            "aaaa 2026-01-01T02:00:00+01:00\n",
+            subprocess.CalledProcessError(1, "git show"),
+        ]
+        repo = Path("/fake/repo")
+        snapshots = get_data_history(repo / "data" / "sf.jsonl", repo)
+        assert len(snapshots) == 0
+
+    @patch("scheinfirmen_at.stats._git")
+    def test_empty_log(self, mock_git: MagicMock) -> None:
+        mock_git.return_value = ""
+        repo = Path("/fake/repo")
+        snapshots = get_data_history(repo / "data" / "sf.jsonl", repo)
+        assert len(snapshots) == 0
+
+
+class TestGenerateStats:
+    @patch("scheinfirmen_at.stats.get_data_history")
+    def test_writes_output(self, mock_history: MagicMock, tmp_path: Path) -> None:
+        s1 = _make_snapshot(date(2026, 1, 5), ["A", "B"])
+        s2 = _make_snapshot(date(2026, 1, 12), ["A", "B", "C"])
+        mock_history.return_value = [s1, s2]
+
+        jsonl_path = tmp_path / "scheinfirmen.jsonl"
+        meta = {"_metadata": {"stand": "2026-01-12T02:00:00", "count": 3}}
+        jsonl_path.write_text(
+            json.dumps(meta) + "\n",
+            encoding="utf-8",
+        )
+
+        output = tmp_path / "STATS.md"
+        generate_stats(jsonl_path, output, tmp_path)
+
+        assert output.exists()
+        content = output.read_text(encoding="utf-8")
+        assert "Scheinfirmen Österreich" in content
+        assert "Wöchentliche Änderungen" in content
+
+    @patch("scheinfirmen_at.stats.get_data_history", return_value=[])
+    def test_no_history_skips(self, _mock: MagicMock, tmp_path: Path) -> None:
+        output = tmp_path / "STATS.md"
+        generate_stats(tmp_path / "sf.jsonl", output, tmp_path)
+        assert not output.exists()

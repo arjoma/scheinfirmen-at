@@ -20,7 +20,7 @@ def verify_outputs(
     """Verify all output files for record counts, spot-checks, and schema compliance.
 
     Checks:
-    1. CSV: count data rows (skip # comment lines and header row)
+    1. CSV: count data rows (skip header row)
     2. JSONL: count non-metadata lines (skip lines with _metadata key)
     3. XML: count <scheinfirma> elements
     4. All three counts must equal expected_count
@@ -40,9 +40,13 @@ def verify_outputs(
         if count != expected_count:
             errors.append(f"{fmt}: expected {expected_count} records, found {count}")
 
-    # Spot-check names
-    if csv_names and jsonl_names and xml_names:
-        for idx, label in [(0, "First"), (-1, "Last")]:
+    # Spot-check names: compare first and last across formats
+    all_names = [csv_names, jsonl_names, xml_names]
+    if all(n for n in all_names):
+        checks = [(0, "First")]
+        if all(len(n) >= 2 for n in all_names):
+            checks.append((-1, "Last"))
+        for idx, label in checks:
             names = {"CSV": csv_names[idx], "JSONL": jsonl_names[idx], "XML": xml_names[idx]}
             if len(set(names.values())) > 1:
                 errors.append(f"{label} record name mismatch across formats: {names}")
@@ -108,11 +112,9 @@ def _count_csv(path: Path) -> tuple[int, list[str]]:
     """Return (data row count, [first_name, last_name]) from a CSV output file."""
     names: list[str] = []
     with path.open(encoding="utf-8-sig", newline="") as f:
-        # Filter out comment lines, pass remaining lines to csv.DictReader
-        non_comment_lines = [line for line in f if not line.startswith("#")]
-    reader = csv.DictReader(non_comment_lines)
-    for row in reader:
-        names.append(row.get("Name", ""))
+        reader = csv.DictReader(line for line in f if not line.startswith("#"))
+        for row in reader:
+            names.append(row.get("Name", ""))
     count = len(names)
     return count, ([names[0], names[-1]] if len(names) >= 2 else names)
 

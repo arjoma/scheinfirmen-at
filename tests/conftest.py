@@ -4,6 +4,8 @@ from pathlib import Path
 
 import pytest
 
+from scheinfirmen_at.parse import ParseResult, parse_bmf_csv
+
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
 
 
@@ -14,8 +16,6 @@ def sample_raw_bytes() -> bytes:
 
 
 @pytest.fixture
-def sample_result(sample_raw_bytes):  # type: ignore[no-untyped-def]
+def sample_result(sample_raw_bytes: bytes) -> ParseResult:
     """Parsed ParseResult from sample data."""
-    from scheinfirmen_at.parse import parse_bmf_csv
-
     return parse_bmf_csv(sample_raw_bytes)

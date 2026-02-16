@@ -4,6 +4,7 @@
 """Tests for the CLI entry point."""
 
 from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -36,12 +37,10 @@ def test_cli_output_row_counts(tmp_path: Path) -> None:
     main(["--input", str(SAMPLE_CSV), "-o", str(tmp_path),
           "--skip-verify", *MIN_ROWS])
 
-    # CSV: header + 10 data rows (plus comment line)
+    # CSV: header + 10 data rows
     with open(tmp_path / "scheinfirmen.csv", encoding="utf-8-sig") as f:
-        lines = f.readlines()
-    # First line is "# Stand:..." comment, second is header, rest is data
-    reader = csv.reader(line for line in lines if not line.startswith("#"))
-    rows = list(reader)
+        reader = csv.reader(f)
+        rows = list(reader)
     assert len(rows) == 11  # 1 header + 10 data
 
     # JSONL: 1 metadata + 10 records
@@ -113,3 +112,27 @@ def test_cli_stats_nonfatal_without_git(tmp_path: Path) -> None:
     ])
     # Pipeline completed (didn't crash)
     assert (tmp_path / "scheinfirmen.csv").exists()
+
+
+@patch("scheinfirmen_at.cli.download_csv")
+def test_cli_download_path(mock_dl: MagicMock, tmp_path: Path) -> None:
+    """CLI downloads from URL when --input is not provided."""
+    mock_dl.return_value = SAMPLE_CSV.read_bytes()
+    main(["-o", str(tmp_path), "--skip-verify", *MIN_ROWS])
+    mock_dl.assert_called_once()
+    assert (tmp_path / "scheinfirmen.csv").exists()
+
+
+@patch("scheinfirmen_at.cli.download_csv")
+def test_cli_download_failure_exits(mock_dl: MagicMock, tmp_path: Path) -> None:
+    """CLI exits 1 when download raises RuntimeError."""
+    mock_dl.side_effect = RuntimeError("connection refused")
+    with pytest.raises(SystemExit, match="1"):
+        main(["-o", str(tmp_path), "--skip-verify"])
+
+
+@patch("scheinfirmen_at.cli.verify_outputs", return_value=["count mismatch"])
+def test_cli_verify_failure_exits(mock_verify: MagicMock, tmp_path: Path) -> None:
+    """CLI exits 1 when verification detects inconsistency."""
+    with pytest.raises(SystemExit, match="1"):
+        main(["--input", str(SAMPLE_CSV), "-o", str(tmp_path), *MIN_ROWS])

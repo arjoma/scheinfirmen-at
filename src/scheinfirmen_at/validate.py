@@ -40,7 +40,9 @@ class ValidationResult:
         return len(self.errors) == 0
 
 
-def validate_records(result: ParseResult, min_rows: int = 100) -> ValidationResult:
+def validate_records(
+    result: ParseResult, min_rows: int = 100  # safe lower bound; BMF list has ~1000+ entries
+) -> ValidationResult:
     """Validate all records from a ParseResult.
 
     Validation rules (errors halt the pipeline, warnings are reported but continue):
