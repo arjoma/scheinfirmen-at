@@ -50,6 +50,22 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 - Dates converted to ISO 8601 (YYYY-MM-DD)
 - Empty/null fields: empty string in CSV, null in JSON, attribute omitted in XML
 
+## Release Process
+
+To publish a new release to PyPI:
+
+1. **Update version** in `pyproject.toml` (`version = "X.Y.Z"`)
+2. **Write changelog entry** in `CHANGELOG.md` (German, following existing format)
+3. **Commit and push** to `main`
+4. **Wait for CI** — check that the CI workflow on `main` passes (ruff, mypy, pytest on 3.10/3.11/3.12). Do not tag a broken build.
+5. **Tag and push** — `git tag v<X.Y.Z> && git push origin v<X.Y.Z>`
+   - The `release.yml` workflow triggers on `v*` tags
+   - It runs tests again, builds the wheel, and publishes to PyPI via Trusted Publishing (OIDC)
+   - No secrets or tokens needed — PyPI trusts the GitHub Actions OIDC identity
+
+**Note:** The tag push requires write access. User `haraldschilly` can push tags via SSH.
+Check the release at https://pypi.org/p/scheinfirmen-at after the workflow completes.
+
 ## Development Dependencies
 
 - **pytest**: Test runner
