@@ -5,6 +5,17 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.3.0] - 2026-02-16
+
+### Hinzugefügt
+- **`--stats` Flag:** Neues CLI-Flag zur Erzeugung eines `STATS.md`-Berichts mit Statistiken über die Scheinfirmen-Daten.
+- **W3C CSVW-Metadaten:** Die CSV-Ausgabe wird nun von einer `scheinfirmen.csv-metadata.json` begleitet (W3C CSVW-Standard).
+- **CLI-Integrationstests:** 9 neue Tests für die vollständige CLI-Pipeline.
+
+### Behoben
+- **CI/CD:** `STATS.md` löst keine falschen Commits im automatisierten Update-Workflow mehr aus.
+- **CI/CD:** Shallow-Clone-Behandlung im Update-Workflow korrigiert.
+
 ## [1.2.1] - 2026-02-12
 
 ### Behoben
