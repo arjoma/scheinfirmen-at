@@ -160,7 +160,7 @@ def render_stats_md(
                 x_label_parts.append(f'"{year}"')
                 prev_year = year
             else:
-                x_label_parts.append('""')
+                x_label_parts.append('" "')
 
         x_labels = ", ".join(x_label_parts)
         y_values = ", ".join(str(row.total) for row in monthly)
