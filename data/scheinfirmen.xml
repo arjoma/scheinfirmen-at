@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-02-17" zeit="06:48:07" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1279">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-02-18" zeit="06:49:20" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1280">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -861,6 +861,7 @@
   <scheinfirma anschrift="5020 Salzburg, Siezenheimer Straße 35" veroeffentlicht="2022-04-20" rechtskraeftig="2022-04-12" fbnr="491742a" uid="ATU73482689">Optimus Gebäudereinigung GmbH</scheinfirma>
   <scheinfirma anschrift="2143 Großkrut, Lundenburger Straße 10" veroeffentlicht="2023-02-27" rechtskraeftig="2023-02-11" geburtsdatum="2001-11-17">ORBULESCU Mihaela-Florentina</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Neulerchenfelder Straße 59" veroeffentlicht="2022-12-03" rechtskraeftig="2022-11-29" fbnr="407830a" uid="ATU68350848">Origo Enterprises GmbH</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Krichbaumgasse 8" veroeffentlicht="2026-02-17" rechtskraeftig="2025-12-01" seit="2023-10-16" fbnr="614342w" uid="ATU80233445" kennziffer="R142O027X">ÖST Projekt GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 40" veroeffentlicht="2024-07-05" rechtskraeftig="2024-07-03" seit="2022-10-08" uid="ATU79278559" kennziffer="R041E939W">Österreichischer Ägyptischer Verein für Kunst und Kultur Nil</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Immengasse 7/10" veroeffentlicht="2018-10-08" rechtskraeftig="2018-10-04" fbnr="458383v" uid="ATU71419903">OTAKAR Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Jheringgasse 17/14 0" veroeffentlicht="2024-08-06" rechtskraeftig="2024-07-18" seit="2023-11-10" fbnr="507855x" uid="ATU74233448" kennziffer="R115W745H">OVA BauGmbH</scheinfirma>
