@@ -211,10 +211,9 @@ class TestRenderStatsMd:
             MonthRow("2026-02", date(2026, 2, 1), 1, 11),
         ]
         md = render_stats_md(monthly, [], "2026-02-28", 11)
-        assert '"2025"' in md
-        assert '"2026"' in md
-        # Use " " not "" — empty strings cause Mermaid parse errors
-        assert '" "' in md
+        # Numeric x-axis range avoids Mermaid rendering issues with many categories
+        assert 'x-axis "Jahr" 2025 --> 2026' in md
+        assert '" "' not in md
 
     def test_recent_additions_section(self) -> None:
         recent = [
