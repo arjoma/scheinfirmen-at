@@ -213,7 +213,7 @@ class TestRenderStatsMd:
         md = render_stats_md(monthly, [], "2026-02-28", 11)
         assert '"2025"' in md
         assert '"2026"' in md
-        # Subsequent months of same year use space label (" " not "" — empty strings cause Mermaid parse errors)
+        # Use " " not "" — empty strings cause Mermaid parse errors
         assert '" "' in md
 
     def test_recent_additions_section(self) -> None:
