@@ -141,39 +141,34 @@ def render_stats_md(
 
     first_date = oldest_date.isoformat() if oldest_date else "—"
     lines.append("# Scheinfirmen Österreich — Statistik\n")
-    lines.append(
-        f"> Stand: {stand} | Gesamt: {total} "
-        f"| Erster Eintrag: {first_date}\n"
-    )
+    lines.append("| Stand | Gesamt | Erster Eintrag |")
+    lines.append("|-------|-------:|----------------|")
+    lines.append(f"| {stand} | {total} | {first_date} |\n")
 
     # --- Mermaid chart (temporal progression) ---
     if len(monthly) >= 2:
         lines.append("## Verlauf\n")
 
-        # X-axis: show year label at the first month of each new year,
-        # empty string for all other months so the axis stays readable.
-        prev_year: int | None = None
-        x_label_parts: list[str] = []
-        for row in monthly:
-            year = row.month_start.year
-            if year != prev_year:
-                x_label_parts.append(f'"{year}"')
-                prev_year = year
-            else:
-                x_label_parts.append('" "')
-
-        x_labels = ", ".join(x_label_parts)
+        # X-axis: numeric year range avoids Mermaid rendering issues with
+        # many categorical entries (zigzag artefacts on GitHub).
+        first_year = monthly[0].month_start.year
+        last_year = monthly[-1].month_start.year
         y_values = ", ".join(str(row.total) for row in monthly)
 
         totals = [row.total for row in monthly]
-        y_min = max(0, min(totals) - 50)
         y_max = max(totals) + 50
 
         lines.append("```mermaid")
+        lines.append("---")
+        lines.append("config:")
+        lines.append("  themeVariables:")
+        lines.append("    xyChart:")
+        lines.append('      plotColorPalette: "#111111"')
+        lines.append("---")
         lines.append("xychart-beta")
         lines.append('    title "Scheinfirmen: Gesamtanzahl"')
-        lines.append(f"    x-axis [{x_labels}]")
-        lines.append(f'    y-axis "Anzahl" {y_min} --> {y_max}')
+        lines.append(f'    x-axis "Jahr" {first_year} --> {last_year}')
+        lines.append(f'    y-axis "Anzahl" 0 --> {y_max}')
         lines.append(f"    line [{y_values}]")
         lines.append("```\n")
 
@@ -185,7 +180,6 @@ def render_stats_md(
         for rec in recent:
             uid = rec.uid or ""
             lines.append(f"| {rec.name} | {uid} | {rec.anschrift} |")
-        lines.append(f"\n*{len(recent)} Einträge hinzugefügt.*\n")
     else:
         lines.append("*Keine neuen Einträge in den letzten 30 Tagen.*\n")
 
