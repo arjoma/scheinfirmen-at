@@ -75,7 +75,7 @@ Ausführliche Informationen finden Sie in der [uv-Dokumentation](https://docs.as
 ## Direkte Ausführung (ohne Installation)
 
 ```bash
-uvx scheinfirmen-at -o data/
+uvx scheinfirmen-at@latest -o data/
 ```
 
 Lädt das Paket von PyPI, führt es aus und cached es lokal — kein manuelles Installieren nötig (analog zu `npx`).
