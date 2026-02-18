@@ -185,12 +185,11 @@ class TestRenderStatsMd:
 
     def test_header_shows_stand_and_total(self) -> None:
         md = render_stats_md([], [], "2026-01-12T10:00:00", 42)
-        assert "Gesamt: 42" in md
-        assert "Stand: 2026-01-12T10:00:00" in md
+        assert "| 2026-01-12T10:00:00 | 42 |" in md
 
     def test_header_shows_oldest_date(self) -> None:
         md = render_stats_md([], [], "2026-01-12", 1, oldest_date=date(2016, 4, 5))
-        assert "Erster Eintrag: 2016-04-05" in md
+        assert "2016-04-05" in md
 
     def test_no_chart_with_single_month(self) -> None:
         monthly = [MonthRow("2026-01", date(2026, 1, 1), 10, 10)]
@@ -224,7 +223,6 @@ class TestRenderStatsMd:
         assert "## Neueste Scheinfirmen (letzte 30 Tage)" in md
         assert "| Firma A | ATU12345678 | 1010 Wien |" in md
         assert "| Firma B |  | 1020 Wien |" in md
-        assert "2 Einträge hinzugefügt" in md
 
     def test_no_recent_additions_message(self) -> None:
         md = render_stats_md([], [], "2026-01-05", 1)
@@ -334,7 +332,7 @@ class TestGenerateStats:
         assert output.exists()
         content = output.read_text(encoding="utf-8")
         assert "# Scheinfirmen Österreich — Statistik" in content
-        assert "Gesamt: 2" in content
+        assert "| 2026-01-12T02:00:00 | 2 |" in content
 
     def test_no_records_skips(self, tmp_path: Path) -> None:
         jsonl = tmp_path / "sf.jsonl"

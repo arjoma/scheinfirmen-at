@@ -141,10 +141,9 @@ def render_stats_md(
 
     first_date = oldest_date.isoformat() if oldest_date else "—"
     lines.append("# Scheinfirmen Österreich — Statistik\n")
-    lines.append(
-        f"> Stand: {stand} | Gesamt: {total} "
-        f"| Erster Eintrag: {first_date}\n"
-    )
+    lines.append("| Stand | Gesamt | Erster Eintrag |")
+    lines.append("|-------|-------:|----------------|")
+    lines.append(f"| {stand} | {total} | {first_date} |\n")
 
     # --- Mermaid chart (temporal progression) ---
     if len(monthly) >= 2:
@@ -181,7 +180,6 @@ def render_stats_md(
         for rec in recent:
             uid = rec.uid or ""
             lines.append(f"| {rec.name} | {uid} | {rec.anschrift} |")
-        lines.append(f"\n*{len(recent)} Einträge hinzugefügt.*\n")
     else:
         lines.append("*Keine neuen Einträge in den letzten 30 Tagen.*\n")
 

@@ -1,6 +1,8 @@
 # Scheinfirmen Österreich — Statistik
 
-> Stand: 2026-02-18T06:49:20 | Gesamt: 1280 | Erster Eintrag: 2016-04-01
+| Stand | Gesamt | Erster Eintrag |
+|-------|-------:|----------------|
+| 2026-02-18T06:49:20 | 1280 | 2016-04-01 |
 
 ## Verlauf
 
@@ -49,4 +51,3 @@ xychart-beta
 | ZM Conbau GmbH | ATU77697912 | 1100 Wien, Alxingergasse 105 |
 | ÖST Projekt GmbH | ATU80233445 | 1120 Wien, Krichbaumgasse 8 |
 
-*26 Einträge hinzugefügt.*
