@@ -1,6 +1,6 @@
 [project]
 name = "scheinfirmen-at"
-version = "1.3.0"
+version = "1.4.0"
 description = "Scheinfirmen Österreich: Download and convert Austrian BMF shell company data to machine-readable formats"
 readme = "README.md"
 license = { text = "Apache-2.0" }

@@ -5,6 +5,19 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.4.0] - 2026-02-18
+
+### Geändert
+- **Statistiken:** Umstellung von wöchentlicher (git-basierter) auf monatliche (veröffentlichungsdatum-basierte) Auswertung in `STATS.md`.
+- **Statistiken:** Blockquote-Header durch Tabelle ersetzt, Anzahl-Fußzeile entfernt.
+- **Codequalität:** Diverse Code-Quality-Verbesserungen, Testabdeckung auf 96 % erhöht.
+
+### Behoben
+- **Statistiken:** Mermaid-Syntaxfehler bei leeren x-Achsen-Labels und kategorischer vs. numerischer Achse behoben.
+
+### Hinzugefügt
+- **Release-Prozess:** Dokumentation und `/release`-Skill für automatisierte Releases.
+
 ## [1.3.0] - 2026-02-16
 
 ### Hinzugefügt
