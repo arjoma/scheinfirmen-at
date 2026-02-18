@@ -182,8 +182,7 @@ def main(argv: list[str] | None = None) -> None:
     # --- Step 6: Stats report (optional) ---
     if args.stats is not None:
         try:
-            repo_dir = Path.cwd()
-            generate_stats(jsonl_path.resolve(), args.stats.resolve(), repo_dir)
+            generate_stats(jsonl_path.resolve(), args.stats.resolve())
         except Exception as exc:
             logger.warning("Stats generation failed (non-fatal): %s", exc)
 

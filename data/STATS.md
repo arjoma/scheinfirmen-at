@@ -1,36 +1,46 @@
 # Scheinfirmen Österreich — Statistik
 
-> Stand: 2026-02-18T06:49:20 | Gesamt: 1280 | Tracking seit: 2026-02-10
-
-## Neueste Scheinfirmen (letzte 30 Tage)
-
-| Name | UID | Anschrift |
-|------|-----|-----------|
-| Ahmet Bulduk GmbH | ATU15647405 | 1110 Wien, Am Kanal 27 |
-| BB Kleintransport KG | ATU77209307 | 1200 Wien, Hellwagstraße 3 |
-| DEMETER Monika Sara | ATU82203857 | 1200 Wien, Klosterneuburger Straße 28 |
-| DUDAS Szimonetta |  | 1020 Wien, Körnergasse 5/10 |
-| DUGMONICS Sandorne |  | 1200 Wien, Salzachstraße 1 |
-| SMEJKAL Libor | ATU82169458 | 1190 Wien, Barawitzkagasse 21/3 |
-| Sebusavac Handels GmbH | ATU76775036 | 1230 WienWien, Levasseurgasse 3 |
-| Talocci M. e.U. | ATU82520069 | 1190 Wien, Hackhofergasse 1 |
-| ZM Conbau GmbH | ATU77697912 | 1100 Wien, Alxingergasse 105 |
-
-*9 Einträge hinzugefügt.*
-
-## Wöchentliche Änderungen
-
-| Woche | Datum | Zugänge | Abgänge | Gesamt |
-|-------|-------|---------|---------|--------|
-| 2026-W07 | Feb 9 | *1274 (initial)* | — | 1274 |
-| 2026-W08 | Feb 16 | +5 | 0 | 1279 |
+> Stand: 2026-02-18T06:49:20 | Gesamt: 1280 | Erster Eintrag: 2016-04-04
 
 ## Verlauf
 
 ```mermaid
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
-    x-axis ["Feb 9", "Feb 16"]
-    y-axis "Anzahl" 1224 --> 1329
-    line [1274, 1279]
+    x-axis ["2016", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2017", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2018", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2019", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2020", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2021", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2022", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2023", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2024", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2025", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "2026", "", "", "", "", "", ""]
+    y-axis "Anzahl" 0 --> 1330
+    line [4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 19, 21, 24, 25, 27, 28, 29, 30, 32, 33, 36, 37, 38, 40, 43, 45, 47, 48, 50, 51, 53, 54, 55, 56, 57, 58, 60, 62, 64, 66, 67, 69, 72, 74, 75, 76, 77, 81, 82, 85, 86, 87, 90, 91, 93, 94, 95, 96, 97, 99, 101, 102, 104, 106, 108, 110, 111, 113, 114, 115, 116, 117, 123, 126, 127, 129, 133, 134, 136, 139, 141, 143, 144, 148, 150, 152, 155, 156, 157, 158, 159, 160, 161, 163, 164, 165, 166, 167, 168, 169, 171, 173, 176, 177, 178, 179, 182, 186, 190, 193, 194, 199, 201, 203, 205, 207, 209, 214, 215, 216, 217, 218, 219, 220, 221, 222, 224, 225, 226, 227, 228, 230, 233, 237, 241, 242, 243, 244, 247, 248, 250, 251, 253, 254, 257, 259, 268, 271, 275, 280, 282, 287, 292, 293, 298, 300, 304, 305, 312, 314, 324, 327, 331, 335, 339, 349, 352, 355, 360, 362, 368, 372, 374, 376, 381, 386, 391, 396, 400, 402, 404, 409, 411, 412, 413, 415, 424, 425, 430, 435, 436, 439, 446, 450, 452, 453, 456, 459, 460, 463, 464, 465, 466, 468, 470, 475, 477, 478, 481, 485, 486, 489, 494, 502, 503, 509, 512, 515, 516, 518, 520, 521, 522, 523, 525, 530, 531, 533, 537, 540, 547, 551, 557, 564, 568, 575, 579, 587, 592, 593, 598, 599, 604, 620, 623, 628, 632, 641, 649, 651, 654, 657, 659, 661, 663, 670, 673, 676, 681, 686, 690, 698, 702, 703, 710, 711, 713, 722, 726, 728, 735, 738, 739, 749, 753, 762, 767, 771, 774, 777, 779, 782, 789, 792, 793, 800, 801, 809, 817, 826, 828, 836, 846, 854, 859, 862, 868, 872, 887, 896, 898, 915, 943, 960, 969, 981, 998, 1003, 1012, 1020, 1023, 1026, 1031, 1040, 1043, 1051, 1060, 1064, 1071, 1074, 1080, 1087, 1100, 1111, 1119, 1132, 1140, 1142, 1155, 1161, 1167, 1172, 1185, 1195, 1198, 1205, 1214, 1218, 1224, 1228, 1234, 1242, 1249, 1254, 1257, 1262, 1270, 1274, 1280]
 ```
+
+## Neueste Scheinfirmen (letzte 30 Tage)
+
+| Name | UID | Anschrift |
+|------|-----|-----------|
+| AKARAPU Vinesh Reddy | ATU72312124 | 1220 Wien, Stadlbreiten 11 |
+| Ahmet Bulduk GmbH | ATU15647405 | 1110 Wien, Am Kanal 27 |
+| Auto MANS Logistik GmbH | ATU79780809 | 1030 Wien, Obere Viaduktgasse 26 |
+| B.E.E.G. Baugesellschaft mbH | ATU81703934 | 1170 Wien, Lorenz-Bayer-Platz 18 |
+| BB Kleintransport KG | ATU77209307 | 1200 Wien, Hellwagstraße 3 |
+| BlackMoney GmbH | ATU78574749 | 1120 Wien, Hetzendorfer Straße 100 |
+| CPI 5. Realwerte Verwaltungs GmbH | ATU67955126 | 1200 Wien, Wehlistraße 27B |
+| DEMETER Monika Sara | ATU82203857 | 1200 Wien, Klosterneuburger Straße 28 |
+| DUDAS Szimonetta |  | 1020 Wien, Körnergasse 5/10 |
+| DUGMONICS Sandorne |  | 1200 Wien, Salzachstraße 1 |
+| ESPACH Bau GmbH | ATU74641667 | 1150 Wien, Clementinengasse 6/4 |
+| FN&Y GMBH | ATU80571917 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
+| GASTRO EXPRESS KG |  | 1020 Wien, Rueppgasse 2/2.6 |
+| GOMBOS Jozsef Karoly | ATU81976649 | 1220 Wien, Langobardenstraße 189 |
+| Ikarus Transport GmbH | ATU81084229 | 1110 Wien, Simmeringer Hauptstraße 24 |
+| Ilmaser GmbH | ATU80715567 | 7071 Rust, Am Seekanal 8 |
+| Kurma GetränkehandelsgesmbH | ATU82117308 | 1110 Wien, Simmeringer Hauptstraße 43 |
+| PUSKA Boris | ATU81904478 | 1200 Wien, Allerheiligenplatz 3 |
+| SMEJKAL Libor | ATU82169458 | 1190 Wien, Barawitzkagasse 21/3 |
+| Sebusavac Handels GmbH | ATU76775036 | 1230 WienWien, Levasseurgasse 3 |
+| Talocci M. e.U. | ATU82520069 | 1190 Wien, Hackhofergasse 1 |
+| VLM Aurora Immoinvest GmbH | ATU79056879 | 1120 Wien, Schönbrunner Straße 238 |
+| Wegscheid 4 Dienstleistung GmbH | ATU74849505 | 1200 Wien, Wehlistraße 27B |
+| YORDANOV Yordan Yordanov |  | 1150 Wien, Diefenbachgasse 40 |
+| ZM Conbau GmbH | ATU77697912 | 1100 Wien, Alxingergasse 105 |
+| ÖST Projekt GmbH | ATU80233445 | 1120 Wien, Krichbaumgasse 8 |
+
+*26 Einträge hinzugefügt.*
