@@ -8,9 +8,9 @@ from datetime import date
 from pathlib import Path
 
 from scheinfirmen_at.stats import (
+    MonthRow,
     RecordInfo,
-    WeekRow,
-    compute_weekly_stats,
+    compute_monthly_stats,
     find_recent_additions,
     generate_stats,
     parse_jsonl_records,
@@ -33,79 +33,96 @@ def _make_record(
     )
 
 
-class TestComputeWeeklyStats:
+class TestComputeMonthlyStats:
     def test_empty(self) -> None:
-        assert compute_weekly_stats([]) == []
+        assert compute_monthly_stats([]) == []
 
     def test_all_null_dates(self) -> None:
         records = [_make_record("A", None), _make_record("B", None)]
-        assert compute_weekly_stats(records) == []
+        assert compute_monthly_stats(records) == []
 
     def test_single_record(self) -> None:
         records = [_make_record("A", date(2026, 2, 10))]
-        rows = compute_weekly_stats(records)
+        rows = compute_monthly_stats(records)
         assert len(rows) == 1
         assert rows[0].additions == 1
         assert rows[0].total == 1
-        assert rows[0].week_label == "2026-W07"
+        assert rows[0].month_label == "2026-02"
+        assert rows[0].month_start == date(2026, 2, 1)
 
-    def test_same_week_merged(self) -> None:
+    def test_same_month_merged(self) -> None:
         records = [
-            _make_record("A", date(2026, 2, 10)),  # W07
-            _make_record("B", date(2026, 2, 12)),  # W07
+            _make_record("A", date(2026, 2, 5)),
+            _make_record("B", date(2026, 2, 20)),
         ]
-        rows = compute_weekly_stats(records)
+        rows = compute_monthly_stats(records)
         assert len(rows) == 1
         assert rows[0].additions == 2
         assert rows[0].total == 2
 
-    def test_two_weeks_cumulative(self) -> None:
+    def test_two_months_cumulative(self) -> None:
         records = [
-            _make_record("A", date(2026, 2, 9)),   # W07
-            _make_record("B", date(2026, 2, 9)),   # W07
-            _make_record("C", date(2026, 2, 16)),  # W08
+            _make_record("A", date(2026, 1, 10)),
+            _make_record("B", date(2026, 1, 20)),
+            _make_record("C", date(2026, 2, 5)),
         ]
-        rows = compute_weekly_stats(records)
+        rows = compute_monthly_stats(records)
         assert len(rows) == 2
-        assert rows[0].week_label == "2026-W07"
+        assert rows[0].month_label == "2026-01"
         assert rows[0].additions == 2
         assert rows[0].total == 2
-        assert rows[1].week_label == "2026-W08"
+        assert rows[1].month_label == "2026-02"
         assert rows[1].additions == 1
         assert rows[1].total == 3  # cumulative
 
     def test_chronological_order(self) -> None:
         records = [
-            _make_record("B", date(2026, 2, 16)),  # W08
-            _make_record("A", date(2026, 2, 9)),   # W07
+            _make_record("B", date(2026, 3, 1)),
+            _make_record("A", date(2026, 1, 1)),
         ]
-        rows = compute_weekly_stats(records)
-        assert rows[0].week_label == "2026-W07"
-        assert rows[1].week_label == "2026-W08"
+        rows = compute_monthly_stats(records)
+        assert rows[0].month_label == "2026-01"
+        assert rows[1].month_label == "2026-03"
 
     def test_skips_null_dates(self) -> None:
         records = [
             _make_record("A", date(2026, 2, 9)),
             _make_record("B", None),
         ]
-        rows = compute_weekly_stats(records)
+        rows = compute_monthly_stats(records)
         assert len(rows) == 1
         assert rows[0].total == 1
 
-    def test_cumulative_totals_sum_to_count(self) -> None:
+    def test_cumulative_total_equals_record_count(self) -> None:
         records = [
             _make_record("A", date(2026, 1, 5)),
-            _make_record("B", date(2026, 1, 12)),
-            _make_record("C", date(2026, 1, 12)),
-            _make_record("D", date(2026, 1, 19)),
+            _make_record("B", date(2026, 2, 12)),
+            _make_record("C", date(2026, 2, 20)),
+            _make_record("D", date(2026, 3, 1)),
         ]
-        rows = compute_weekly_stats(records)
+        rows = compute_monthly_stats(records)
         assert rows[-1].total == len(records)
 
-    def test_week_start_is_monday(self) -> None:
-        records = [_make_record("A", date(2026, 2, 11))]  # Wednesday W07
-        rows = compute_weekly_stats(records)
-        assert rows[0].week_start == date(2026, 2, 9)  # Monday of W07
+    def test_month_start_is_first_of_month(self) -> None:
+        records = [_make_record("A", date(2026, 2, 17))]
+        rows = compute_monthly_stats(records)
+        assert rows[0].month_start == date(2026, 2, 1)
+
+    def test_label_zero_pads_month(self) -> None:
+        records = [_make_record("A", date(2026, 3, 1))]
+        rows = compute_monthly_stats(records)
+        assert rows[0].month_label == "2026-03"
+
+    def test_multi_year_span(self) -> None:
+        records = [
+            _make_record("A", date(2016, 4, 5)),
+            _make_record("B", date(2020, 6, 1)),
+            _make_record("C", date(2026, 2, 1)),
+        ]
+        rows = compute_monthly_stats(records)
+        assert len(rows) == 3
+        assert rows[0].month_label == "2016-04"
+        assert rows[-1].total == 3
 
 
 class TestFindRecentAdditions:
@@ -150,17 +167,16 @@ class TestFindRecentAdditions:
         assert result[0].name == "B"
 
     def test_uses_today_by_default(self) -> None:
-        # Just ensure it runs without error (today is dynamic)
         records = [_make_record("A", date(2026, 1, 1))]
         result = find_recent_additions(records, days=30)
         assert isinstance(result, list)
 
 
 class TestRenderStatsMd:
-    def _make_weekly(self) -> list[WeekRow]:
+    def _make_monthly(self) -> list[MonthRow]:
         return [
-            WeekRow("2026-W01", date(2026, 1, 5), 10, 10),
-            WeekRow("2026-W02", date(2026, 1, 12), 5, 15),
+            MonthRow("2026-01", date(2026, 1, 1), 10, 10),
+            MonthRow("2026-02", date(2026, 2, 1), 5, 15),
         ]
 
     def test_contains_title(self) -> None:
@@ -176,28 +192,28 @@ class TestRenderStatsMd:
         md = render_stats_md([], [], "2026-01-12", 1, oldest_date=date(2016, 4, 5))
         assert "Erster Eintrag: 2016-04-05" in md
 
-    def test_no_chart_with_single_week(self) -> None:
-        weekly = [WeekRow("2026-W01", date(2026, 1, 5), 10, 10)]
-        md = render_stats_md(weekly, [], "2026-01-05", 10)
+    def test_no_chart_with_single_month(self) -> None:
+        monthly = [MonthRow("2026-01", date(2026, 1, 1), 10, 10)]
+        md = render_stats_md(monthly, [], "2026-01-31", 10)
         assert "mermaid" not in md
 
-    def test_chart_with_two_weeks(self) -> None:
-        md = render_stats_md(self._make_weekly(), [], "2026-01-12", 15)
+    def test_chart_with_two_months(self) -> None:
+        md = render_stats_md(self._make_monthly(), [], "2026-02-28", 15)
         assert "```mermaid" in md
         assert "xychart-beta" in md
         assert "line [10, 15]" in md
 
     def test_chart_year_labels(self) -> None:
-        weekly = [
-            WeekRow("2025-W52", date(2025, 12, 22), 5, 5),
-            WeekRow("2026-W01", date(2025, 12, 29), 3, 8),
-            WeekRow("2026-W02", date(2026, 1, 5), 2, 10),
+        monthly = [
+            MonthRow("2025-11", date(2025, 11, 1), 5, 5),
+            MonthRow("2025-12", date(2025, 12, 1), 3, 8),
+            MonthRow("2026-01", date(2026, 1, 1), 2, 10),
+            MonthRow("2026-02", date(2026, 2, 1), 1, 11),
         ]
-        md = render_stats_md(weekly, [], "2026-01-05", 10)
-        # Year 2025 label at first week, 2026 label at first week of that year
+        md = render_stats_md(monthly, [], "2026-02-28", 11)
         assert '"2025"' in md
         assert '"2026"' in md
-        # Subsequent weeks of same year use empty label
+        # Subsequent months of same year use empty label
         assert '""' in md
 
     def test_recent_additions_section(self) -> None:
@@ -217,7 +233,7 @@ class TestRenderStatsMd:
 
     def test_chart_before_recent_section(self) -> None:
         recent = [RecordInfo("A", None, "Wien", date(2026, 2, 10))]
-        md = render_stats_md(self._make_weekly(), recent, "2026-01-12", 15)
+        md = render_stats_md(self._make_monthly(), recent, "2026-02-28", 15)
         chart_pos = md.index("mermaid")
         recent_pos = md.index("Neueste Scheinfirmen")
         assert chart_pos < recent_pos
@@ -307,7 +323,7 @@ class TestGenerateStats:
                     "name": "Firma B",
                     "uid": None,
                     "anschrift": "1020 Wien",
-                    "veroeffentlicht": "2025-06-15",
+                    "veroeffentlicht": "2025-07-15",
                 }
             )
             + "\n",

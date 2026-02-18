@@ -14,21 +14,6 @@ from pathlib import Path
 
 logger = logging.getLogger("scheinfirmen_at")
 
-MONTH_NAMES_DE = {
-    1: "Jän",
-    2: "Feb",
-    3: "Mär",
-    4: "Apr",
-    5: "Mai",
-    6: "Jun",
-    7: "Jul",
-    8: "Aug",
-    9: "Sep",
-    10: "Okt",
-    11: "Nov",
-    12: "Dez",
-}
-
 
 @dataclass
 class RecordInfo:
@@ -41,13 +26,13 @@ class RecordInfo:
 
 
 @dataclass
-class WeekRow:
-    """One row of the weekly additions table."""
+class MonthRow:
+    """One row of the monthly additions table."""
 
-    week_label: str  # e.g. "2026-W07"
-    week_start: date  # Monday of the ISO week
-    additions: int  # new companies published this week
-    total: int  # cumulative total through this week
+    month_label: str  # e.g. "2026-02"
+    month_start: date  # first day of the month
+    additions: int  # new companies published this month
+    total: int  # cumulative total through this month
 
 
 def parse_jsonl_records(jsonl_path: Path) -> tuple[list[RecordInfo], str, int]:
@@ -87,33 +72,31 @@ def parse_jsonl_records(jsonl_path: Path) -> tuple[list[RecordInfo], str, int]:
     return records, stand, total
 
 
-def compute_weekly_stats(records: list[RecordInfo]) -> list[WeekRow]:
-    """Group records by ISO week of veroeffentlicht, compute cumulative totals.
+def compute_monthly_stats(records: list[RecordInfo]) -> list[MonthRow]:
+    """Group records by calendar month of veroeffentlicht, compute cumulative totals.
 
     Only records with a veroeffentlicht date are included.
     Returns rows sorted chronologically (oldest first).
     """
-    week_counts: dict[tuple[int, int], int] = {}
+    month_counts: dict[tuple[int, int], int] = {}
     for rec in records:
         if rec.veroeffentlicht is None:
             continue
-        iso_year, iso_week, _ = rec.veroeffentlicht.isocalendar()
-        key = (iso_year, iso_week)
-        week_counts[key] = week_counts.get(key, 0) + 1
+        key = (rec.veroeffentlicht.year, rec.veroeffentlicht.month)
+        month_counts[key] = month_counts.get(key, 0) + 1
 
-    if not week_counts:
+    if not month_counts:
         return []
 
-    rows: list[WeekRow] = []
+    rows: list[MonthRow] = []
     cumulative = 0
-    for iso_year, iso_week in sorted(week_counts.keys()):
-        additions = week_counts[(iso_year, iso_week)]
+    for year, month in sorted(month_counts.keys()):
+        additions = month_counts[(year, month)]
         cumulative += additions
-        week_start = date.fromisocalendar(iso_year, iso_week, 1)
         rows.append(
-            WeekRow(
-                week_label=f"{iso_year}-W{iso_week:02d}",
-                week_start=week_start,
+            MonthRow(
+                month_label=f"{year}-{month:02d}",
+                month_start=date(year, month, 1),
                 additions=additions,
                 total=cumulative,
             )
@@ -140,13 +123,8 @@ def find_recent_additions(
     return sorted(recent, key=lambda r: r.name)
 
 
-def _format_date_short(d: date) -> str:
-    """Format date as short German label, e.g. 'Feb 10'."""
-    return f"{MONTH_NAMES_DE[d.month]} {d.day}"
-
-
 def render_stats_md(
-    weekly: list[WeekRow],
+    monthly: list[MonthRow],
     recent: list[RecordInfo],
     stand: str,
     total: int,
@@ -156,7 +134,7 @@ def render_stats_md(
 
     Order:
     1. Title + explanation + totals
-    2. Mermaid chart (temporal progression by week)
+    2. Mermaid chart (temporal progression by month)
     3. Last 30 days section (recent additions, alphabetical)
     """
     lines: list[str] = []
@@ -169,15 +147,15 @@ def render_stats_md(
     )
 
     # --- Mermaid chart (temporal progression) ---
-    if len(weekly) >= 2:
+    if len(monthly) >= 2:
         lines.append("## Verlauf\n")
 
-        # Build x-axis labels: show year at the first week of each new year,
-        # empty string for all other weeks so the axis stays readable.
+        # X-axis: show year label at the first month of each new year,
+        # empty string for all other months so the axis stays readable.
         prev_year: int | None = None
         x_label_parts: list[str] = []
-        for row in weekly:
-            year = row.week_start.year
+        for row in monthly:
+            year = row.month_start.year
             if year != prev_year:
                 x_label_parts.append(f'"{year}"')
                 prev_year = year
@@ -185,9 +163,9 @@ def render_stats_md(
                 x_label_parts.append('""')
 
         x_labels = ", ".join(x_label_parts)
-        y_values = ", ".join(str(row.total) for row in weekly)
+        y_values = ", ".join(str(row.total) for row in monthly)
 
-        totals = [row.total for row in weekly]
+        totals = [row.total for row in monthly]
         y_min = max(0, min(totals) - 50)
         y_max = max(totals) + 50
 
@@ -223,12 +201,12 @@ def generate_stats(jsonl_path: Path, output_path: Path) -> None:
         logger.warning("No records found in %s — skipping stats", jsonl_path)
         return
 
-    weekly = compute_weekly_stats(records)
+    monthly = compute_monthly_stats(records)
     today = date.today()
     recent = find_recent_additions(records, days=30, today=today)
 
-    oldest_date = weekly[0].week_start if weekly else None
+    oldest_date = monthly[0].month_start if monthly else None
 
-    md = render_stats_md(weekly, recent, stand, total, oldest_date)
+    md = render_stats_md(monthly, recent, stand, total, oldest_date)
     output_path.write_text(md, encoding="utf-8")
     logger.info("Wrote stats report to %s", output_path)
