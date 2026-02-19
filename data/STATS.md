@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-02-18T06:49:20 | 1280 | 2016-04-01 |
+| 2026-02-19T06:47:19 | 1280 | 2016-04-01 |
 
 ## Verlauf
 
@@ -43,11 +43,10 @@ xychart-beta
 | Kurma GetränkehandelsgesmbH | ATU82117308 | 1110 Wien, Simmeringer Hauptstraße 43 |
 | PUSKA Boris | ATU81904478 | 1200 Wien, Allerheiligenplatz 3 |
 | SMEJKAL Libor | ATU82169458 | 1190 Wien, Barawitzkagasse 21/3 |
-| Sebusavac Handels GmbH | ATU76775036 | 1230 WienWien, Levasseurgasse 3 |
+| Sebusavac Handels GmbH | ATU76775036 | 1230 Wien, Levasseurgasse 3 |
 | Talocci M. e.U. | ATU82520069 | 1190 Wien, Hackhofergasse 1 |
 | VLM Aurora Immoinvest GmbH | ATU79056879 | 1120 Wien, Schönbrunner Straße 238 |
 | Wegscheid 4 Dienstleistung GmbH | ATU74849505 | 1200 Wien, Wehlistraße 27B |
 | YORDANOV Yordan Yordanov |  | 1150 Wien, Diefenbachgasse 40 |
 | ZM Conbau GmbH | ATU77697912 | 1100 Wien, Alxingergasse 105 |
 | ÖST Projekt GmbH | ATU80233445 | 1120 Wien, Krichbaumgasse 8 |
-
