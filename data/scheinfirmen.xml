@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-02-19" zeit="06:47:19" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1280">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-02-20" zeit="06:41:38" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1281">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -265,6 +265,7 @@
   <scheinfirma anschrift="1110 Wien, Wilhelm-Weber-Weg 1" veroeffentlicht="2025-10-24" rechtskraeftig="2025-10-21" seit="2024-09-08" fbnr="598240s" uid="ATU79122138" kennziffer="R138Y894T">CSSE Pro-jects GmbH</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Schiffmühlenstraße 55" veroeffentlicht="2022-06-01" rechtskraeftig="2022-05-17" fbnr="474273k" uid="ATU72567019">CTEE Culturtravel &amp; Education Exchange GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, In der Krim 6" veroeffentlicht="2024-02-26" rechtskraeftig="2023-12-31" geburtsdatum="2004-06-14" uid="ATU78960607">CULHAOGLU Hilal</scheinfirma>
+  <scheinfirma anschrift="1020 Wien, Lassallestraße 7B" veroeffentlicht="2026-02-19" rechtskraeftig="2026-02-03" seit="2024-02-23" fbnr="622435x" uid="ATU81333709" kennziffer="R146P5109">D.A. Reinglanz GmbH</scheinfirma>
   <scheinfirma anschrift="2100 Korneuburg, Industriestrasse 6-8" veroeffentlicht="2016-12-19" rechtskraeftig="2016-12-15" fbnr="132025f" uid="ATU39195704">Dach-Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Hadatschgasse 9" veroeffentlicht="2025-12-01" rechtskraeftig="2025-11-28" seit="2024-09-08" fbnr="628924p" kennziffer="R150A6531">Dacone GmbH</scheinfirma>
   <scheinfirma anschrift="1040 Wien, Wiedner Hauptstraße 65" veroeffentlicht="2020-09-24" rechtskraeftig="2020-09-04" fbnr="516488t" uid="ATU74899318">DAIEH GmbH</scheinfirma>
