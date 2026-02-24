@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-02-20" zeit="06:41:38" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1281">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-02-24" zeit="06:47:51" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1284">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -420,6 +420,7 @@
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 85" veroeffentlicht="2025-12-10" rechtskraeftig="2025-12-03" seit="2025-11-25" fbnr="646670k" uid="ATU82057159" kennziffer="R154L701U">GDMH Logistik KG</scheinfirma>
   <scheinfirma anschrift="3144 Pyhra-Wald, Perschlingtalstraße 35" veroeffentlicht="2018-03-08" rechtskraeftig="2018-03-06" fbnr="470919d" uid="ATU72475813">Gebena GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Schweidlgasse 15" veroeffentlicht="2025-05-06" rechtskraeftig="2025-04-30" seit="2023-02-20" fbnr="584859m" uid="ATU78785557" kennziffer="R135K140S">GEHO30 Restaurant GmbH</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Brünner Straße 240" veroeffentlicht="2026-02-23" rechtskraeftig="2026-02-18" seit="2025-08-14" fbnr="456486d" uid="ATU71467156" kennziffer="R102K563M">Gelbstein Haustechnik GmbH</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-25" seit="2023-11-23" geburtsdatum="1973-11-07" uid="ATU80053148" kennziffer="R143R599T">GENCHEV Vasil Mihaylov</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Marchfeldstrasse 15/8" veroeffentlicht="2017-10-09" rechtskraeftig="2017-09-29">Genex XI s.r.o.</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Kalvarienberggasse 5/2" veroeffentlicht="2016-05-31" rechtskraeftig="2016-05-31" fbnr="368102b" uid="ATU66681236">Genial Bau GmbH</scheinfirma>
@@ -985,6 +986,7 @@
   <scheinfirma anschrift="2763 Pernitz, Fuchsriegelgasse 7" veroeffentlicht="2025-01-14" rechtskraeftig="2025-01-08" seit="2024-10-31" fbnr="581518z" uid="ATU78354246" kennziffer="R134T655A">R.M. HANDELS BAU KG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3" veroeffentlicht="2022-04-20" rechtskraeftig="2022-04-12" fbnr="469331v" uid="ATU73538157">RMB GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Hackhofergasse 1" veroeffentlicht="2023-01-11" rechtskraeftig="2022-12-31" fbnr="566251y" uid="ATU78256049">Robex Bauentwicklungs GmbH</scheinfirma>
+  <scheinfirma anschrift="2011 Sierndorf, Prager Straße 17" veroeffentlicht="2026-02-23" rechtskraeftig="2026-02-20" seit="2023-12-01" fbnr="472039a" uid="ATU72349201" kennziffer="R106X420T">Rodic Gastro GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Neulerchenfelder Straße 86" veroeffentlicht="2025-01-27" rechtskraeftig="2025-01-08" seit="2024-08-07" fbnr="508380v" uid="ATU74243437" kennziffer="R116C828J">Romgips GmbH</scheinfirma>
   <scheinfirma anschrift="8051 Graz, Wienerstraße 203/19" veroeffentlicht="2018-11-13" rechtskraeftig="2018-11-06" fbnr="480206k" uid="ATU72684525">ROOK BAU GmbH</scheinfirma>
   <scheinfirma anschrift="6020 Innsbruck, Hormayrstraße 12" veroeffentlicht="2025-08-06" rechtskraeftig="2025-07-17" seit="2025-02-04" geburtsdatum="1962-03-09" uid="ATU77395212" kennziffer="R130X818T">ROSIORU Ica</scheinfirma>
@@ -1076,6 +1078,7 @@
   <scheinfirma anschrift="1210 Wien, Brünner Straße 75" veroeffentlicht="2025-08-05" rechtskraeftig="2025-08-02" seit="2024-12-24" geburtsdatum="1971-07-03" uid="ATU81473638" kennziffer="R153P884I">SOMJEN Csaba</scheinfirma>
   <scheinfirma anschrift="2700 Wiener Neustadt, Hochburggasse 8" veroeffentlicht="2025-01-14" rechtskraeftig="2025-01-08" seit="2024-03-31" fbnr="620143a" uid="ATU80355367" kennziffer="R145P059I">Sorbello GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Forchheimergasse 34" veroeffentlicht="2021-03-30" rechtskraeftig="2021-03-15" fbnr="516438v" uid="ATU74721508">SORBOT GmbH</scheinfirma>
+  <scheinfirma anschrift="1010 Wien, Seitenstettengasse 5" veroeffentlicht="2026-02-23" rechtskraeftig="2025-12-30" seit="2024-07-10" fbnr="616896a" uid="ATU80755425" kennziffer="R143Q158L">Sorhan Taxi KG</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Herbeckstraße 73" veroeffentlicht="2025-12-30" rechtskraeftig="2025-12-21" seit="2024-09-10" geburtsdatum="2006-01-27" uid="ATU81106517" kennziffer="R151Y5783">SOVAN Denis-Gabriel</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2024-12-17" rechtskraeftig="2024-12-09" seit="2024-08-23" fbnr="617371z" uid="ATU80465319" kennziffer="R143X915H">SP STECO POWER GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Paschinggasse 8" veroeffentlicht="2024-03-20" rechtskraeftig="2024-03-05" seit="2023-04-19" fbnr="533557v" uid="ATU75597409" kennziffer="R122A623U">Spaltex GmbH</scheinfirma>
