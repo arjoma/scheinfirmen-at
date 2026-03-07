@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-06" zeit="06:34:16" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1304">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-07" zeit="06:11:59" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1306">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -554,6 +554,7 @@
   <scheinfirma anschrift="4020 Linz, Helmholtzstraße 23" veroeffentlicht="2021-03-10" rechtskraeftig="2021-02-24" fbnr="531413s" uid="ATU75557728">IMO Stahlbinder GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2025-03-05" rechtskraeftig="2025-02-28" seit="2024-01-23" geburtsdatum="1971-04-15" uid="ATU80775626" kennziffer="R146G996B">ISAKOV Asen</scheinfirma>
   <scheinfirma anschrift="2620 Neunkirchen, Triesterstraße 53" veroeffentlicht="2025-04-01" rechtskraeftig="2025-03-19" seit="2024-03-01" fbnr="595471v" uid="ATU78948114" kennziffer="R138A165Z">ISOL GmbH in Liquidation</scheinfirma>
+  <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2026-03-06" rechtskraeftig="2026-03-02" seit="2023-12-21" fbnr="615908y" uid="ATU81026248" kennziffer="R144E802B">ISSO-Instant Staff Solution GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="1090 Wien, Zimmermanngasse 8" veroeffentlicht="2025-05-21" rechtskraeftig="2025-05-06" seit="2024-10-23" fbnr="429185f" uid="ATU69428247" kennziffer="R094B7275">IT DevCon GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Bickgasse 1" veroeffentlicht="2023-08-02" rechtskraeftig="2023-06-06" fbnr="590410a" uid="ATU78725417">ITACLEAN Service e.U.</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Salzachstraße 11" veroeffentlicht="2025-09-24" rechtskraeftig="2025-09-23" seit="2025-01-14" geburtsdatum="1989-04-30" kennziffer="R153Z199F">IVANOV Dian Vasilev</scheinfirma>
@@ -1030,6 +1031,7 @@
   <scheinfirma anschrift="1210 Wien, Leopoldauer Straße 131" veroeffentlicht="2025-05-06" rechtskraeftig="2025-05-01" seit="2023-04-26" fbnr="603137t" uid="ATU79814079" kennziffer="R140B1573">SD Kleintransporte KG</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Felberstraße 34" veroeffentlicht="2024-09-03" rechtskraeftig="2024-07-17" seit="2023-04-01" fbnr="368584k" uid="ATU66707913" kennziffer="R043K9013">SEBERG-BAU GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Habichergasse 6" veroeffentlicht="2024-01-15" rechtskraeftig="2023-12-23" fbnr="420332k" uid="ATU69837028">SEFO Focus GmbH</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Wenhartgasse 12/15" veroeffentlicht="2026-03-06" rechtskraeftig="2026-03-04" seit="2025-07-22" geburtsdatum="1982-08-28" uid="ATU82604905" kennziffer="R157K7975">SEIDNER Roman</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Margaretenstraße 102" veroeffentlicht="2022-04-20" rechtskraeftig="2022-03-28" geburtsdatum="1988-03-14">SEKEROVA Erika</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Ketzergasse 65" veroeffentlicht="2023-01-11" rechtskraeftig="2023-01-06" fbnr="468281z" uid="ATU72256756">SEPA-PROFI GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Hofherr-Schrantz-Gasse 2" veroeffentlicht="2024-08-30" rechtskraeftig="2024-08-16" seit="2023-05-01" fbnr="538481i" uid="ATU75993089" kennziffer="R122L6937">SETOBAU GmbH</scheinfirma>

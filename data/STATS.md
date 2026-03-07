@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-03-06T06:34:16 | 1304 | 2016-04-01 |
+| 2026-03-07T06:11:59 | 1306 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1354
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1304]
+    y-axis "Anzahl" 0 --> 1356
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1306]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -30,7 +30,6 @@ xychart-beta
 | BALAZ Anton | ATU81471989 | 1200 Wien, Allerheiligenplatz 3 |
 | BB Kleintransport KG | ATU77209307 | 1200 Wien, Hellwagstraße 3 |
 | BTVR Dienstleistung GmbH | ATU15260508 | 1200 Wien, Wehlistraße 27B |
-| BlackMoney GmbH | ATU78574749 | 1120 Wien, Hetzendorfer Straße 100 |
 | Blue Handels GmbH | ATU77680369 | 1050 Wien, Schönbrunner Straße 133 |
 | D.A. Reinglanz GmbH | ATU81333709 | 1020 Wien, Lassallestraße 7B |
 | DEMETER Monika Sara | ATU82203857 | 1200 Wien, Klosterneuburger Straße 28 |
@@ -41,6 +40,7 @@ xychart-beta
 | GAFTON Alexandru-Iulian | ATU82395409 | 1200 Wien, Ospelgasse 31 |
 | Gelbstein Haustechnik GmbH | ATU71467156 | 1210 Wien, Brünner Straße 240 |
 | IGWT Trading GmbH | ATU77816589 | 1200 Wien, Leystraße 75 |
+| ISSO-Instant Staff Solution GmbH in Liquidation | ATU81026248 | 1060 Wien, Eisvogelgasse 6 |
 | M-BC GmbH | ATU79650904 | 1200 Wien, Klosterneuburger Straße 7 |
 | MANDIR Vinko | ATU80553946 | 1230 Wien, Büttnergasse 2 |
 | MIKULOVA Simona | ATU81238545 | 1160 Wien, Lambertgasse 15 |
@@ -49,6 +49,7 @@ xychart-beta
 | PACEK Rastislav | ATU81909918 | 1030 Wien, Landstraßer Hauptstraße 131 |
 | Rodic Gastro GmbH | ATU72349201 | 2011 Sierndorf, Prager Straße 17 |
 | SARASWATHI Harsha Vardhan | ATU81751702 | 1050 Wien, Gassergasse 27 |
+| SEIDNER Roman | ATU82604905 | 1210 Wien, Wenhartgasse 12/15 |
 | SMEJKAL Libor | ATU82169458 | 1190 Wien, Barawitzkagasse 21/3 |
 | Sebusavac Handels GmbH | ATU76775036 | 1230 Wien, Levasseurgasse 3 |
 | Sorhan Taxi KG | ATU80755425 | 1010 Wien, Seitenstettengasse 5 |
