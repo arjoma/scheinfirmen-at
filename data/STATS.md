@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-03-10T06:34:51 | 1309 | 2016-04-01 |
+| 2026-03-11T06:36:47 | 1314 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1359
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1309]
+    y-axis "Anzahl" 0 --> 1364
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1314]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -27,6 +27,7 @@ xychart-beta
 | ADAM Ervin | ATU81732136 | 8020 Graz, Neubaugasse 24 |
 | AL ISSA Ibrahim | ATU81782616 | 1150 Wien, Sechshauser Straße 87 |
 | ALPENWERT GmbH | ATU76150629 | 1110 Wien, Rinnböckstraße 17/36 |
+| ALXPYZ Handelsgesellschaft m.b.H. | ATU75406936 | 1050 Wien, Schönbrunner Straße 133 |
 | Ahmet Bulduk GmbH | ATU15647405 | 1110 Wien, Am Kanal 27 |
 | BALAZ Anton | ATU81471989 | 1200 Wien, Allerheiligenplatz 3 |
 | BB Kleintransport KG | ATU77209307 | 1200 Wien, Hellwagstraße 3 |
@@ -46,18 +47,22 @@ xychart-beta
 | M-BC GmbH | ATU79650904 | 1200 Wien, Klosterneuburger Straße 7 |
 | MANDIR Vinko | ATU80553946 | 1230 Wien, Büttnergasse 2 |
 | MIKULOVA Simona | ATU81238545 | 1160 Wien, Lambertgasse 15 |
+| Niobe Immobilien GmbH | ATU72890927 | 1050 Wien, Schönbrunner Straße 133 |
 | Offerupstore GmbH | ATU77600589 | 1010 Wien, Kohlmarkt 16 |
 | PACEK Jan | ATU81904469 | 1030 Wien, Landstraßer Hauptstraße 131 |
 | PACEK Rastislav | ATU81909918 | 1030 Wien, Landstraßer Hauptstraße 131 |
+| RADEV Petar Asenov |  | 1100 Wien, Scheugasse 9 |
 | ROMANOVS Romans |  | 2540 Bad Vöslau, Großauer Straße 7 |
 | Rodic Gastro GmbH | ATU72349201 | 2011 Sierndorf, Prager Straße 17 |
 | SARASWATHI Harsha Vardhan | ATU81751702 | 1050 Wien, Gassergasse 27 |
 | SEIDNER Roman | ATU82604905 | 1210 Wien, Wenhartgasse 12/15 |
 | SMEJKAL Libor | ATU82169458 | 1190 Wien, Barawitzkagasse 21/3 |
+| STICKLER Vesna e.U. | ATU77772224 | 1120 Wien, Spittelbreitengasse 40-42 |
 | Sebusavac Handels GmbH | ATU76775036 | 1230 Wien, Levasseurgasse 3 |
 | Sorhan Taxi KG | ATU80755425 | 1010 Wien, Seitenstettengasse 5 |
 | TOTFALUSI Jozsef | ATU81405347 | 1050 Wien, Reinprechtsdorfer Straße 19 |
 | Talocci M. e.U. | ATU82520069 | 1190 Wien, Hackhofergasse 1 |
+| VA-Porto GmbH | ATU81774714 | 1040 Wien, Lambrechtgasse 4 |
 | VALENCIUS Marius | ATU82261259 | 6020 Innsbruck, Kaufmannstraße 21b |
 | VeWe Dienstleistungs- und Handels GmbH | ATU68512399 | 1210 Wien, Hofherr-Schrantz-Gasse 4 |
 | Vienna One Projektentwicklungs GmbH | ATU77625848 | 1050 Wien, Schönbrunner Straße 133 |
