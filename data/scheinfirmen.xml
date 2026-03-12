@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-11" zeit="06:36:47" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1314">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-12" zeit="06:39:43" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1316">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -850,6 +850,7 @@
   <scheinfirma anschrift="2111 Tresdorf, Gewerbering 1" veroeffentlicht="2025-10-27" rechtskraeftig="2025-10-24" seit="2024-10-24" fbnr="446682k" uid="ATU70339724" kennziffer="R099I4073">NN Bau und Sanierung GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Elisenstraße 23" veroeffentlicht="2025-09-22" rechtskraeftig="2025-05-10" seit="2024-02-08" fbnr="427376w" uid="ATU69405547" kennziffer="R093W702F">NOMA Dienstleistungs KG</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Sieveringer Straße 91" veroeffentlicht="2023-09-22" rechtskraeftig="2023-09-15" fbnr="484354k" uid="ATU73015658">NORTA Handels GmbH in Liquidation</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 51" veroeffentlicht="2026-03-11" rechtskraeftig="2026-03-05" seit="2025-02-26" geburtsdatum="1998-04-23" uid="ATU81427608" kennziffer="R153P245E">NOVAKOVIC Mico</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Graben 12" veroeffentlicht="2022-12-12" rechtskraeftig="2022-12-01" fbnr="501824b" uid="ATU73809006">NTD Security and Vehicle Serv GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Kastnergasse 19/13" veroeffentlicht="2025-06-10" rechtskraeftig="2025-05-23" seit="2024-12-05" fbnr="620503f" uid="ATU80466167" kennziffer="R145U6760">Nadudvari Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gußriegelstraße 51-59" veroeffentlicht="2024-10-21" rechtskraeftig="2024-10-11" seit="2024-03-16" fbnr="622075t" uid="ATU80387225" kennziffer="R147I183L">Neda Therm e.U.</scheinfirma>
@@ -889,6 +890,7 @@
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 85" veroeffentlicht="2025-12-01" rechtskraeftig="2025-11-26" seit="2024-12-17" fbnr="608812m" uid="ATU80497801" kennziffer="R141I749R">PAKHTO TRANS UND GASTRO GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3" veroeffentlicht="2023-06-16" rechtskraeftig="2023-06-09" geburtsdatum="1976-04-28">PAL Laszlo</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Wieningerplatz 5" veroeffentlicht="2020-03-26" rechtskraeftig="2020-03-17" fbnr="039562f" uid="ATU37829007">PANNON GmbH in Liquidation</scheinfirma>
+  <scheinfirma anschrift="7571 Rudersdorf, Hauptstraße 37" veroeffentlicht="2026-03-11" rechtskraeftig="2026-02-26" seit="2025-01-01" geburtsdatum="1977-04-04" kennziffer="R096V9674">PAP Zoltan</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Parkring 10" veroeffentlicht="2021-02-08" rechtskraeftig="2021-02-08" fbnr="523409w" uid="ATU74983958">PARO Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Kahlgasse 3" veroeffentlicht="2021-11-10" rechtskraeftig="2021-11-04" geburtsdatum="1983-08-22" uid="ATU76815056">PARVANOV Nikolay Emilov</scheinfirma>
   <scheinfirma anschrift="6900 Bregenz, St.-Anna-Straße 11" veroeffentlicht="2021-10-11" rechtskraeftig="2021-09-14" geburtsdatum="1958-02-01" uid="ATU75977757">PAUNA Nicolae</scheinfirma>
