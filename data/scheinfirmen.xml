@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-12" zeit="06:39:43" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1316">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-13" zeit="06:37:05" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1318">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -101,6 +101,7 @@
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 27/2/14-15" veroeffentlicht="2017-08-21" rechtskraeftig="2017-08-18" fbnr="396719k">Anjeela Handels KG</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 133" veroeffentlicht="2025-12-30" rechtskraeftig="2025-12-23" seit="2025-03-01" fbnr="583592z" uid="ATU79213619" kennziffer="R136J620H">Antiklea Bühnenbau Veranstaltungs GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Ernst-Ludwig-Gasse 11" veroeffentlicht="2024-09-03" rechtskraeftig="2024-07-17" seit="2023-02-02" kennziffer="R044F342F">Antsazigo - Mittelalterverein</scheinfirma>
+  <scheinfirma anschrift="4810 Gmunden, Badgasse 1" veroeffentlicht="2026-03-12" rechtskraeftig="2026-03-05" seit="2025-09-11" fbnr="636821b" uid="ATU81293903" kennziffer="636821b">Aran Bike GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Kempelengasse 16" veroeffentlicht="2025-06-17" rechtskraeftig="2025-06-12" seit="2024-12-13" fbnr="551827k" uid="ATU76731805" kennziffer="R126X518U">Arbeitsraum &amp; Consulting GmbH</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Alser Straße 23" veroeffentlicht="2024-01-17" rechtskraeftig="2023-12-28" fbnr="428096d" uid="ATU69670849">Architektur Pero Baukoordination GmbH</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Breitenfelder Gasse 21" veroeffentlicht="2025-06-12" rechtskraeftig="2025-06-05" seit="2021-03-18" geburtsdatum="1978-08-14">Arif MEHMOOD</scheinfirma>
@@ -419,6 +420,7 @@
   <scheinfirma anschrift="1150 Wien, Zwölfergasse 9" veroeffentlicht="2024-07-29" rechtskraeftig="2024-07-16" seit="2022-08-06" fbnr="582643d" uid="ATU78641579" kennziffer="R134X4978">G.AA. Logistik KG</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Schlachthausgasse 42" veroeffentlicht="2024-01-03" rechtskraeftig="2023-12-20" fbnr="515072i" uid="ATU74628469">G.O-L.D Bau OG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Elisabethstraße 22" veroeffentlicht="2024-05-25" rechtskraeftig="2024-05-14" seit="2022-08-02" fbnr="353929i" uid="ATU66032759" kennziffer="R033S229Z">G.W. Bröl GmbH</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Lorystraße 73" veroeffentlicht="2026-03-12" rechtskraeftig="2026-03-06" seit="2023-01-04" fbnr="538711y" uid="ATU76599218" kennziffer="R122Z7419">G.rajender KG</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Lohnergasse 9/ 4.Stock/ Top 3" veroeffentlicht="2016-11-23" rechtskraeftig="2016-11-21" fbnr="451290m">GA-Bau KG</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Wankläckergasse 23" veroeffentlicht="2025-03-25" rechtskraeftig="2025-03-20" seit="2023-11-07" geburtsdatum="1994-01-01" kennziffer="R143D9434">GAANDHI Charanjit Kaur</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Wankläckergasse 23" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-20" seit="2023-10-16" geburtsdatum="1992-01-01" uid="ATU79952927" kennziffer="R142R4134">GAANDHI Manmohan</scheinfirma>
