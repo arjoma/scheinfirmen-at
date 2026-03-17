@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-14" zeit="05:18:23" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1335">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-17" zeit="05:25:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1341">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -167,6 +167,7 @@
   <scheinfirma anschrift="1120 Wien, Marschallplatz 9" veroeffentlicht="2025-07-08" rechtskraeftig="2025-07-07" seit="2023-12-01" fbnr="511994h" uid="ATU74526603" kennziffer="R117G6381">BMEG Bau GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="8055 Graz, Puchstraße 133" veroeffentlicht="2020-09-24" rechtskraeftig="2020-09-04" fbnr="495071x" uid="ATU73460514">BMH Bau GmbH</scheinfirma>
   <scheinfirma anschrift="2000 Stockerau, Donaulände-Mittelweg 26" veroeffentlicht="2022-10-27" rechtskraeftig="2022-10-04" geburtsdatum="1990-09-21">BOGDAN Stefan</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Lorystraße 73" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-06" seit="2023-01-24" geburtsdatum="1981-05-06" uid="ATU69676004" kennziffer="R091R006M">BOLLADI Ramreddy</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Embelgasse 45/2" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-20" seit="2024-04-01" geburtsdatum="1996-09-15" uid="ATU80628037" kennziffer="R149G331Y">BOMMA Shekar</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Wagramer Straße 55-61" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-18" seit="2023-11-01" geburtsdatum="1982-08-19" uid="ATU80039058" kennziffer="R143M019X">BORISOV Borislav</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Peter-Kaiser-Gasse 20" veroeffentlicht="2021-08-24" rechtskraeftig="2021-08-23" geburtsdatum="1989-10-04" uid="ATU76155205">BORISOV Dimitar</scheinfirma>
@@ -491,6 +492,7 @@
   <scheinfirma anschrift="2103 Langenzersdorf, Lohnergasse 9/512" veroeffentlicht="2019-01-18" rechtskraeftig="2019-01-11" fbnr="485568x" uid="ATU73665009">Globus Transportvermittlung GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Perfektastraße 88" veroeffentlicht="2024-05-15" rechtskraeftig="2024-05-14" seit="2023-11-16" fbnr="589562d" uid="ATU78658668" kennziffer="R136M7102">Go Plus Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Holochergasse 22" veroeffentlicht="2025-04-04" rechtskraeftig="2025-03-26" seit="2023-08-03" fbnr="608404m" uid="ATU79823746" kennziffer="R141E8785">Go Time 2 Move GmbH</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Lorystraße 73/8-9" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-06" seit="2023-01-24" fbnr="532811x" kennziffer="R121V714Z">Gobolladi KG</scheinfirma>
   <scheinfirma anschrift="2103 Langenzersdorf, An den Schanzen 1/1" veroeffentlicht="2025-09-15" rechtskraeftig="2025-09-06" seit="2019-11-26" fbnr="523365f" uid="ATU78507037" kennziffer="R119R1579">Goharmansingh KG</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Nordbahnstraße 51" veroeffentlicht="2025-09-02" rechtskraeftig="2025-07-30" seit="2025-01-01" fbnr="597048m" uid="ATU79415429" kennziffer="R138L429U">GoldenGate Real Estate GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 34/1/5" veroeffentlicht="2025-11-26" rechtskraeftig="2025-11-22" seit="2025-05-29" fbnr="508757y" uid="ATU74487209" kennziffer="R116A733S">Golia GmbH</scheinfirma>
@@ -504,6 +506,7 @@
   <scheinfirma anschrift="1140 Wien, Hütteldorfer Straße 210" veroeffentlicht="2024-01-24" rechtskraeftig="2024-01-17" seit="2023-09-28" fbnr="576015g" uid="ATU77928735" kennziffer="R133P116C">H&amp;B Teampower GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Fröbelgasse 2" veroeffentlicht="2021-05-04" rechtskraeftig="2021-04-28" fbnr="488852a" uid="ATU73178303">H. Posch GmbH</scheinfirma>
   <scheinfirma anschrift="9220 Velden am Wörthersee, Drauweg 8" veroeffentlicht="2017-02-06" rechtskraeftig="2016-12-20" fbnr="428215d" uid="ATU69552316">H2O Mezei KG</scheinfirma>
+  <scheinfirma anschrift="6020 Innsbruck, Premstraße 31/12" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-10" seit="2025-12-18" geburtsdatum="2005-01-21" uid="ATU78990709" kennziffer="R159T683Q">HAAG Philipp</scheinfirma>
   <scheinfirma anschrift="1090 Wien, Liechtensteinstraße 25" veroeffentlicht="2025-04-04" rechtskraeftig="2025-03-29" seit="2020-07-01" geburtsdatum="1969-01-01" uid="ATU75783635" kennziffer="R122N4509">HAKHIMZADA Lakhbir</scheinfirma>
   <scheinfirma anschrift="5020 Salzburg, Schiffmanngasse 29" veroeffentlicht="2017-10-13" rechtskraeftig="2017-10-05" fbnr="436742v" uid="ATU69761046">HAKO Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Favoritenstraße 217" veroeffentlicht="2021-11-30" rechtskraeftig="2021-11-13" fbnr="468377s" uid="ATU72253704">HALA Bauservice GmbH</scheinfirma>
@@ -629,6 +632,7 @@
   <scheinfirma anschrift="1100 Wien, Buchengasse 8" veroeffentlicht="2025-02-28" rechtskraeftig="2025-02-19" seit="2024-06-13" geburtsdatum="1998-01-15" uid="ATU80836838" kennziffer="R150H190E">KERTESZ Richard</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 11-25/13/24" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-17" seit="2024-07-11" geburtsdatum="1999-12-28" uid="ATU80906548" kennziffer="R150S968R">KERTESZ Tamara</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Laxenburger Straße 367" veroeffentlicht="2025-07-29" rechtskraeftig="2025-07-15" seit="2024-10-01" fbnr="636559t" kennziffer="R152C980F">KHA Personal GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Knöllgasse 2" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-09" seit="2025-05-03" geburtsdatum="1988-03-18" uid="ATU82105507" kennziffer="R155Y9387">KIRALY Krisztian</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Reinlgasse 26" veroeffentlicht="2025-04-16" rechtskraeftig="2025-04-09" seit="2023-06-12" geburtsdatum="1963-11-09" uid="ATU79507419" kennziffer="R140V787I">KIRCHEV Anatoli Zhivkov</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Margaretenstraße 102" veroeffentlicht="2021-07-26" rechtskraeftig="2021-07-26" geburtsdatum="1980-02-20">KIRILOV Asen Ivanov</scheinfirma>
   <scheinfirma anschrift="1090 Wien, Währinger Gürtel 82" veroeffentlicht="2022-06-30" rechtskraeftig="2022-06-21" geburtsdatum="1999-03-20" uid="ATU76157249">KIRILOV Trayan</scheinfirma>
@@ -649,6 +653,8 @@
   <scheinfirma anschrift="1200 Wien, Salzachstraße 1/20" veroeffentlicht="2025-10-24" rechtskraeftig="2025-10-21" seit="2025-05-24" geburtsdatum="1961-02-12" uid="ATU82167628" kennziffer="R156G9616">KONCZ  Antal</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/Top 401" veroeffentlicht="2019-04-25" rechtskraeftig="2019-04-12" fbnr="486524b" uid="ATU73251517">KOSPA 18 KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Schröttergasse 29/11" veroeffentlicht="2022-01-11" rechtskraeftig="2021-12-17" geburtsdatum="1992-05-04" uid="ATU74726004">KOSTADINOV Mitko</scheinfirma>
+  <scheinfirma anschrift="1220 Wien, Donaufelder Straße 205/2" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-09" seit="2026-03-09" geburtsdatum="1975-04-28" uid="ATU82463718" kennziffer="R158F476H">KOVAC Jaroslav</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Engerthstraße 102" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-06" seit="2025-08-30" geburtsdatum="2005-12-31" uid="ATU82452828" kennziffer="R158A1321">KOVAC Jozef</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Streffleurgasse 5" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-18" seit="2023-03-01" geburtsdatum="2004-10-14" uid="ATU79267525" kennziffer="R139I2787">KOVAC Mikulas</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3" veroeffentlicht="2025-10-13" rechtskraeftig="2025-08-14" seit="2023-02-14" geburtsdatum="1995-06-24" kennziffer="R138Z783T">KOVACS Bianka</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Bonygasse 50" veroeffentlicht="2021-01-11" rechtskraeftig="2020-12-23" fbnr="423017i" uid="ATU72167718">KRIBO Projektentwicklungs GmbH</scheinfirma>

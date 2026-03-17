@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-03-14T05:18:23 | 1335 | 2016-04-01 |
+| 2026-03-17T05:25:52 | 1341 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1385
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1335]
+    y-axis "Anzahl" 0 --> 1391
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1341]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -34,6 +34,7 @@ xychart-beta
 | BALAZ Anton | ATU81471989 | 1200 Wien, Allerheiligenplatz 3 |
 | BB Kleintransport KG | ATU77209307 | 1200 Wien, Hellwagstraße 3 |
 | BLAZSIK Valentina | ATU81618019 | 1100 Wien, Columbusgasse 74 |
+| BOLLADI Ramreddy | ATU69676004 | 1110 Wien, Lorystraße 73 |
 | BTVR Dienstleistung GmbH | ATU15260508 | 1200 Wien, Wehlistraße 27B |
 | Blue Handels GmbH | ATU77680369 | 1050 Wien, Schönbrunner Straße 133 |
 | D.A. Reinglanz GmbH | ATU81333709 | 1020 Wien, Lassallestraße 7B |
@@ -47,11 +48,16 @@ xychart-beta
 | GOZORA Stefan | ATU82558215 | 1060 Wien, Mollardgasse 50 |
 | GRONZIK Richard | ATU82182102 | 1030 Wien, Schlachthausgasse 16 |
 | Gelbstein Haustechnik GmbH | ATU71467156 | 1210 Wien, Brünner Straße 240 |
+| Gobolladi KG |  | 1110 Wien, Lorystraße 73/8-9 |
+| HAAG Philipp | ATU78990709 | 6020 Innsbruck, Premstraße 31/12 |
 | HUBLIK Miroslav | ATU82363425 | 1190 Wien, Barawitzkagasse 21 |
 | IGWT Trading GmbH | ATU77816589 | 1200 Wien, Leystraße 75 |
 | ISSO-Instant Staff Solution GmbH in Liquidation | ATU81026248 | 1060 Wien, Eisvogelgasse 6 |
 | JAMBOR Katalin Dzsenifer | ATU81775125 | 1100 Wien, Quellenstraße 43 |
+| KIRALY Krisztian | ATU82105507 | 1100 Wien, Knöllgasse 2 |
 | KOLOMPAR Sebastian | ATU79470449 | 1100 Wien, Knöllgasse 74 |
+| KOVAC Jaroslav | ATU82463718 | 1220 Wien, Donaufelder Straße 205/2 |
+| KOVAC Jozef | ATU82452828 | 1200 Wien, Engerthstraße 102 |
 | KRUNIC KG | ATU57802337 | 1140 Wien, Lützowgasse 12-14 |
 | M-BC GmbH | ATU79650904 | 1200 Wien, Klosterneuburger Straße 7 |
 | MANDIR Vinko | ATU80553946 | 1230 Wien, Büttnergasse 2 |
