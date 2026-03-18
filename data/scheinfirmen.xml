@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-17" zeit="05:25:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1341">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-18" zeit="05:31:13" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1342">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -247,6 +247,7 @@
   <scheinfirma anschrift="1110 Wien, Schneidergasse 6-8/1/37" veroeffentlicht="2025-09-09" rechtskraeftig="2025-09-02" seit="2025-05-01" geburtsdatum="2000-04-26" kennziffer="R156M784F">CIOCAN Gheorghe-Cornel</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Sechshauser Straße 11" veroeffentlicht="2024-10-31" rechtskraeftig="2024-10-19" seit="2024-04-11" geburtsdatum="1979-02-02" kennziffer="R150I048A">CIORA Vasile</scheinfirma>
   <scheinfirma anschrift="6850 Dornbirn, Eigenheim 4" veroeffentlicht="2023-10-11" rechtskraeftig="2023-09-12" geburtsdatum="1972-05-14" uid="ATU78969859">CIURAR Ilie</scheinfirma>
+  <scheinfirma anschrift="1220 Wien, Wulzendorfstraße 92-94" veroeffentlicht="2026-03-17" rechtskraeftig="2026-02-25" seit="2023-08-17" fbnr="609060b" uid="ATU79707319" kennziffer="R141P970A">CLEAN QUEENM e.U.</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 32" veroeffentlicht="2024-10-01" rechtskraeftig="2024-09-12" seit="2023-08-31" fbnr="599785m" uid="ATU79286103" kennziffer="R139D3749">CLT Personal GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Untere Augartenstraße 15" veroeffentlicht="2017-10-12" rechtskraeftig="2017-10-05" fbnr="431807k" uid="ATU69854035">COLORIS Malerei &amp; Handel KG</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Heinickegasse 8" veroeffentlicht="2024-01-09" rechtskraeftig="2024-01-06" seit="2022-12-16" fbnr="428134i" uid="ATU69289708" kennziffer="R093T459G">COLOVIC GmbH</scheinfirma>
