@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-20" zeit="05:21:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1346">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-20" zeit="10:35:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1347">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -797,6 +797,7 @@
   <scheinfirma anschrift="1160 Wien, Lambertgasse 15" veroeffentlicht="2026-02-25" rechtskraeftig="2026-02-19" seit="2024-10-17" geburtsdatum="1995-04-11" uid="ATU81238545" kennziffer="R152R6673">MIKULOVA Simona</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Hasnerstraße 82" veroeffentlicht="2023-08-07" rechtskraeftig="2023-07-07" geburtsdatum="1984-06-04">MINARIK Pavol</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Allerheiligenplatz 3" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2024-12-09" geburtsdatum="1986-01-07" uid="ATU81429606" kennziffer="R153P559B">MIROSLOV Daniel</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Erlachgasse 137" veroeffentlicht="2026-03-20" rechtskraeftig="2026-03-18" seit="2025-10-15" geburtsdatum="1973-09-09" kennziffer="R158T688W">MITEV Atanas</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29" veroeffentlicht="2021-11-08" rechtskraeftig="2021-11-08" geburtsdatum="1968-08-09" uid="ATU76325148">MITOV Rangel</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Leebgasse 49" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-02" fbnr="498912w" uid="ATU73712306">MIVAN GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Heindlgasse 3-5" veroeffentlicht="2020-12-09" rechtskraeftig="2020-11-10" fbnr="438202s" uid="ATU69866834">MK PRIME GmbH</scheinfirma>
