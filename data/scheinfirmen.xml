@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-19" zeit="05:30:03" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1344">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-20" zeit="05:21:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1346">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -147,6 +147,7 @@
   <scheinfirma anschrift="1200 Wien, Hellwagstraße 3" veroeffentlicht="2026-02-16" rechtskraeftig="2026-02-10" seit="2024-01-28" fbnr="552943b" uid="ATU77209307" kennziffer="R128D1778">BB Kleintransport KG</scheinfirma>
   <scheinfirma anschrift="8010 Graz, Schönaugasse 102a" veroeffentlicht="2020-05-13" rechtskraeftig="2020-05-13" fbnr="505584g" uid="ATU74153818">BC Wohnbau GmbH</scheinfirma>
   <scheinfirma anschrift="2201 Gerasdorf b. Wien, Schmalbachstraße 4" veroeffentlicht="2024-01-09" rechtskraeftig="2023-12-20" fbnr="590155a" uid="ATU79018607">BD Point GmbH</scheinfirma>
+  <scheinfirma anschrift="1030 Wien, Ungargasse 23" veroeffentlicht="2026-03-19" rechtskraeftig="2026-03-13" seit="2025-10-06" fbnr="639344m" uid="ATU81718125" kennziffer="R152T741G">BEK Taxi GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Sonnleithnergasse 2/48 0" veroeffentlicht="2023-12-15" rechtskraeftig="2023-11-17" fbnr="581464w">BENEK Gökan</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Salzachstraße 1" veroeffentlicht="2021-03-30" rechtskraeftig="2021-03-23" geburtsdatum="1969-05-01">BERAK Peter</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2025-03-05" rechtskraeftig="2025-02-28" seit="2023-11-13" geburtsdatum="2003-11-08" uid="ATU80284513" kennziffer="R143I866H">BERI Erika</scheinfirma>
@@ -530,6 +531,7 @@
   <scheinfirma anschrift="8160 Weiz, Roseggergasse 11" veroeffentlicht="2021-11-30" rechtskraeftig="2021-11-22" geburtsdatum="2000-11-04" uid="ATU75228745">HORVATH Angela</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Rennbahnweg 27" veroeffentlicht="2025-02-25" rechtskraeftig="2025-02-21" seit="2024-05-28" geburtsdatum="1992-03-31" uid="ATU80828179" kennziffer="R149Y763R">HORVATH Daniel</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Blumengasse 49" veroeffentlicht="2024-01-17" rechtskraeftig="2023-12-28" geburtsdatum="1985-10-21">HORVATH Daniel</scheinfirma>
+  <scheinfirma anschrift="7571 Rudersdorf, Hauptstraße 37" veroeffentlicht="2026-03-19" rechtskraeftig="2026-03-03" seit="2024-10-21" geburtsdatum="1986-01-11" uid="ATU81249506" kennziffer="R158E2323">HORVATH Laszlo</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3" veroeffentlicht="2025-09-15" rechtskraeftig="2025-09-12" seit="2025-03-20" geburtsdatum="1992-07-16" uid="ATU81909348" kennziffer="R155C8370">HORVATH Lukas</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Pöchlarnstraße 20" veroeffentlicht="2025-01-03" rechtskraeftig="2024-12-24" seit="2024-02-09" geburtsdatum="1999-03-13" kennziffer="R146A211K">HORVATH Roland</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Wattgasse 69" veroeffentlicht="2024-04-18" rechtskraeftig="2024-03-28" seit="2023-09-19" geburtsdatum="1984-01-27" kennziffer="R144T154L">HORVATH Szilvia</scheinfirma>
