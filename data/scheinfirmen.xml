@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-20" zeit="10:35:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1347">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-21" zeit="05:12:58" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1348">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -1002,6 +1002,7 @@
   <scheinfirma anschrift="1100 Wien, Van-der-Nüll-Gasse 66" veroeffentlicht="2023-09-19" rechtskraeftig="2023-09-06" geburtsdatum="1969-04-06">REBECA Gheorghe</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Sturzgasse 4b" veroeffentlicht="2025-10-20" rechtskraeftig="2025-03-25" seit="2024-01-04" geburtsdatum="1988-06-09" uid="ATU81063689" kennziffer="R145F931J">REDDY Mahesh</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Marchfeldstrasse 23A/8" veroeffentlicht="2016-05-20" rechtskraeftig="2016-05-18" fbnr="447648g">RENINSTRUKT e.U.</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Brigittenauer Lände 36" veroeffentlicht="2026-03-19" rechtskraeftig="2026-03-18" seit="2023-03-01" geburtsdatum="1975-04-28" fbnr="336165k" uid="ATU65431008" kennziffer="R028Y216X">RENOVIT Engineering GmbH</scheinfirma>
   <scheinfirma anschrift="4550 Kremsmünster, Gustermairberg 2" veroeffentlicht="2016-04-05" rechtskraeftig="2016-03-19">REO &amp; BAU UG</scheinfirma>
   <scheinfirma anschrift="83103 Bratislava, Skultetyho 18" veroeffentlicht="2018-08-27" rechtskraeftig="2018-08-21">RESORT GROUP s.r.o.</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Odoakergasse 27" veroeffentlicht="2021-01-11" rechtskraeftig="2020-12-10" fbnr="407743y" uid="ATU68560158">RETRO Bau GmbH</scheinfirma>
