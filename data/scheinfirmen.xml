@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-25" zeit="05:28:06" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1352">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-26" zeit="05:40:08" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1353">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -1043,6 +1043,7 @@
   <scheinfirma anschrift="1150 Wien, Goldschlagstraße 112" veroeffentlicht="2023-08-10" rechtskraeftig="2023-07-18" fbnr="510258f" uid="ATU74355501">Rexia GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Wienerbergstraße 11/12a" veroeffentlicht="2017-06-26" rechtskraeftig="2017-06-16" fbnr="224464w" uid="ATU54745307">Rexum Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Kürschnergasse 2" veroeffentlicht="2020-10-02" rechtskraeftig="2020-09-15" fbnr="447354z" uid="ATU71011825">Riener Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="1190 Wien, Döblinger Hauptstraße 82" veroeffentlicht="2026-03-23" rechtskraeftig="2026-03-18" seit="2022-06-22" fbnr="542519y" uid="ATU76065801" kennziffer="R123X587Y">RiseCitiee Real Estate Gmbh</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Hackhofergasse 1" veroeffentlicht="2023-01-11" rechtskraeftig="2022-12-31" fbnr="566251y" uid="ATU78256049">Robex Bauentwicklungs GmbH</scheinfirma>
   <scheinfirma anschrift="2011 Sierndorf, Prager Straße 17" veroeffentlicht="2026-02-23" rechtskraeftig="2026-02-20" seit="2023-12-01" fbnr="472039a" uid="ATU72349201" kennziffer="R106X420T">Rodic Gastro GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Neulerchenfelder Straße 86" veroeffentlicht="2025-01-27" rechtskraeftig="2025-01-08" seit="2024-08-07" fbnr="508380v" uid="ATU74243437" kennziffer="R116C828J">Romgips GmbH</scheinfirma>
