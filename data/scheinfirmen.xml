@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-26" zeit="05:40:08" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1353">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-27" zeit="05:40:48" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1356">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -187,6 +187,7 @@
   <scheinfirma anschrift="1200 Wien, Hannovergasse 21" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-17" seit="2024-01-01" geburtsdatum="1990-07-23" uid="ATU81265845" kennziffer="R152N909U">BUDAI Gyöngyi</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Hannovergasse 12" veroeffentlicht="2025-05-26" rechtskraeftig="2025-05-22" seit="2022-11-04" geburtsdatum="1999-07-24" uid="ATU79083625" kennziffer="R137C540N">BUDESTEANU Andrei</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Anzengruberstraße 9" veroeffentlicht="2025-09-05" rechtskraeftig="2025-09-03" seit="2025-04-01" geburtsdatum="1989-09-04" uid="ATU81939404" kennziffer="R154U6120">BUDRIS Aidas</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Hartlgasse 20" veroeffentlicht="2026-03-26" rechtskraeftig="2026-03-17" seit="2025-08-20" geburtsdatum="2025-02-14" fbnr="646536p" uid="ATU81757715" kennziffer="R154M597F">BUHAB Warenhandels GmbH</scheinfirma>
   <scheinfirma anschrift="4484 Kronstorf, Hauptstraße 48" veroeffentlicht="2025-12-30" rechtskraeftig="2025-12-12" seit="2025-01-22" geburtsdatum="1965-12-04" uid="ATU81885024" kennziffer="R154D541A">BULIGA Geta</scheinfirma>
   <scheinfirma anschrift="5020 Salzburg, Gerhart-Hauptmann-Straße 11" veroeffentlicht="2022-10-18" rechtskraeftig="2022-09-12" geburtsdatum="1979-03-27">BUTOI Marian</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Fernkorngasse 10" veroeffentlicht="2022-09-02" rechtskraeftig="2022-08-29" fbnr="534092f" uid="ATU76348702">BZB.2020 Bau GmbH</scheinfirma>
@@ -332,6 +333,7 @@
   <scheinfirma anschrift="2100 Korneuburg, Industriestrasse 6-8" veroeffentlicht="2016-12-19" rechtskraeftig="2016-12-15" fbnr="132025f" uid="ATU39195704">Dach-Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Hadatschgasse 9" veroeffentlicht="2025-12-01" rechtskraeftig="2025-11-28" seit="2024-09-08" fbnr="628924p" kennziffer="R150A6531">Dacone GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Goldschlagstraße 112" veroeffentlicht="2024-03-29" rechtskraeftig="2024-03-20" seit="2024-03-20" fbnr="460654h" uid="ATU71576546" kennziffer="R103P0878">Dani Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Ketzergasse 65b" veroeffentlicht="2026-03-26" rechtskraeftig="2026-03-25" seit="2018-01-01" fbnr="480866g" uid="ATU72735016" kennziffer="R109G178S">Dani¿s Clean Service e.U.</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Dreyhausenstraße 9" veroeffentlicht="2025-10-22" rechtskraeftig="2025-09-16" seit="2024-11-08" fbnr="502698m" uid="ATU74015512" kennziffer="R114P0501">Daqvest GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Lützowgasse 12" veroeffentlicht="2021-06-09" rechtskraeftig="2021-06-03" fbnr="313313f" uid="ATU65197967">Decco GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Zur Spinnerin 24" veroeffentlicht="2024-09-24" rechtskraeftig="2024-09-13" seit="2022-02-25" fbnr="575355k" uid="ATU79631338" kennziffer="R133I125N">Degree Wohnbau GmbH</scheinfirma>
@@ -1115,6 +1117,7 @@
   <scheinfirma anschrift="1110 Wien, Zippererstraße 18" veroeffentlicht="2025-11-21" rechtskraeftig="2025-11-18" seit="2025-06-25" fbnr="655706z" kennziffer="R156O678W">SSA Personal GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3" veroeffentlicht="2025-08-13" rechtskraeftig="2025-08-01" seit="2023-12-15" fbnr="593210v" uid="ATU78946857" kennziffer="R137L8411">SSC-SportCar KG</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Kagraner Platz 39" veroeffentlicht="2025-03-25" rechtskraeftig="2025-03-20" seit="2024-01-01" geburtsdatum="1973-01-01" uid="ATU80670846" kennziffer="R145D6231">STANCHEV Anton Petrov</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Waldgasse 13-15" veroeffentlicht="2026-03-26" rechtskraeftig="2026-02-20" seit="2025-06-16" geburtsdatum="1973-12-01" kennziffer="R156S6669">STANCIU Felicia</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Davidgasse 95" veroeffentlicht="2025-04-16" rechtskraeftig="2025-04-12" seit="2023-11-27" geburtsdatum="1968-02-15" uid="ATU80052256" kennziffer="R143R598V">STANKOV Yordan Dimitrov</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Erlaaer Straße 31" veroeffentlicht="2020-08-24" rechtskraeftig="2020-08-04" fbnr="364043h" uid="ATU67293289">STANKOVIC Dusko GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Florian-Geyer-Gasse 4" veroeffentlicht="2024-09-13" rechtskraeftig="2024-03-28" seit="2022-12-06" geburtsdatum="2001-04-18" uid="ATU79038514" kennziffer="R137W724K">STANKOVIC Jelena</scheinfirma>
