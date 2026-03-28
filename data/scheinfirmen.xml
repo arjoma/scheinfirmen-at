@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-27" zeit="05:40:48" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1356">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-03-28" zeit="05:27:48" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1358">
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Basler Gasse 12" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-30" seit="2023-08-01" fbnr="602250m" uid="ATU79614856" kennziffer="R139S628K">7days Dienstleistungen GmbH</scheinfirma>
@@ -826,6 +826,7 @@
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215" veroeffentlicht="2022-10-11" rechtskraeftig="2022-09-24" fbnr="507331a" uid="ATU74195747">MT DELTA GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29/1/115" veroeffentlicht="2018-05-07" rechtskraeftig="2018-05-02">MTNK s.r.o.</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Lacknergasse 74" veroeffentlicht="2022-04-20" rechtskraeftig="2022-04-13" fbnr="427771a" uid="ATU69232323">MTSK Montage GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Dammstraße 8" veroeffentlicht="2026-03-27" rechtskraeftig="2026-03-24" seit="2023-03-28" fbnr="408757p" uid="ATU68440644" kennziffer="R088K999K">MUB Gastro GmbH</scheinfirma>
   <scheinfirma anschrift="3100 St. Pölten, Werkstättenstraße 4" veroeffentlicht="2025-03-24" rechtskraeftig="2025-03-19" seit="2021-09-08" geburtsdatum="1982-12-04" uid="ATU77493106" kennziffer="R130Y2041">MUHAMMAD SHAMEEM Muhammad Sajjad</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Sautergasse 25" veroeffentlicht="2021-06-09" rechtskraeftig="2021-06-03" geburtsdatum="1974-02-17">MUSCA Sorin Iordan</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Bischoffgasse 11" veroeffentlicht="2022-11-08" rechtskraeftig="2022-10-27" geburtsdatum="1981-12-22">MUSTAN Sevigean</scheinfirma>
@@ -1346,6 +1347,7 @@
   <scheinfirma anschrift="9020 Klagenfurt am Wörthersee, Kempfstraße 25" veroeffentlicht="2018-06-22" rechtskraeftig="2018-06-14">Zephyrus s.r.o.</scheinfirma>
   <scheinfirma anschrift="2100 Korneuburg, Stockerauer Straße 181" veroeffentlicht="2023-12-13" rechtskraeftig="2023-11-01" fbnr="500925f" uid="ATU74221834">Zilling GmbH</scheinfirma>
   <scheinfirma anschrift="1120 WIen, Tivoligasse 4-6" veroeffentlicht="2025-06-30" rechtskraeftig="2025-06-24" seit="2024-09-24" fbnr="558536b" uid="ATU77549404" kennziffer="R129H131E">Zlatka Taxi GmbH in Liquidation</scheinfirma>
+  <scheinfirma anschrift="3335 Weyer, Bahnpromenade 12" veroeffentlicht="2026-03-27" rechtskraeftig="2026-03-19" seit="2024-07-01" geburtsdatum="1970-12-28" uid="ATU80950516">ZÜCHNER Thomas</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Klederinger Straße 117" veroeffentlicht="2023-09-15" rechtskraeftig="2023-09-12" fbnr="514432v" uid="ATU74574409">clean and share GmbH</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Josefstädter Straße 75-77" veroeffentlicht="2025-01-09" rechtskraeftig="2024-12-19" seit="2023-10-02" fbnr="614026f" uid="ATU80149938" kennziffer="R142M457J">gh maler und anstreicher gmbh</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Possingergasse 65" veroeffentlicht="2019-10-29" rechtskraeftig="2019-10-11" fbnr="471107f" uid="ATU72340479">good work Personalservice GmbH</scheinfirma>
