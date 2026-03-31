@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-03-28T05:27:48 | 1358 | 2016-04-01 |
+| 2026-03-31T06:43:01 | 1360 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1408
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1358]
+    y-axis "Anzahl" 0 --> 1410
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 287, 298, 304, 314, 327, 333, 339, 360, 376, 386, 396, 409, 413, 425, 435, 450, 459, 464, 468, 477, 478, 486, 502, 510, 518, 521, 523, 533, 547, 563, 579, 595, 604, 623, 651, 659, 673, 690, 703, 713, 735, 753, 774, 792, 801, 826, 859, 887, 943, 1003, 1026, 1057, 1079, 1119, 1160, 1195, 1218, 1242, 1262, 1290, 1360]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -40,6 +40,7 @@ xychart-beta
 | Blue Handels GmbH | ATU77680369 | 1050 Wien, Schönbrunner Straße 133 |
 | CERVENKA Michal | ATU82134628 | 1170 Wien, Blumengasse 49 |
 | CLEAN QUEENM e.U. | ATU79707319 | 1220 Wien, Wulzendorfstraße 92-94 |
+| Carlief GmbH | ATU80112012 | 1120 Wien, Aichholzgasse 5 |
 | DANIEL Jan | ATU82141503 | 1170 Wien, Blumengasse 49 |
 | DULAJ Jozef | ATU81909516 | 1200 Wien, Klosterneuburger Straße 28 |
 | Dani¿s Clean Service e.U. | ATU72735016 | 1230 Wien, Ketzergasse 65b |
@@ -64,6 +65,7 @@ xychart-beta
 | KRUNIC KG | ATU57802337 | 1140 Wien, Lützowgasse 12-14 |
 | M-BC GmbH | ATU79650904 | 1200 Wien, Klosterneuburger Straße 7 |
 | MANDIR Vinko | ATU80553946 | 1230 Wien, Büttnergasse 2 |
+| METRIX Projects GmbH | ATU82257969 | 1110 Wien, Ehamgasse 42-44 |
 | MEZEI Bela | ATU82111135 | 1100 Wien, Gudrunstraße 172 |
 | MIROSLOV Daniel | ATU81429606 | 1200 Wien, Allerheiligenplatz 3 |
 | MITEV Atanas |  | 1100 Wien, Erlachgasse 137 |
