@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-01" zeit="07:06:45" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1361">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-02" zeit="06:37:10" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1362">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -813,6 +813,7 @@
   <scheinfirma anschrift="1150 Wien, Akkonplatz 10" veroeffentlicht="2022-10-28" rechtskraeftig="2022-10-21" fbnr="286969p" uid="ATU63039456">Michalkova GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Jörgerstraße 31" veroeffentlicht="2023-11-16" rechtskraeftig="2023-11-10" fbnr="446286d" uid="ATU70299401">MIDD Sanierungs- und Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Brunhildengasse 3" veroeffentlicht="2024-03-28" rechtskraeftig="2024-03-23" seit="2022-07-14" geburtsdatum="1990-07-11" uid="ATU78594317" kennziffer="R135W760V">MIERMEISTER Sascha Andre</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Hasnerstraße 23" veroeffentlicht="2026-04-01" rechtskraeftig="2026-03-17" seit="2024-09-03" fbnr="409656k" uid="ATU68635435" kennziffer="R088D206C">MIGO Taxi KG</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Reinprechtsdorfer Straße 43" veroeffentlicht="2025-04-29" rechtskraeftig="2025-04-22" seit="2023-10-23" geburtsdatum="1989-11-11" uid="ATU79940539" kennziffer="R142T565E">MIHAYLOV Diyan Ivanov</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Tokiostraße 14" veroeffentlicht="2025-01-09" rechtskraeftig="2024-12-20" seit="2020-08-03" geburtsdatum="1981-11-24" uid="ATU68917728" kennziffer="R090X4941">MIJATOVIC Juro</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Böheimgasse 17" veroeffentlicht="2023-09-07" rechtskraeftig="2023-08-30" fbnr="469016f" uid="ATU72281513">MIJO Industrieböden Bau GmbH</scheinfirma>
