@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-04-02T06:37:10 | 1362 | 2016-04-01 |
+| 2026-04-03T06:37:55 | 1365 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1412
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 297, 303, 313, 326, 332, 338, 359, 375, 385, 395, 408, 412, 424, 434, 449, 458, 463, 467, 476, 477, 485, 501, 509, 517, 520, 522, 532, 546, 562, 578, 594, 603, 622, 650, 658, 672, 689, 702, 712, 734, 752, 773, 791, 800, 825, 858, 886, 942, 1002, 1025, 1056, 1078, 1118, 1159, 1194, 1217, 1241, 1261, 1289, 1361, 1362]
+    y-axis "Anzahl" 0 --> 1415
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 297, 303, 313, 326, 332, 338, 359, 375, 385, 395, 408, 412, 424, 434, 449, 458, 463, 467, 476, 477, 485, 501, 509, 517, 520, 522, 532, 546, 562, 578, 594, 603, 622, 650, 658, 672, 689, 702, 712, 734, 752, 773, 791, 800, 825, 858, 886, 942, 1002, 1025, 1056, 1078, 1118, 1159, 1194, 1217, 1241, 1261, 1289, 1361, 1365]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -51,6 +51,7 @@ xychart-beta
 | HAAG Philipp | ATU78990709 | 6020 Innsbruck, Premstraße 31/12 |
 | HORVATH Laszlo | ATU81249506 | 7571 Rudersdorf, Hauptstraße 37 |
 | HUBLIK Miroslav | ATU82363425 | 1190 Wien, Barawitzkagasse 21 |
+| Horizons Kitchen KG | ATU82227412 | 1050 Wien, Straußengasse 3 |
 | ISSO-Instant Staff Solution GmbH in Liquidation | ATU81026248 | 1060 Wien, Eisvogelgasse 6 |
 | JAMBOR Katalin Dzsenifer | ATU81775125 | 1100 Wien, Quellenstraße 43 |
 | KIRALY Krisztian | ATU82105507 | 1100 Wien, Knöllgasse 2 |
@@ -67,11 +68,13 @@ xychart-beta
 | MITEV Atanas |  | 1100 Wien, Erlachgasse 137 |
 | MOLNAR Elizabet | ATU81780789 | 1180 Wien, Köhlergasse 5 |
 | MUB Gastro GmbH | ATU68440644 | 1200 Wien, Dammstraße 8 |
+| MoLo Infinity Delivery GmbH | ATU81007278 | 5023 Salzburg, Bachstraße 57 |
 | NOVAKOVIC Mico | ATU81427608 | 1200 Wien, Klosterneuburger Straße 51 |
 | Niobe Immobilien GmbH | ATU72890927 | 1050 Wien, Schönbrunner Straße 133 |
 | Offerupstore GmbH | ATU77600589 | 1010 Wien, Kohlmarkt 16 |
 | PACEK Rastislav | ATU81909918 | 1030 Wien, Landstraßer Hauptstraße 131 |
 | PAP Zoltan |  | 7571 Rudersdorf, Hauptstraße 37 |
+| PODRIC Velimir | ATU72029235 | 2601 Sollenau, Querstraße 23 |
 | POLAK Karel | ATU81471104 | 1180 Wien, Martinstraße 10 |
 | RADEV Petar Asenov |  | 1100 Wien, Scheugasse 9 |
 | RENOVIT Engineering GmbH | ATU65431008 | 1200 Wien, Brigittenauer Lände 36 |

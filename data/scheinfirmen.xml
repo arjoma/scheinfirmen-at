@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-02" zeit="06:37:10" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1362">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-03" zeit="06:37:55" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1365">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -538,6 +538,7 @@
   <scheinfirma anschrift="1230 Wien, Talpagasse 1A" veroeffentlicht="2023-07-27" rechtskraeftig="2023-07-18" fbnr="204454v" uid="ATU52716100">HOI Judex GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Am Tabor 19/18" veroeffentlicht="2025-11-17" rechtskraeftig="2025-11-11" seit="2025-04-17" geburtsdatum="1992-01-18" kennziffer="R155Q741D">HOLLY Patrik</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Dr Hanswenzel Gasse 15" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-17" seit="2023-04-19" fbnr="230309s" uid="ATU57212812" kennziffer="R020A7974">HOME SANDOR Baustoffhandel GmbH</scheinfirma>
+  <scheinfirma anschrift="1050 Wien, Straußengasse 3" veroeffentlicht="2026-04-02" rechtskraeftig="2026-04-01" seit="2025-03-13" fbnr="649052p" uid="ATU82227412" kennziffer="R155A1727">Horizons Kitchen KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Columbusgasse 69" veroeffentlicht="2022-05-02" rechtskraeftig="2022-04-20" geburtsdatum="1971-11-03">HORVAT Alexandru</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Frauenfelderstraße 15" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-20" seit="2023-11-12" geburtsdatum="1982-04-24" uid="ATU80457319" kennziffer="ATU80457319">HORVAT Monika</scheinfirma>
   <scheinfirma anschrift="8160 Weiz, Roseggergasse 11" veroeffentlicht="2021-11-30" rechtskraeftig="2021-11-22" geburtsdatum="2000-11-04" uid="ATU75228745">HORVATH Angela</scheinfirma>
@@ -842,6 +843,7 @@
   <scheinfirma anschrift="1180 Wien, Köhlergasse 5" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-12" seit="2025-02-25" geburtsdatum="2005-12-27" uid="ATU81780789" kennziffer="R154S696S">MOLNAR Elizabet</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Spengergasse 24" veroeffentlicht="2024-01-24" rechtskraeftig="2024-01-17" seit="2023-10-05" fbnr="441074p" uid="ATU69988169" kennziffer="R098B6514">Molnar Planung GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Blumengasse 49" veroeffentlicht="2025-11-17" rechtskraeftig="2025-10-04" seit="2024-10-08" geburtsdatum="1976-04-28" uid="ATU81411848" kennziffer="R153B2021">MOLNAR Tomas</scheinfirma>
+  <scheinfirma anschrift="5023 Salzburg, Bachstraße 57" veroeffentlicht="2026-04-02" rechtskraeftig="2026-02-25" seit="2024-11-13" fbnr="631479x" uid="ATU81007278" kennziffer="R150Q662N">MoLo Infinity Delivery GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Hofferplatz 2" veroeffentlicht="2025-01-17" rechtskraeftig="2024-12-28" seit="2023-02-22" fbnr="573726s" uid="ATU77900602" kennziffer="R133F980Q">Monri GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Syringgasse 17" veroeffentlicht="2021-04-06" rechtskraeftig="2021-04-02" fbnr="536501y" uid="ATU75742617">mop-up AF1120 GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Frauenfelderstraße 15" veroeffentlicht="2025-03-21" rechtskraeftig="2025-03-17" seit="2023-11-24" geburtsdatum="1980-05-11" uid="ATU80079317" kennziffer="R143W9399">MORALES VILCHEZ Ramon Antonio</scheinfirma>
@@ -972,6 +974,7 @@
   <scheinfirma anschrift="1150 Wien, Markgraf-Rüdiger-Straße 2" veroeffentlicht="2021-03-25" rechtskraeftig="2021-03-15" fbnr="498784g" uid="ATU73665018">PLEASE STAHL GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 133" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-11-01" fbnr="507902s" uid="ATU74325606" kennziffer="R115Y9704">PLUKAI 38 Verwertungs GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Kendlerstraße 41" veroeffentlicht="2021-02-08" rechtskraeftig="2021-02-05" fbnr="389947b" uid="ATU67625466">Plutux GmbH</scheinfirma>
+  <scheinfirma anschrift="2601 Sollenau, Querstraße 23" veroeffentlicht="2026-04-02" rechtskraeftig="2026-03-25" seit="2025-04-01" geburtsdatum="1989-04-13" fbnr="635105d" uid="ATU72029235" kennziffer="R151R7616">PODRIC Velimir</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Martinstraße 10" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-12" seit="2025-02-01" geburtsdatum="1983-01-04" uid="ATU81471104" kennziffer="R153R485G">POLAK Karel</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Anton-Baumgartner-Straße 18" veroeffentlicht="2025-06-30" rechtskraeftig="2025-06-19" seit="2024-11-08" geburtsdatum="2005-01-10" uid="ATU81310537" kennziffer="R153A150L">POLAKOVA Jesika</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 24" veroeffentlicht="2025-12-04" rechtskraeftig="2025-12-03" seit="2025-02-26" fbnr="622015d" uid="ATU80806601" kennziffer="R146W228K">Polarix Winterdienste &amp; Gartenpflege GmbH</scheinfirma>
