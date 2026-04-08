@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-03" zeit="06:37:55" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1365">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-08" zeit="06:44:24" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1366">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -325,7 +325,6 @@
   <scheinfirma anschrift="1170 Wien, Hernalser Hauptstraße  23/2/4a" veroeffentlicht="2018-08-27" rechtskraeftig="2018-08-16" fbnr="487215v" uid="ATU73104008">DM Sanierung GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Obere Augartenstraße 64" veroeffentlicht="2025-04-02" rechtskraeftig="2025-03-24" seit="2024-04-09" fbnr="472952v" uid="ATU72500402" kennziffer="R107E234P">DMYTRON BAU GmbH</scheinfirma>
   <scheinfirma anschrift="2103 Langenzersdorf, Lagerstraße 1-5" veroeffentlicht="2024-11-12" rechtskraeftig="2024-10-20" seit="2024-01-15" fbnr="290945k" uid="ATU63253188" kennziffer="R024D4722">DN Bau GmbH</scheinfirma>
-  <scheinfirma anschrift="1150 Wien, Felberstraße 110" veroeffentlicht="2021-04-06" rechtskraeftig="2020-12-23" geburtsdatum="2001-01-21" uid="ATU74623918">DOBRIC Marko</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Laxenburger Straße 82" veroeffentlicht="2022-08-12" rechtskraeftig="2022-08-05" geburtsdatum="1989-07-27" uid="ATU77529925">DOGAN Hakan</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Hainburger Straße 50" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-03" seit="2023-05-02" geburtsdatum="1975-06-29" uid="ATU80329958" kennziffer="R140I052O">DÖME Ondrej</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Helmholtzstraße 23" veroeffentlicht="2021-04-21" rechtskraeftig="2021-04-07" geburtsdatum="1983-03-14" uid="ATU74388138">DÖNMEZ Mehmet</scheinfirma>
@@ -692,6 +691,7 @@
   <scheinfirma anschrift="1170 Wien, Lacknergasse 38" veroeffentlicht="2024-08-19" rechtskraeftig="2024-07-17" seit="2023-12-28" fbnr="545619g" uid="ATU76524389" kennziffer="R124P1079">K2 Power GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Hütteldorfer Straße 81B" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-21" fbnr="476205b" uid="ATU72559867">L. Spitzbart Bau und Handel GmbH</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Wiener Straße 41a" veroeffentlicht="2024-07-01" rechtskraeftig="2024-06-17" seit="2022-05-01" geburtsdatum="1979-01-16" uid="ATU76572923" kennziffer="R122N261N">LACATAS Mihut-Nelu</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Siebertgasse 6" veroeffentlicht="2026-04-07" rechtskraeftig="2026-04-07" seit="2024-10-01" geburtsdatum="1986-07-10" uid="ATU81961708" kennziffer="R152N347R">LACKOVICOVA Marcela</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Hertha-Firnberg-Straße 16" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-11" seit="2024-04-25" geburtsdatum="1977-04-10" uid="ATU80194237" kennziffer="R145I9158">LAGISHETTY Venuprasad</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Kaschlgasse 5" veroeffentlicht="2026-01-14" rechtskraeftig="2025-12-29" seit="2024-10-15" fbnr="542006v" uid="ATU76183657" kennziffer="R124B323B">Lahiku Handel GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Jehringgasse 14/16" veroeffentlicht="2016-05-03" rechtskraeftig="2016-05-02" fbnr="439553b">Lahorla e.U.</scheinfirma>
@@ -745,7 +745,6 @@
   <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2024-12-17" rechtskraeftig="2024-12-09" seit="2024-02-09" fbnr="600970f" kennziffer="R139L1944">LSNN Immobilienbesitz GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Rappgasse 2" veroeffentlicht="2025-07-15" rechtskraeftig="2025-07-10" seit="2025-03-22" geburtsdatum="1984-09-05">LUKACS Barnabas</scheinfirma>
   <scheinfirma anschrift="2620 Neunkirchen, Augasse 28" veroeffentlicht="2025-04-15" rechtskraeftig="2025-04-07" seit="2024-10-04" fbnr="637740d" kennziffer="R152H8637">LUMA Facility GmbH</scheinfirma>
-  <scheinfirma anschrift="1040 Wien, Wiedner Gürtel 46" veroeffentlicht="2021-04-06" rechtskraeftig="2021-03-26" geburtsdatum="1976-01-01" uid="ATU75593225">LUPUTZ Vasile</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Trubelgasse 12" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-10" fbnr="388774b" uid="ATU67811022">LUVARE Trockenbau GmbH</scheinfirma>
   <scheinfirma anschrift="2700 Wiener Neustadt, Pottendorfer Straße 58" veroeffentlicht="2021-11-09" rechtskraeftig="2021-11-04" fbnr="291216i" uid="ATU72627419">LUX TAXI KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-24" fbnr="523723g" uid="ATU75141124">LV Dienstleistungen GmbH</scheinfirma>
@@ -836,6 +835,7 @@
   <scheinfirma anschrift="8770 St.Michael, Madstein 5b" veroeffentlicht="2021-07-29" rechtskraeftig="2021-07-29" fbnr="394567x" uid="ATU68004768">MMJD Bau GmbH</scheinfirma>
   <scheinfirma anschrift="5400 Hallein, Degelestraße 4" veroeffentlicht="2017-03-24" rechtskraeftig="2017-03-22" fbnr="445542i" uid="ATU70362412">M.N.G. Beauty GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Leopoldauer Straße 72" veroeffentlicht="2024-01-04" rechtskraeftig="2023-12-26" fbnr="575675g" uid="ATU76148535">MNS Transport e.U.</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Hartlgasse 14" veroeffentlicht="2026-04-07" rechtskraeftig="2026-04-02" seit="2025-03-01" geburtsdatum="1993-09-03" uid="ATU81770807" kennziffer="R154W824H">MOCSARI Tamas</scheinfirma>
   <scheinfirma anschrift="7013 Klingenbach, Ödenburger Straße 9" veroeffentlicht="2022-08-12" rechtskraeftig="2022-07-04" fbnr="550887d" uid="ATU76579169">Modos Bau und Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Meidlinger Hauptstraße 47/1" veroeffentlicht="2025-11-04" rechtskraeftig="2025-11-04" seit="2024-12-20" fbnr="630984v" uid="ATU81205009" kennziffer="R150K594Z">MOIZ Service GmbH</scheinfirma>
   <scheinfirma anschrift="6020 Innsbruck, Hermann-Gmeiner-Straße 2" veroeffentlicht="2024-11-12" rechtskraeftig="2024-10-31" seit="2023-08-01" geburtsdatum="1997-05-03" kennziffer="R141B993E">MOLDOVAN Claudiu</scheinfirma>
@@ -1026,6 +1026,7 @@
   <scheinfirma anschrift="2231 Strasshof an der Nordbahn, Gewerbeparkstraße 21" veroeffentlicht="2025-12-02" rechtskraeftig="2025-11-25" seit="2025-02-13" fbnr="568692m" uid="ATU77630609" kennziffer="R131U590I">Red Sun GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Sturzgasse 4b" veroeffentlicht="2025-10-20" rechtskraeftig="2025-03-25" seit="2024-01-04" geburtsdatum="1988-06-09" uid="ATU81063689" kennziffer="R145F931J">REDDY Mahesh</scheinfirma>
   <scheinfirma anschrift="2231 Strasshof an der Nordbahn, Gewerbeparkstraße 21/30" veroeffentlicht="2025-03-28" rechtskraeftig="2025-01-29" seit="2024-10-25" fbnr="529581x" uid="ATU75592324" kennziffer="R121O933O">Regnum GmbH</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Siebertgasse 6" veroeffentlicht="2026-04-07" rechtskraeftig="2026-04-07" seit="2024-12-05" fbnr="640058m" uid="ATU81967659" kennziffer="R152X252V">REHBAR LOGISTIK GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Sandleitengasse 15-17/R17" veroeffentlicht="2018-08-21" rechtskraeftig="2018-08-07" fbnr="441680f" uid="ATU71045969">Reichan GmbH</scheinfirma>
   <scheinfirma anschrift="4320 Perg, Hauptplatz 11" veroeffentlicht="2016-08-22" rechtskraeftig="2016-08-16" fbnr="446314w" uid="ATU71072206">Reinpold Gastro Kft &amp; Co KG</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 24" veroeffentlicht="2023-12-13" rechtskraeftig="2023-11-08" fbnr="537721t" uid="ATU75763602">Remus Projektmanagement GmbH</scheinfirma>
