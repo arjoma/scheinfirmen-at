@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-04-09T06:41:05 | 1374 | 2016-04-01 |
+| 2026-04-10T07:07:15 | 1375 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1424
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 295, 301, 311, 324, 330, 336, 357, 373, 383, 393, 406, 410, 422, 432, 447, 456, 461, 465, 474, 475, 483, 499, 507, 515, 518, 520, 530, 544, 560, 576, 592, 601, 620, 648, 656, 670, 687, 700, 710, 732, 750, 771, 789, 798, 823, 856, 884, 940, 1000, 1023, 1054, 1076, 1116, 1157, 1192, 1215, 1239, 1259, 1287, 1359, 1374]
+    y-axis "Anzahl" 0 --> 1425
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 295, 301, 311, 324, 330, 336, 357, 373, 383, 393, 406, 410, 422, 432, 447, 456, 461, 465, 474, 475, 483, 499, 507, 515, 518, 520, 530, 544, 560, 576, 592, 601, 620, 648, 656, 670, 687, 700, 710, 732, 750, 771, 789, 798, 823, 856, 884, 940, 1000, 1023, 1054, 1076, 1116, 1157, 1192, 1215, 1239, 1259, 1287, 1359, 1375]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -35,6 +35,7 @@ xychart-beta
 | CLEAN QUEENM e.U. | ATU79707319 | 1220 Wien, Wulzendorfstraße 92-94 |
 | Canecky GmbH | ATU77943415 | 1230 Wien, Richard-Strauss-Straße 18 |
 | Carlief GmbH | ATU80112012 | 1120 Wien, Aichholzgasse 5 |
+| Claudiu GmbH | ATU70285014 | 5020 Salzburg, Schmiedkreuzstraße 3 |
 | DANIEL Jan | ATU82141503 | 1170 Wien, Blumengasse 49 |
 | DG Plus Baukonstrukt GmbH | ATU69609079 | 1200 Wien, Handelskai 94-96 |
 | Dani¿s Clean Service e.U. | ATU72735016 | 1230 Wien, Ketzergasse 65b |
@@ -68,9 +69,7 @@ xychart-beta
 | MOLNAR Elizabet | ATU81780789 | 1180 Wien, Köhlergasse 5 |
 | MUB Gastro GmbH | ATU68440644 | 1200 Wien, Dammstraße 8 |
 | MoLo Infinity Delivery GmbH | ATU81007278 | 5023 Salzburg, Bachstraße 57 |
-| NOVAKOVIC Mico | ATU81427608 | 1200 Wien, Klosterneuburger Straße 51 |
 | ORICHEL Mario | ATU82430512 | 1160 Wien, Hasnerstraße 36 |
-| PAP Zoltan |  | 7571 Rudersdorf, Hauptstraße 37 |
 | PODRIC Velimir | ATU72029235 | 2601 Sollenau, Querstraße 23 |
 | POLAK Karel | ATU81471104 | 1180 Wien, Martinstraße 10 |
 | REHBAR LOGISTIK GmbH | ATU81967659 | 1120 Wien, Siebertgasse 6 |
