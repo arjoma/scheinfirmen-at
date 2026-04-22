@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-21" zeit="07:08:47" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1384">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-22" zeit="07:06:53" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1386">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -114,6 +114,7 @@
   <scheinfirma anschrift="1180 Wien, Semperstraße 6" veroeffentlicht="2020-03-10" rechtskraeftig="2020-02-20" fbnr="376647v" uid="ATU68126306">B &amp; B Bau Service KG</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Mellergasse 4" veroeffentlicht="2023-08-01" rechtskraeftig="2023-07-21" fbnr="190247a" uid="ATU60787777">BAB Lanzer GmbH</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Keinergasse 18/21" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-02" seit="2024-11-16" geburtsdatum="2000-08-03" uid="ATU81061556" kennziffer="R151K027U">BABAI Andras</scheinfirma>
+  <scheinfirma anschrift="1010 Wien, Sterngasse 2/3/6" veroeffentlicht="2026-04-21" rechtskraeftig="2026-04-17" seit="2022-02-07" fbnr="385175i" uid="ATU67920609">BABKO Dienstleistungs GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Fendigasse 11" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-09" seit="2025-06-22" geburtsdatum="1998-01-20" uid="ATU82339239" kennziffer="R157I773G">BAJNAR Radek</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Allerheiligenplatz 3" veroeffentlicht="2026-03-05" rechtskraeftig="2026-02-25" seit="2024-12-09" geburtsdatum="1990-08-19" uid="ATU81471989" kennziffer="R153N240J">BALAZ Anton</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Barawitzkagasse 3/4" veroeffentlicht="2025-08-14" rechtskraeftig="2025-08-08" seit="2024-11-19" geburtsdatum="2003-07-26" uid="ATU81332513" kennziffer="R153B975M">BALAZ Sebastian</scheinfirma>
@@ -999,6 +1000,7 @@
   <scheinfirma anschrift="4594 Grünburg, Steyrtalstraße 23" veroeffentlicht="2017-02-28" rechtskraeftig="2017-02-20" fbnr="434044a" uid="ATU69600005">PPB Protect Passiv Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Taborstraße 32" veroeffentlicht="2025-08-18" rechtskraeftig="2025-08-07" seit="2024-11-11" fbnr="628697f" uid="ATU81390415" kennziffer="R149U165S">P.R. Piotre Rafi Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Hammer-Purgstallgasse 5/15" veroeffentlicht="2016-05-23" rechtskraeftig="2016-05-23" fbnr="300737k" uid="ATU64284358">PRESTIJ GmbH</scheinfirma>
+  <scheinfirma anschrift="1180 Wien, Martinstraße 10" veroeffentlicht="2026-04-21" rechtskraeftig="2026-04-09" seit="2025-01-30" fbnr="629741s" uid="ATU81079208" kennziffer="R149S841K">Princ Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Anton-Freunschlag-Gasse 47" veroeffentlicht="2023-07-27" rechtskraeftig="2023-06-27" fbnr="242458g" uid="ATU57640137">Printfactory Handel GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Fuchsenfeld 3/28/4" veroeffentlicht="2016-04-05" rechtskraeftig="2016-03-19" fbnr="385971f" uid="ATU67643847">PROFI BAT GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Slamastraße 23/B Objekt 3" veroeffentlicht="2016-10-21" rechtskraeftig="2016-10-17" fbnr="436776v" uid="ATU69759905">Profilhaus GmbH</scheinfirma>
