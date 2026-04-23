@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-22" zeit="07:06:53" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1386">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-23" zeit="07:10:49" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1385">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -82,6 +82,7 @@
   <scheinfirma anschrift="1110 Wien, Lorystraße 46" veroeffentlicht="2025-02-28" rechtskraeftig="2025-02-21" seit="2023-10-11" geburtsdatum="2005-04-03" kennziffer="R142L9617">ARDELEAN Andrei-Marius</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Breitenfelder Gasse 21" veroeffentlicht="2025-06-12" rechtskraeftig="2025-06-05" seit="2021-03-18" geburtsdatum="1978-08-14">Arif MEHMOOD</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Koflergasse 4" veroeffentlicht="2023-12-13" rechtskraeftig="2023-11-03" fbnr="578375b">AROD KG</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Gudrunstraße 25" veroeffentlicht="2026-04-22" rechtskraeftig="2026-04-22" seit="2025-07-01" fbnr="030521i" uid="ATU15328009" kennziffer="R030B6665">ARTED GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Brünner Straße 124" veroeffentlicht="2026-04-15" rechtskraeftig="2026-04-08" seit="2024-09-25" fbnr="582348w" uid="ATU78447717" kennziffer="R134W3937">AS Asenov Bau KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 28" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-08" seit="2024-08-27" geburtsdatum="1981-12-22" uid="ATU81061048" kennziffer="R151Q496O">ASENOV Georgi Iliev</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Friedmanngasse 22/19" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-11" seit="2023-04-15" geburtsdatum="1987-12-24" fbnr="530441k" uid="ATU79047336" kennziffer="R137T555V">ASENOV Radoslav</scheinfirma>
@@ -231,7 +232,6 @@
   <scheinfirma anschrift="1210 Wien, Spöttlgasse 7" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-14" seit="2022-07-27" geburtsdatum="1994-11-27" uid="ATU78536737" kennziffer="R135F1117">CAGLAR Kübra</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Siebenhirtenstraße 13" veroeffentlicht="2022-09-23" rechtskraeftig="2022-04-11" fbnr="543971h" uid="ATU77499645">CAK-SA GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gudrunstraße 25" veroeffentlicht="2025-07-24" rechtskraeftig="2025-07-23" seit="2025-01-01" fbnr="543116a" uid="ATU76121956" kennziffer="R123W743L">Caksen GmbH</scheinfirma>
-  <scheinfirma anschrift="2231 Strasshof/Nordbahn, Hauptstraße 7" veroeffentlicht="2021-04-20" rechtskraeftig="2021-04-07" geburtsdatum="1979-08-24">CALIN Gheorghe</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Richard-Strauss-Straße 18" veroeffentlicht="2026-04-08" rechtskraeftig="2026-04-02" seit="2022-03-01" fbnr="568903y" uid="ATU77943415" kennziffer="R131V424U">Canecky GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Linzer Straße 60-62" veroeffentlicht="2023-12-13" rechtskraeftig="2023-11-21" geburtsdatum="1981-09-01">CANER Sait</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Hannovergasse 14" veroeffentlicht="2024-07-01" rechtskraeftig="2024-06-19" seit="2022-10-02" uid="ATU80188324" kennziffer="R042B2351">Capoeira Sportunion Wien</scheinfirma>
@@ -335,7 +335,6 @@
   <scheinfirma anschrift="2103 Langenzersdorf, Lagerstraße 1-5" veroeffentlicht="2024-11-12" rechtskraeftig="2024-10-20" seit="2024-01-15" fbnr="290945k" uid="ATU63253188" kennziffer="R024D4722">DN Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Laxenburger Straße 82" veroeffentlicht="2022-08-12" rechtskraeftig="2022-08-05" geburtsdatum="1989-07-27" uid="ATU77529925">DOGAN Hakan</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Hainburger Straße 50" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-03" seit="2023-05-02" geburtsdatum="1975-06-29" uid="ATU80329958" kennziffer="R140I052O">DÖME Ondrej</scheinfirma>
-  <scheinfirma anschrift="4020 Linz, Helmholtzstraße 23" veroeffentlicht="2021-04-21" rechtskraeftig="2021-04-07" geburtsdatum="1983-03-14" uid="ATU74388138">DÖNMEZ Mehmet</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Kremplstraße 5" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-25" geburtsdatum="1999-06-23" uid="ATU76803434">DÖNMEZ Müslim</scheinfirma>
   <scheinfirma anschrift="5622 Goldegg, Altenhof 5" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-08" geburtsdatum="1990-05-08" uid="ATU74860545">DÖNMEZ Ümit</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37/14" veroeffentlicht="2025-09-01" rechtskraeftig="2025-09-01" seit="2024-02-13" geburtsdatum="1986-07-24" kennziffer="R146G899D">DORNAI Stefan</scheinfirma>
@@ -1049,7 +1048,7 @@
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 24" veroeffentlicht="2023-12-13" rechtskraeftig="2023-11-08" fbnr="537721t" uid="ATU75763602">Remus Projektmanagement GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Marchfeldstrasse 23A/8" veroeffentlicht="2016-05-20" rechtskraeftig="2016-05-18" fbnr="447648g">RENINSTRUKT e.U.</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Immengasse 17" veroeffentlicht="2021-09-02" rechtskraeftig="2021-09-02" fbnr="135839p" uid="ATU65920701">Renosan GmbH &amp; Co KG</scheinfirma>
-  <scheinfirma anschrift="1200 Wien, Brigittenauer Lände 36" veroeffentlicht="2026-03-19" rechtskraeftig="2026-03-18" seit="2023-03-01" geburtsdatum="1975-04-28" fbnr="336165k" uid="ATU65431008" kennziffer="R028Y216X">RENOVIT Engineering GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Brigittenauer Lände 36" veroeffentlicht="2026-03-19" rechtskraeftig="2026-03-18" seit="2023-03-01" fbnr="336165k" uid="ATU65431008" kennziffer="R028Y216X">RENOVIT Engineering GmbH</scheinfirma>
   <scheinfirma anschrift="4550 Kremsmünster, Gustermairberg 2" veroeffentlicht="2016-04-05" rechtskraeftig="2016-03-19">REO &amp; BAU UG</scheinfirma>
   <scheinfirma anschrift="83103 Bratislava, Skultetyho 18" veroeffentlicht="2018-08-27" rechtskraeftig="2018-08-21">RESORT GROUP s.r.o.</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Hütteldorfer Straße 51" veroeffentlicht="2019-03-28" rechtskraeftig="2019-03-07" fbnr="485954p">Restaurant Dimitrov Gastronomie KG</scheinfirma>
