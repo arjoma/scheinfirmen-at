@@ -5,6 +5,20 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.5.0] - 2026-04-28
+
+### Hinzugefügt
+- **Auto-Korrektur fehlplatzierter Felder (`normalize.py`):** Vor der Validierung erkennt und repariert das Tool jetzt vier häufige BMF-Tippfehler in den Feldern UID, Firmenbuch und Kennziffer. Ziel: nachgelagerte Tools (z. B. UID-Lookups) bekommen konsistente Daten, auch wenn das BMF Werte in die falsche Spalte tippt.
+  - **UID ↔ Kennziffer tauschen:** wenn jede Spalte einen Wert nach dem Muster der jeweils anderen enthält (oder eine leer ist und die andere fehlplatziert).
+  - **Doppelte Kennziffer löschen:** wenn die Kennziffer ein exaktes Duplikat von UID oder Firmenbuch-Nr ist.
+  - **Ausländische EU-VAT in UID übernehmen:** wenn in der Kennziffer-Spalte eine Nicht-AT-VAT-Nummer steht (z. B. `RO38488384`) und die UID-Spalte leer ist.
+  - Jeder angewandte Fix wird mit `WARNING: NORMALIZE: …` geloggt.
+- **README:** Neuer Abschnitt "Auto-Korrektur fehlplatzierter Felder" mit Beispielen.
+
+### Geändert
+- **Validierung:** UID-Werte werden jetzt sowohl im österreichischen Format (`ATU` + 8 Ziffern) als auch im allgemeinen EU-VAT-Format (`[A-Z]{2}[A-Z0-9]{6,12}`, z. B. `RO38488384`, `DE123456789`) als gültig akzeptiert. Komplett unbekannte Formate werden als Warnung (nicht mehr Fehler) gemeldet, sodass der tägliche Update-Workflow nicht mehr durch BMF-Tippfehler blockiert wird.
+- **JSON-Schema:** Das `uid`-Pattern wurde von `^ATU\d{8}$` auf `^[A-Z]{2}[A-Z0-9]{6,12}$` erweitert, damit ausländische EU-VAT-Nummern in der UID-Spalte zulässig sind.
+
 ## [1.4.0] - 2026-02-18
 
 ### Geändert

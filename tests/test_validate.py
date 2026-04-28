@@ -48,19 +48,36 @@ def test_validate_empty_anschrift() -> None:
     assert any("anschrift" in e.field for e in vr.errors)
 
 
-def test_validate_invalid_uid() -> None:
-    rec = _good_record(uid="DE123456789")  # German format, not ATU
+def test_validate_foreign_eu_vat_accepted_silently() -> None:
+    # Foreign EU VAT numbers in the UID field are accepted without warning —
+    # the BMF list occasionally publishes cross-border shell entities.
+    for uid in ["RO38488384", "DE123456789", "IT12345678901"]:
+        rec = _good_record(uid=uid)
+        vr = validate_records(_make_result([rec]), min_rows=1)
+        assert vr.ok
+        uid_issues = [
+            e for e in (*vr.errors, *vr.warnings) if e.field == "uid"
+        ]
+        assert not uid_issues, f"UID {uid} should be accepted as foreign EU VAT"
+
+
+def test_validate_invalid_uid_is_warning_not_error() -> None:
+    # Truly malformed UIDs (neither AT nor EU VAT pattern) become a warning,
+    # not an error — the pipeline must keep flowing on BMF data quirks.
+    rec = _good_record(uid="not-a-vat-number")
     vr = validate_records(_make_result([rec]), min_rows=1)
-    assert not vr.ok
-    assert any("uid" in e.field for e in vr.errors)
+    assert vr.ok
+    assert any(w.field == "uid" for w in vr.warnings)
 
 
 def test_validate_valid_uid_formats() -> None:
     for uid in ["ATU12345678", "ATU00000000", "ATU99999999"]:
         rec = _good_record(uid=uid)
         vr = validate_records(_make_result([rec]), min_rows=1)
-        uid_errors = [e for e in vr.errors if e.field == "uid"]
-        assert not uid_errors, f"UID {uid} should be valid"
+        uid_issues = [
+            e for e in (*vr.errors, *vr.warnings) if e.field == "uid"
+        ]
+        assert not uid_issues, f"UID {uid} should be valid"
 
 
 def test_validate_invalid_firmenbuch() -> None:

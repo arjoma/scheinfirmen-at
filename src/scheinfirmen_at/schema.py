@@ -59,8 +59,13 @@ JSON_SCHEMA: dict[str, object] = {
         },
         "uid": {
             "type": ["string", "null"],
-            "description": "VAT identification number (UID-Nummer)",
-            "pattern": r"^ATU\d{8}$",
+            "description": (
+                "VAT identification number (UID-Nummer). Normally Austrian "
+                "(ATU + 8 digits), but the BMF list occasionally contains "
+                "foreign EU VAT numbers (e.g. RO…, DE…) which the "
+                "normalization step preserves in this field."
+            ),
+            "pattern": r"^[A-Z]{2}[A-Z0-9]{6,12}$",
         },
         "kennziffer": {
             "type": ["string", "null"],

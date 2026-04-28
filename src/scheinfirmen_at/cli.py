@@ -11,6 +11,7 @@ from pathlib import Path
 from scheinfirmen_at import __version__
 from scheinfirmen_at.convert import write_csv, write_jsonl, write_xml
 from scheinfirmen_at.download import BMF_URL, download_csv
+from scheinfirmen_at.normalize import normalize_field_swaps
 from scheinfirmen_at.parse import parse_bmf_csv
 from scheinfirmen_at.schema import write_csvw_metadata, write_json_schema, write_xsd
 from scheinfirmen_at.stats import generate_stats
@@ -115,6 +116,16 @@ def main(argv: list[str] | None = None) -> None:
         result.stand_datum,
         result.stand_zeit,
     )
+
+    # --- Step 2b: Normalize known BMF data-entry quirks ---
+    fixes = normalize_field_swaps(result)
+    for f in fixes:
+        logger.warning("NORMALIZE: %s", f)
+    if fixes:
+        logger.warning(
+            "Auto-corrected %d row(s) with misplaced UID/Kennziffer/Firmenbuch values",
+            len(fixes),
+        )
 
     # --- Step 3: Validate ---
     logger.info("Validating records...")

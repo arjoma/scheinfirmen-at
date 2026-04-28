@@ -11,6 +11,10 @@ from scheinfirmen_at.parse import ParseResult, ScheinfirmaRecord
 # Compiled validation regexes
 _RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _RE_UID = re.compile(r"^ATU\d{8}$")
+# Foreign EU VAT-style identifier: 2 country letters + alphanumeric tail.
+# Used to accept non-Austrian VAT numbers (e.g. RO, DE) that the BMF
+# occasionally publishes for cross-border shell entities.
+_RE_FOREIGN_VAT = re.compile(r"^[A-Z]{2}[A-Z0-9]{6,12}$")
 _RE_FIRMENBUCH = re.compile(r"^\d{5,6}[a-zA-Z]$")
 _RE_KENNZIFFER = re.compile(r"^R\d{3}[A-Z]\d{3,4}[A-Z0-9]?$")
 
@@ -55,11 +59,14 @@ def validate_records(
     - Rechtskraft Bescheid must be a valid ISO date
     - Zeitpunkt: if present, must be valid ISO date
     - Geburts-Datum: if present, must be valid ISO date
-    - UID-Nr: if present, must match ATU + 8 digits
     - Firmenbuch-Nr: if present, must match digits + letter
 
     Warnings (known BMF data quality issues):
     - Kennziffer: if present and doesn't match expected pattern
+    - UID-Nr: if present and matches neither the Austrian pattern
+      (ATU + 8 digits) nor a generic EU VAT pattern (e.g. RO…, DE…).
+      Foreign EU VATs are accepted silently because the BMF list
+      occasionally includes cross-border shell entities.
     """
     errors: list[ValidationError] = []
     warnings: list[ValidationError] = []
@@ -118,9 +125,18 @@ def _validate_record(
         if opt_value is not None and not _RE_ISO_DATE.match(opt_value):
             err(field_name, opt_value, f"Expected ISO date YYYY-MM-DD, got {opt_value!r}")
 
-    # UID-Nr format
-    if rec.uid is not None and not _RE_UID.match(rec.uid):
-        err("uid", rec.uid, "Expected format ATU followed by 8 digits")
+    # UID-Nr format. Austrian (ATU + 8 digits) is the norm; foreign EU VAT
+    # numbers (e.g. RO, DE) are accepted silently. Anything else → warning.
+    if (
+        rec.uid is not None
+        and not _RE_UID.match(rec.uid)
+        and not _RE_FOREIGN_VAT.match(rec.uid)
+    ):
+        warn(
+            "uid",
+            rec.uid,
+            "Expected Austrian UID (ATU + 8 digits) or EU VAT format",
+        )
 
     # Firmenbuch-Nr format
     if rec.fbnr is not None and not _RE_FIRMENBUCH.match(rec.fbnr):

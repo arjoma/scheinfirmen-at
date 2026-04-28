@@ -157,12 +157,33 @@ uv run mypy src/
 
 Siehe [CHANGELOG.md](CHANGELOG.md) für die Versionshistorie.
 
+## Auto-Korrektur fehlplatzierter Felder
+
+Die BMF-Liste wird manuell gepflegt und enthält gelegentlich Tippfehler in den
+Feldern **UID-Nr.**, **Firmenbuch-Nr** und **Kennziffer des UR**.
+Vor der Validierung erkennt das Tool diese Muster und korrigiert sie
+automatisch (mit Warnung im Log), damit nachgelagerte Tools (z. B. Lookups
+nach UID) konsistente Daten erhalten:
+
+| Regel | Beispiel (BMF-Eingabe) | Korrektur |
+|-------|------------------------|-----------|
+| **UID ↔ Kennziffer tauschen** | `uid="R134I594W"`, `kennziffer=""` | → `uid=null`, `kennziffer="R134I594W"` |
+| **Doppelten UID-Wert in Kennziffer löschen** | `uid="ATU80457319"`, `kennziffer="ATU80457319"` | → `kennziffer=null` |
+| **Doppelten Firmenbuch-Wert in Kennziffer löschen** | `fbnr="636821b"`, `kennziffer="636821b"` | → `kennziffer=null` |
+| **Ausländische EU-VAT-Nummer in UID übernehmen** | `kennziffer="RO38488384"`, `uid=null` | → `uid="RO38488384"`, `kennziffer=null` |
+
+Erkannte Fixe werden mit `WARNING: NORMALIZE: …` ins Log geschrieben.
+Die UID-Spalte wird auch für Nicht-AT-VAT-Nummern offen gehalten
+(rumänische, deutsche etc.), da die Firmen trotzdem als Scheinfirmen geführt
+werden und in nachgelagerten Tools per UID auffindbar sein sollen.
+
 ## Technische Details
 
 - **Abhängigkeiten:** Keine (reines Python stdlib, >= 3.10)
 - **Quell-Encoding:** ISO-8859-1 (Tilde-getrennt, CRLF)
 - **Output-Encoding:** UTF-8 (CSV mit BOM für Excel-Kompatibilität)
 - **Validierung:** Strenge Feldvalidierung mit Fehlern und Warnungen
+- **Daten-Reparatur:** Auto-Korrektur fehlplatzierter UID/Kennziffer/Firmenbuch-Werte (siehe oben)
 - **Schema-Prüfung:** Automatische Validierung gegen XSD (XML) und JSON Schema (JSONL)
 - **Verifizierung:** Kreuz-Format-Prüfung (alle Formate müssen gleiche Zeilenanzahl haben)
 
