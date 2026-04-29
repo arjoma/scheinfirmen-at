@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-04-28T10:57:25 | 1409 | 2016-04-01 |
+| 2026-04-29T07:33:45 | 1411 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1459
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1409]
+    y-axis "Anzahl" 0 --> 1461
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1411]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -35,7 +35,6 @@ xychart-beta
 | CERVENKA Mario | ATU82528702 | 1190 Wien, Wigandgasse 37 |
 | CINA Miroslav |  | 1200 Wien, Allerheiligenplatz 3/10 |
 | Canecky GmbH | ATU77943415 | 1230 Wien, Richard-Strauss-Straße 18 |
-| Carlief GmbH | ATU80112012 | 1120 Wien, Aichholzgasse 5 |
 | Claudiu GmbH | ATU70285014 | 5020 Salzburg, Schmiedkreuzstraße 3 |
 | DAVID Renato | ATU81779602 | 1100 Wien, Humboldtgasse 25 |
 | DG Plus Baukonstrukt GmbH | ATU69609079 | 1200 Wien, Handelskai 94-96 |
@@ -52,13 +51,13 @@ xychart-beta
 | IVANOV Manuil Georgiev | ATU81613489 | 1200 Wien, Brigittenauer Lände 58 |
 | JURO Bau und Eisenverlegung GmbH | ATU77519106 | 1140 Wien, Märzstraße 126/18 |
 | KLIMENT Rudolf | ATU82528347 | 1110 Wien, Geiselbergstraße 28/1/58 |
+| KOLAR Vanessa | ATU82541215 | 1110 Wien, Zippererstraße 14 |
 | KOVAC Maros | ATU82414709 | 1200 Wien, Jägerstraße 21 |
 | LACKOVICOVA Marcela | ATU81961708 | 1120 Wien, Siebertgasse 6 |
 | LAKATOSOVA Nina |  | 1050 Wien, Zentagasse 5 |
 | M & V ILIC GmbH |  | 2601 Sollenau, Querstraße 23 |
 | MALIK Peter | ATU82441804 | 1200 Wien, Jägerstraße 21 |
 | MATA Sandor |  | 1100 Wien, Inzersdorfer Straße 29/19 |
-| METRIX Projects GmbH | ATU82257969 | 1110 Wien, Ehamgasse 42-44 |
 | MIGO Taxi KG | ATU68635435 | 1160 Wien, Hasnerstraße 23 |
 | MOCSARI Tamas | ATU81770807 | 1200 Wien, Hartlgasse 14 |
 | Miletic Bau & Isolierungen GmbH | ATU58111019 | 2353 Guntramsdorf, Industriestraße 41 |
@@ -70,6 +69,7 @@ xychart-beta
 | POLJANSZKIJ Sandor | ATU82346613 | 1050 Wien, Reinprechtsdorfer Straße 14 |
 | PRO-ODIM Immo & Trade GmbH | ATU73864026 | 1140 Wien, Hauptstraße 133/1/4a |
 | Princ Handels GmbH | ATU81079208 | 1180 Wien, Martinstraße 10 |
+| RADENKOVIC Susanna | ATU80079727 | 1160 Wien, Ottakringer Straße 154 |
 | RAVASZNE VARGA Krisztina | ATU81755637 | 1100 Wien, Columbusgasse 96 |
 | REHBAR LOGISTIK GmbH | ATU81967659 | 1120 Wien, Siebertgasse 6 |
 | Red4Tech GmbH | ATU81480078 | 2272 Ringelsdorf-Niederabsdorf, Palterndorfer Straße 248 |

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-28" zeit="10:57:25" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1409">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-04-29" zeit="07:33:45" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1411">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -683,6 +683,7 @@
   <scheinfirma anschrift="1120 Wien, Aßmayergasse 54" veroeffentlicht="2025-07-22" rechtskraeftig="2025-07-11" seit="2025-02-03" fbnr="610222k" uid="ATU81854003" kennziffer="R141T710N">K.N. 71 BAU GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Kahlgasse 3" veroeffentlicht="2024-02-22" rechtskraeftig="2024-02-16" seit="2021-06-12" geburtsdatum="2002-04-15" uid="ATU77037608" kennziffer="R128Y671E">KOCHEV Ivan</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Goldschlagstraße 209" veroeffentlicht="2021-03-30" rechtskraeftig="2021-03-17" fbnr="113257f" uid="ATU17421608">KOGES GmbH</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Zippererstraße 14" veroeffentlicht="2026-04-28" rechtskraeftig="2026-04-27" seit="2025-03-03" geburtsdatum="1999-09-26" uid="ATU82541215" kennziffer="R154V655X">KOLAR Vanessa</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Viehmarktgasse 1B" veroeffentlicht="2024-01-16" rechtskraeftig="2024-01-04" seit="2019-05-03" fbnr="488195i" uid="ATU73214425" kennziffer="R111I707P">KOLBEX GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Schinnaglgasse 9" veroeffentlicht="2023-10-04" rechtskraeftig="2023-09-26" geburtsdatum="2001-05-16" uid="ATU77001628">KOLOMPAR Dejan</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Kluckygasse 14" veroeffentlicht="2025-08-25" rechtskraeftig="2025-08-20" seit="2024-10-03" geburtsdatum="2004-01-08" kennziffer="R153C456F">KOLOMPAR Dzsaner</scheinfirma>
@@ -1040,6 +1041,7 @@
   <scheinfirma anschrift="3562 Schönberg, Hauptstraße 29" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-17" fbnr="504171d" uid="ATU73921857">R &amp; S Interline KG</scheinfirma>
   <scheinfirma anschrift="4030 Linz, Simonystraße 1a" veroeffentlicht="2021-04-21" rechtskraeftig="2021-04-08" fbnr="424066b" uid="ATU69422403">RAC GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Mariahilfer Straße 131" veroeffentlicht="2023-09-15" rechtskraeftig="2023-09-06" fbnr="567764y" uid="ATU77764108">Racean GmbH</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Ottakringer Straße 154" veroeffentlicht="2026-04-28" rechtskraeftig="2026-04-27" seit="2023-11-28" geburtsdatum="1985-08-10" uid="ATU80079727" kennziffer="R143S8489">RADENKOVIC Susanna</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Scheugasse 9" veroeffentlicht="2026-03-10" rechtskraeftig="2026-03-05" seit="2025-09-11" geburtsdatum="1995-10-25" kennziffer="R158E076W">RADEV Petar Asenov</scheinfirma>
   <scheinfirma anschrift="1090 Wien, Stroheckgasse 5" veroeffentlicht="2023-06-06" rechtskraeftig="2023-06-01" geburtsdatum="1994-06-02">RADUCAN Stelian</scheinfirma>
   <scheinfirma anschrift="1090 Wien, D'Orsaygasse 1" veroeffentlicht="2023-10-31" rechtskraeftig="2023-10-21" geburtsdatum="1998-06-07">RADULY Patrik</scheinfirma>
