@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-04-29T07:33:45 | 1411 | 2016-04-01 |
+| 2026-05-01T07:48:59 | 1412 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1461
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1411]
+    y-axis "Anzahl" 0 --> 1462
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -38,9 +38,9 @@ xychart-beta
 | Claudiu GmbH | ATU70285014 | 5020 Salzburg, Schmiedkreuzstraße 3 |
 | DAVID Renato | ATU81779602 | 1100 Wien, Humboldtgasse 25 |
 | DG Plus Baukonstrukt GmbH | ATU69609079 | 1200 Wien, Handelskai 94-96 |
+| Debo Zwölf Immobilien GmbH | ATU74093214 | 1010 Wien, Seitenstettengasse 5/37 |
 | DÖMÖTÖR Joszef | ATU82541545 | 1100 Wien, Keplergasse 3 |
 | Elektro Blitz ic e.U. | ATU82356567 | 1120 Wien, Albrechtsbergergasse 12 |
-| FEJES Bence | ATU82709446 | 6330 Kufstein, Siebenbürger Straße 22 |
 | GUJJAR GUJJAR Javed | ATU82056418 | 1100 Wien, Inzersdorfer Straße 61 |
 | HADZHIEV Radoslav Georgiev | ATU82647619 | 1110 Wien, Lorystraße 73 |
 | HORVATH Krisztian | ATU81812647 | 1100 Wien, Quellenstraße 77 |
@@ -55,10 +55,8 @@ xychart-beta
 | KOVAC Maros | ATU82414709 | 1200 Wien, Jägerstraße 21 |
 | LACKOVICOVA Marcela | ATU81961708 | 1120 Wien, Siebertgasse 6 |
 | LAKATOSOVA Nina |  | 1050 Wien, Zentagasse 5 |
-| M & V ILIC GmbH |  | 2601 Sollenau, Querstraße 23 |
 | MALIK Peter | ATU82441804 | 1200 Wien, Jägerstraße 21 |
 | MATA Sandor |  | 1100 Wien, Inzersdorfer Straße 29/19 |
-| MIGO Taxi KG | ATU68635435 | 1160 Wien, Hasnerstraße 23 |
 | MOCSARI Tamas | ATU81770807 | 1200 Wien, Hartlgasse 14 |
 | Miletic Bau & Isolierungen GmbH | ATU58111019 | 2353 Guntramsdorf, Industriestraße 41 |
 | MoLo Infinity Delivery GmbH | ATU81007278 | 5023 Salzburg, Bachstraße 57 |
