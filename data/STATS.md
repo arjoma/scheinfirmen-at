@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-01T07:48:59 | 1412 | 2016-04-01 |
+| 2026-05-05T07:22:40 | 1416 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1462
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412]
+    y-axis "Anzahl" 0 --> 1466
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1416]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -45,7 +45,7 @@ xychart-beta
 | HADZHIEV Radoslav Georgiev | ATU82647619 | 1110 Wien, Lorystraße 73 |
 | HORVATH Krisztian | ATU81812647 | 1100 Wien, Quellenstraße 77 |
 | HORVATH Zsolt Andras | ATU82537113 | 1100 Wien, Herzgasse 80 |
-| Horizons Kitchen KG | ATU82227412 | 1050 Wien, Straußengasse 3 |
+| HYGIENIA cleaning gmbh | ATU78677647 | 1120 Wien, Schönbrunner Straße 213-215 |
 | IPH Handels GmbH | ATU82573528 | 1050 Wien, Spengergasse 52/8 |
 | IQBAL ZAFAR Muhammad Zohaib | ATU82077217 | 1100 Wien, Inzersdorfer Straße 97/33 |
 | IVANOV Manuil Georgiev | ATU81613489 | 1200 Wien, Brigittenauer Lände 58 |
@@ -55,15 +55,15 @@ xychart-beta
 | KOVAC Maros | ATU82414709 | 1200 Wien, Jägerstraße 21 |
 | LACKOVICOVA Marcela | ATU81961708 | 1120 Wien, Siebertgasse 6 |
 | LAKATOSOVA Nina |  | 1050 Wien, Zentagasse 5 |
+| LESNIEWSKI Grzegorz Stanislaw |  | 1120 Wien, Bischoffgasse 13/9 |
 | MALIK Peter | ATU82441804 | 1200 Wien, Jägerstraße 21 |
 | MATA Sandor |  | 1100 Wien, Inzersdorfer Straße 29/19 |
 | MOCSARI Tamas | ATU81770807 | 1200 Wien, Hartlgasse 14 |
 | Miletic Bau & Isolierungen GmbH | ATU58111019 | 2353 Guntramsdorf, Industriestraße 41 |
-| MoLo Infinity Delivery GmbH | ATU81007278 | 5023 Salzburg, Bachstraße 57 |
 | OLAH Jan | ATU82464628 | 1100 Wien, Humboldtgasse 38 |
 | ORICHEL Mario | ATU82430512 | 1160 Wien, Hasnerstraße 36 |
+| PISTOVA Monika |  | 1220 Wien, Eva-Maria-Mazzucco-Platz 1 |
 | PLSICIK Peter | ATU81471079 | 1200 Wien, Klosterneuburger Straße 28 |
-| PODRIC Velimir | ATU72029235 | 2601 Sollenau, Querstraße 23 |
 | POLJANSZKIJ Sandor | ATU82346613 | 1050 Wien, Reinprechtsdorfer Straße 14 |
 | PRO-ODIM Immo & Trade GmbH | ATU73864026 | 1140 Wien, Hauptstraße 133/1/4a |
 | Princ Handels GmbH | ATU81079208 | 1180 Wien, Martinstraße 10 |
@@ -72,6 +72,7 @@ xychart-beta
 | REHBAR LOGISTIK GmbH | ATU81967659 | 1120 Wien, Siebertgasse 6 |
 | Red4Tech GmbH | ATU81480078 | 2272 Ringelsdorf-Niederabsdorf, Palterndorfer Straße 248 |
 | SIMEONOV Yanko | ATU82640439 | 1150 Wien, Hütteldorfer Straße 48/22 |
+| SIPOS Roman | ATU82665705 | 1120 Wien, Siebertgasse 6/22 |
 | Sokol Interior Design GmbH | ATU70986668 | 1030 Wien, Klimschgasse 19-21/1 |
 | TAMAS Mario | ATU81909268 | 1210 Wien, Koloniestraße 31 |
 | TANACKOVIC Svetlana | ATU82394712 | 1030 Wien, Würtzlerstraße 26 |
