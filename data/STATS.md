@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-05T07:22:40 | 1416 | 2016-04-01 |
+| 2026-05-07T07:39:35 | 1419 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1466
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1416]
+    y-axis "Anzahl" 0 --> 1469
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1419]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -53,12 +53,10 @@ xychart-beta
 | KLIMENT Rudolf | ATU82528347 | 1110 Wien, Geiselbergstraße 28/1/58 |
 | KOLAR Vanessa | ATU82541215 | 1110 Wien, Zippererstraße 14 |
 | KOVAC Maros | ATU82414709 | 1200 Wien, Jägerstraße 21 |
-| LACKOVICOVA Marcela | ATU81961708 | 1120 Wien, Siebertgasse 6 |
 | LAKATOSOVA Nina |  | 1050 Wien, Zentagasse 5 |
 | LESNIEWSKI Grzegorz Stanislaw |  | 1120 Wien, Bischoffgasse 13/9 |
 | MALIK Peter | ATU82441804 | 1200 Wien, Jägerstraße 21 |
 | MATA Sandor |  | 1100 Wien, Inzersdorfer Straße 29/19 |
-| MOCSARI Tamas | ATU81770807 | 1200 Wien, Hartlgasse 14 |
 | Miletic Bau & Isolierungen GmbH | ATU58111019 | 2353 Guntramsdorf, Industriestraße 41 |
 | OLAH Jan | ATU82464628 | 1100 Wien, Humboldtgasse 38 |
 | ORICHEL Mario | ATU82430512 | 1160 Wien, Hasnerstraße 36 |
@@ -67,13 +65,15 @@ xychart-beta
 | POLJANSZKIJ Sandor | ATU82346613 | 1050 Wien, Reinprechtsdorfer Straße 14 |
 | PRO-ODIM Immo & Trade GmbH | ATU73864026 | 1140 Wien, Hauptstraße 133/1/4a |
 | Princ Handels GmbH | ATU81079208 | 1180 Wien, Martinstraße 10 |
+| Profi PV-Anlagen GmbH | ATU79933306 | 1020 Wien, Robertgasse 1 |
 | RADENKOVIC Susanna | ATU80079727 | 1160 Wien, Ottakringer Straße 154 |
 | RAVASZNE VARGA Krisztina | ATU81755637 | 1100 Wien, Columbusgasse 96 |
-| REHBAR LOGISTIK GmbH | ATU81967659 | 1120 Wien, Siebertgasse 6 |
 | Red4Tech GmbH | ATU81480078 | 2272 Ringelsdorf-Niederabsdorf, Palterndorfer Straße 248 |
 | SIMEONOV Yanko | ATU82640439 | 1150 Wien, Hütteldorfer Straße 48/22 |
 | SIPOS Roman | ATU82665705 | 1120 Wien, Siebertgasse 6/22 |
+| Savacium GmbH | ATU76488267 | 1150 Wien, Gablenzgasse 7/DG/17 |
 | Sokol Interior Design GmbH | ATU70986668 | 1030 Wien, Klimschgasse 19-21/1 |
+| Surek GmbH | ATU80105967 | 1020 Wien, Vereinsgasse 16/29 |
 | TAMAS Mario | ATU81909268 | 1210 Wien, Koloniestraße 31 |
 | TANACKOVIC Svetlana | ATU82394712 | 1030 Wien, Würtzlerstraße 26 |
 | Todorovic & Kerculy OEG |  | 1200 Wien, Spittelbreitengasse 30/18 |
