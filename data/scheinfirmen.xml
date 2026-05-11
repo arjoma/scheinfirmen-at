@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-05-09" zeit="07:29:15" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1423">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-05-11" zeit="08:07:03" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1424">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -223,7 +223,7 @@
   <scheinfirma anschrift="1200 Wien, Hannovergasse 21" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-17" seit="2024-01-01" geburtsdatum="1990-07-23" uid="ATU81265845" kennziffer="R152N909U">BUDAI Gyöngyi</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Hannovergasse 12" veroeffentlicht="2025-05-26" rechtskraeftig="2025-05-22" seit="2022-11-04" geburtsdatum="1999-07-24" uid="ATU79083625" kennziffer="R137C540N">BUDESTEANU Andrei</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Anzengruberstraße 9" veroeffentlicht="2025-09-05" rechtskraeftig="2025-09-03" seit="2025-04-01" geburtsdatum="1989-09-04" uid="ATU81939404" kennziffer="R154U6120">BUDRIS Aidas</scheinfirma>
-  <scheinfirma anschrift="1200 Wien, Hartlgasse 20" veroeffentlicht="2026-03-26" rechtskraeftig="2026-03-17" seit="2025-08-20" geburtsdatum="2025-02-14" fbnr="646536p" uid="ATU81757715" kennziffer="R154M597F">BUHAB Warenhandels GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Hartlgasse 20" veroeffentlicht="2026-03-26" rechtskraeftig="2026-03-17" seit="2025-08-20" fbnr="646536p" uid="ATU81757715" kennziffer="R154M597F">BUHAB Warenhandels GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 30" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-25" seit="2024-10-28" geburtsdatum="1998-03-14" uid="ATU81668517" kennziffer="R152U125B">BUKOVA Valeria</scheinfirma>
   <scheinfirma anschrift="4484 Kronstorf, Hauptstraße 48" veroeffentlicht="2025-12-30" rechtskraeftig="2025-12-12" seit="2025-01-22" geburtsdatum="1965-12-04" uid="ATU81885024" kennziffer="R154D541A">BULIGA Geta</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Sandleitengasse 15" veroeffentlicht="2017-01-10" rechtskraeftig="2016-12-27" fbnr="446284a">Bunda Electronics GmbH</scheinfirma>
@@ -790,6 +790,7 @@
   <scheinfirma anschrift="1110 Wien, Hadatschgasse 9" veroeffentlicht="2025-07-02" rechtskraeftig="2025-06-25" seit="2024-03-12" fbnr="595454v" uid="ATU78998578" kennziffer="R138A160A">MaBa 11 Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Hertha-Firnberg-Straße 16" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-11" seit="2024-01-08" geburtsdatum="2000-10-16" uid="ATU80283079" kennziffer="R145N116P">MACHUNURU Anandnarayana Reddy</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Columbusgasse 64" veroeffentlicht="2024-07-29" rechtskraeftig="2024-07-18" seit="2023-02-23" geburtsdatum="1994-04-18" uid="ATU79242767" kennziffer="R138Z458I">MACKALA Dominik</scheinfirma>
+  <scheinfirma anschrift="1190 Wien, Hackhofergasse 1" veroeffentlicht="2026-05-11" rechtskraeftig="2026-05-08" seit="2025-03-26" fbnr="647865v" uid="ATU81952246" kennziffer="R155F079S">Madello GmbH</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Erzherzog-Karl-Straße 78" veroeffentlicht="2020-06-24" rechtskraeftig="2020-06-17" geburtsdatum="1980-04-03" uid="ATU71921405">MADUGULA Srinivas</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 85/19" veroeffentlicht="2026-01-07" rechtskraeftig="2025-12-22" seit="2025-01-01" geburtsdatum="1983-05-06" uid="ATU80880913" kennziffer="R146Z629C">MADUPU Thirupathi Reddy</scheinfirma>
   <scheinfirma anschrift="6800 Feldkirch, Leonhardsplatz 4" veroeffentlicht="2021-10-11" rechtskraeftig="2021-09-11" fbnr="396475b" uid="ATU68595326">MAGIC MOUNTAINS Hotel &amp; Resorts GmbH</scheinfirma>
