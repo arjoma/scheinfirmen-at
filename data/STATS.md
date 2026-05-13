@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-12T07:46:47 | 1433 | 2016-04-01 |
+| 2026-05-13T07:56:07 | 1435 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1483
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1433]
+    y-axis "Anzahl" 0 --> 1485
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1435]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -29,6 +29,7 @@ xychart-beta
 | AS Asenov Bau KG | ATU78447717 | 1210 Wien, Brünner Straße 124 |
 | AS-GV GmbH | ATU80027659 | 1010 Wien, Sterngasse 3 |
 | BABKO Dienstleistungs GmbH | ATU67920609 | 1010 Wien, Sterngasse 2/3/6 |
+| BACA Oliver |  | 2353 Guntramsdorf, Mödlingerstraße 4 |
 | BALOGOVA Alzbeta | ATU81239027 | 1160 Wien, Lambertgasse 15 |
 | BARTOS Marek | ATU82334519 | 1200 Wien, Traunfelsgasse 5 |
 | BUKOVA Valeria | ATU81668517 | 1190 Wien, Heiligenstädter Straße 30 |
@@ -50,7 +51,6 @@ xychart-beta
 | IPH Handels GmbH | ATU82573528 | 1050 Wien, Spengergasse 52/8 |
 | IQBAL ZAFAR Muhammad Zohaib | ATU82077217 | 1100 Wien, Inzersdorfer Straße 97/33 |
 | IVANOV Manuil Georgiev | ATU81613489 | 1200 Wien, Brigittenauer Lände 58 |
-| JURO Bau und Eisenverlegung GmbH | ATU77519106 | 1140 Wien, Märzstraße 126/18 |
 | KALAJ Jan | ATU82528123 | 1220 Wien, Hans-Steger-Gasse 12 |
 | KLIMENT Rudolf | ATU82528347 | 1110 Wien, Geiselbergstraße 28/1/58 |
 | KOLAR Vanessa | ATU82541215 | 1110 Wien, Zippererstraße 14 |
@@ -83,6 +83,7 @@ xychart-beta
 | TANACKOVIC Svetlana | ATU82394712 | 1030 Wien, Würtzlerstraße 26 |
 | TLASS Khaled | ATU81542546 | 1230 Wien, Brändströmgasse 1/18/25 |
 | Todorovic & Kerculy OEG |  | 1200 Wien, Spittelbreitengasse 30/18 |
+| Urban & Mountain Hospitality GmbH | ATU75501306 | 1100 Wien, Gertrude-Fröhlich-Sandner Straße 2-4/Tower 9 |
 | VAGVOLGYI Tamas | ATU82102029 | 1100 Wien, Absberggasse 45A |
 | Wikri Alpha Projektmanagement Gesellschaft m.b.H. |  | 1060 Wien, Eisvogelgasse 6 |
 | ÖHM Gyula | ATU77344401 | 7464 Markt Neuhodis, Graben 17 |
