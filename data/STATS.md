@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-13T07:56:07 | 1435 | 2016-04-01 |
+| 2026-05-14T07:55:22 | 1437 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1485
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1435]
+    y-axis "Anzahl" 0 --> 1487
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1437]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -57,8 +57,8 @@ xychart-beta
 | LAKATOSOVA Nina |  | 1050 Wien, Zentagasse 5 |
 | LESNIEWSKI Grzegorz Stanislaw |  | 1120 Wien, Bischoffgasse 13/9 |
 | MALIK Peter | ATU82441804 | 1200 Wien, Jägerstraße 21 |
-| MATA Sandor |  | 1100 Wien, Inzersdorfer Straße 29/19 |
 | MATENE HAGA Erika | ATU82344429 | 1100 Wien, Scheugasse 9 |
+| MM Tech GmbH | ATU81227316 | 2102 Hagenbrunn, |
 | Madello GmbH | ATU81952246 | 1190 Wien, Hackhofergasse 1 |
 | Miletic Bau & Isolierungen GmbH | ATU58111019 | 2353 Guntramsdorf, Industriestraße 41 |
 | OLAH Jan | ATU82464628 | 1100 Wien, Humboldtgasse 38 |
@@ -86,4 +86,5 @@ xychart-beta
 | Urban & Mountain Hospitality GmbH | ATU75501306 | 1100 Wien, Gertrude-Fröhlich-Sandner Straße 2-4/Tower 9 |
 | VAGVOLGYI Tamas | ATU82102029 | 1100 Wien, Absberggasse 45A |
 | Wikri Alpha Projektmanagement Gesellschaft m.b.H. |  | 1060 Wien, Eisvogelgasse 6 |
+| Ö&I CLEAN group Austria GmbH | ATU81441209 | 2320 Schwechat, Wiener Straße 27 |
 | ÖHM Gyula | ATU77344401 | 7464 Markt Neuhodis, Graben 17 |
