@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-19T08:18:34 | 1441 | 2016-04-01 |
+| 2026-05-20T08:18:03 | 1444 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1491
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1441]
+    y-axis "Anzahl" 0 --> 1494
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1444]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -32,7 +32,6 @@ xychart-beta
 | BUKOVA Valeria | ATU81668517 | 1190 Wien, Heiligenstädter Straße 30 |
 | Baumaschinen Bauroos GmbH | ATU77248836 | 1040 Wien, Kettenbrückengasse 6 |
 | CERVENKA Mario | ATU82528702 | 1190 Wien, Wigandgasse 37 |
-| CINA Miroslav |  | 1200 Wien, Allerheiligenplatz 3/10 |
 | DANIEL David | ATU81882615 | 1170 Wien, Blumengasse 49 |
 | DAVID Renato | ATU81779602 | 1100 Wien, Humboldtgasse 25 |
 | Debo Zwölf Immobilien GmbH | ATU74093214 | 1010 Wien, Seitenstettengasse 5/37 |
@@ -47,7 +46,6 @@ xychart-beta
 | HYGIENIA cleaning gmbh | ATU78677647 | 1120 Wien, Schönbrunner Straße 213-215 |
 | IPH Handels GmbH | ATU82573528 | 1050 Wien, Spengergasse 52/8 |
 | IQBAL ZAFAR Muhammad Zohaib | ATU82077217 | 1100 Wien, Inzersdorfer Straße 97/33 |
-| IVANOV Manuil Georgiev | ATU81613489 | 1200 Wien, Brigittenauer Lände 58 |
 | KALAJ Jan | ATU82528123 | 1220 Wien, Hans-Steger-Gasse 12 |
 | KLIMENT Rudolf | ATU82528347 | 1110 Wien, Geiselbergstraße 28/1/58 |
 | KOLAR Vanessa | ATU82541215 | 1110 Wien, Zippererstraße 14 |
@@ -66,13 +64,14 @@ xychart-beta
 | PLSICIK Peter | ATU81471079 | 1200 Wien, Klosterneuburger Straße 28 |
 | POLGAR Zoltan |  | 7464 Markt Neuhodis, Graben 17 |
 | POLJANSZKIJ Sandor | ATU82346613 | 1050 Wien, Reinprechtsdorfer Straße 14 |
-| PRO-ODIM Immo & Trade GmbH | ATU73864026 | 1140 Wien, Hauptstraße 133/1/4a |
 | Princ Handels GmbH | ATU81079208 | 1180 Wien, Martinstraße 10 |
 | Profi PV-Anlagen GmbH | ATU79933306 | 1020 Wien, Robertgasse 1 |
 | RADENKOVIC Susanna | ATU80079727 | 1160 Wien, Ottakringer Straße 154 |
 | RAVASZNE VARGA Krisztina | ATU81755637 | 1100 Wien, Columbusgasse 96 |
+| REVESZNE MOLL Katalin Piroska | ATU79297556 | 7464 Markt Neuhodis, Graben 17 |
 | ROLY Bau GmbH | ATU75124107 | 2320 Schwechat, Mautner Markhof-Straße 1 |
-| SIMEONOV Yanko | ATU82640439 | 1150 Wien, Hütteldorfer Straße 48/22 |
+| SINGH Nishan | ATU79221557 | 1120 Wien, Arndtstraße 6 |
+| SINGH Parminder | ATU79222057 | 1120 Wien, Wolfganggasse 31/28 |
 | SINGH Surjit | ATU81012805 | 1160 Wien, Hasnerstraße 94 |
 | SIPOS Roman | ATU82665705 | 1120 Wien, Siebertgasse 6/22 |
 | Savacium GmbH | ATU76488267 | 1150 Wien, Gablenzgasse 7/DG/17 |
