@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-20T08:18:03 | 1444 | 2016-04-01 |
+| 2026-05-21T19:03:01 | 1453 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,17 +16,19 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1494
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 298, 308, 321, 327, 333, 354, 370, 380, 390, 403, 407, 419, 429, 444, 453, 458, 462, 471, 472, 480, 496, 504, 512, 515, 517, 527, 541, 557, 573, 589, 598, 617, 645, 653, 667, 684, 697, 707, 729, 747, 768, 786, 795, 820, 853, 881, 937, 997, 1020, 1051, 1073, 1113, 1154, 1189, 1212, 1236, 1256, 1284, 1356, 1412, 1444]
+    y-axis "Anzahl" 0 --> 1503
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 307, 320, 326, 332, 353, 369, 379, 389, 402, 406, 418, 428, 443, 452, 457, 461, 470, 471, 479, 495, 503, 511, 514, 516, 526, 540, 556, 572, 588, 597, 616, 644, 652, 666, 683, 696, 706, 728, 746, 767, 785, 794, 819, 852, 880, 936, 996, 1019, 1050, 1072, 1112, 1153, 1188, 1211, 1235, 1255, 1283, 1355, 1411, 1453]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
 
 | Name | UID | Anschrift |
 |------|-----|-----------|
+| ANGYAL Balazs |  | 7464 Markt Neuhodis, Graben 17 |
+| ARANYI Jozsef | ATU83089989 | 1050 Wien, Gassergasse 27 |
 | ARTED GmbH | ATU15328009 | 1100 Wien, Gudrunstraße 25 |
 | AS-GV GmbH | ATU80027659 | 1010 Wien, Sterngasse 3 |
-| BABKO Dienstleistungs GmbH | ATU67920609 | 1010 Wien, Sterngasse 2/3/6 |
+| Andor kit GmbH | ATU81424219 | 1010 Wien, Sterngasse 3 |
 | BACA Oliver |  | 2353 Guntramsdorf, Mödlingerstraße 4 |
 | BARTOS Marek | ATU82334519 | 1200 Wien, Traunfelsgasse 5 |
 | BUKOVA Valeria | ATU81668517 | 1190 Wien, Heiligenstädter Straße 30 |
@@ -56,15 +58,18 @@ xychart-beta
 | MM Tech GmbH | ATU81227316 | 2102 Hagenbrunn, |
 | Madello GmbH | ATU81952246 | 1190 Wien, Hackhofergasse 1 |
 | Mikic Projektentwicklungs GmbH | ATU79861749 | 1150 Wien, Mariahilfer Straße 141/5A |
+| NAGY Balint Janos |  | 7464 Markt Neuhodis, Graben 17 |
 | NAGYNE PASZTHORY Agnes Klara |  | 7464 Markt Neuhodis, Graben 17 |
 | OLAH Jan | ATU82464628 | 1100 Wien, Humboldtgasse 38 |
 | PAG NOVA GmbH | ATU74856328 | 1150 Wien, Europaplatz 2 |
+| PECHOVA Zaneta |  | 1100 Wien, Puchsbaumgasse 37 |
+| PISTA Alex |  | 1100 Wien, Puchsbaumgasse 37 |
 | PISTOVA Monika |  | 1220 Wien, Eva-Maria-Mazzucco-Platz 1 |
+| PISTOVA Natalia |  | 1100 Wien, Puchsbaumgasse 37/14 |
 | PIZVAN GmbH | ATU82157336 | 1200 Wien, Dammstraße 8/1a |
 | PLSICIK Peter | ATU81471079 | 1200 Wien, Klosterneuburger Straße 28 |
 | POLGAR Zoltan |  | 7464 Markt Neuhodis, Graben 17 |
 | POLJANSZKIJ Sandor | ATU82346613 | 1050 Wien, Reinprechtsdorfer Straße 14 |
-| Princ Handels GmbH | ATU81079208 | 1180 Wien, Martinstraße 10 |
 | Profi PV-Anlagen GmbH | ATU79933306 | 1020 Wien, Robertgasse 1 |
 | RADENKOVIC Susanna | ATU80079727 | 1160 Wien, Ottakringer Straße 154 |
 | RAVASZNE VARGA Krisztina | ATU81755637 | 1100 Wien, Columbusgasse 96 |
@@ -75,13 +80,16 @@ xychart-beta
 | SINGH Surjit | ATU81012805 | 1160 Wien, Hasnerstraße 94 |
 | SIPOS Roman | ATU82665705 | 1120 Wien, Siebertgasse 6/22 |
 | Savacium GmbH | ATU76488267 | 1150 Wien, Gablenzgasse 7/DG/17 |
+| Solvona GmbH | ATU68271112 | 1010 Wien, Sterngasse 3/2/6 |
 | Surek GmbH | ATU80105967 | 1020 Wien, Vereinsgasse 16/29 |
 | TAMAS Mario | ATU81909268 | 1210 Wien, Koloniestraße 31 |
 | TANACKOVIC Svetlana | ATU82394712 | 1030 Wien, Würtzlerstraße 26 |
 | TLASS Khaled | ATU81542546 | 1230 Wien, Brändströmgasse 1/18/25 |
+| Todorov Stone GmbH | ATU73141968 | 1100 Wien, Buchengasse 107/8 |
 | Todorovic & Kerculy OEG |  | 1200 Wien, Spittelbreitengasse 30/18 |
 | Urban & Mountain Hospitality GmbH | ATU75501306 | 1100 Wien, Gertrude-Fröhlich-Sandner Straße 2-4/Tower 9 |
 | VAGVOLGYI Tamas | ATU82102029 | 1100 Wien, Absberggasse 45A |
+| VILLAM Lajos | ATU82871279 | 1210 Wien, Prager Straße 63 |
 | Wikri Alpha Projektmanagement Gesellschaft m.b.H. |  | 1060 Wien, Eisvogelgasse 6 |
 | ZIGA Patrick |  | 1120 Wien, Siebertgasse 6 |
 | Ö&I CLEAN group Austria GmbH | ATU81441209 | 2320 Schwechat, Wiener Straße 27 |
