@@ -13,10 +13,13 @@ Rules applied (in order):
 1. **Swap UID ↔ Kennziffer**: when each column holds a value matching the
    *other* column's pattern (or one is empty and the other is misplaced),
    swap them. Handles both true swaps and "move one over" cases.
-2. **Clear duplicate Kennziffer**: when the Kennziffer field is an exact
+2. **Swap Firmenbuch ↔ Kennziffer**: same idea for the
+   Firmenbuch-Nr/Kennziffer pair (e.g. a Kennziffer like ``R120R501J``
+   accidentally typed into the Firmenbuch column).
+3. **Clear duplicate Kennziffer**: when the Kennziffer field is an exact
    duplicate of the UID or Firmenbuch field, clear it (BMF sometimes
    re-types the same value into both columns).
-3. **Promote foreign VAT to UID**: when the Kennziffer field holds a
+4. **Promote foreign VAT to UID**: when the Kennziffer field holds a
    non-Austrian EU VAT number (e.g. ``RO38488384``) and the UID column is
    empty, move it into UID.
 """
@@ -25,7 +28,7 @@ import re
 from dataclasses import dataclass
 
 from scheinfirmen_at.parse import ParseResult, ScheinfirmaRecord
-from scheinfirmen_at.validate import _RE_KENNZIFFER, _RE_UID
+from scheinfirmen_at.validate import _RE_FIRMENBUCH, _RE_KENNZIFFER, _RE_UID
 
 # Generic EU-style VAT identifier: 2 country letters + digit/letter mix.
 # Loose on purpose — we only use it to *recognize* a foreign VAT placed in
@@ -54,6 +57,11 @@ def normalize_field_swaps(result: ParseResult) -> list[FieldFix]:
     fixes: list[FieldFix] = []
     for row_idx, rec in enumerate(result.records, start=1):
         fix = _apply_swap(rec, row_idx)
+        if fix is not None:
+            fixes.append(fix)
+            continue
+
+        fix = _apply_fbnr_kennziffer_swap(rec, row_idx)
         if fix is not None:
             fixes.append(fix)
             continue
@@ -104,6 +112,48 @@ def _apply_swap(rec: ScheinfirmaRecord, row: int) -> FieldFix | None:
         description=(
             f"swapped UID/Kennziffer (was uid={before_uid!r}, "
             f"kennziffer={before_kz!r}; now uid={rec.uid!r}, "
+            f"kennziffer={rec.kennziffer!r})"
+        ),
+    )
+
+
+def _apply_fbnr_kennziffer_swap(
+    rec: ScheinfirmaRecord, row: int
+) -> FieldFix | None:
+    """Swap Firmenbuch-Nr ↔ Kennziffer when each value is in the wrong column.
+
+    Also handles the "move" case where one column is empty and the other
+    holds a misplaced value (e.g. ``fbnr='R120R501J'``, ``kennziffer=None``).
+    """
+    fbnr_valid = (
+        rec.fbnr is not None and _RE_FIRMENBUCH.match(rec.fbnr) is not None
+    )
+    kz_valid = (
+        rec.kennziffer is not None
+        and _RE_KENNZIFFER.match(rec.kennziffer) is not None
+    )
+    if fbnr_valid or kz_valid:
+        return None
+
+    fbnr_looks_like_kz = (
+        rec.fbnr is not None and _RE_KENNZIFFER.match(rec.fbnr) is not None
+    )
+    kz_looks_like_fbnr = (
+        rec.kennziffer is not None
+        and _RE_FIRMENBUCH.match(rec.kennziffer) is not None
+    )
+    if not (fbnr_looks_like_kz or kz_looks_like_fbnr):
+        return None
+
+    before_fbnr, before_kz = rec.fbnr, rec.kennziffer
+    rec.fbnr, rec.kennziffer = rec.kennziffer, rec.fbnr
+    return FieldFix(
+        row=row,
+        name=rec.name,
+        rule="swap-fbnr-kennziffer",
+        description=(
+            f"swapped Firmenbuch/Kennziffer (was fbnr={before_fbnr!r}, "
+            f"kennziffer={before_kz!r}; now fbnr={rec.fbnr!r}, "
             f"kennziffer={rec.kennziffer!r})"
         ),
     )

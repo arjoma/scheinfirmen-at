@@ -80,20 +80,23 @@ def test_validate_valid_uid_formats() -> None:
         assert not uid_issues, f"UID {uid} should be valid"
 
 
-def test_validate_invalid_firmenbuch() -> None:
-    for bad in ["1234", "1234567a", "123456", "abcdef"]:
+def test_validate_invalid_firmenbuch_is_warning_not_error() -> None:
+    for bad in ["1234", "1234567a", "123456", "abcdef", "R120R501J"]:
         rec = _good_record(fbnr=bad)
         vr = validate_records(_make_result([rec]), min_rows=1)
-        fb_errors = [e for e in vr.errors if e.field == "fbnr"]
-        assert fb_errors, f"Firmenbuch {bad!r} should be invalid"
+        assert vr.ok, f"Bad Firmenbuch {bad!r} should not abort pipeline"
+        fb_warnings = [w for w in vr.warnings if w.field == "fbnr"]
+        assert fb_warnings, f"Firmenbuch {bad!r} should produce a warning"
 
 
 def test_validate_valid_firmenbuch() -> None:
     for good in ["12345a", "123456A", "97531z"]:
         rec = _good_record(fbnr=good)
         vr = validate_records(_make_result([rec]), min_rows=1)
-        fb_errors = [e for e in vr.errors if e.field == "fbnr"]
-        assert not fb_errors, f"Firmenbuch {good!r} should be valid"
+        fb_issues = [
+            e for e in (*vr.errors, *vr.warnings) if e.field == "fbnr"
+        ]
+        assert not fb_issues, f"Firmenbuch {good!r} should be valid"
 
 
 def test_validate_kennziffer_bad_format_is_warning_not_error() -> None:

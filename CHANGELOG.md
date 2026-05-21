@@ -5,6 +5,17 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.5.1] - 2026-05-21
+
+### Behoben
+- **Nightly-Update bricht nicht mehr ab, wenn das BMF eine Kennziffer in die Firmenbuch-Spalte tippt.** Konkreter Vorfall am 2026-05-21: Zeile „NAGY Balint Janos" enthielt den Kennziffer-Wert `R120R501J` in der Spalte Firmenbuch-Nr, was die strenge Validierung als Fehler abbrechen ließ.
+
+### Hinzugefügt
+- **Normalize-Regel `swap-fbnr-kennziffer`:** vertauscht Firmenbuch-Nr und Kennziffer, wenn die Werte in der jeweils anderen Spalte stehen (analog zur bereits vorhandenen UID↔Kennziffer-Regel). Behebt den oben beschriebenen Fall automatisch.
+
+### Geändert
+- **Validierung Firmenbuch-Nr-Format:** Format-Abweichungen werden jetzt als Warnung (statt Fehler) gemeldet — passend zur bestehenden Behandlung von UID- und Kennziffer-Format. Das BMF ist die Quelle der Wahrheit; einzelne ungewöhnliche Werte sollen das tägliche Update nicht blockieren.
+
 ## [1.5.0] - 2026-04-28
 
 ### Hinzugefügt

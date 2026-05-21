@@ -59,6 +59,36 @@ def test_true_swap_both_columns_misplaced() -> None:
     assert rec.kennziffer == "R100A200"
 
 
+# --- Firmenbuch ↔ Kennziffer swap ---------------------------------------
+
+
+def test_move_kennziffer_value_from_fbnr_column() -> None:
+    """Real-world case (CI run 2026-05-21): Kennziffer-shaped value in fbnr column."""
+    rec = _rec(name="NAGY Balint Janos", fbnr="R120R501J", uid=None, kennziffer=None)
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert len(fixes) == 1
+    assert fixes[0].rule == "swap-fbnr-kennziffer"
+    assert rec.fbnr is None
+    assert rec.kennziffer == "R120R501J"
+
+
+def test_true_swap_fbnr_and_kennziffer() -> None:
+    rec = _rec(fbnr="R100A200", kennziffer="123456a")
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert len(fixes) == 1
+    assert fixes[0].rule == "swap-fbnr-kennziffer"
+    assert rec.fbnr == "123456a"
+    assert rec.kennziffer == "R100A200"
+
+
+def test_fbnr_kennziffer_both_valid_no_swap() -> None:
+    rec = _rec(fbnr="123456a", kennziffer="R100A200")
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert fixes == []
+    assert rec.fbnr == "123456a"
+    assert rec.kennziffer == "R100A200"
+
+
 def test_no_swap_when_both_valid_in_place() -> None:
     rec = _rec(uid="ATU12345678", kennziffer="R100A200")
     fixes = normalize_field_swaps(_make_result([rec]))

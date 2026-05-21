@@ -59,9 +59,9 @@ def validate_records(
     - Rechtskraft Bescheid must be a valid ISO date
     - Zeitpunkt: if present, must be valid ISO date
     - Geburts-Datum: if present, must be valid ISO date
-    - Firmenbuch-Nr: if present, must match digits + letter
 
     Warnings (known BMF data quality issues):
+    - Firmenbuch-Nr: if present and doesn't match digits + letter
     - Kennziffer: if present and doesn't match expected pattern
     - UID-Nr: if present and matches neither the Austrian pattern
       (ATU + 8 digits) nor a generic EU VAT pattern (e.g. RO…, DE…).
@@ -138,9 +138,11 @@ def _validate_record(
             "Expected Austrian UID (ATU + 8 digits) or EU VAT format",
         )
 
-    # Firmenbuch-Nr format
+    # Firmenbuch-Nr format — warning only. BMF occasionally publishes
+    # non-standard values (e.g. foreign register IDs) that we must pass
+    # through verbatim rather than abort the pipeline.
     if rec.fbnr is not None and not _RE_FIRMENBUCH.match(rec.fbnr):
-        err(
+        warn(
             "fbnr",
             rec.fbnr,
             "Expected 5-6 digits followed by a letter",
