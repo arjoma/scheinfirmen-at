@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-21T19:03:01 | 1453 | 2016-04-01 |
+| 2026-05-22T08:18:04 | 1455 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1503
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 307, 320, 326, 332, 353, 369, 379, 389, 402, 406, 418, 428, 443, 452, 457, 461, 470, 471, 479, 495, 503, 511, 514, 516, 526, 540, 556, 572, 588, 597, 616, 644, 652, 666, 683, 696, 706, 728, 746, 767, 785, 794, 819, 852, 880, 936, 996, 1019, 1050, 1072, 1112, 1153, 1188, 1211, 1235, 1255, 1283, 1355, 1411, 1453]
+    y-axis "Anzahl" 0 --> 1505
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 307, 320, 326, 332, 353, 369, 379, 389, 402, 406, 418, 428, 443, 452, 457, 461, 470, 471, 479, 495, 503, 511, 514, 516, 526, 540, 556, 572, 588, 597, 616, 644, 652, 666, 683, 696, 706, 728, 746, 767, 785, 794, 819, 852, 880, 936, 996, 1019, 1050, 1072, 1112, 1153, 1188, 1211, 1235, 1255, 1283, 1355, 1411, 1455]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -26,10 +26,10 @@ xychart-beta
 |------|-----|-----------|
 | ANGYAL Balazs |  | 7464 Markt Neuhodis, Graben 17 |
 | ARANYI Jozsef | ATU83089989 | 1050 Wien, Gassergasse 27 |
-| ARTED GmbH | ATU15328009 | 1100 Wien, Gudrunstraße 25 |
 | AS-GV GmbH | ATU80027659 | 1010 Wien, Sterngasse 3 |
 | Andor kit GmbH | ATU81424219 | 1010 Wien, Sterngasse 3 |
 | BACA Oliver |  | 2353 Guntramsdorf, Mödlingerstraße 4 |
+| BACOVA Kristina |  | 2353 Guntramsdorf, Münchendorferstraße 16/4 |
 | BARTOS Marek | ATU82334519 | 1200 Wien, Traunfelsgasse 5 |
 | BUKOVA Valeria | ATU81668517 | 1190 Wien, Heiligenstädter Straße 30 |
 | Baumaschinen Bauroos GmbH | ATU77248836 | 1040 Wien, Kettenbrückengasse 6 |
@@ -64,6 +64,7 @@ xychart-beta
 | PAG NOVA GmbH | ATU74856328 | 1150 Wien, Europaplatz 2 |
 | PECHOVA Zaneta |  | 1100 Wien, Puchsbaumgasse 37 |
 | PISTA Alex |  | 1100 Wien, Puchsbaumgasse 37 |
+| PISTOVA Ivana |  | 1230 Wien, Anton-Freunschlag-Gasse 4 |
 | PISTOVA Monika |  | 1220 Wien, Eva-Maria-Mazzucco-Platz 1 |
 | PISTOVA Natalia |  | 1100 Wien, Puchsbaumgasse 37/14 |
 | PIZVAN GmbH | ATU82157336 | 1200 Wien, Dammstraße 8/1a |
