@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-05-30T07:54:51 | 1469 | 2016-04-01 |
+| 2026-06-02T08:54:22 | 1473 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1519
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 307, 320, 326, 332, 353, 369, 379, 389, 402, 406, 418, 428, 443, 452, 457, 461, 470, 471, 479, 495, 503, 511, 514, 516, 526, 540, 556, 572, 588, 597, 616, 644, 652, 666, 683, 696, 706, 728, 746, 767, 785, 794, 819, 852, 880, 936, 996, 1019, 1050, 1072, 1112, 1153, 1188, 1211, 1235, 1255, 1283, 1355, 1411, 1469]
+    y-axis "Anzahl" 0 --> 1523
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 307, 320, 326, 332, 353, 369, 379, 389, 402, 406, 418, 428, 443, 452, 457, 461, 470, 471, 479, 495, 503, 511, 514, 516, 526, 540, 556, 572, 588, 597, 616, 644, 652, 666, 683, 696, 706, 728, 746, 767, 785, 794, 819, 852, 880, 936, 996, 1019, 1050, 1072, 1112, 1153, 1188, 1211, 1235, 1255, 1283, 1355, 1411, 1469, 1473]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -26,6 +26,7 @@ xychart-beta
 |------|-----|-----------|
 | ANGYAL Balazs |  | 7464 Markt Neuhodis, Graben 17 |
 | ARANYI Jozsef | ATU83089989 | 1050 Wien, Gassergasse 27 |
+| Alqasim Bau GmbH | ATU80846747 | 1100 Wien, Absberggasse 29 |
 | Andor kit GmbH | ATU81424219 | 1010 Wien, Sterngasse 3 |
 | BACA Igor |  | 2353 Guntramsdorf, Münchendorferstraße 16 |
 | BACA Oliver |  | 2353 Guntramsdorf, Mödlingerstraße 4 |
@@ -43,6 +44,7 @@ xychart-beta
 | J.U.R.O.S. Bau KG | ATU82810479 | 1200 Wien, Hellwagstraße 5/32 |
 | KA Personalservice GmbH | ATU81898813 | 7464 Markt Neuhodis, Graben 17 |
 | KALAJ Jan | ATU82528123 | 1220 Wien, Hans-Steger-Gasse 12 |
+| KUZMA Jozef | ATU81873536 | 1230 Wien, Draschestraße 26 |
 | LESNIEWSKI Grzegorz Stanislaw |  | 1120 Wien, Bischoffgasse 13/9 |
 | MATENE HAGA Erika | ATU82344429 | 1100 Wien, Scheugasse 9 |
 | MM Tech GmbH | ATU81227316 | 2102 Hagenbrunn, |
@@ -64,6 +66,8 @@ xychart-beta
 | Profi PV-Anlagen GmbH | ATU79933306 | 1020 Wien, Robertgasse 1 |
 | REVESZNE MOLL Katalin Piroska | ATU79297556 | 7464 Markt Neuhodis, Graben 17 |
 | ROLY Bau GmbH | ATU75124107 | 2320 Schwechat, Mautner Markhof-Straße 1 |
+| RS4U Solution GmbH | ATU77555334 | 1140 Wien, Felbigergasse 45/12/EG |
+| SAVIC Bozidar | ATU79891529 | 2231 Strasshof/Nordbahn, Georg-Weissel-Straße 8 |
 | SINGH Nishan | ATU79221557 | 1120 Wien, Arndtstraße 6 |
 | SINGH Parminder | ATU79222057 | 1120 Wien, Wolfganggasse 31/28 |
 | SINGH Surjit | ATU81012805 | 1160 Wien, Hasnerstraße 94 |

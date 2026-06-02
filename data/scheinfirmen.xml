@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-05-30" zeit="07:54:51" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1469">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-02" zeit="08:54:22" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1473">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -49,6 +49,7 @@
   <scheinfirma anschrift="1210 Wien, Loschmidtgasse 15" veroeffentlicht="2023-11-15" rechtskraeftig="2023-11-10" fbnr="521180t" uid="ATU74964149">Alpenmetallbau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Ernst-Ludwig-Gasse 11" veroeffentlicht="2024-09-03" rechtskraeftig="2024-07-17" seit="2023-07-25" uid="ATU73415912" kennziffer="R041S710J">ALPENTORGESELLSCHAFT</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Rinnböckstraße 17/36" veroeffentlicht="2026-03-09" rechtskraeftig="2026-03-07" seit="2025-05-22" fbnr="543161t" uid="ATU76150629" kennziffer="R123X006Y">ALPENWERT GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Absberggasse 29" veroeffentlicht="2026-06-02" rechtskraeftig="2026-05-15" seit="2024-07-15" fbnr="625944g" uid="ATU80846747" kennziffer="R149H605X">Alqasim Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Prager Straße 169" veroeffentlicht="2025-06-25" rechtskraeftig="2025-06-13" seit="2023-01-01" fbnr="396443f" uid="ATU68251517">Already Clean e.U.</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Gablenzgasse 32/3-5" veroeffentlicht="2017-04-11" rechtskraeftig="2017-03-07" fbnr="449197i">Altbausanierung A.Z. GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Sonnleithnergasse 53" veroeffentlicht="2023-08-01" rechtskraeftig="2023-07-29" fbnr="530113d" uid="ATU75452109">A.L.U.G. GmbH</scheinfirma>
@@ -312,7 +313,7 @@
   <scheinfirma anschrift="1170 Wien, Blumengasse 49" veroeffentlicht="2026-05-07" rechtskraeftig="2026-04-02" seit="2025-03-11" geburtsdatum="1983-11-22" uid="ATU81882615" kennziffer="R155B658H">DANIEL David</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3" veroeffentlicht="2025-10-24" rechtskraeftig="2025-10-22" seit="2025-03-14" geburtsdatum="2006-10-05" uid="ATU81892524" kennziffer="R155M841O">DANIEL David</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Blumengasse 49" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2025-05-10" geburtsdatum="1986-11-27" uid="ATU82141503" kennziffer="R156C3449">DANIEL Jan</scheinfirma>
-  <scheinfirma anschrift="1230 Wien, Ketzergasse 65b" veroeffentlicht="2026-03-26" rechtskraeftig="2026-03-25" seit="2018-01-01" fbnr="480866g" uid="ATU72735016" kennziffer="R109G178S">Dani€s Clean Service e.U.</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Ketzergasse 65b" veroeffentlicht="2026-03-26" rechtskraeftig="2026-03-25" seit="2018-01-01" fbnr="480866g" uid="ATU72735016" kennziffer="R109G178S">Dani's Clean Service e.U.</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 43/25" veroeffentlicht="2025-01-09" rechtskraeftig="2026-01-25" seit="2026-01-26" geburtsdatum="1982-01-27" uid="ATU81502018" kennziffer="R153Y093I">DANYIOVA Katarina</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Dreyhausenstraße 9" veroeffentlicht="2025-10-22" rechtskraeftig="2025-09-16" seit="2024-11-08" fbnr="502698m" uid="ATU74015512" kennziffer="R114P0501">Daqvest GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Wolfersberggasse 10" veroeffentlicht="2024-02-22" rechtskraeftig="2024-02-16" seit="2023-02-21" geburtsdatum="1981-10-08" uid="ATU79017145" kennziffer="R137Z446H">DARAGO Jozsef</scheinfirma>
@@ -731,6 +732,7 @@
   <scheinfirma anschrift="1170 Wien, Kalvarienberggasse 74" veroeffentlicht="2025-08-12" rechtskraeftig="2025-08-02" seit="2023-11-22" fbnr="577656w" uid="ATU78109226" kennziffer="R134C346S">Kupro GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 43" veroeffentlicht="2026-02-03" rechtskraeftig="2026-02-02" seit="2025-02-27" fbnr="638875y" uid="ATU82117308" kennziffer="R154R908F">Kurma GetränkehandelsgesmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37" veroeffentlicht="2023-07-27" rechtskraeftig="2023-07-21" geburtsdatum="1999-01-05" uid="ATU77454201">KUTAK Tomas</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Draschestraße 26" veroeffentlicht="2026-06-02" rechtskraeftig="2026-06-02" seit="2025-01-15" geburtsdatum="1987-08-17" uid="ATU81873536" kennziffer="R154B898H">KUZMA Jozef</scheinfirma>
   <scheinfirma anschrift="6922 Wolfurt, Eichenstraße 31" veroeffentlicht="2020-07-17" rechtskraeftig="2020-07-13">KW High Class Interior LTD</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Lacknergasse 38" veroeffentlicht="2024-08-19" rechtskraeftig="2024-07-17" seit="2023-12-28" fbnr="545619g" uid="ATU76524389" kennziffer="R124P1079">K2 Power GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Hütteldorfer Straße 81B" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-21" fbnr="476205b" uid="ATU72559867">L. Spitzbart Bau und Handel GmbH</scheinfirma>
@@ -1137,6 +1139,7 @@
   <scheinfirma anschrift="8051 Graz, Wienerstraße 203/19" veroeffentlicht="2018-11-13" rechtskraeftig="2018-11-06" fbnr="480206k" uid="ATU72684525">ROOK BAU GmbH</scheinfirma>
   <scheinfirma anschrift="6020 Innsbruck, Hormayrstraße 12" veroeffentlicht="2025-08-06" rechtskraeftig="2025-07-17" seit="2025-02-04" geburtsdatum="1962-03-09" uid="ATU77395212" kennziffer="R130X818T">ROSIORU Ica</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Handelskai 94-96" veroeffentlicht="2025-01-14" rechtskraeftig="2025-01-08" seit="2022-12-22" fbnr="500327a" uid="ATU73732534" kennziffer="R114C6853">RS Millennium GmbH</scheinfirma>
+  <scheinfirma anschrift="1140 Wien, Felbigergasse 45/12/EG" veroeffentlicht="2026-06-02" rechtskraeftig="2026-05-22" seit="2025-09-19" fbnr="566673v" uid="ATU77555334" kennziffer="R131Y5380">RS4U Solution GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Römergasse 83" veroeffentlicht="2026-03-23" rechtskraeftig="2026-03-07" seit="2025-07-31" geburtsdatum="1993-04-17" kennziffer="R157U1610">RUDZITIS Arturs</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Senefeldergasse 26" veroeffentlicht="2024-09-17" rechtskraeftig="2024-09-10" seit="2024-02-15" geburtsdatum="1965-04-11" uid="ATU80397447" kennziffer="R146J063G">RUSANOV Martin Rusanov</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Schwaigergasse 5/2/1" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-10" seit="2024-02-10" geburtsdatum="1991-06-18" uid="ATU80422268" kennziffer="R146L216J">RUSZNYAK Vojtech</scheinfirma>
@@ -1167,6 +1170,7 @@
   <scheinfirma anschrift="5023 Salzburg, Warwitzstraße 2" veroeffentlicht="2024-01-09" rechtskraeftig="2023-12-28" fbnr="407342h" uid="ATU68455156">Sarolta Sarolta Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Gablenzgasse 14" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-29" fbnr="473304k" uid="ATU72434528">Säulengasse 27 Projekt GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Gablenzgasse 7/DG/17" veroeffentlicht="2026-05-06" rechtskraeftig="2026-04-30" seit="2021-04-29" fbnr="535871x" uid="ATU76488267" kennziffer="R122L667B">Savacium GmbH</scheinfirma>
+  <scheinfirma anschrift="2231 Strasshof/Nordbahn, Georg-Weissel-Straße 8" veroeffentlicht="2026-06-01" rechtskraeftig="2026-05-21" seit="2024-12-03" geburtsdatum="1977-01-08" uid="ATU79891529" kennziffer="R142O101A">SAVIC Bozidar</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Hertha-Firnberg-Straße 14/1/19 0" veroeffentlicht="2023-12-15" rechtskraeftig="2023-12-01" fbnr="529060f">SAVIC Dragana</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Keinergasse 18" veroeffentlicht="2023-01-16" rechtskraeftig="2023-01-10" fbnr="584594y">S-Balint KG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-21" fbnr="475187f" uid="ATU72706609">SBSA GmbH</scheinfirma>
