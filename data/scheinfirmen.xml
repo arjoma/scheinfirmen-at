@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-02" zeit="08:54:22" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1473">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-03" zeit="09:04:56" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1472">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1302,7 +1302,6 @@
   <scheinfirma anschrift="1210 Wien, Rappgasse 2" veroeffentlicht="2023-06-23" rechtskraeftig="2023-06-14" fbnr="561655p" uid="ATU77415557">Szalai TX KG</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Schlösselgasse 11" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-27" fbnr="522510y" uid="ATU75099126">Szarlitt Bau KG</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Franzensbrückenstraße 14" veroeffentlicht="2025-04-23" rechtskraeftig="2025-04-16" seit="2024-11-18" fbnr="571264w" uid="ATU77837708" kennziffer="R132L5138">Szekely Handels GmbH</scheinfirma>
-  <scheinfirma anschrift="1170 Wien, Blumengasse 49" veroeffentlicht="2021-06-01" rechtskraeftig="2021-05-28" geburtsdatum="1958-07-26">SZEMLERNE Nador Olga Marta</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Gschwandnergasse 8/11 0" veroeffentlicht="2022-10-18" rechtskraeftig="2022-09-22" geburtsdatum="1981-12-20" uid="ATU75918615">SZUHOGYI Norbert Janos</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Jheringgasse 14/16" veroeffentlicht="2016-07-29" rechtskraeftig="2016-07-18" fbnr="447682g">Takenari e.U.</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Sonnenallee 110" veroeffentlicht="2026-03-18" rechtskraeftig="2026-03-07" seit="2025-12-12" fbnr="541401d" uid="ATU76434878" kennziffer="R123N424A">TAL Building GmbH</scheinfirma>
