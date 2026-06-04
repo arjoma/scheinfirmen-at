@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-06-03T09:04:56 | 1472 | 2016-04-01 |
+| 2026-06-04T08:54:28 | 1474 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1522
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 306, 319, 325, 331, 352, 368, 378, 388, 401, 405, 417, 427, 442, 451, 456, 460, 469, 470, 478, 494, 502, 510, 513, 515, 525, 539, 555, 571, 587, 596, 615, 643, 651, 665, 682, 695, 705, 727, 745, 766, 784, 793, 818, 851, 879, 935, 995, 1018, 1049, 1071, 1111, 1152, 1187, 1210, 1234, 1254, 1282, 1354, 1410, 1468, 1472]
+    y-axis "Anzahl" 0 --> 1524
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 306, 319, 325, 331, 352, 368, 378, 388, 401, 405, 417, 427, 442, 451, 456, 460, 469, 470, 478, 494, 502, 510, 513, 515, 525, 539, 555, 571, 587, 596, 615, 643, 651, 665, 682, 695, 705, 727, 745, 766, 784, 793, 818, 851, 879, 935, 995, 1018, 1049, 1071, 1111, 1152, 1187, 1210, 1234, 1254, 1282, 1354, 1410, 1468, 1474]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -34,6 +34,7 @@ xychart-beta
 | BAGAR Robert |  | 1100 Wien, Artillerieplatz 1/3/1 |
 | BARTOS Marek | ATU82334519 | 1200 Wien, Traunfelsgasse 5 |
 | DANIEL David | ATU81882615 | 1170 Wien, Blumengasse 49 |
+| DJORDJEVIC | ATU80754836 | 1230 Wien, Breitenfurter Straße 320//1/111 |
 | DURA Vasile |  | 2441 Mitterndorf/Fischa, Gartenstraße 17/2 |
 | DUSKOVA Anna |  | 2353 Guntramsdorf, Münchendorferstraße 16 / Tür 4 |
 | Emto Bau GmbH | ATU79597358 | 1140 Wien, Ameisgasse 63/1/2 |
@@ -43,6 +44,7 @@ xychart-beta
 | J.U.R.O.S. Bau KG | ATU82810479 | 1200 Wien, Hellwagstraße 5/32 |
 | KA Personalservice GmbH | ATU81898813 | 7464 Markt Neuhodis, Graben 17 |
 | KALAJ Jan | ATU82528123 | 1220 Wien, Hans-Steger-Gasse 12 |
+| KIROV Zhelyazko Ankov |  | 1050 Wien, Straußengasse 3/9 |
 | KUZMA Jozef | ATU81873536 | 1230 Wien, Draschestraße 26 |
 | MATENE HAGA Erika | ATU82344429 | 1100 Wien, Scheugasse 9 |
 | MM Tech GmbH | ATU81227316 | 2102 Hagenbrunn, |
