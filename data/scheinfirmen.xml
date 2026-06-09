@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-08" zeit="09:01:13" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1475">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-09" zeit="11:41:51" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1481">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -408,6 +408,7 @@
   <scheinfirma anschrift="1200 Wien, Salzachstraße 1" veroeffentlicht="2024-07-24" rechtskraeftig="2024-07-15" seit="2023-09-27" fbnr="611290g" uid="ATU80389517" kennziffer="R142E928I">Enkaf GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Boschstraße 54" veroeffentlicht="2022-04-20" rechtskraeftig="2022-03-29" fbnr="466795p" uid="ATU72044236">EPH GmbH</scheinfirma>
   <scheinfirma anschrift="1130 Wien, Bergheidengasse 6" veroeffentlicht="2021-11-17" rechtskraeftig="2021-11-15" fbnr="431829v" uid="ATU69782407">Epimetheus Planungs- GmbH</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Rauchgasse 23" veroeffentlicht="2026-06-09" rechtskraeftig="2026-06-09" seit="2024-02-01" geburtsdatum="2004-07-01" uid="ATU80788701" kennziffer="R146I1153">EPURE Iustin-Sebastian</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Barbara-Prammer-Allee 15" veroeffentlicht="2024-01-29" rechtskraeftig="2024-01-11" seit="2023-06-27" fbnr="521173g" uid="ATU74868128" kennziffer="R119B6929">ER&amp;BE GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/314" veroeffentlicht="2019-01-02" rechtskraeftig="2018-12-19" fbnr="469788s" uid="ATU72275904">Ergül GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Talpagasse 1A" veroeffentlicht="2024-05-15" rechtskraeftig="2024-05-07" seit="2023-02-23" fbnr="431843p" uid="ATU69555215" kennziffer="R095B405P">Erika Immobilien &amp; Baustoffhandel GmbH</scheinfirma>
@@ -442,6 +443,7 @@
   <scheinfirma anschrift="1210 Wien, Brünner Straße 264" veroeffentlicht="2025-10-30" rechtskraeftig="2025-10-11" seit="2024-02-01" geburtsdatum="1997-11-11" uid="ATU81284129" kennziffer="R146G993H">FERRERAS MEDINA Emeron Emilio</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Pasettistraße 77-79" veroeffentlicht="2024-03-12" rechtskraeftig="2024-03-06" seit="2023-04-28" fbnr="513161z" uid="ATU74471859" kennziffer="R117G428R">FEYZI GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Blumengasse 49" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2025-05-08" geburtsdatum="1995-06-25" kennziffer="R156B691O">FIALA Robert</scheinfirma>
+  <scheinfirma anschrift="7464 Markt Neuhodis, Graben 17" veroeffentlicht="2026-06-08" rechtskraeftig="2026-05-02" seit="2021-08-09" geburtsdatum="1984-10-04" uid="ATU77530539" kennziffer="R130M769G">FICZERE Jenö</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Tokiostraße 11" veroeffentlicht="2024-05-22" rechtskraeftig="2024-04-17" seit="2016-01-01" fbnr="274971w" uid="ATU63658955" kennziffer="R027A5956">FIDUCIA Asset Management GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Reisingergasse 9" veroeffentlicht="2025-05-06" rechtskraeftig="2025-04-25" seit="2024-10-21" fbnr="448285v" uid="ATU70440427" kennziffer="R099W935B">Fixtrans KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Randhartingergasse 14-16/28" veroeffentlicht="2017-04-06" rechtskraeftig="2017-04-03" fbnr="399678m" uid="ATU68259369">Fliesen &amp; Bauleistung GmbH</scheinfirma>
@@ -711,6 +713,7 @@
   <scheinfirma anschrift="1160 Wien, Schinnaglgasse 9" veroeffentlicht="2023-10-04" rechtskraeftig="2023-09-26" geburtsdatum="2001-05-16" uid="ATU77001628">KOLOMPAR Dejan</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Kluckygasse 14" veroeffentlicht="2025-08-25" rechtskraeftig="2025-08-20" seit="2024-10-03" geburtsdatum="2004-01-08" kennziffer="R153C456F">KOLOMPAR Dzsaner</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Sedlitzkygasse 14" veroeffentlicht="2026-03-24" rechtskraeftig="2026-03-20" seit="2025-10-22" geburtsdatum="1995-08-18" kennziffer="R158W7432">KOLOMPAR Klaudia Nikoletta</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Sedlitzkygasse 14" veroeffentlicht="2026-06-08" rechtskraeftig="2026-06-06" seit="2025-05-02" geburtsdatum="1993-06-24" uid="ATU82049418" kennziffer="R155Y1177">KOLOMPAR Rezi</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Knöllgasse 74" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-09" seit="2021-12-29" geburtsdatum="1978-04-24" uid="ATU79470449" kennziffer="R132U085K">KOLOMPAR Sebastian</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Aßmayergasse 60/2/22" veroeffentlicht="2018-07-06" rechtskraeftig="2018-07-03" fbnr="446705w" uid="ATU70507828">KOMPLEXX Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Salzachstraße 1/20" veroeffentlicht="2025-10-24" rechtskraeftig="2025-10-21" seit="2025-05-24" geburtsdatum="1961-02-12" uid="ATU82167628" kennziffer="R156G9616">KONCZ  Antal</scheinfirma>
@@ -877,6 +880,7 @@
   <scheinfirma anschrift="1100 Wien, Oberlaaer Straße 125 b/5" veroeffentlicht="2018-11-09" rechtskraeftig="2018-11-02" fbnr="480381v" uid="ATU72971616">Miladin Stojanovic Bau GmbH</scheinfirma>
   <scheinfirma anschrift="2353 Guntramsdorf, Industriestraße 41" veroeffentlicht="2026-04-15" rechtskraeftig="2026-04-15" seit="2024-07-01" fbnr="250919z" uid="ATU58111019" kennziffer="R021L220Q">Miletic Bau &amp; Isolierungen GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Hasnerstraße 82" veroeffentlicht="2023-08-07" rechtskraeftig="2023-07-07" geburtsdatum="1984-06-04">MINARIK Pavol</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Sickingengasse 13" veroeffentlicht="2026-06-08" rechtskraeftig="2026-06-03" seit="2019-09-04" fbnr="527307b" uid="ATU74819235" kennziffer="R120K017F">Mirkovic Reinigung e.U.</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Allerheiligenplatz 3" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2024-12-09" geburtsdatum="1986-01-07" uid="ATU81429606" kennziffer="R153P559B">MIROSLOV Daniel</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Brunner Straße 69" veroeffentlicht="2022-05-20" rechtskraeftig="2022-04-27" fbnr="512660m" uid="ATU74469229">Mislai e.U.</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Erlachgasse 137" veroeffentlicht="2026-03-20" rechtskraeftig="2026-03-18" seit="2025-10-15" geburtsdatum="1973-09-09" kennziffer="R158T688W">MITEV Atanas</scheinfirma>
@@ -1006,6 +1010,7 @@
   <scheinfirma anschrift="6900 Bregenz, St.-Anna-Straße 11" veroeffentlicht="2021-10-11" rechtskraeftig="2021-09-14" geburtsdatum="1958-02-01" uid="ATU75977757">PAUNA Nicolae</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Münchenstraße 4" veroeffentlicht="2024-10-16" rechtskraeftig="2024-09-23" seit="2022-06-03" geburtsdatum="1978-03-06" uid="ATU78284456" kennziffer="R131W023B">PAUNOVIC Olivera</scheinfirma>
   <scheinfirma anschrift="4300 St.Valentin, Bürgerstraße 5" veroeffentlicht="2023-01-19" rechtskraeftig="2023-01-16" fbnr="495811i" uid="ATU73510408">PBE GmbH</scheinfirma>
+  <scheinfirma anschrift="1220 Wien, Gisela-Legath-Gasse 5" veroeffentlicht="2026-06-08" rechtskraeftig="2026-05-01" seit="2016-01-01" fbnr="674124i" uid="ATU67459911" kennziffer="R079O699G">PBS Professional Business Services e.U</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Bäckerstraße 2/15" veroeffentlicht="2017-09-20" rechtskraeftig="2017-09-08" fbnr="291601a" uid="ATU63290888">PDL Personaldienstleistung GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37" veroeffentlicht="2026-05-21" rechtskraeftig="2026-05-08" seit="2024-03-21" geburtsdatum="1997-11-22" kennziffer="R147S696V">PECHOVA Zaneta</scheinfirma>
   <scheinfirma anschrift="2345 Brunn am Gebirge, Industriestraße D2" veroeffentlicht="2017-06-01" rechtskraeftig="2017-04-10" fbnr="458167a" uid="ATU71468707">PEFA Bau GmbH</scheinfirma>
@@ -1208,6 +1213,7 @@
   <scheinfirma anschrift="9020 Klagenfurt/Wörthersee, Khevenhüllerstraße 33/58" veroeffentlicht="2025-11-12" rechtskraeftig="2025-11-04" seit="2023-05-19" geburtsdatum="1990-01-01" uid="ATU80427469" kennziffer="R140P4708">SINGH Chanpreet</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Leopoldauer Straße 131" veroeffentlicht="2025-05-06" rechtskraeftig="2025-05-01" seit="2024-06-01" geburtsdatum="1998-08-12" uid="ATU79429227" kennziffer="R138T211C">SINGH Davindeer</scheinfirma>
   <scheinfirma anschrift="2103 Langenzersdorf, Schanzen 1/1" veroeffentlicht="2025-08-04" rechtskraeftig="2025-07-23" seit="2023-11-16" geburtsdatum="2000-05-21" uid="ATU81344029" kennziffer="R143F240Q">SINGH Gurpreet</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Senefeldergasse 77" veroeffentlicht="2026-06-08" rechtskraeftig="2026-06-03" seit="2022-11-17" geburtsdatum="2003-08-02" uid="ATU79386335" kennziffer="R137R152P">SINGH Harsimren</scheinfirma>
   <scheinfirma anschrift="2103 Langenzersdorf, An den Schanzen 1/1" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-12" seit="2023-10-06" geburtsdatum="1996-06-28" uid="ATU81257505" kennziffer="R142J9356">SINGH Hirdepal</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Bergsteiggasse 8" veroeffentlicht="2025-08-06" rechtskraeftig="2025-08-02" seit="2023-01-19" geburtsdatum="1998-12-10" uid="ATU79221646" kennziffer="R138I9427">SINGH Jarmanjit</scheinfirma>
   <scheinfirma anschrift="1070 Wien, Lerchenfelder Gürtel 12" veroeffentlicht="2025-04-02" rechtskraeftig="2025-03-25" seit="2023-11-22" geburtsdatum="1990-04-25" uid="ATU80459549" kennziffer="R143S886Y">SINGH Mandeep Singh</scheinfirma>
