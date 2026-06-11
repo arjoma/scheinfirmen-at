@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-09" zeit="11:41:51" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1481">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-11" zeit="09:02:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1481">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -169,6 +169,7 @@
   <scheinfirma anschrift="1100 Wien, Favoritenstraße 194" veroeffentlicht="2025-01-03" rechtskraeftig="2024-12-27" seit="2023-03-16" fbnr="558605d" uid="ATU77323978" kennziffer="R128U291K">BeliBau GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Haberlgasse 71" veroeffentlicht="2025-09-11" rechtskraeftig="2025-09-03" seit="2025-04-24" fbnr="631333g" uid="ATU81963145" kennziffer="R150L1423">Belidex Projekt GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Mosetiggasse 1A" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-17" seit="2022-09-17" fbnr="589068b" uid="ATU78911858" kennziffer="R136J691O">Bella Transport und Handel GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Hartlgasse 20" veroeffentlicht="2026-06-11" rechtskraeftig="2026-06-05" seit="2026-01-20" fbnr="612667g" kennziffer="R142A188J">Bellak Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Redtenbachergasse 14" veroeffentlicht="2023-03-03" rechtskraeftig="2023-02-14" fbnr="436634I" uid="ATU69781159">Belvedere ZS Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Sonnleithnergasse 2/48 0" veroeffentlicht="2023-12-15" rechtskraeftig="2023-11-17" fbnr="581464w">BENEK Gökan</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Favoritenstraße 169" veroeffentlicht="2022-03-30" rechtskraeftig="2022-03-15" fbnr="550293f">Bercon Montage e.U.</scheinfirma>
@@ -922,7 +923,6 @@
   <scheinfirma anschrift="1180 Wien, Lacknergasse 74" veroeffentlicht="2022-04-20" rechtskraeftig="2022-04-13" fbnr="427771a" uid="ATU69232323">MTSK Montage GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Dammstraße 8" veroeffentlicht="2026-03-27" rechtskraeftig="2026-03-24" seit="2023-03-28" fbnr="408757p" uid="ATU68440644" kennziffer="R088K999K">MUB Gastro GmbH</scheinfirma>
   <scheinfirma anschrift="3100 St. Pölten, Werkstättenstraße 4" veroeffentlicht="2025-03-24" rechtskraeftig="2025-03-19" seit="2021-09-08" geburtsdatum="1982-12-04" uid="ATU77493106" kennziffer="R130Y2041">MUHAMMAD SHAMEEM Muhammad Sajjad</scheinfirma>
-  <scheinfirma anschrift="1160 Wien, Sautergasse 25" veroeffentlicht="2021-06-09" rechtskraeftig="2021-06-03" geburtsdatum="1974-02-17">MUSCA Sorin Iordan</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Bischoffgasse 11" veroeffentlicht="2022-11-08" rechtskraeftig="2022-10-27" geburtsdatum="1981-12-22">MUSTAN Sevigean</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Grangasse 1" veroeffentlicht="2021-03-30" rechtskraeftig="2021-03-18" fbnr="444655f" uid="ATU70235612">MV Gebäudeservice GmbH</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2024-12-17" rechtskraeftig="2024-12-09" seit="2024-03-21" fbnr="470669k" uid="ATU72235538" kennziffer="R106G7782">My Experience GmbH</scheinfirma>
