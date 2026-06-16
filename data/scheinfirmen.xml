@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-15" zeit="09:35:18" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1483">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-16" zeit="09:40:24" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1484">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -807,6 +807,7 @@
   <scheinfirma anschrift="1150 Wien, Holochergasse 26" veroeffentlicht="2022-06-14" rechtskraeftig="2022-06-08" fbnr="559422f" uid="ATU77096009">M &amp; E Food Handels GmbH</scheinfirma>
   <scheinfirma anschrift="2601 Sollenau, Querstraße 23" veroeffentlicht="2026-03-31" rechtskraeftig="2026-03-24" seit="2024-05-09" fbnr="627315y" kennziffer="R149C980W">M &amp; V ILIC GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Boschstraße 54" veroeffentlicht="2022-10-18" rechtskraeftig="2022-09-28" fbnr="480238h" uid="ATU72725919">M. Takacs Immo &amp; Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1180 Wien, Weinhauser Gasse 5" veroeffentlicht="2026-06-15" rechtskraeftig="2026-06-12" seit="2023-11-11" fbnr="614978f" uid="ATU80370439" kennziffer="R143B236O">M. TRANS SERVICE Kleintransport GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Steinbauergasse 22" veroeffentlicht="2024-12-03" rechtskraeftig="2024-11-20" seit="2024-07-04" fbnr="058443x" uid="ATU15831303" kennziffer="R013Q4669">M. Zayed Gesellschaft m.b.H.</scheinfirma>
   <scheinfirma anschrift="2485 Wimpassing an der Leitha, Eisenstädter Straße 35" veroeffentlicht="2017-02-14" rechtskraeftig="2017-02-08" fbnr="394954s" uid="ATU67877005">MA Immobilien GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Schloßhofer Straße 24" veroeffentlicht="2025-02-04" rechtskraeftig="2025-01-30" seit="2024-10-30" fbnr="566423a" uid="ATU77618204" kennziffer="R131F0305">MA Transport GmbH</scheinfirma>
