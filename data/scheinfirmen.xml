@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-19" zeit="09:24:00" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1487">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-20" zeit="08:39:17" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1488">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -178,6 +178,7 @@
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2025-03-05" rechtskraeftig="2025-02-28" seit="2023-11-13" geburtsdatum="2003-11-08" uid="ATU80284513" kennziffer="R143I866H">BERI Erika</scheinfirma>
   <scheinfirma anschrift="2700 Wiener Neustadt, Keßlergasse 8" veroeffentlicht="2024-08-19" rechtskraeftig="2024-07-02" seit="2023-09-30" fbnr="608489m" uid="ATU79736412" kennziffer="R141G7501">BERISHA MALER GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Davidgasse 7/9" veroeffentlicht="2021-12-17" rechtskraeftig="2021-12-07" geburtsdatum="1984-12-21" uid="ATU76064205">BERKY Pavel</scheinfirma>
+  <scheinfirma anschrift="1220 Wien, Hirschstettner Straße 19" veroeffentlicht="2026-06-19" rechtskraeftig="2026-04-22" seit="2025-05-23" fbnr="535150k" uid="ATU76130848" kennziffer="R122H706N">Berno Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 21" veroeffentlicht="2025-08-18" rechtskraeftig="2025-08-01" seit="2024-10-01" fbnr="645482p" uid="ATU81123302" kennziffer="R152E008Q">BES Alharmin e.U.</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Währinger Gürtel 57" veroeffentlicht="2021-05-19" rechtskraeftig="2021-05-11" fbnr="511673k" uid="ATU74779858">BEST ON TIME Kleintransport KG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Kärntner Straße 26" veroeffentlicht="2021-11-02" rechtskraeftig="2021-10-28" fbnr="535598w" uid="ATU75686278">BetaMa Alpha GmbH</scheinfirma>
