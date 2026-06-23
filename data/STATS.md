@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-06-20T08:39:17 | 1488 | 2016-04-01 |
+| 2026-06-23T08:17:59 | 1489 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,19 +16,18 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1538
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 305, 318, 324, 330, 351, 367, 377, 387, 400, 404, 416, 426, 441, 450, 455, 459, 468, 469, 477, 493, 501, 509, 512, 514, 524, 538, 554, 570, 586, 595, 614, 642, 650, 664, 681, 694, 704, 726, 744, 765, 783, 792, 817, 850, 878, 934, 994, 1017, 1048, 1070, 1110, 1151, 1186, 1209, 1233, 1253, 1281, 1353, 1409, 1467, 1488]
+    y-axis "Anzahl" 0 --> 1539
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 305, 318, 324, 330, 351, 367, 377, 387, 400, 404, 416, 426, 441, 450, 455, 459, 468, 469, 477, 493, 501, 509, 512, 514, 524, 538, 554, 570, 586, 595, 614, 642, 650, 664, 681, 694, 704, 726, 744, 765, 783, 792, 817, 850, 878, 934, 994, 1017, 1048, 1070, 1110, 1151, 1186, 1209, 1233, 1253, 1281, 1353, 1409, 1467, 1489]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
 
 | Name | UID | Anschrift |
 |------|-----|-----------|
+| A.D.M.K. GmbH | ATU76562346 | 1230 Wien, Birostraße 11/6 |
 | ASENOV Asen Iliev |  | 1210 Wien, Brünner Straße 124/53 |
 | Alqasim Bau GmbH | ATU80846747 | 1100 Wien, Absberggasse 29 |
 | Amir construct KG | ATU80674227 | 1200 Wien, Donaueschingenstraße 21/8 |
-| BACA Igor |  | 2353 Guntramsdorf, Münchendorferstraße 16 |
-| BACOVA Kristina |  | 2353 Guntramsdorf, Münchendorferstraße 16/4 |
 | BAGAR Robert |  | 1100 Wien, Artillerieplatz 1/3/1 |
 | Bellak Handels GmbH |  | 1200 Wien, Hartlgasse 20 |
 | Berno Bau GmbH | ATU76130848 | 1220 Wien, Hirschstettner Straße 19 |
@@ -39,7 +38,6 @@ xychart-beta
 | FICZERE Jenö | ATU77530539 | 7464 Markt Neuhodis, Graben 17 |
 | Firoza Bau GmbH | ATU81976319 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
 | GA MANAGEMENT & BUSINESS SERVICES KG Gründungsdatum: 28.03.2019 |  | 1060 Wien, Morizgasse 2 |
-| J.U.R.O.S. Bau KG | ATU82810479 | 1200 Wien, Hellwagstraße 5/32 |
 | KA Personalservice GmbH | ATU81898813 | 7464 Markt Neuhodis, Graben 17 |
 | KIROV Zhelyazko Ankov |  | 1050 Wien, Straußengasse 3/9 |
 | KOLOMPAR Rezi | ATU82049418 | 1110 Wien, Sedlitzkygasse 14 |
@@ -49,7 +47,6 @@ xychart-beta
 | NEMETH Sandor | ATU81491609 | 2201 Hagenbrunn, Sechste Gasse 2 |
 | PBS Professional Business Services e.U | ATU67459911 | 1220 Wien, Gisela-Legath-Gasse 5 |
 | PISTA David |  | 2353 Guntramsdorf, Münchendorferstraße 16 |
-| PISTOVA Ivana |  | 1230 Wien, Anton-Freunschlag-Gasse 4 |
 | POLHOS Emil |  | 1100 Wien, Artillerieplatz 1/3/1 |
 | POMPA Milan |  | 2353 Guntramsdorf, Münchendorferstraße 16 |
 | POPOFF György | ATU56983955 | 1210 Wien, Brünner Straße 213/236 |
