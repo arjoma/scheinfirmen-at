@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-06-23T08:17:59 | 1489 | 2016-04-01 |
+| 2026-06-24T08:14:51 | 1492 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1539
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 305, 318, 324, 330, 351, 367, 377, 387, 400, 404, 416, 426, 441, 450, 455, 459, 468, 469, 477, 493, 501, 509, 512, 514, 524, 538, 554, 570, 586, 595, 614, 642, 650, 664, 681, 694, 704, 726, 744, 765, 783, 792, 817, 850, 878, 934, 994, 1017, 1048, 1070, 1110, 1151, 1186, 1209, 1233, 1253, 1281, 1353, 1409, 1467, 1489]
+    y-axis "Anzahl" 0 --> 1542
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 305, 318, 324, 330, 351, 367, 377, 387, 400, 404, 416, 426, 441, 450, 455, 459, 468, 469, 477, 493, 501, 509, 512, 514, 524, 538, 554, 570, 586, 595, 614, 642, 650, 664, 681, 694, 704, 726, 744, 765, 783, 792, 817, 850, 878, 934, 994, 1017, 1048, 1070, 1110, 1151, 1186, 1209, 1233, 1253, 1281, 1353, 1409, 1467, 1492]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -25,6 +25,7 @@ xychart-beta
 | Name | UID | Anschrift |
 |------|-----|-----------|
 | A.D.M.K. GmbH | ATU76562346 | 1230 Wien, Birostraße 11/6 |
+| ANUMASU Karunaker Reddy | ATU80861319 | 1230 Wien, Perfektastraße 18 |
 | ASENOV Asen Iliev |  | 1210 Wien, Brünner Straße 124/53 |
 | Alqasim Bau GmbH | ATU80846747 | 1100 Wien, Absberggasse 29 |
 | Amir construct KG | ATU80674227 | 1200 Wien, Donaueschingenstraße 21/8 |
@@ -55,6 +56,8 @@ xychart-beta
 | SAVIC Bozidar | ATU79891529 | 2231 Strasshof/Nordbahn, Georg-Weissel-Straße 8 |
 | SINGH Harsimren | ATU79386335 | 1100 Wien, Senefeldergasse 77 |
 | SIPOSOVA Kristina |  | 2353 Guntramsdorf, Münchendorferstraße 16/4 |
+| SIPOSOVA Natalia |  | 1120 Wien, Siebertgasse 6 |
+| SUNDARAGIRI Shankar | ATU80078719 | 1120 Wien, Tichtelgasse 21 |
 | Singletop Consulting GmbH | ATU57952718 | 2273 Hohenau/March, Kirchengasse 12/2 |
 | UHLA Jozef |  | 2353 Guntramsdorf, Münchendorferstraße 16 |
 | UHLAROVA Maria |  | 2353 Guntramsdorf, Münchendorferstraße 16 |

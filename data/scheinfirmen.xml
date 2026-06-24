@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-23" zeit="08:17:59" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1489">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-24" zeit="08:14:51" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1492">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -77,6 +77,7 @@
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 27/2/14-15" veroeffentlicht="2017-08-21" rechtskraeftig="2017-08-18" fbnr="396719k">Anjeela Handels KG</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 133" veroeffentlicht="2025-12-30" rechtskraeftig="2025-12-23" seit="2025-03-01" fbnr="583592z" uid="ATU79213619" kennziffer="R136J620H">Antiklea Bühnenbau Veranstaltungs GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Ernst-Ludwig-Gasse 11" veroeffentlicht="2024-09-03" rechtskraeftig="2024-07-17" seit="2023-02-02" kennziffer="R044F342F">Antsazigo - Mittelalterverein</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Perfektastraße 18" veroeffentlicht="2026-06-23" rechtskraeftig="2026-06-16" seit="2024-04-17" geburtsdatum="1979-03-10" uid="ATU80861319" kennziffer="R148O973I">ANUMASU Karunaker Reddy</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Pilgerimgasse 5" veroeffentlicht="2022-05-20" rechtskraeftig="2022-04-27" fbnr="556165s">APGD Bau KG</scheinfirma>
   <scheinfirma anschrift="4810 Gmunden, Bräuhausstraße 21" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-20" seit="2024-09-11" fbnr="253529m" uid="ATU61239109" kennziffer="R013D006I">AQ Bau GmbH</scheinfirma>
   <scheinfirma anschrift="4810 Gmunden, Badgasse 1" veroeffentlicht="2026-03-12" rechtskraeftig="2026-03-05" seit="2025-09-11" fbnr="636821b" uid="ATU81293903">Aran Bike GmbH</scheinfirma>
@@ -1234,6 +1235,7 @@
   <scheinfirma anschrift="2273 Hohenau/March, Kirchengasse 12/2" veroeffentlicht="2026-05-29" rechtskraeftig="2026-05-28" seit="2024-03-06" fbnr="247977y" uid="ATU57952718" kennziffer="R020Q480C">Singletop Consulting GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Siebertgasse 6/22" veroeffentlicht="2026-05-04" rechtskraeftig="2026-05-03" seit="2024-12-05" geburtsdatum="1987-11-19" uid="ATU82665705" kennziffer="R159F282L">SIPOS Roman</scheinfirma>
   <scheinfirma anschrift="2353 Guntramsdorf, Münchendorferstraße 16/4" veroeffentlicht="2026-05-29" rechtskraeftig="2026-05-28" seit="2024-06-20" geburtsdatum="1993-06-18" kennziffer="R150H7479">SIPOSOVA Kristina</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Siebertgasse 6" veroeffentlicht="2026-06-23" rechtskraeftig="2026-06-16" seit="2024-03-04" geburtsdatum="1993-06-18" kennziffer="R148L616Q">SIPOSOVA Natalia</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Krottenbachstraße 54" veroeffentlicht="2024-06-17" rechtskraeftig="2024-06-12" seit="2023-11-20" fbnr="574273w" uid="ATU77831018" kennziffer="R133E5824">Sive. A GmbH</scheinfirma>
   <scheinfirma anschrift="1130 Wien, Amalienstraße 19A" veroeffentlicht="2021-05-20" rechtskraeftig="2020-09-17" fbnr="361293p" uid="ATU66354839">SJP Projektmanagement Ges.m.b.H.</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Einsiedlergasse 14/10" veroeffentlicht="2018-11-12" rechtskraeftig="2018-11-02" fbnr="491040v" uid="ATU73282645">Skandaut GmbH</scheinfirma>
@@ -1306,6 +1308,7 @@
   <scheinfirma anschrift="1140 Wien, Goldschlagstraße 209" veroeffentlicht="2023-10-31" rechtskraeftig="2023-09-26" fbnr="507160z" uid="ATU74267269">STUPARI Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Pillergasse 20" veroeffentlicht="2021-11-08" rechtskraeftig="2021-10-29" fbnr="534632z" uid="ATU75610368">S.U-AL Immobilien GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Tichtelgasse 21" veroeffentlicht="2025-10-21" rechtskraeftig="2025-10-14" seit="2019-01-09" geburtsdatum="1985-07-15" uid="ATU72869979" kennziffer="R090T026E">SUNDARAGIRI Gangadhar</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Tichtelgasse 21" veroeffentlicht="2026-06-23" rechtskraeftig="2026-06-16" seit="2023-08-01" geburtsdatum="1985-07-15" uid="ATU80078719" kennziffer="R142B741M">SUNDARAGIRI Shankar</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Pater-Schwartz-Gasse 11A" veroeffentlicht="2024-04-15" rechtskraeftig="2024-04-11" seit="2023-06-19" fbnr="569163f" uid="ATU78155309" kennziffer="R132R8041">Super Taxi KG</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Vereinsgasse 16/29" veroeffentlicht="2026-05-06" rechtskraeftig="2026-05-06" seit="2024-02-06" fbnr="617165x" uid="ATU80105967" kennziffer="R143S3784">Surek GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29/1/10" veroeffentlicht="2019-04-04" rechtskraeftig="2019-03-29" fbnr="418171h" uid="ATU68795903">SV-BAUTECHNIK GmbH</scheinfirma>
