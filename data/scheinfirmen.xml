@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-24" zeit="08:14:51" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1492">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-25" zeit="08:17:47" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1496">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -419,6 +419,7 @@
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/314" veroeffentlicht="2019-01-02" rechtskraeftig="2018-12-19" fbnr="469788s" uid="ATU72275904">Ergül GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Talpagasse 1A" veroeffentlicht="2024-05-15" rechtskraeftig="2024-05-07" seit="2023-02-23" fbnr="431843p" uid="ATU69555215" kennziffer="R095B405P">Erika Immobilien &amp; Baustoffhandel GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Leo-Mathauser-Gasse 71" veroeffentlicht="2023-04-06" rechtskraeftig="2023-03-30" fbnr="519494m" uid="ATU75005325">Erky GmbH</scheinfirma>
+  <scheinfirma anschrift="2333 Leopoldsdorf, Oberlaaerstraße 55" veroeffentlicht="2026-06-19" rechtskraeftig="2026-06-19" seit="2025-05-01" geburtsdatum="1974-05-01" uid="ATU82570727" kennziffer="R081I9502">ERTEKIN Hasan</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Clementinengasse 6/4" veroeffentlicht="2026-02-03" rechtskraeftig="2026-01-15" seit="2020-08-18" fbnr="514115b" uid="ATU74641667" kennziffer="R117R122L">ESPACH Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gertrude-Fröhlich-Sandner-Straße 3" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-17" fbnr="542843z" uid="ATU76053636">Etalon GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Hormayrgasse 13" veroeffentlicht="2023-01-19" rechtskraeftig="2022-12-14" fbnr="349229y" uid="ATU66013039">E-Tech4you GmbH</scheinfirma>
@@ -1031,6 +1032,7 @@
   <scheinfirma anschrift="1160 Wien, Neulerchenfelder Straße 59" veroeffentlicht="2023-10-13" rechtskraeftig="2023-10-10" fbnr="552192y" uid="ATU76691518">PERUS Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Kaiser-Ebersdorfer Straße 79" veroeffentlicht="2022-06-15" rechtskraeftig="2022-06-13" fbnr="491389g" uid="ATU73775578">Peta-K GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Goldschlagstraße 112" veroeffentlicht="2023-01-20" rechtskraeftig="2023-01-04" fbnr="481059s" uid="ATU72913859">Peto GmbH</scheinfirma>
+  <scheinfirma anschrift="4030 Linz, Matthäus-Herzog-Straße 3/4.ST.39" veroeffentlicht="2026-06-24" rechtskraeftig="2026-06-19" seit="2026-05-20" geburtsdatum="1969-01-19" uid="ATU73620548" kennziffer="R114P697Y">PETRAS Geza</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gudrunstraße 88" veroeffentlicht="2024-05-14" rechtskraeftig="2024-05-08" seit="2023-08-23" fbnr="444118s" uid="ATU70350979" kennziffer="R098Q245M">Petrigo Taxi KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Leipziger Straße 18" veroeffentlicht="2024-01-04" rechtskraeftig="2023-12-26" geburtsdatum="1965-06-30" uid="ATU78735512">PETROV Dragan</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-25" seit="2023-11-20" geburtsdatum="2002-01-07" uid="ATU80054003" kennziffer="R143Q644W">PETROV Ilia Dimitrov</scheinfirma>
@@ -1153,6 +1155,7 @@
   <scheinfirma anschrift="2540 Bad Vöslau, Großauer Straße 7" veroeffentlicht="2026-03-09" rechtskraeftig="2026-02-28" seit="2025-05-05" geburtsdatum="1978-08-11" kennziffer="R156I887W">ROMANOVS Romans</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Neulerchenfelder Straße 86" veroeffentlicht="2025-01-27" rechtskraeftig="2025-01-08" seit="2024-08-07" fbnr="508380v" uid="ATU74243437" kennziffer="R116C828J">Romgips GmbH</scheinfirma>
   <scheinfirma anschrift="8051 Graz, Wienerstraße 203/19" veroeffentlicht="2018-11-13" rechtskraeftig="2018-11-06" fbnr="480206k" uid="ATU72684525">ROOK BAU GmbH</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Tenschertstraße 5" veroeffentlicht="2026-06-24" rechtskraeftig="2026-06-09" seit="2026-01-30" fbnr="348183i" uid="ATU65836768" kennziffer="R032K901X">Roommaster Roommaker GmbH</scheinfirma>
   <scheinfirma anschrift="6020 Innsbruck, Hormayrstraße 12" veroeffentlicht="2025-08-06" rechtskraeftig="2025-07-17" seit="2025-02-04" geburtsdatum="1962-03-09" uid="ATU77395212" kennziffer="R130X818T">ROSIORU Ica</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Handelskai 94-96" veroeffentlicht="2025-01-14" rechtskraeftig="2025-01-08" seit="2022-12-22" fbnr="500327a" uid="ATU73732534" kennziffer="R114C6853">RS Millennium GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Felbigergasse 45/12/EG" veroeffentlicht="2026-06-02" rechtskraeftig="2026-05-22" seit="2025-09-19" fbnr="566673v" uid="ATU77555334" kennziffer="R131Y5380">RS4U Solution GmbH</scheinfirma>
@@ -1279,6 +1282,7 @@
   <scheinfirma anschrift="1010 Wien, Sterngasse 3" veroeffentlicht="2025-08-13" rechtskraeftig="2025-08-01" seit="2023-12-15" fbnr="593210v" uid="ATU78946857" kennziffer="R137L8411">SSC-SportCar KG</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Kagraner Platz 39" veroeffentlicht="2025-03-25" rechtskraeftig="2025-03-20" seit="2024-01-01" geburtsdatum="1973-01-01" uid="ATU80670846" kennziffer="R145D6231">STANCHEV Anton Petrov</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Waldgasse 13-15" veroeffentlicht="2026-03-26" rechtskraeftig="2026-02-20" seit="2025-06-16" geburtsdatum="1973-12-01" kennziffer="R156S6669">STANCIU Felicia</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Spießhammergasse 4/1" veroeffentlicht="2026-06-24" rechtskraeftig="2026-06-18" seit="2025-01-08" fbnr="246325v" uid="ATU57998803" kennziffer="R020U626I">Stanic G4 GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Davidgasse 95" veroeffentlicht="2025-04-16" rechtskraeftig="2025-04-12" seit="2023-11-27" geburtsdatum="1968-02-15" uid="ATU80052256" kennziffer="R143R598V">STANKOV Yordan Dimitrov</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Erlaaer Straße 31" veroeffentlicht="2020-08-24" rechtskraeftig="2020-08-04" fbnr="364043h" uid="ATU67293289">STANKOVIC Dusko GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Florian-Geyer-Gasse 4" veroeffentlicht="2024-09-13" rechtskraeftig="2024-03-28" seit="2022-12-06" geburtsdatum="2001-04-18" uid="ATU79038514" kennziffer="R137W724K">STANKOVIC Jelena</scheinfirma>
