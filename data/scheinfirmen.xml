@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-27" zeit="08:00:22" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1495">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-06-29" zeit="09:02:31" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1498">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -373,6 +373,7 @@
   <scheinfirma anschrift="2441 Mitterndorf/Fischa, Gartenstraße 17/2" veroeffentlicht="2026-05-29" rechtskraeftig="2026-05-22" seit="2025-09-11" geburtsdatum="1988-08-25" kennziffer="R158C282F">DURA Vasile</scheinfirma>
   <scheinfirma anschrift="2320 Schwechat, Schmidgasse 9/12" veroeffentlicht="2025-10-24" rechtskraeftig="2025-10-14" seit="2025-04-02" geburtsdatum="1979-02-27" kennziffer="R153Q021U">DURAN Florin</scheinfirma>
   <scheinfirma anschrift="2353 Guntramsdorf, Münchendorferstraße 16 / Tür 4" veroeffentlicht="2026-05-29" rechtskraeftig="2026-05-29" seit="2023-09-13" geburtsdatum="1966-04-23" kennziffer="R142C829P">DUSKOVA Anna</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37" veroeffentlicht="2026-06-29" rechtskraeftig="2026-06-25" seit="2022-11-17" geburtsdatum="1993-07-09" uid="ATU79278014" kennziffer="R137O346K">DUSKOVA Maria</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Donaueschingenstraße 21" veroeffentlicht="2023-10-11" rechtskraeftig="2023-10-10" geburtsdatum="2002-06-18" uid="ATU79228505">DUTA Alexandru-Florin</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Dammstrasse 11/2" veroeffentlicht="2017-05-12" rechtskraeftig="2017-05-03" fbnr="411936p" uid="ATU68642329">DV Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Längenfeldgasse 68/9/2A" veroeffentlicht="2017-09-12" rechtskraeftig="2017-09-07" fbnr="429644f" uid="ATU69356635">DYM Maler und Bau GmbH</scheinfirma>
@@ -907,6 +908,7 @@
   <scheinfirma anschrift="1200 Wien, Hartlgasse 14" veroeffentlicht="2026-04-07" rechtskraeftig="2026-04-02" seit="2025-03-01" geburtsdatum="1993-09-03" uid="ATU81770807" kennziffer="R154W824H">MOCSARI Tamas</scheinfirma>
   <scheinfirma anschrift="7013 Klingenbach, Ödenburger Straße 9" veroeffentlicht="2022-08-12" rechtskraeftig="2022-07-04" fbnr="550887d" uid="ATU76579169">Modos Bau und Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Meidlinger Hauptstraße 47/1" veroeffentlicht="2025-11-04" rechtskraeftig="2025-11-04" seit="2024-12-20" fbnr="630984v" uid="ATU81205009" kennziffer="R150K594Z">MOIZ Service GmbH</scheinfirma>
+  <scheinfirma anschrift="1020 Wien, Franzensbrückenstraße 14" veroeffentlicht="2026-06-29" rechtskraeftig="2026-06-20" seit="2024-09-24" fbnr="636102w" uid="ATU81342726" kennziffer="R151Y394J">Molakom GmbH in Abwicklung</scheinfirma>
   <scheinfirma anschrift="6020 Innsbruck, Hermann-Gmeiner-Straße 2" veroeffentlicht="2024-11-12" rechtskraeftig="2024-10-31" seit="2023-08-01" geburtsdatum="1997-05-03" kennziffer="R141B993E">MOLDOVAN Claudiu</scheinfirma>
   <scheinfirma anschrift="2100 Korneuburg, Brückenstrasse 8/Top 6" veroeffentlicht="2017-02-03" rechtskraeftig="2017-02-01" fbnr="436358d" uid="ATU69833424">Molnar Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Köhlergasse 5" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-12" seit="2025-02-25" geburtsdatum="2005-12-27" uid="ATU81780789" kennziffer="R154S696S">MOLNAR Elizabet</scheinfirma>
@@ -1480,6 +1482,7 @@
   <scheinfirma anschrift="1150 Wien, Diefenbachgasse 40" veroeffentlicht="2026-01-28" rechtskraeftig="2026-01-23" seit="2025-04-22" geburtsdatum="1999-05-12" kennziffer="R155S059H">YORDANOV Yordan Yordanov</scheinfirma>
   <scheinfirma anschrift="5020 Salzburg, Linzer Bundesstraße 12" veroeffentlicht="2023-01-16" rechtskraeftig="2023-01-11" geburtsdatum="1985-12-25">YUSEINOV Elin</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Quellenstraße 79-83" veroeffentlicht="2021-01-11" rechtskraeftig="2020-12-11" fbnr="431514f" uid="ATU69643825">Zagro's GmbH</scheinfirma>
+  <scheinfirma anschrift="4484 Kronstorf, Hauptstraße 48" veroeffentlicht="2026-06-29" rechtskraeftig="2026-06-24" seit="2026-03-11" geburtsdatum="1999-02-03" kennziffer="R161C763U">ZAMBO Szabolcs-Dinu</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Großmarktstraße 4" veroeffentlicht="2025-12-16" rechtskraeftig="2025-12-10" seit="2024-05-31" fbnr="560985d" uid="ATU77319135" kennziffer="R129Q605B">ZANNAZ GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Weinberggasse 53" veroeffentlicht="2024-08-19" rechtskraeftig="2024-08-10" seit="2023-12-12" fbnr="617353y" kennziffer="R143X041B">ZBK Facility Services GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Ausstellungsstraße 50/2/201" veroeffentlicht="2019-02-25" rechtskraeftig="2019-02-18" fbnr="342952t" uid="ATU65841477">Z.B.S. GmbH</scheinfirma>
