@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-07-02T08:08:31 | 1502 | 2016-04-01 |
+| 2026-07-03T08:02:07 | 1502 | 2016-04-01 |
 
 ## Verlauf
 
@@ -28,17 +28,16 @@ xychart-beta
 | ANUMASU Karunaker Reddy | ATU80861319 | 1230 Wien, Perfektastraße 18 |
 | ASENOV Asen Iliev |  | 1210 Wien, Brünner Straße 124/53 |
 | AVGR Haustechnik GmbH | ATU66259158 | 1210 Wien, Ohmgasse 4 |
+| AXI Trade GmbH | ATU59072309 | 1010 Wien, Sterngasse 3 |
 | Amir construct KG | ATU80674227 | 1200 Wien, Donaueschingenstraße 21/8 |
 | Bellak Handels GmbH |  | 1200 Wien, Hartlgasse 20 |
 | Berno Bau GmbH | ATU76130848 | 1220 Wien, Hirschstettner Straße 19 |
-| DJORDJEVIC | ATU80754836 | 1230 Wien, Breitenfurter Straße 320//1/111 |
 | DUSKA Michal | ATU79291035 | 1100 Wien, Puchsbaumgasse 37 |
 | DUSKOVA Maria | ATU79278014 | 1100 Wien, Puchsbaumgasse 37 |
 | EPURE Iustin-Sebastian | ATU80788701 | 1120 Wien, Rauchgasse 23 |
 | ERTEKIN Hasan | ATU82570727 | 2333 Leopoldsdorf, Oberlaaerstraße 55 |
 | FICZERE Jenö | ATU77530539 | 7464 Markt Neuhodis, Graben 17 |
 | Firoza Bau GmbH | ATU81976319 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
-| KIROV Zhelyazko Ankov |  | 1050 Wien, Straußengasse 3/9 |
 | KOLOMPAR Rezi | ATU82049418 | 1110 Wien, Sedlitzkygasse 14 |
 | M. TRANS SERVICE Kleintransport GmbH | ATU80370439 | 1180 Wien, Weinhauser Gasse 5 |
 | MK Interio GmbH | ATU74354502 | 1220 Wien, Rautenweg 22 |
@@ -47,7 +46,6 @@ xychart-beta
 | NEMETH Sandor | ATU81491609 | 2201 Hagenbrunn, Sechste Gasse 2 |
 | PBS Professional Business Services e.U | ATU67459911 | 1220 Wien, Gisela-Legath-Gasse 5 |
 | PETRAS Geza | ATU73620548 | 4030 Linz, Matthäus-Herzog-Straße 3/4.ST.39 |
-| POMPOVA Zdenka |  | 1120 Wien, Siebertgasse 6 |
 | POPOFF György | ATU56983955 | 1210 Wien, Brünner Straße 213/236 |
 | Roommaster Roommaker GmbH | ATU65836768 | 1230 Wien, Tenschertstraße 5 |
 | SAMU Teli |  | 1020 Wien, Volkertstraße 14/9 |
