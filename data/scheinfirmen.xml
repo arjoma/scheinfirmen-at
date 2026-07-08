@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-07" zeit="08:17:19" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1504">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-08" zeit="07:29:54" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1505">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -130,6 +130,7 @@
   <scheinfirma anschrift="2353 Guntramsdorf, Münchendorferstraße 16" veroeffentlicht="2026-05-22" rechtskraeftig="2026-05-16" seit="2025-09-01" geburtsdatum="1999-06-09" kennziffer="R158A680J">BACA Igor</scheinfirma>
   <scheinfirma anschrift="2353 Guntramsdorf, Mödlingerstraße 4" veroeffentlicht="2026-05-12" rechtskraeftig="2026-05-05" seit="2025-12-15" geburtsdatum="1993-02-09" kennziffer="R159V4060">BACA Oliver</scheinfirma>
   <scheinfirma anschrift="2353 Guntramsdorf, Münchendorferstraße 16/4" veroeffentlicht="2026-05-22" rechtskraeftig="2026-05-16" seit="2025-09-01" geburtsdatum="1998-01-10" kennziffer="R158A681H">BACOVA Kristina</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Perfektastraße 18" veroeffentlicht="2026-07-08" rechtskraeftig="2026-07-07" seit="2024-08-01" geburtsdatum="1988-05-05" uid="ATU81244903" kennziffer="R151Q504J">BADDAM Devender Reddy</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Artillerieplatz 1/3/1" veroeffentlicht="2026-05-26" rechtskraeftig="2026-05-16" seit="2025-11-03" geburtsdatum="1978-02-10" kennziffer="R159C286S">BAGAR Robert</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Fendigasse 11" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-09" seit="2025-06-22" geburtsdatum="1998-01-20" uid="ATU82339239" kennziffer="R157I773G">BAJNAR Radek</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Allerheiligenplatz 3" veroeffentlicht="2026-03-05" rechtskraeftig="2026-02-25" seit="2024-12-09" geburtsdatum="1990-08-19" uid="ATU81471989" kennziffer="R153N240J">BALAZ Anton</scheinfirma>
