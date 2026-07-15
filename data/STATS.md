@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-07-14T07:08:18 | 1513 | 2016-04-01 |
+| 2026-07-15T07:08:47 | 1514 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1563
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 304, 315, 321, 327, 348, 364, 374, 384, 397, 401, 413, 423, 438, 447, 452, 456, 465, 466, 474, 490, 498, 506, 509, 511, 521, 535, 551, 567, 583, 592, 611, 639, 647, 661, 678, 691, 701, 723, 741, 762, 780, 789, 814, 847, 875, 931, 991, 1014, 1045, 1067, 1107, 1148, 1183, 1206, 1230, 1250, 1278, 1350, 1406, 1464, 1496, 1513]
+    y-axis "Anzahl" 0 --> 1564
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 304, 315, 321, 327, 348, 364, 374, 384, 397, 401, 413, 423, 438, 447, 452, 456, 465, 466, 474, 490, 498, 506, 509, 511, 521, 535, 551, 567, 583, 592, 611, 639, 647, 661, 678, 691, 701, 723, 741, 762, 780, 789, 814, 847, 875, 931, 991, 1014, 1045, 1067, 1107, 1148, 1183, 1206, 1230, 1250, 1278, 1350, 1406, 1464, 1496, 1514]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -41,12 +41,11 @@ xychart-beta
 | Firoza Bau GmbH | ATU81976319 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
 | GOFF Handel GmbH | ATU77486436 | 4600 Wels, Dragonerstraße 46/5 |
 | Glamour Professionell GmbH | ATU81346438 | 1160 Wien, Gablenzgasse 14/3 |
-| M. TRANS SERVICE Kleintransport GmbH | ATU80370439 | 1180 Wien, Weinhauser Gasse 5 |
+| KHAN Hafiza Mehak | ATU81136058 | 6261 Strass/Zillertal, Gewerbegebiet Nord 193 |
 | MALIK Vladimir | ATU81904003 | 1160 Wien, Hasnerstraße 36 |
 | MK Interio GmbH | ATU74354502 | 1220 Wien, Rautenweg 22 |
 | Molakom GmbH in Abwicklung | ATU81342726 | 1020 Wien, Franzensbrückenstraße 14 |
 | Muhammad Bilal Kleintransport e.U. | ATU83138356 | 1220 Wien, Langobardenstraße 189 |
-| NEMETH Sandor | ATU81491609 | 2201 Hagenbrunn, Sechste Gasse 2 |
 | PETRAS Geza | ATU73620548 | 4030 Linz, Matthäus-Herzog-Straße 3/4.ST.39 |
 | POMPOVA Annamaria |  | 1100 Wien, Puchsbaumgasse 37 |
 | Rivera Handel GmbH | ATU80602448 | 4600 Wels, Dragonerstraße 46 |
