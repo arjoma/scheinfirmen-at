@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-17" zeit="07:21:31" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1516">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-21" zeit="07:28:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1522">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -571,6 +571,7 @@
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3" veroeffentlicht="2025-08-14" rechtskraeftig="2025-08-08" seit="2025-02-13" geburtsdatum="1992-04-03" uid="ATU81675019" kennziffer="R154M436G">HARRIN David</scheinfirma>
   <scheinfirma anschrift="2544 Leobersdorf, Eitzenbergerstraße 7" veroeffentlicht="2016-06-14" rechtskraeftig="2016-06-03" fbnr="267079p" uid="ATU61993515">Hartgeb Bau-GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Dammstraße 11" veroeffentlicht="2025-06-18" rechtskraeftig="2025-06-06" seit="2024-05-21" geburtsdatum="1986-04-08" uid="ATU81077718" kennziffer="R149N1999">HASSAN Ali</scheinfirma>
+  <scheinfirma anschrift="1170 Wien, Dornbacher Straße 97-99/1" veroeffentlicht="2026-07-20" rechtskraeftig="2026-06-06" seit="2023-10-23" fbnr="532763a" uid="ATU75605178" kennziffer="R122E085J">HATKO Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Fugbachgasse 12" veroeffentlicht="2021-11-19" rechtskraeftig="2021-10-28" fbnr="304322h" uid="ATU63959988">HB System-Montage GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Hütteldorfer Straße 210" veroeffentlicht="2024-01-24" rechtskraeftig="2024-01-17" seit="2023-09-28" fbnr="576015g" uid="ATU77928735" kennziffer="R133P116C">H&amp;B Teampower GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Missindorfstraße 9" veroeffentlicht="2022-01-26" rechtskraeftig="2022-01-19" fbnr="506423s" uid="ATU74118206">Helma TPB GmbH</scheinfirma>
@@ -968,6 +969,7 @@
   <scheinfirma anschrift="2432 Schwadorf, Richard Trenkwalder-Platz 1 0" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-08" fbnr="122248b" uid="ATU15556501">Netbal Gesellschaft m.b.H.</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Wiener Straße 47" veroeffentlicht="2021-11-19" rechtskraeftig="2021-11-11" fbnr="371439i" uid="ATU67115212">New Real Estate GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Leopoldauer Straße 1-3/30" veroeffentlicht="2025-12-09" rechtskraeftig="2025-12-06" seit="2024-12-28" geburtsdatum="1993-01-26" uid="ATU81617136" kennziffer="R154A419N">NGUYEN Boris</scheinfirma>
+  <scheinfirma anschrift="1140 Wien, Josef-Palme-Platz 4/12" veroeffentlicht="2026-07-20" rechtskraeftig="2026-07-10" seit="2021-12-01" fbnr="566477f" uid="ATU77543357" kennziffer="R131H538S">NHS-JPP Management GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="8055 Seiersberg, Otto Baumgartenstraße 7" veroeffentlicht="2017-09-25" rechtskraeftig="2017-09-18" fbnr="032273k" uid="ATU21301302">NI Fassadenbau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Brünner Straße 240" veroeffentlicht="2024-12-11" rechtskraeftig="2024-11-11" seit="2024-02-17" fbnr="466391w" uid="ATU71950613" kennziffer="R105C8271">Nikola Bau und Handel GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Hadatschgasse 9" veroeffentlicht="2026-01-09" rechtskraeftig="2026-01-02" seit="2025-09-24" geburtsdatum="2006-12-12" kennziffer="R158O6765">NIKOLAEV Simeon Velkov</scheinfirma>
@@ -1155,6 +1157,7 @@
   <scheinfirma anschrift="1100 Wien, Absberggasse 29/1/15" veroeffentlicht="2016-04-21" rechtskraeftig="2016-04-19" fbnr="409994h" uid="ATU68435927">RGZ PERSONALBEREITSSTELLUNG GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Brünner Straße 40" veroeffentlicht="2022-06-14" rechtskraeftig="2022-06-08" fbnr="245673i" uid="ATU57749039">RHP-Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Kürschnergasse 2" veroeffentlicht="2020-10-02" rechtskraeftig="2020-09-15" fbnr="447354z" uid="ATU71011825">Riener Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Senefeldergasse 56/31" veroeffentlicht="2026-07-20" rechtskraeftig="2026-07-14" seit="2026-03-01" geburtsdatum="2003-10-16" uid="ATU83097738" kennziffer="R161B7567">RIGO Mario Sandor</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Marchfeldgasse 15/11" veroeffentlicht="2018-07-12" rechtskraeftig="2018-07-06" fbnr="369860m" uid="ATU67184469">RIKAM GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Schinnaglgasse 12" veroeffentlicht="2019-10-30" rechtskraeftig="2019-10-08" fbnr="282501v" uid="ATU62799136">RIM TIM GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Döblinger Hauptstraße 82" veroeffentlicht="2026-03-23" rechtskraeftig="2026-03-18" seit="2022-06-22" fbnr="542519y" uid="ATU76065801" kennziffer="R123X587Y">RiseCitiee Real Estate Gmbh</scheinfirma>
@@ -1187,6 +1190,7 @@
   <scheinfirma anschrift="1110 Wien, Lorystraße 73" veroeffentlicht="2025-04-02" rechtskraeftig="2025-03-27" seit="2023-10-28" geburtsdatum="1999-08-27" uid="ATU80743304" kennziffer="R144A104W">SADAM Surendra</scheinfirma>
   <scheinfirma anschrift="4800 Attnang-Puchheim, Industriestraße 18" veroeffentlicht="2016-08-22" rechtskraeftig="2016-08-19" fbnr="344994w" uid="ATU65645402">Sadem Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Markgraf-Rüdiger-Straße 2" veroeffentlicht="2023-08-28" rechtskraeftig="2023-08-18" fbnr="479520b" uid="ATU72732803">SAFA T. GmbH</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Kaiser-Ebersdorfer Straße 112-114/4/22" veroeffentlicht="2026-07-20" rechtskraeftig="2026-07-17" seit="2025-12-30" fbnr="655136k" uid="ATU82446989" kennziffer="R156K878X">Safety Personal GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 177-179" veroeffentlicht="2024-12-17" rechtskraeftig="2024-12-16" seit="2024-09-11" fbnr="602917v" uid="ATU79396618" kennziffer="R139X0036">Safety Services Aiad Gmbh in Liquidation</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Kirchenplatz 6" veroeffentlicht="2024-09-09" rechtskraeftig="2024-08-14" seit="2022-11-05" fbnr="592125y" kennziffer="R137D1082">Sahin MS GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Muhrengasse 55" veroeffentlicht="2024-10-01" rechtskraeftig="2024-09-11" seit="2024-01-18" fbnr="371841a" uid="ATU68282734" kennziffer="R043Y736O">SAJDA Handels GmbH</scheinfirma>
@@ -1312,6 +1316,7 @@
   <scheinfirma anschrift="1200 Wien, Allerheiligenplatz 3" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-20" seit="2024-08-24" geburtsdatum="1983-06-17" uid="ATU81061039" kennziffer="R151P9107">STEFANOV Mitko Dimitrov</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 28" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-08" seit="2024-06-20" geburtsdatum="2004-01-06" uid="ATU80849147" kennziffer="R150H741L">STEFANOV Stoyan Nedkov</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Davidgasse 39" veroeffentlicht="2025-03-24" rechtskraeftig="2025-03-20" seit="2023-08-14" geburtsdatum="1990-11-23" uid="ATU79716318" kennziffer="R141R093W">STEFANOV Yordan Iliev</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Senefeldergasse 56/31" veroeffentlicht="2026-07-20" rechtskraeftig="2026-07-14" seit="2026-03-01" geburtsdatum="2000-07-19" uid="ATU83097505" kennziffer="R161B761D">STEIGLER Erik Zoltan</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Heindlgasse 3-5" veroeffentlicht="2021-08-23" rechtskraeftig="2021-08-13" fbnr="277346m" uid="ATU62501037">STEIN Bau GmbH Hoch-uTiefb u Baustoff</scheinfirma>
   <scheinfirma anschrift="5020 Salzburg, Sterneckstraße 55/47" veroeffentlicht="2018-11-22" rechtskraeftig="2018-11-02" fbnr="402317v" uid="ATU68312239">Steinfelder HB GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Hofherr-Schrantz-Gasse 2" veroeffentlicht="2024-06-03" rechtskraeftig="2024-05-24" seit="2024-01-18" fbnr="527443b" uid="ATU75214019" kennziffer="R120Q033U">Sterndorfer Bau GmbH in Konkurs</scheinfirma>
@@ -1392,6 +1397,7 @@
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 97" veroeffentlicht="2023-07-21" rechtskraeftig="2023-07-14" geburtsdatum="2002-03-11" uid="ATU78511638">TOTHOVA Sandra</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Bäckerstraße 14" veroeffentlicht="2025-06-11" rechtskraeftig="2025-05-15" seit="2025-03-31" fbnr="629077p" uid="ATU80841056" kennziffer="R149S9534">Toty's Personaldienstleistung GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Neulerchenfelder Straße 86/20" veroeffentlicht="2026-07-08" rechtskraeftig="2026-06-26" seit="2025-11-24" fbnr="605218b" uid="ATU79501816" kennziffer="R140M456F">Transport Heroes GmbH</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Koflergasse 9/3" veroeffentlicht="2026-07-20" rechtskraeftig="2025-05-15" seit="2025-05-15" geburtsdatum="1972-03-25" uid="ATU61887337" kennziffer="R022E2176">TRENDOV Dragi</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Slamastraße 23" veroeffentlicht="2023-07-17" rechtskraeftig="2023-06-07" fbnr="468872v" uid="ATU72249113">Trinitas - DRei OG</scheinfirma>
   <scheinfirma anschrift="1040 Wien, Rainergasse 23" veroeffentlicht="2022-02-02" rechtskraeftig="2022-02-02" fbnr="468871t" uid="ATU72249104">Trinitas - Zwei KG</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Lützowgasse 12-14/1/4. Stock" veroeffentlicht="2018-06-06" rechtskraeftig="2018-05-30" fbnr="406496p" uid="ATU68476437">Trockenbau Djordje Petrovic GmbH</scheinfirma>
