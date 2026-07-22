@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-21" zeit="07:28:52" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1522">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-22" zeit="07:28:02" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1523">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -846,6 +846,7 @@
   <scheinfirma anschrift="1160 Wien, Hasnerstraße 36" veroeffentlicht="2026-07-08" rechtskraeftig="2026-06-27" seit="2025-03-13" geburtsdatum="1999-10-16" uid="ATU81904003">MALIK Vladimir</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Büttnergasse 2" veroeffentlicht="2026-03-03" rechtskraeftig="2025-10-30" seit="2024-04-01" geburtsdatum="1957-03-13" uid="ATU80553946" kennziffer="R148B675O">MANDIR Vinko</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Dionysius-Andrassy-Straße 7" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-10" seit="2024-05-15" fbnr="627700p" uid="ATU81044825" kennziffer="R149H624P">Mano Diensten GmbH</scheinfirma>
+  <scheinfirma anschrift="3003 Gablitz, Hauptstraße 28/9" veroeffentlicht="2026-07-21" rechtskraeftig="2026-07-08" seit="2024-12-01" geburtsdatum="1978-02-21" uid="ATU80786927" kennziffer="R146J070I">MANOLE Hermina</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Hilschergasse 24" veroeffentlicht="2019-06-06" rechtskraeftig="2019-05-28" fbnr="494758k" uid="ATU73552201">Marcin Florian Mastej GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Schanzstraße 53/23" veroeffentlicht="2017-12-18" rechtskraeftig="2017-12-15" fbnr="60380w">Marin Tronic HandelsgmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Muhrengasse 55" veroeffentlicht="2025-08-05" rechtskraeftig="2025-07-29" seit="2024-03-28" geburtsdatum="1999-12-29" uid="ATU80503849" kennziffer="R147T870H">MARINOV Bozhidar Vasilev</scheinfirma>
