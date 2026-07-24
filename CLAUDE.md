@@ -39,7 +39,7 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 - Header names have leading/trailing spaces — strip them
 - Column 4 (Zeitpunkt) has a trailing space in every value — strip
 - One Kennziffer field contains HTML-encoded &quot; wrapping — unescape + strip quotes
-- BMF data-entry quirks in UID/Kennziffer/Firmenbuch are auto-corrected by `normalize.py` before validation. Five rules: swap UID↔Kennziffer, swap Firmenbuch↔Kennziffer (e.g. Kennziffer `R120R501J` typed into Firmenbuch column), clear Kennziffer when it duplicates UID, clear Kennziffer when it duplicates Firmenbuch-Nr, promote a foreign EU VAT number from Kennziffer into the UID field.
+- BMF data-entry quirks in UID/Kennziffer/Firmenbuch are auto-corrected by `normalize.py` before validation. Six rules: swap UID↔Kennziffer, swap Firmenbuch↔Kennziffer (e.g. Kennziffer `R120R501J` typed into Firmenbuch column), clear Kennziffer when it duplicates UID, clear Kennziffer when it duplicates Firmenbuch-Nr, promote a foreign EU VAT number from Kennziffer into the UID field, lowercase an uppercase Firmenbuch check letter (e.g. `436634I` → `436634i`).
 - Validation of UID, Firmenbuch-Nr, and Kennziffer format mismatches is a *warning* (not an error) — BMF data is authoritative and the nightly should never abort on a single oddly-formatted value.
 - UID validator accepts both Austrian (ATU + 8 digits) and generic EU VAT (`[A-Z]{2}[A-Z0-9]{6,12}`, e.g. RO/DE/IT) formats. Anything else → warning (not error).
 - One Kennziffer has unusual format RO38488384 — handled by the foreign-VAT-promotion rule above.

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-24" zeit="07:28:44" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1524">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-24" zeit="12:40:05" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1525">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -179,7 +179,7 @@
   <scheinfirma anschrift="1160 Wien, Haberlgasse 71" veroeffentlicht="2025-09-11" rechtskraeftig="2025-09-03" seit="2025-04-24" fbnr="631333g" uid="ATU81963145" kennziffer="R150L1423">Belidex Projekt GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Mosetiggasse 1A" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-17" seit="2022-09-17" fbnr="589068b" uid="ATU78911858" kennziffer="R136J691O">Bella Transport und Handel GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Hartlgasse 20" veroeffentlicht="2026-06-11" rechtskraeftig="2026-06-05" seit="2026-01-20" fbnr="612667g" kennziffer="R142A188J">Bellak Handels GmbH</scheinfirma>
-  <scheinfirma anschrift="1160 Wien, Redtenbachergasse 14" veroeffentlicht="2023-03-03" rechtskraeftig="2023-02-14" fbnr="436634I" uid="ATU69781159">Belvedere ZS Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Redtenbachergasse 14" veroeffentlicht="2023-03-03" rechtskraeftig="2023-02-14" fbnr="436634i" uid="ATU69781159">Belvedere ZS Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Sonnleithnergasse 2/48 0" veroeffentlicht="2023-12-15" rechtskraeftig="2023-11-17" fbnr="581464w">BENEK Gökan</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Favoritenstraße 169" veroeffentlicht="2022-03-30" rechtskraeftig="2022-03-15" fbnr="550293f">Bercon Montage e.U.</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2025-03-05" rechtskraeftig="2025-02-28" seit="2023-11-13" geburtsdatum="2003-11-08" uid="ATU80284513" kennziffer="R143I866H">BERI Erika</scheinfirma>
@@ -231,6 +231,7 @@
   <scheinfirma anschrift="1110 Wien, Gadnergasse 59" veroeffentlicht="2022-06-15" rechtskraeftig="2022-06-07" fbnr="361604x" uid="ATU66388116">BPR Strategic GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Annagasse 5" veroeffentlicht="2026-03-18" rechtskraeftig="2026-03-10" seit="2019-11-05" fbnr="521843t" uid="ATU75363713" kennziffer="R119B261M">B&amp;R Wohn- und Anlagenbau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Favoritenstraße 204" veroeffentlicht="2022-03-18" rechtskraeftig="2022-03-14" fbnr="414100x" uid="ATU68707624">BRAMM GmbH in Liquidation</scheinfirma>
+  <scheinfirma anschrift="1170 Wien, Wattgasse 76" veroeffentlicht="2026-07-24" rechtskraeftig="2026-07-15" seit="2025-02-14" fbnr="646795w" uid="ATU81838479" kennziffer="R154M644Z">Bra-Sa Construct GesmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Jordangasse 7" veroeffentlicht="2025-06-10" rechtskraeftig="2025-06-03" seit="2025-02-21" fbnr="642175a" uid="ATU81394019" kennziffer="R153J669N">Brelea Facility Services GmbH</scheinfirma>
   <scheinfirma anschrift="6840 Götzis, Hauptstraße 6" veroeffentlicht="2019-03-18" rechtskraeftig="2019-03-06" fbnr="470499k" uid="ATU72172436">Brella GmbH</scheinfirma>
   <scheinfirma anschrift="2345 Brunn am Gebirge, Heinrich Bablik-Straße 17c" veroeffentlicht="2020-11-23" rechtskraeftig="2020-11-19" fbnr="355901i" uid="ATU66266747">BROSS Bau GmbH</scheinfirma>

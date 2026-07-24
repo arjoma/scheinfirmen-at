@@ -22,6 +22,9 @@ Rules applied (in order):
 4. **Promote foreign VAT to UID**: when the Kennziffer field holds a
    non-Austrian EU VAT number (e.g. ``RO38488384``) and the UID column is
    empty, move it into UID.
+5. **Lowercase Firmenbuch check letter**: the check character of an
+   Austrian Firmenbuchnummer is conventionally lowercase (``436634i``),
+   but BMF occasionally enters it uppercase (``436634I``). Lowercase it.
 """
 
 import re
@@ -34,6 +37,9 @@ from scheinfirmen_at.validate import _RE_FIRMENBUCH, _RE_KENNZIFFER, _RE_UID
 # Loose on purpose — we only use it to *recognize* a foreign VAT placed in
 # the Kennziffer column. Strict per-country validation is out of scope.
 _RE_FOREIGN_VAT = re.compile(r"^[A-Z]{2}[A-Z0-9]{6,12}$")
+
+# Firmenbuchnummer with an uppercase check letter (canonical form is lowercase).
+_RE_FIRMENBUCH_UPPER = re.compile(r"^\d{5,6}[A-Z]$")
 
 
 @dataclass
@@ -57,21 +63,18 @@ def normalize_field_swaps(result: ParseResult) -> list[FieldFix]:
     fixes: list[FieldFix] = []
     for row_idx, rec in enumerate(result.records, start=1):
         fix = _apply_swap(rec, row_idx)
+        if fix is None:
+            fix = _apply_fbnr_kennziffer_swap(rec, row_idx)
+        if fix is None:
+            fix = _apply_duplicate_clear(rec, row_idx)
+        if fix is None:
+            fix = _apply_foreign_vat_promote(rec, row_idx)
         if fix is not None:
             fixes.append(fix)
-            continue
 
-        fix = _apply_fbnr_kennziffer_swap(rec, row_idx)
-        if fix is not None:
-            fixes.append(fix)
-            continue
-
-        fix = _apply_duplicate_clear(rec, row_idx)
-        if fix is not None:
-            fixes.append(fix)
-            continue
-
-        fix = _apply_foreign_vat_promote(rec, row_idx)
+        # Case normalization is orthogonal to the swap/clear rules above and
+        # runs last so it also catches values the swap rules just moved here.
+        fix = _apply_fbnr_lowercase(rec, row_idx)
         if fix is not None:
             fixes.append(fix)
 
@@ -182,6 +185,23 @@ def _apply_duplicate_clear(rec: ScheinfirmaRecord, row: int) -> FieldFix | None:
             description=f"cleared Kennziffer={before!r} (duplicate of Firmenbuch-Nr)",
         )
     return None
+
+
+def _apply_fbnr_lowercase(rec: ScheinfirmaRecord, row: int) -> FieldFix | None:
+    """Lowercase an uppercase Firmenbuch check letter (e.g. ``436634I``)."""
+    if rec.fbnr is None or not _RE_FIRMENBUCH_UPPER.match(rec.fbnr):
+        return None
+    before = rec.fbnr
+    rec.fbnr = rec.fbnr[:-1] + rec.fbnr[-1].lower()
+    return FieldFix(
+        row=row,
+        name=rec.name,
+        rule="lowercase-fbnr-check-letter",
+        description=(
+            f"lowercased Firmenbuch check letter (was {before!r}, "
+            f"now {rec.fbnr!r})"
+        ),
+    )
 
 
 def _apply_foreign_vat_promote(

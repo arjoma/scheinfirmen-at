@@ -159,6 +159,36 @@ def test_no_foreign_vat_promotion_for_random_string() -> None:
     assert fixes == []
 
 
+# --- Firmenbuch case rule ------------------------------------------------
+
+
+def test_lowercase_fbnr_check_letter() -> None:
+    """Real-world case: Row with fbnr='436634I' (uppercase I instead of i)."""
+    rec = _rec(name="Belvedere", fbnr="436634I", uid="ATU69781159")
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert len(fixes) == 1
+    assert fixes[0].rule == "lowercase-fbnr-check-letter"
+    assert rec.fbnr == "436634i"
+
+
+def test_no_case_fix_for_lowercase_fbnr() -> None:
+    rec = _rec(fbnr="436634i", uid="ATU69781159")
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert fixes == []
+
+
+def test_case_fix_after_fbnr_swap() -> None:
+    """A fbnr-shaped value moved out of Kennziffer also gets its case fixed."""
+    rec = _rec(fbnr=None, kennziffer="123456A")
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert [f.rule for f in fixes] == [
+        "swap-fbnr-kennziffer",
+        "lowercase-fbnr-check-letter",
+    ]
+    assert rec.fbnr == "123456a"
+    assert rec.kennziffer is None
+
+
 # --- General -------------------------------------------------------------
 
 
