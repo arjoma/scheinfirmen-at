@@ -5,6 +5,14 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.5.2] - 2026-07-24
+
+### Behoben
+- **Firmenbuch-Prüfbuchstabe wird jetzt normalisiert.** Konkreter Vorfall: Zeile „Belvedere ZS Bau GmbH" enthielt `436634I` mit großem I statt des konventionell kleinen Prüfbuchstabens (`436634i`) — der einzige Großbuchstabe unter allen ~950 Firmenbuchnummern im Datensatz.
+
+### Hinzugefügt
+- **Normalize-Regel `lowercase-fbnr-check-letter`:** schreibt einen großgeschriebenen Firmenbuch-Prüfbuchstaben klein. Läuft unabhängig von den Swap/Clear-Regeln, sodass auch ein gerade erst in die Firmenbuch-Spalte verschobener Wert die Kleinschreibung erhält.
+
 ## [1.5.1] - 2026-05-21
 
 ### Behoben
