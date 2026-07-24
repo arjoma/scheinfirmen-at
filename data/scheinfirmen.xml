@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-22" zeit="07:28:02" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1523">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-07-24" zeit="07:28:44" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1524">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -966,6 +966,7 @@
   <scheinfirma anschrift="1100 Wien, Gußriegelstraße 51-59" veroeffentlicht="2024-10-21" rechtskraeftig="2024-10-11" seit="2024-03-16" fbnr="622075t" uid="ATU80387225" kennziffer="R147I183L">Neda Therm e.U.</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Stammersdorfer Straße 226" veroeffentlicht="2025-09-29" rechtskraeftig="2025-09-23" seit="2025-07-05" geburtsdatum="1990-04-11" uid="ATU80905825" kennziffer="R150Z803V">NEMET Janos</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 12/23-24" veroeffentlicht="2025-09-12" rechtskraeftig="2025-08-28" seit="2025-05-02" geburtsdatum="1975-07-17" uid="ATU82208834" kennziffer="R155W4529">NEMETH Andrea</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Quellenstraße 4" veroeffentlicht="2026-07-23" rechtskraeftig="2026-07-21" seit="2022-08-08" geburtsdatum="1993-11-30" fbnr="658993h" kennziffer="R157K686J">NEMETH Daniel</scheinfirma>
   <scheinfirma anschrift="2201 Hagenbrunn, Sechste Gasse 2" veroeffentlicht="2026-06-15" rechtskraeftig="2026-06-08" seit="2025-11-01" geburtsdatum="1974-04-07" uid="ATU81491609" kennziffer="R154A595U">NEMETH Sandor</scheinfirma>
   <scheinfirma anschrift="2432 Schwadorf, Richard Trenkwalder-Platz 1 0" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-08" fbnr="122248b" uid="ATU15556501">Netbal Gesellschaft m.b.H.</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Wiener Straße 47" veroeffentlicht="2021-11-19" rechtskraeftig="2021-11-11" fbnr="371439i" uid="ATU67115212">New Real Estate GmbH</scheinfirma>
