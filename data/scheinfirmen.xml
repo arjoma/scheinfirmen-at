@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-01" zeit="07:34:47" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1534">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-04" zeit="07:23:27" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1539">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -127,6 +127,7 @@
   <scheinfirma anschrift="1180 Wien, Semperstraße 6" veroeffentlicht="2020-03-10" rechtskraeftig="2020-02-20" fbnr="376647v" uid="ATU68126306">B &amp; B Bau Service KG</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Mellergasse 4" veroeffentlicht="2023-08-01" rechtskraeftig="2023-07-21" fbnr="190247a" uid="ATU60787777">BAB Lanzer GmbH</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Keinergasse 18/21" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-02" seit="2024-11-16" geburtsdatum="2000-08-03" uid="ATU81061556" kennziffer="R151K027U">BABAI Andras</scheinfirma>
+  <scheinfirma anschrift="1170 Wien, Frauenfelderstraße 15/16" veroeffentlicht="2026-08-03" rechtskraeftig="2026-07-25" seit="2025-06-26" fbnr="616493h" uid="ATU80085346" kennziffer="R143L267F">BABIC Trading GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 2/3/6" veroeffentlicht="2026-04-21" rechtskraeftig="2026-04-17" seit="2022-02-07" fbnr="385175i" uid="ATU67920609">BABKO Dienstleistungs GmbH</scheinfirma>
   <scheinfirma anschrift="2353 Guntramsdorf, Münchendorferstraße 16" veroeffentlicht="2026-05-22" rechtskraeftig="2026-05-16" seit="2025-09-01" geburtsdatum="1999-06-09" kennziffer="R158A680J">BACA Igor</scheinfirma>
   <scheinfirma anschrift="2353 Guntramsdorf, Mödlingerstraße 4" veroeffentlicht="2026-05-12" rechtskraeftig="2026-05-05" seit="2025-12-15" geburtsdatum="1993-02-09" kennziffer="R159V4060">BACA Oliver</scheinfirma>
@@ -204,6 +205,7 @@
   <scheinfirma anschrift="4020 Linz, Steingasse 6a" veroeffentlicht="2023-07-27" rechtskraeftig="2023-06-21" fbnr="368831z" uid="ATU66697345">BL Gerüst GmbH</scheinfirma>
   <scheinfirma anschrift="2351 Wiener Neudorf, IZ-NÖ-SÜD Straße 3 Obj 41" veroeffentlicht="2023-10-04" rechtskraeftig="2023-09-27" fbnr="549261m" uid="ATU78666739">Black Rock GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Hetzendorfer Straße 100" veroeffentlicht="2026-02-05" rechtskraeftig="2026-02-02" seit="2025-06-01" fbnr="588609b" uid="ATU78574749" kennziffer="R136H7941">BlackMoney GmbH</scheinfirma>
+  <scheinfirma anschrift="1090 Wien, Berggasse 16 DG" veroeffentlicht="2026-08-03" rechtskraeftig="2026-07-22" seit="2024-05-01" fbnr="625961g" uid="ATU81806459" kennziffer="R148F6731">Blackstone One GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Columbusgasse 74" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2024-12-17" geburtsdatum="2004-01-23" uid="ATU81618019" kennziffer="R153Q776A">BLAZSIK Valentina</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Pottendorfer Straße 3" veroeffentlicht="2019-04-11" rechtskraeftig="2019-04-05" fbnr="295830w" uid="ATU63623207">BLIBAU Trans GmbH i.L.</scheinfirma>
   <scheinfirma anschrift="3400 Klosterneuburg, Inkustraße 1-7" veroeffentlicht="2025-04-10" rechtskraeftig="2025-04-01" seit="2024-08-13" fbnr="507314a" uid="ATU74150358" kennziffer="R115S1040">Blickbau GmbH</scheinfirma>
@@ -407,6 +409,7 @@
   <scheinfirma anschrift="1160 Wien, Zwinzstraße 4-6/Laden 1 0" veroeffentlicht="2022-12-03" rechtskraeftig="2022-11-22" fbnr="416172v">E.HREBENDA GmbH</scheinfirma>
   <scheinfirma anschrift="1040 Wien, Taubstummengasse 17" veroeffentlicht="2019-08-02" rechtskraeftig="2019-07-26" fbnr="354569a">E&amp;I Energieprojekt Enev OG</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Obere Donaustraße 6" veroeffentlicht="2023-11-03" rechtskraeftig="2023-10-28" fbnr="356717i" uid="ATU66241836">Eigentumgesellschaft NAS 111 GmbH</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Großmarktstraße 4" veroeffentlicht="2026-08-03" rechtskraeftig="2026-07-24" seit="2024-03-16" fbnr="624261g" kennziffer="R147I260R">El Graf Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Anton-Störck-Gasse 78" veroeffentlicht="2025-06-23" rechtskraeftig="2025-06-11" seit="2025-06-11" geburtsdatum="1996-09-16" uid="ATU79999968" kennziffer="R141C122I">EL NAGGAR Mohamed</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Ybbsstraße 35" veroeffentlicht="2025-01-30" rechtskraeftig="2025-01-22" seit="2023-05-09" fbnr="460798w" uid="ATU71624316" kennziffer="R103P500E">Electrologics Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1090 Wien, Liechtensteinstraße 22A" veroeffentlicht="2025-01-14" rechtskraeftig="2024-12-16" seit="2024-06-03" fbnr="622178v" kennziffer="R146M4020">ELEG GmbH</scheinfirma>
@@ -993,6 +996,7 @@
   <scheinfirma anschrift="1210 Wien, Brünner Straße 76" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-19" fbnr="504400s" uid="ATU73884567">Nordteam GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Sieveringer Straße 91" veroeffentlicht="2023-09-22" rechtskraeftig="2023-09-15" fbnr="484354k" uid="ATU73015658">NORTA Handels GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 51" veroeffentlicht="2026-03-11" rechtskraeftig="2026-03-05" seit="2025-02-26" geburtsdatum="1998-04-23" uid="ATU81427608" kennziffer="R153P245E">NOVAKOVIC Mico</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Elisenstraße 18" veroeffentlicht="2026-08-03" rechtskraeftig="2026-07-16" seit="2025-06-05" fbnr="534197i" uid="ATU75807968" kennziffer="R122B6508">Novius GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Graben 12" veroeffentlicht="2022-12-12" rechtskraeftig="2022-12-01" fbnr="501824b" uid="ATU73809006">NTD Security and Vehicle Serv GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Siebenhirtenstraße 13" veroeffentlicht="2023-03-09" rechtskraeftig="2022-04-28" fbnr="495770z" uid="ATU74120408">N.T.S.A. Pro KG</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Schloßhofer Straße 24" veroeffentlicht="2024-04-24" rechtskraeftig="2024-04-19" seit="2023-02-20" fbnr="220730d" uid="ATU53887904" kennziffer="R017E401L">O. Mese Bau GmbH</scheinfirma>
@@ -1347,6 +1351,7 @@
   <scheinfirma anschrift="1120 Wien, Tichtelgasse 21" veroeffentlicht="2026-06-23" rechtskraeftig="2026-06-16" seit="2023-08-01" geburtsdatum="1985-07-15" uid="ATU80078719" kennziffer="R142B741M">SUNDARAGIRI Shankar</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Pater-Schwartz-Gasse 11A" veroeffentlicht="2024-04-15" rechtskraeftig="2024-04-11" seit="2023-06-19" fbnr="569163f" uid="ATU78155309" kennziffer="R132R8041">Super Taxi KG</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Vereinsgasse 16/29" veroeffentlicht="2026-05-06" rechtskraeftig="2026-05-06" seit="2024-02-06" fbnr="617165x" uid="ATU80105967" kennziffer="R143S3784">Surek GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Zohmanngasse 28" veroeffentlicht="2026-08-03" rechtskraeftig="2026-07-31" seit="2025-07-16" geburtsdatum="1998-12-27" uid="ATU82410847" kennziffer="R157I220G">SUSHIL Sushil</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29/1/10" veroeffentlicht="2019-04-04" rechtskraeftig="2019-03-29" fbnr="418171h" uid="ATU68795903">SV-BAUTECHNIK GmbH</scheinfirma>
   <scheinfirma anschrift="9061 Klagenfurt am Wörthersee, Hallegger Straße 293" veroeffentlicht="2018-08-10" rechtskraeftig="2018-08-08" fbnr="389101h" uid="ATU67897706">S.V.M. Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Zwölfergasse 9" veroeffentlicht="2025-04-03" rechtskraeftig="2025-04-01" seit="2023-10-16" geburtsdatum="1976-01-01" uid="ATU80071823" kennziffer="R143U071A">SYED Aqeel Abbas Shah</scheinfirma>

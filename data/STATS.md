@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-01T07:34:47 | 1534 | 2016-04-01 |
+| 2026-08-04T07:23:27 | 1539 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1584
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 304, 314, 320, 326, 347, 363, 373, 383, 396, 400, 412, 422, 437, 446, 451, 455, 464, 465, 473, 489, 497, 505, 508, 510, 520, 534, 550, 566, 582, 591, 610, 638, 646, 660, 677, 690, 700, 722, 740, 761, 779, 788, 813, 846, 874, 930, 990, 1013, 1044, 1066, 1106, 1147, 1182, 1205, 1229, 1249, 1277, 1349, 1405, 1463, 1495, 1534]
+    y-axis "Anzahl" 0 --> 1589
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 304, 314, 320, 326, 347, 363, 373, 383, 396, 400, 412, 422, 437, 446, 451, 455, 464, 465, 473, 489, 497, 505, 508, 510, 520, 534, 550, 566, 582, 591, 610, 638, 646, 660, 677, 690, 700, 722, 740, 761, 779, 788, 813, 846, 874, 930, 990, 1013, 1044, 1066, 1106, 1147, 1182, 1205, 1229, 1249, 1277, 1349, 1405, 1463, 1495, 1534, 1539]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -25,15 +25,18 @@ xychart-beta
 | Name | UID | Anschrift |
 |------|-----|-----------|
 | A-K Autohandels GmbH | ATU82976647 | 1230 Wien, Birostraße 11 |
+| BABIC Trading GmbH | ATU80085346 | 1170 Wien, Frauenfelderstraße 15/16 |
 | BADDAM Devender Reddy | ATU81244903 | 1230 Wien, Perfektastraße 18 |
 | BALOGH Zsofia Panka | ATU82820226 | 1100 Wien, Quellenstraße 77 |
 | BAP Bau GmbH | ATU76019229 | 1180 Wien, Währinger Straße 39 |
 | BARTOS Zdenko |  | 1180 Wien, Schulgasse 63/7 |
 | BIRNEATA Robert |  | 6890 Lustenau, Augartenstraße 20 |
+| Blackstone One GmbH | ATU81806459 | 1090 Wien, Berggasse 16 DG |
 | Bra-Sa Construct GesmbH | ATU81838479 | 1170 Wien, Wattgasse 76 |
 | CINOVA Katarina |  | 5020 Salzburg, Gebirgsjägerplatz 1 |
 | Cankar GmbH | ATU80698318 | 1180 Wien, Anastasius-Grün-Gasse 17 |
 | DOVALOVA Simona |  | 1110 Wien, Hadatschgasse 7 |
+| El Graf Transport GmbH |  | 1230 Wien, Großmarktstraße 4 |
 | GOFF Handel GmbH | ATU77486436 | 4600 Wels, Dragonerstraße 46/5 |
 | Glamour Professionell GmbH | ATU81346438 | 1160 Wien, Gablenzgasse 14/3 |
 | HATKO Bau GmbH | ATU75605178 | 1170 Wien, Dornbacher Straße 97-99/1 |
@@ -48,12 +51,14 @@ xychart-beta
 | NEMETH Daniel |  | 1100 Wien, Quellenstraße 4 |
 | NHS-JPP Management GmbH in Liquidation | ATU77543357 | 1140 Wien, Josef-Palme-Platz 4/12 |
 | Neo Trans Clean GmbH | ATU66640977 | 1100 Wien, Erlachgasse 137/31 |
+| Novius GmbH | ATU75807968 | 1230 Wien, Elisenstraße 18 |
 | POMPOVA Annamaria |  | 1100 Wien, Puchsbaumgasse 37 |
 | RADUCANU Vasile-Marin | ATU81261689 | 1150 Wien, Staglgasse 12 |
 | RIGO Mario Sandor | ATU83097738 | 1100 Wien, Senefeldergasse 56/31 |
 | Rivera Handel GmbH | ATU80602448 | 4600 Wels, Dragonerstraße 46 |
 | SINGH Surinder | ATU77973105 | 1100 Wien, Malborghetgasse 33 |
 | STEIGLER Erik Zoltan | ATU83097505 | 1100 Wien, Senefeldergasse 56/31 |
+| SUSHIL Sushil | ATU82410847 | 1100 Wien, Zohmanngasse 28 |
 | Safety Personal GmbH | ATU82446989 | 1110 Wien, Kaiser-Ebersdorfer Straße 112-114/4/22 |
 | TAS Bau GmbH | ATU68164238 | 1170 Wien, Dornbacher Straße 5 |
 | TITAN GmbH | ATU71643956 | 8055 Seiersberg-Pirka, Feldkirchner Straße 111 |
