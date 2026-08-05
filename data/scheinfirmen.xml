@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-04" zeit="07:23:27" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1539">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-05" zeit="07:23:16" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1542">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -347,6 +347,7 @@
   <scheinfirma anschrift="1100 Wien, Zur Spinnerin 24" veroeffentlicht="2024-09-24" rechtskraeftig="2024-09-13" seit="2022-02-25" fbnr="575355k" uid="ATU79631338" kennziffer="R133I125N">Degree Wohnbau GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Slamastraße 23" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-29" fbnr="544691t" uid="ATU76616949">Delas Bau und Baustoffhandel GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 28" veroeffentlicht="2026-02-11" rechtskraeftig="2026-02-06" seit="2025-05-22" geburtsdatum="1999-05-15" uid="ATU82203857" kennziffer="R156J136O">DEMETER Monika Sara</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Salzachstraße 11" veroeffentlicht="2026-08-04" rechtskraeftig="2026-07-31" seit="2025-02-10" geburtsdatum="2001-11-09" kennziffer="R154P8282">DEMIREV Angel Dimitrov</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Embelgasse 45" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-20" seit="2024-04-26" geburtsdatum="1998-10-25" uid="ATU80645526" kennziffer="R148X702V">DEMIREV Mitko Shtilyanov</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Reinprechtsdorfer Straße 43" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-08" seit="2023-10-23" geburtsdatum="1978-01-17" uid="ATU79940959" kennziffer="R142T189U">DEMIREV Vasil Stefanov</scheinfirma>
   <scheinfirma anschrift="1130 Wien, Auhofstraße 166" veroeffentlicht="2025-09-01" rechtskraeftig="2025-07-08" seit="2023-09-30" fbnr="612074i" uid="ATU79992224" kennziffer="R142G892F">Dena Trans GmbH</scheinfirma>
@@ -614,6 +615,7 @@
   <scheinfirma anschrift="4020 Linz, Landwiedstraße 193" veroeffentlicht="2024-04-26" rechtskraeftig="2024-04-17" seit="2024-03-15" geburtsdatum="1989-11-27" kennziffer="R141F397P">HOSSU Ionut-Bogdan</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3" veroeffentlicht="2021-01-11" rechtskraeftig="2020-12-31" fbnr="483364f" uid="ATU73417206">Hoxha GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Ottakringer Straße 21" veroeffentlicht="2021-06-11" rechtskraeftig="2021-06-08" fbnr="248583p" uid="ATU57950266">HPF Elektrofertigung und Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Salzachstraße 11" veroeffentlicht="2026-08-04" rechtskraeftig="2026-07-31" seit="2024-07-02" geburtsdatum="1993-07-29" uid="ATU81225238" kennziffer="R151C354V">HRISTOV Kiril Stefchov</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Muhrengasse 55" veroeffentlicht="2025-04-28" rechtskraeftig="2025-04-25" seit="2024-04-26" geburtsdatum="1981-11-06" uid="ATU81045879" kennziffer="R149C334I">HRISTOV Yordan Ivanov</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Barawitzkagasse 21" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2025-07-10" geburtsdatum="1978-04-04" uid="ATU82363425" kennziffer="R157E330V">HUBLIK Miroslav</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Hofherr-Schrantz-Gasse 2/2/30" veroeffentlicht="2026-01-14" rechtskraeftig="2026-01-09" seit="2026-01-09" fbnr="581444s" uid="ATU78630135" kennziffer="R134T652G">HUKAN TAXI KG</scheinfirma>
@@ -961,6 +963,7 @@
   <scheinfirma anschrift="1150 Wien, Grangasse 1" veroeffentlicht="2021-03-30" rechtskraeftig="2021-03-18" fbnr="444655f" uid="ATU70235612">MV Gebäudeservice GmbH</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2024-12-17" rechtskraeftig="2024-12-09" seit="2024-03-21" fbnr="470669k" uid="ATU72235538" kennziffer="R106G7782">My Experience GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Obere Donaustraße 6" veroeffentlicht="2023-06-06" rechtskraeftig="2023-06-03" fbnr="583297s" uid="ATU78393169">MYBK Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1070 Wien, Halbgasse 7" veroeffentlicht="2026-08-04" rechtskraeftig="2026-07-30" seit="2026-07-24" fbnr="570798i" uid="ATU77735603" kennziffer="R132G912Z">Mylez Stores GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29/1/35" veroeffentlicht="2016-07-06" rechtskraeftig="2016-07-04" fbnr="399930h" uid="ATU68094778">Mystic Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/315" veroeffentlicht="2021-12-16" rechtskraeftig="2021-12-14" fbnr="439847i" uid="ATU70990323">MZM KG</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Kastnergasse 19/13" veroeffentlicht="2025-06-10" rechtskraeftig="2025-05-23" seit="2024-12-05" fbnr="620503f" uid="ATU80466167" kennziffer="R145U6760">Nadudvari Handels GmbH</scheinfirma>
