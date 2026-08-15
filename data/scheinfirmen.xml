@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-13" zeit="06:19:11" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1564">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-15" zeit="05:02:05" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1566">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -442,6 +442,7 @@
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/314" veroeffentlicht="2019-01-02" rechtskraeftig="2018-12-19" fbnr="469788s" uid="ATU72275904">Ergül GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Talpagasse 1A" veroeffentlicht="2024-05-15" rechtskraeftig="2024-05-07" seit="2023-02-23" fbnr="431843p" uid="ATU69555215" kennziffer="R095B405P">Erika Immobilien &amp; Baustoffhandel GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Leo-Mathauser-Gasse 71" veroeffentlicht="2023-04-06" rechtskraeftig="2023-03-30" fbnr="519494m" uid="ATU75005325">Erky GmbH</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Leopoldauer Straße 157A/1/16" veroeffentlicht="2026-08-14" rechtskraeftig="2026-08-07" seit="2026-02-16" fbnr="619320s" uid="ATU80330009" kennziffer="R145S164Y">ERONI Bau GmbH</scheinfirma>
   <scheinfirma anschrift="2333 Leopoldsdorf, Oberlaaerstraße 55" veroeffentlicht="2026-06-19" rechtskraeftig="2026-06-19" seit="2025-05-01" geburtsdatum="1974-05-01" uid="ATU82570727" kennziffer="R081I9502">ERTEKIN Hasan</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Clementinengasse 6/4" veroeffentlicht="2026-02-03" rechtskraeftig="2026-01-15" seit="2020-08-18" fbnr="514115b" uid="ATU74641667" kennziffer="R117R122L">ESPACH Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gertrude-Fröhlich-Sandner-Straße 3" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-17" fbnr="542843z" uid="ATU76053636">Etalon GmbH</scheinfirma>
@@ -539,6 +540,7 @@
   <scheinfirma anschrift="1110 Wien, Grillgasse 31" veroeffentlicht="2025-04-03" rechtskraeftig="2025-04-01" seit="2023-09-07" fbnr="610800k" uid="ATU80064948" kennziffer="R141U851I">GKS Trans KG</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Gablenzgasse 14/3" veroeffentlicht="2026-07-08" rechtskraeftig="2026-06-18" seit="2024-07-31" fbnr="614492s" uid="ATU81346438" kennziffer="R142P498T">Glamour Professionell GmbH</scheinfirma>
   <scheinfirma anschrift="2103 Langenzersdorf, Lohnergasse 9/512" veroeffentlicht="2019-01-18" rechtskraeftig="2019-01-11" fbnr="485568x" uid="ATU73665009">Globus Transportvermittlung GmbH</scheinfirma>
+  <scheinfirma anschrift="2435 Ebergassing, Franzensthalstraße 21b" veroeffentlicht="2026-08-14" rechtskraeftig="2026-08-10" seit="2025-08-22" fbnr="660719x" uid="ATU82453523" kennziffer="R157W5627">Glow Clean GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Margaretengürtel 74-74A/4/10" veroeffentlicht="2026-08-11" rechtskraeftig="2026-08-05" seit="2025-04-09" fbnr="622712d" uid="ATU80546679" kennziffer="R146T212A">Glow Clean GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Perfektastraße 88" veroeffentlicht="2024-05-15" rechtskraeftig="2024-05-14" seit="2023-11-16" fbnr="589562d" uid="ATU78658668" kennziffer="R136M7102">Go Plus Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Holochergasse 22" veroeffentlicht="2025-04-04" rechtskraeftig="2025-03-26" seit="2023-08-03" fbnr="608404m" uid="ATU79823746" kennziffer="R141E8785">Go Time 2 Move GmbH</scheinfirma>
