@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-15T05:02:05 | 1566 | 2016-04-01 |
+| 2026-08-18T05:06:35 | 1569 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1616
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 304, 314, 320, 326, 347, 363, 373, 383, 396, 400, 412, 422, 437, 446, 451, 455, 464, 465, 473, 489, 497, 505, 508, 510, 520, 534, 550, 566, 582, 591, 610, 638, 646, 660, 677, 690, 700, 722, 740, 761, 779, 788, 813, 846, 874, 930, 990, 1013, 1044, 1066, 1106, 1147, 1182, 1205, 1229, 1249, 1277, 1349, 1405, 1463, 1495, 1533, 1566]
+    y-axis "Anzahl" 0 --> 1619
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 304, 314, 320, 326, 347, 363, 373, 383, 396, 400, 412, 422, 437, 446, 451, 455, 464, 465, 473, 489, 497, 505, 508, 510, 520, 534, 550, 566, 582, 591, 610, 638, 646, 660, 677, 690, 700, 722, 740, 761, 779, 788, 813, 846, 874, 930, 990, 1013, 1044, 1066, 1106, 1147, 1182, 1205, 1229, 1249, 1277, 1349, 1405, 1463, 1495, 1533, 1569]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -59,11 +59,14 @@ xychart-beta
 | MATA Sandor | ATU82541448 | 1100 Wien, Quellenstraße 75 |
 | Mylez Stores GmbH | ATU77735603 | 1070 Wien, Halbgasse 7 |
 | NEMETH Daniel |  | 1100 Wien, Quellenstraße 4 |
+| NEUNER Claudia Theresa | ATU81672904 | 6401 Inzing, Hauptstraße 31 |
 | NHS-JPP Management GmbH in Liquidation | ATU77543357 | 1140 Wien, Josef-Palme-Platz 4/12 |
 | Neo Trans Clean GmbH | ATU66640977 | 1100 Wien, Erlachgasse 137/31 |
 | Novius GmbH | ATU75807968 | 1230 Wien, Elisenstraße 18 |
 | O.S.B. Projektentwicklungs- u. Sanierungs GmbH | ATU79114548 | 1110 Wien, Simmeringer Hauptstraße 24 |
+| OA Compact Construction GmbH | ATU82242814 | 2372 Gießhübl, Perlhofgasse 2b |
 | OROSZ Eva |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| QPV Invest GmbH | ATU79969358 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
 | RADUCANU Vasile-Marin | ATU81261689 | 1150 Wien, Staglgasse 12 |
 | RIGO Mario Sandor | ATU83097738 | 1100 Wien, Senefeldergasse 56/31 |
 | Robat I. Trade Handels GmbH | ATU82778326 | 1010 Wien, Jasomirgottstraße 4 |

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-15" zeit="05:02:05" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1566">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-18" zeit="05:06:35" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1569">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1001,6 +1001,7 @@
   <scheinfirma anschrift="2201 Hagenbrunn, Sechste Gasse 2" veroeffentlicht="2026-06-15" rechtskraeftig="2026-06-08" seit="2025-11-01" geburtsdatum="1974-04-07" uid="ATU81491609" kennziffer="R154A595U">NEMETH Sandor</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Erlachgasse 137/31" veroeffentlicht="2026-07-29" rechtskraeftig="2026-07-28" seit="2025-11-27" fbnr="360842a" uid="ATU66640977" kennziffer="R035G749M">Neo Trans Clean GmbH</scheinfirma>
   <scheinfirma anschrift="2432 Schwadorf, Richard Trenkwalder-Platz 1 0" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-08" fbnr="122248b" uid="ATU15556501">Netbal Gesellschaft m.b.H.</scheinfirma>
+  <scheinfirma anschrift="6401 Inzing, Hauptstraße 31" veroeffentlicht="2026-08-17" rechtskraeftig="2026-07-18" seit="2025-02-13" geburtsdatum="1994-02-25" uid="ATU81672904" kennziffer="R155B603E">NEUNER Claudia Theresa</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Wiener Straße 47" veroeffentlicht="2021-11-19" rechtskraeftig="2021-11-11" fbnr="371439i" uid="ATU67115212">New Real Estate GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Leopoldauer Straße 1-3/30" veroeffentlicht="2025-12-09" rechtskraeftig="2025-12-06" seit="2024-12-28" geburtsdatum="1993-01-26" uid="ATU81617136" kennziffer="R154A419N">NGUYEN Boris</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Josef-Palme-Platz 4/12" veroeffentlicht="2026-07-20" rechtskraeftig="2026-07-10" seit="2021-12-01" fbnr="566477f" uid="ATU77543357" kennziffer="R131H538S">NHS-JPP Management GmbH in Liquidation</scheinfirma>
@@ -1021,6 +1022,7 @@
   <scheinfirma anschrift="1010 Wien, Graben 12" veroeffentlicht="2022-12-12" rechtskraeftig="2022-12-01" fbnr="501824b" uid="ATU73809006">NTD Security and Vehicle Serv GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Siebenhirtenstraße 13" veroeffentlicht="2023-03-09" rechtskraeftig="2022-04-28" fbnr="495770z" uid="ATU74120408">N.T.S.A. Pro KG</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Schloßhofer Straße 24" veroeffentlicht="2024-04-24" rechtskraeftig="2024-04-19" seit="2023-02-20" fbnr="220730d" uid="ATU53887904" kennziffer="R017E401L">O. Mese Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="2372 Gießhübl, Perlhofgasse 2b" veroeffentlicht="2026-08-17" rechtskraeftig="2026-08-05" seit="2026-07-07" fbnr="639089m" uid="ATU82242814" kennziffer="R152Y466O">OA Compact Construction GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Grangasse 4" veroeffentlicht="2024-01-09" rechtskraeftig="2023-12-21" geburtsdatum="1997-09-15" uid="ATU71464006">OBAYERI Veli</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Kohlmarkt 16" veroeffentlicht="2026-03-05" rechtskraeftig="2026-02-18" seit="2024-04-24" fbnr="570505d" uid="ATU77600589" kennziffer="R132F014A">Offerupstore GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Quellenstraße 24B" veroeffentlicht="2021-06-11" rechtskraeftig="2021-06-04" fbnr="507975y" uid="ATU74318678">ÖHD Haustechnik GmbH</scheinfirma>
@@ -1146,6 +1148,7 @@
   <scheinfirma anschrift="1010 Wien, Grillparzerstraße 5" veroeffentlicht="2025-03-24" rechtskraeftig="2025-03-18" seit="2018-05-04" geburtsdatum="1978-04-03">PUSZTAI Zsolt</scheinfirma>
   <scheinfirma anschrift="4600 Wels, Bahnhofstraße 22/2" veroeffentlicht="2016-04-22" rechtskraeftig="2016-04-21" fbnr="394849k" uid="ATU68042316">PUTZKOLONNE GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Laxenburger Straße 123-125" veroeffentlicht="2022-02-02" rechtskraeftig="2022-01-28" fbnr="561597d" uid="ATU77360525">QLA Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Hofherr-Schrantz-Gasse 2" veroeffentlicht="2026-08-17" rechtskraeftig="2026-08-15" seit="2026-05-21" fbnr="610789w" uid="ATU79969358" kennziffer="R141S2050">QPV Invest GmbH</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Quadenstraße 8" veroeffentlicht="2022-08-24" rechtskraeftig="2022-05-19" fbnr="499498g" uid="ATU73746306">Quality Staff Personalvermittl GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Grünbergstraße 25" veroeffentlicht="2024-06-17" rechtskraeftig="2024-06-14" seit="2023-04-29" fbnr="603815p" uid="ATU79538449" kennziffer="R140D279R">Quick Solutions GmbH</scheinfirma>
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
