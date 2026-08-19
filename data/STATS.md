@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-18T05:06:35 | 1569 | 2016-04-01 |
+| 2026-08-19T05:08:49 | 1574 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1619
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 228, 230, 237, 241, 247, 253, 259, 271, 275, 286, 292, 297, 304, 314, 320, 326, 347, 363, 373, 383, 396, 400, 412, 422, 437, 446, 451, 455, 464, 465, 473, 489, 497, 505, 508, 510, 520, 534, 550, 566, 582, 591, 610, 638, 646, 660, 677, 690, 700, 722, 740, 761, 779, 788, 813, 846, 874, 930, 990, 1013, 1044, 1066, 1106, 1147, 1182, 1205, 1229, 1249, 1277, 1349, 1405, 1463, 1495, 1533, 1569]
+    y-axis "Anzahl" 0 --> 1624
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 319, 325, 346, 362, 372, 382, 395, 399, 411, 421, 436, 445, 450, 454, 463, 464, 472, 488, 496, 504, 507, 509, 519, 533, 549, 565, 581, 590, 609, 637, 645, 659, 676, 689, 699, 721, 739, 760, 778, 787, 812, 845, 873, 929, 989, 1012, 1043, 1065, 1105, 1146, 1181, 1204, 1228, 1248, 1276, 1348, 1404, 1462, 1494, 1532, 1574]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -33,6 +33,7 @@ xychart-beta
 | BE STAFF project planning & service GmbH | ATU74253229 | 1090 Wien, Zimmermanngasse 8 |
 | BESA Bau- und Handels GmbH | ATU78748946 | 2442 Unterwaltersdorf, Johann Miltner-Straße 9 |
 | BUKTA Ildiko |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| Best Way Service GmbH | ATU78262078 | 1220 Wien, Erzherzog-Karl-Straße 5A |
 | Blackstone One GmbH | ATU81806459 | 1090 Wien, Berggasse 16 DG |
 | Bra-Sa Construct GesmbH | ATU81838479 | 1170 Wien, Wattgasse 76 |
 | Cankar GmbH | ATU80698318 | 1180 Wien, Anastasius-Grün-Gasse 17 |
@@ -46,7 +47,7 @@ xychart-beta
 | GRBS KG | ATU82466519 | 1110 Wien, Mautner-Markhof-Gasse 10 |
 | Glow Clean GmbH | ATU82453523 | 2435 Ebergassing, Franzensthalstraße 21b |
 | Glow Clean GmbH | ATU80546679 | 1050 Wien, Margaretengürtel 74-74A/4/10 |
-| HATKO Bau GmbH | ATU75605178 | 1170 Wien, Dornbacher Straße 97-99/1 |
+| HAGA Edina |  | 1120 Wien, Siebertgasse 6 |
 | HAVASI Attila | ATU80550958 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | HOMENSZKI Adam Istvan |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | HRISTOV Kiril Stefchov | ATU81225238 | 1200 Wien, Salzachstraße 11 |
@@ -60,21 +61,20 @@ xychart-beta
 | Mylez Stores GmbH | ATU77735603 | 1070 Wien, Halbgasse 7 |
 | NEMETH Daniel |  | 1100 Wien, Quellenstraße 4 |
 | NEUNER Claudia Theresa | ATU81672904 | 6401 Inzing, Hauptstraße 31 |
-| NHS-JPP Management GmbH in Liquidation | ATU77543357 | 1140 Wien, Josef-Palme-Platz 4/12 |
 | Neo Trans Clean GmbH | ATU66640977 | 1100 Wien, Erlachgasse 137/31 |
 | Novius GmbH | ATU75807968 | 1230 Wien, Elisenstraße 18 |
 | O.S.B. Projektentwicklungs- u. Sanierungs GmbH | ATU79114548 | 1110 Wien, Simmeringer Hauptstraße 24 |
 | OA Compact Construction GmbH | ATU82242814 | 2372 Gießhübl, Perlhofgasse 2b |
 | OROSZ Eva |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| POMPOVA Zdenka |  | 1120 Wien, Siebertgasse 6 |
 | QPV Invest GmbH | ATU79969358 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
+| R. Sarko 1 Souvenirs GmbH | ATU79388404 | 1010 Wien, Rotenturmstraße 24 |
 | RADUCANU Vasile-Marin | ATU81261689 | 1150 Wien, Staglgasse 12 |
-| RIGO Mario Sandor | ATU83097738 | 1100 Wien, Senefeldergasse 56/31 |
 | Robat I. Trade Handels GmbH | ATU82778326 | 1010 Wien, Jasomirgottstraße 4 |
 | STEFANOV Panayot Asenov | ATU80663809 | 1210 Wien, Brünner Straße 124 |
-| STEIGLER Erik Zoltan | ATU83097505 | 1100 Wien, Senefeldergasse 56/31 |
 | SUSHIL Sushil | ATU82410847 | 1100 Wien, Zohmanngasse 28 |
-| Safety Personal GmbH | ATU82446989 | 1110 Wien, Kaiser-Ebersdorfer Straße 112-114/4/22 |
 | Stanka VASILEVA KG | ATU63075139 | 1050 Wien, Margaretenstraße 99/8 |
 | TAS Bau GmbH | ATU68164238 | 1170 Wien, Dornbacher Straße 5 |
-| TRENDOV Dragi | ATU61887337 | 1120 Wien, Koflergasse 9/3 |
+| TransSend Kleintransporte KG | ATU77725446 | 1030 Wien, Hagenmüllergasse 21-23 |
 | Vera Reinigung e.U. | ATU79635147 | 1100 Wien, Hardtmuthgasse 53 |
+| Üreci KG | ATU80055146 | 1230 Wien, Großmarktstraße 4A |
