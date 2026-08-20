@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-19" zeit="05:08:49" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1574">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-20" zeit="05:08:00" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1576">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -25,6 +25,7 @@
   <scheinfirma anschrift="1040 Wien, Argentinierstraße 31" veroeffentlicht="2024-03-18" rechtskraeftig="2024-03-05" seit="2023-09-12" fbnr="527895t" uid="ATU75480702" kennziffer="R120V1074">AGS Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 21" veroeffentlicht="2023-12-13" rechtskraeftig="2023-11-30" fbnr="443662w" uid="ATU70224517">A.H. Bau- und Metalltechnik GmbH</scheinfirma>
   <scheinfirma anschrift="5561 Untertauern, Waldherrstraße 35" veroeffentlicht="2025-08-26" rechtskraeftig="2025-08-22" seit="2023-09-01" geburtsdatum="1994-01-01" uid="ATU79898247" kennziffer="R142G205J">AHMADZAI Mohammad Rahman</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Neilreichgasse 17" veroeffentlicht="2026-08-19" rechtskraeftig="2026-08-06" seit="2018-01-01" geburtsdatum="1991-02-10" uid="ATU72159148" kennziffer="R095P183F">AHMED Rafaqat Mehmood</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gudrunstraße 88" veroeffentlicht="2025-02-28" rechtskraeftig="2025-02-24" seit="2024-01-10" geburtsdatum="1984-03-11" uid="ATU80893712" kennziffer="R085T938L">AHMEDOV Ahmed</scheinfirma>
   <scheinfirma anschrift="2700 Wiener Neustadt, Pernerstorferstraße 15" veroeffentlicht="2025-04-04" rechtskraeftig="2025-04-01" seit="2022-12-13" geburtsdatum="1983-07-11" uid="ATU78779868" kennziffer="R137S4021">AHMEDOV Aysun Kadirov</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Schrankenberggasse 31" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-09" seit="2023-02-07" geburtsdatum="1980-12-25" uid="ATU79134303" kennziffer="R138W4292">AHMEDOV Nedzhatin Nezhdetov</scheinfirma>
@@ -1422,6 +1423,7 @@
   <scheinfirma anschrift="1230 Wien, Triester Straße 275" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-24" fbnr="459414i" uid="ATU71545508">TIBALEX TRANS OG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Tuchlauben 7A" veroeffentlicht="2021-08-31" rechtskraeftig="2021-07-28" fbnr="268983p" uid="ATU62103609">TIBLI Handelsgesellschaft mbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Perchtoldsdorfer Straße 15-19" veroeffentlicht="2022-12-12" rechtskraeftig="2022-12-07" fbnr="434187k" uid="ATU69686057">Tiede GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Neilreichgasse 22" veroeffentlicht="2026-08-19" rechtskraeftig="2026-08-10" seit="2024-08-23" fbnr="633828a" uid="ATU81100737" kennziffer="R151P214I">Tiger Baumalerei GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Holochergasse 15" veroeffentlicht="2025-12-16" rechtskraeftig="2025-12-09" seit="2025-04-11" fbnr="539032w" uid="ATU75952612" kennziffer="R123B8081">Tigers Security Agency GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Stutterheimstr. 16-18/15E" veroeffentlicht="2018-09-14" rechtskraeftig="2018-09-07" fbnr="350545h" uid="ATU65916217">Timpex Bau GmbH</scheinfirma>
   <scheinfirma anschrift="8055 Seiersberg-Pirka, Feldkirchner Straße 111" veroeffentlicht="2026-07-10" rechtskraeftig="2026-07-09" seit="2025-04-17" fbnr="461830m" uid="ATU71643956" kennziffer="R103V202C">TITAN GmbH</scheinfirma>

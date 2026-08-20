@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-19T05:08:49 | 1574 | 2016-04-01 |
+| 2026-08-20T05:08:00 | 1576 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,14 +16,15 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1624
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 319, 325, 346, 362, 372, 382, 395, 399, 411, 421, 436, 445, 450, 454, 463, 464, 472, 488, 496, 504, 507, 509, 519, 533, 549, 565, 581, 590, 609, 637, 645, 659, 676, 689, 699, 721, 739, 760, 778, 787, 812, 845, 873, 929, 989, 1012, 1043, 1065, 1105, 1146, 1181, 1204, 1228, 1248, 1276, 1348, 1404, 1462, 1494, 1532, 1574]
+    y-axis "Anzahl" 0 --> 1626
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 319, 325, 346, 362, 372, 382, 395, 399, 411, 421, 436, 445, 450, 454, 463, 464, 472, 488, 496, 504, 507, 509, 519, 533, 549, 565, 581, 590, 609, 637, 645, 659, 676, 689, 699, 721, 739, 760, 778, 787, 812, 845, 873, 929, 989, 1012, 1043, 1065, 1105, 1146, 1181, 1204, 1228, 1248, 1276, 1348, 1404, 1462, 1494, 1532, 1576]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
 
 | Name | UID | Anschrift |
 |------|-----|-----------|
+| AHMED Rafaqat Mehmood | ATU72159148 | 1100 Wien, Neilreichgasse 17 |
 | ASENOV Asen Velev |  | 1100 Wien, Scheugasse 9 |
 | Abaci Express GmbH | ATU80229316 | 1100 Wien, Keplergasse 8/7 |
 | BABIC Trading GmbH | ATU80085346 | 1170 Wien, Frauenfelderstraße 15/16 |
@@ -56,7 +57,6 @@ xychart-beta
 | KISS Janos |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | LAKATOS Vera | ATU83211819 | 1110 Wien, Geiselbergstraße 16-24/12/8 |
 | Lombard Solution Consultancy GmbH | ATU78636709 | 4063 Hörsching, Hofgasse 11 |
-| MANOLE Hermina | ATU80786927 | 3003 Gablitz, Hauptstraße 28/9 |
 | MATA Sandor | ATU82541448 | 1100 Wien, Quellenstraße 75 |
 | Mylez Stores GmbH | ATU77735603 | 1070 Wien, Halbgasse 7 |
 | NEMETH Daniel |  | 1100 Wien, Quellenstraße 4 |
@@ -75,6 +75,7 @@ xychart-beta
 | SUSHIL Sushil | ATU82410847 | 1100 Wien, Zohmanngasse 28 |
 | Stanka VASILEVA KG | ATU63075139 | 1050 Wien, Margaretenstraße 99/8 |
 | TAS Bau GmbH | ATU68164238 | 1170 Wien, Dornbacher Straße 5 |
+| Tiger Baumalerei GmbH | ATU81100737 | 1100 Wien, Neilreichgasse 22 |
 | TransSend Kleintransporte KG | ATU77725446 | 1030 Wien, Hagenmüllergasse 21-23 |
 | Vera Reinigung e.U. | ATU79635147 | 1100 Wien, Hardtmuthgasse 53 |
 | Üreci KG | ATU80055146 | 1230 Wien, Großmarktstraße 4A |
