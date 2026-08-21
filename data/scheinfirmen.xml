@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-20" zeit="05:08:00" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1576">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-21" zeit="05:13:37" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1580">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -365,6 +365,7 @@
   <scheinfirma anschrift="1100 Wien, Absberggasse 29" veroeffentlicht="2025-06-02" rechtskraeftig="2025-05-21" seit="2024-10-19" fbnr="614349f" uid="ATU80007804" kennziffer="R142N672U">Dermi GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Pernerstorfergasse 60" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-29" fbnr="520872p" uid="ATU74821669">Destina GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Europaplatz 2" veroeffentlicht="2021-04-06" rechtskraeftig="2021-03-24" fbnr="482127k" uid="ATU73200813">DESTO Bau-1 GmbH</scheinfirma>
+  <scheinfirma anschrift="1120 Wien, Arndtstraße 61" veroeffentlicht="2026-08-20" rechtskraeftig="2026-08-12" seit="2025-12-19" fbnr="640339a" uid="ATU81764636" kennziffer="R153E5924">D+F TransClean GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 133" veroeffentlicht="2022-07-19" rechtskraeftig="2022-06-06" fbnr="457129z" uid="ATU71986103">DFRME Projektentwicklung GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Handelskai 94-96" veroeffentlicht="2026-04-08" rechtskraeftig="2026-04-01" seit="2025-09-18" fbnr="431141g" uid="ATU69609079" kennziffer="R095B843I">DG Plus Baukonstrukt GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schallergasse 27" veroeffentlicht="2023-12-13" rechtskraeftig="2023-11-07" fbnr="451039v" uid="ATU71008919">D.G.O GmbH</scheinfirma>
@@ -720,6 +721,7 @@
   <scheinfirma anschrift="1050 Wien, Gassergasse 27" veroeffentlicht="2025-08-21" rechtskraeftig="2025-08-19" seit="2024-02-05" geburtsdatum="1996-11-02" uid="ATU79592816" kennziffer="R139M846E">KAKKIRALA Sasikumar</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Hans-Steger-Gasse 12" veroeffentlicht="2026-05-11" rechtskraeftig="2026-05-02" seit="2025-09-20" geburtsdatum="1983-12-29" uid="ATU82528123" kennziffer="R158J417G">KALAJ Jan</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Linzerstrasse 50" veroeffentlicht="2016-09-19" rechtskraeftig="2016-09-06" fbnr="381190z" uid="ATU67302527">KALAXI GmbH</scheinfirma>
+  <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-08-20" rechtskraeftig="2026-08-06" seit="2023-07-10" geburtsdatum="1968-10-24" kennziffer="R141I3181">KALMAR Tamas</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Frauenfelderstraße 15" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-25" seit="2023-02-01" geburtsdatum="1979-04-08" uid="ATU79408838" kennziffer="R140K859H">KAMENOV Tsvetan</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Traunfelsgasse 5" veroeffentlicht="2022-02-24" rechtskraeftig="2022-02-15" fbnr="515576a" uid="ATU76591458">Kapura GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Kienmayergasse 44" veroeffentlicht="2021-10-27" rechtskraeftig="2021-10-19" fbnr="502404f">KARAMANLI DRIVER KG</scheinfirma>
@@ -728,6 +730,7 @@
   <scheinfirma anschrift="3100 St.Pölten, Mariazeller Straße 46" veroeffentlicht="2023-10-04" rechtskraeftig="2023-09-27" fbnr="291929h" uid="ATU63354417">Karoly Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Kliebergasse 9/2" veroeffentlicht="2018-09-17" rechtskraeftig="2018-09-12" fbnr="441800g" uid="ATU70099546">KARPATI-ImpEx Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Schrottgasse 1/1" veroeffentlicht="2017-05-22" rechtskraeftig="2017-05-12" fbnr="410960d" uid="ATU68618748">KAUER Bau &amp; Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Gablenzgasse 14/3" veroeffentlicht="2026-08-20" rechtskraeftig="2026-08-14" seit="2025-05-15" fbnr="462472g" uid="ATU71707806" kennziffer="R104F057Z">Kavai KG</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Autokaderstraße 7" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-14" seit="2023-03-06" geburtsdatum="1983-01-01" uid="ATU79463046" kennziffer="R139J723I">KAYTAN Feyzullah</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Randhartingergasse 9-11" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-20" seit="2024-06-20" fbnr="500353p" uid="ATU74355958" kennziffer="R114T271M">Kehribar Bau GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Janis-Joplin-Promenade 14" veroeffentlicht="2024-09-27" rechtskraeftig="2024-09-03" seit="2023-01-24" fbnr="597900s" uid="ATU79469102" kennziffer="R139A030Z">Kelo Bau GmbH</scheinfirma>
@@ -1213,6 +1216,7 @@
   <scheinfirma anschrift="2763 Pernitz, Fuchsriegelgasse 7" veroeffentlicht="2025-01-14" rechtskraeftig="2025-01-08" seit="2024-10-31" fbnr="581518z" uid="ATU78354246" kennziffer="R134T655A">R.M. HANDELS BAU KG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3" veroeffentlicht="2022-04-20" rechtskraeftig="2022-04-12" fbnr="469331v" uid="ATU73538157">RMB GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Jasomirgottstraße 4" veroeffentlicht="2026-08-06" rechtskraeftig="2026-07-30" seit="2026-02-16" fbnr="665763p" uid="ATU82778326" kennziffer="R159A054I">Robat I. Trade Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1220 Wien, Stadlauer Straße 23" veroeffentlicht="2026-08-20" rechtskraeftig="2026-08-14" seit="2025-05-15" fbnr="009460m" uid="ATU60744788" kennziffer="R018R477L">Robert Sari KG</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Hackhofergasse 1" veroeffentlicht="2023-01-11" rechtskraeftig="2022-12-31" fbnr="566251y" uid="ATU78256049">Robex Bauentwicklungs GmbH</scheinfirma>
   <scheinfirma anschrift="2011 Sierndorf, Prager Straße 17" veroeffentlicht="2026-02-23" rechtskraeftig="2026-02-20" seit="2023-12-01" fbnr="472039a" uid="ATU72349201" kennziffer="R106X420T">Rodic Gastro GmbH</scheinfirma>
   <scheinfirma anschrift="2320 Schwechat, Mautner Markhof-Straße 1" veroeffentlicht="2026-05-08" rechtskraeftig="2026-05-06" seit="2026-01-23" fbnr="526936g" uid="ATU75124107" kennziffer="R120I308N">ROLY Bau GmbH</scheinfirma>
