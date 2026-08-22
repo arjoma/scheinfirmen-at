@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-21T05:13:37 | 1580 | 2016-04-01 |
+| 2026-08-22T05:05:25 | 1582 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1630
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 319, 325, 346, 362, 372, 382, 395, 399, 411, 421, 436, 445, 450, 454, 463, 464, 472, 488, 496, 504, 507, 509, 519, 533, 549, 565, 581, 590, 609, 637, 645, 659, 676, 689, 699, 721, 739, 760, 778, 787, 812, 845, 873, 929, 989, 1012, 1043, 1065, 1105, 1146, 1181, 1204, 1228, 1248, 1276, 1348, 1404, 1462, 1494, 1532, 1580]
+    y-axis "Anzahl" 0 --> 1632
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 319, 325, 346, 362, 372, 382, 395, 399, 411, 421, 436, 445, 450, 454, 463, 464, 472, 488, 496, 504, 507, 509, 519, 533, 549, 565, 581, 590, 609, 637, 645, 659, 676, 689, 699, 721, 739, 760, 778, 787, 812, 845, 873, 929, 989, 1012, 1043, 1065, 1105, 1146, 1181, 1204, 1228, 1248, 1276, 1348, 1404, 1462, 1494, 1532, 1582]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -37,6 +37,7 @@ xychart-beta
 | Best Way Service GmbH | ATU78262078 | 1220 Wien, Erzherzog-Karl-Straße 5A |
 | Blackstone One GmbH | ATU81806459 | 1090 Wien, Berggasse 16 DG |
 | Bra-Sa Construct GesmbH | ATU81838479 | 1170 Wien, Wattgasse 76 |
+| COCO Trade B GmbH | ATU81912913 | 2231 Strasshof an der Nordbahn, Gewerbeparkstraße 21 |
 | Cankar GmbH | ATU80698318 | 1180 Wien, Anastasius-Grün-Gasse 17 |
 | D+F TransClean GmbH | ATU81764636 | 1120 Wien, Arndtstraße 61 |
 | DEMIREV Angel Dimitrov |  | 1200 Wien, Salzachstraße 11 |
@@ -53,6 +54,7 @@ xychart-beta
 | HAVASI Attila | ATU80550958 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | HOMENSZKI Adam Istvan |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | HRISTOV Kiril Stefchov | ATU81225238 | 1200 Wien, Salzachstraße 11 |
+| HST 321 Projektentwicklung GMBH | ATU76200512 | 1140 Wien, Breitenseer Straße 18 |
 | Holle33 Souvenirs GmbH | ATU81855306 | 1010 Wien, Naglergasse 3 |
 | KALMAR Tamas |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KIRILOV Kosta Asenov |  | 1100 Wien, Scheugasse 9/14 |
@@ -62,7 +64,6 @@ xychart-beta
 | Lombard Solution Consultancy GmbH | ATU78636709 | 4063 Hörsching, Hofgasse 11 |
 | MATA Sandor | ATU82541448 | 1100 Wien, Quellenstraße 75 |
 | Mylez Stores GmbH | ATU77735603 | 1070 Wien, Halbgasse 7 |
-| NEMETH Daniel |  | 1100 Wien, Quellenstraße 4 |
 | NEUNER Claudia Theresa | ATU81672904 | 6401 Inzing, Hauptstraße 31 |
 | Neo Trans Clean GmbH | ATU66640977 | 1100 Wien, Erlachgasse 137/31 |
 | Novius GmbH | ATU75807968 | 1230 Wien, Elisenstraße 18 |
