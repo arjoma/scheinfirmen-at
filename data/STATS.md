@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-22T05:05:25 | 1582 | 2016-04-01 |
+| 2026-08-25T05:10:34 | 1585 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1632
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 319, 325, 346, 362, 372, 382, 395, 399, 411, 421, 436, 445, 450, 454, 463, 464, 472, 488, 496, 504, 507, 509, 519, 533, 549, 565, 581, 590, 609, 637, 645, 659, 676, 689, 699, 721, 739, 760, 778, 787, 812, 845, 873, 929, 989, 1012, 1043, 1065, 1105, 1146, 1181, 1204, 1228, 1248, 1276, 1348, 1404, 1462, 1494, 1532, 1582]
+    y-axis "Anzahl" 0 --> 1635
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 319, 325, 346, 362, 372, 382, 395, 399, 411, 421, 436, 445, 450, 454, 463, 464, 472, 488, 496, 504, 507, 509, 519, 533, 549, 565, 581, 590, 609, 637, 645, 659, 676, 689, 699, 721, 739, 760, 778, 787, 812, 845, 873, 929, 989, 1012, 1043, 1065, 1105, 1146, 1181, 1204, 1228, 1248, 1276, 1348, 1404, 1462, 1494, 1532, 1585]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -36,11 +36,11 @@ xychart-beta
 | BUKTA Ildiko |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | Best Way Service GmbH | ATU78262078 | 1220 Wien, Erzherzog-Karl-Straße 5A |
 | Blackstone One GmbH | ATU81806459 | 1090 Wien, Berggasse 16 DG |
-| Bra-Sa Construct GesmbH | ATU81838479 | 1170 Wien, Wattgasse 76 |
 | COCO Trade B GmbH | ATU81912913 | 2231 Strasshof an der Nordbahn, Gewerbeparkstraße 21 |
 | Cankar GmbH | ATU80698318 | 1180 Wien, Anastasius-Grün-Gasse 17 |
 | D+F TransClean GmbH | ATU81764636 | 1120 Wien, Arndtstraße 61 |
 | DEMIREV Angel Dimitrov |  | 1200 Wien, Salzachstraße 11 |
+| DORDE Ivica | ATU71924803 | 1160 Wien, Nauseagasse 28 |
 | DOVALOVA Simona |  | 1110 Wien, Hadatschgasse 7 |
 | ERONI Bau GmbH | ATU80330009 | 1210 Wien, Leopoldauer Straße 157A/1/16 |
 | El Graf Transport GmbH |  | 1230 Wien, Großmarktstraße 4 |
@@ -56,6 +56,7 @@ xychart-beta
 | HRISTOV Kiril Stefchov | ATU81225238 | 1200 Wien, Salzachstraße 11 |
 | HST 321 Projektentwicklung GMBH | ATU76200512 | 1140 Wien, Breitenseer Straße 18 |
 | Holle33 Souvenirs GmbH | ATU81855306 | 1010 Wien, Naglergasse 3 |
+| ILIC Milos | ATU74122656 | 1050 Wien, Arbeitergasse 21/2-5 |
 | KALMAR Tamas |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KIRILOV Kosta Asenov |  | 1100 Wien, Scheugasse 9/14 |
 | KISS Janos |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
@@ -70,6 +71,7 @@ xychart-beta
 | O.S.B. Projektentwicklungs- u. Sanierungs GmbH | ATU79114548 | 1110 Wien, Simmeringer Hauptstraße 24 |
 | OA Compact Construction GmbH | ATU82242814 | 2372 Gießhübl, Perlhofgasse 2b |
 | OROSZ Eva |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| PENEV Kiril |  | 1100 Wien, Herndlgasse 3 |
 | POMPOVA Zdenka |  | 1120 Wien, Siebertgasse 6 |
 | QPV Invest GmbH | ATU79969358 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
 | R. Sarko 1 Souvenirs GmbH | ATU79388404 | 1010 Wien, Rotenturmstraße 24 |

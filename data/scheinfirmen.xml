@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-22" zeit="05:05:25" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1582">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-25" zeit="05:10:34" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1585">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -384,6 +384,7 @@
   <scheinfirma anschrift="1100 Wien, Keplergasse 3" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-18" seit="2025-08-30" geburtsdatum="1961-09-11" uid="ATU82541545" kennziffer="R158E809P">DÖMÖTÖR Joszef</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Kremplstraße 5" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-25" geburtsdatum="1999-06-23" uid="ATU76803434">DÖNMEZ Müslim</scheinfirma>
   <scheinfirma anschrift="5622 Goldegg, Altenhof 5" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-08" geburtsdatum="1990-05-08" uid="ATU74860545">DÖNMEZ Ümit</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Nauseagasse 28" veroeffentlicht="2026-08-24" rechtskraeftig="2026-08-21" seit="2020-07-23" geburtsdatum="1993-08-23" uid="ATU71924803">DORDE Ivica</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37/14" veroeffentlicht="2025-09-01" rechtskraeftig="2025-09-01" seit="2024-02-13" geburtsdatum="1986-07-24" kennziffer="R146G899D">DORNAI Stefan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Hadatschgasse 7" veroeffentlicht="2026-07-31" rechtskraeftig="2026-07-24" seit="2025-10-15" geburtsdatum="1991-05-10" kennziffer="R158W025P">DOVALOVA Simona</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2024-12-11" rechtskraeftig="2024-12-03" seit="2024-02-09" fbnr="584056g" uid="ATU78906828" kennziffer="R135F288T">DSP Immobilieninvestment GmbH</scheinfirma>
@@ -657,6 +658,7 @@
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 24" veroeffentlicht="2026-01-29" rechtskraeftig="2025-12-13" seit="2025-04-07" fbnr="605616m" uid="ATU81084229" kennziffer="R140Q298H">Ikarus Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Schanzstraße 53/26" veroeffentlicht="2017-12-04" rechtskraeftig="2017-12-01">IKRA-AS s.r.o.</scheinfirma>
   <scheinfirma anschrift="6130 Schwaz, Andreas-Hofer-Straße 5 0" veroeffentlicht="2024-08-30" rechtskraeftig="2024-08-09" seit="2024-05-18" fbnr="448300s" kennziffer="R099Z510D">ILEANA Immobilienvermittlung und Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1050 Wien, Arbeitergasse 21/2-5" veroeffentlicht="2026-08-24" rechtskraeftig="2026-08-24" seit="2023-04-21" geburtsdatum="1998-03-17" uid="ATU74122656" kennziffer="R115E7302">ILIC Milos</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-01-17" rechtskraeftig="2024-12-20" seit="2023-11-29" geburtsdatum="1989-03-17" uid="ATU80069514" kennziffer="R143T953O">ILIEV Aleksandar Petkov</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-25" seit="2023-11-20" geburtsdatum="2002-08-10" uid="ATU80030547" kennziffer="R143N009L">ILIEV Ilia Vesov</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gellertgasse 16" veroeffentlicht="2024-01-24" rechtskraeftig="2023-09-06" fbnr="218655b" uid="ATU53996403">ILJU Projekt GmbH</scheinfirma>
@@ -1087,6 +1089,7 @@
   <scheinfirma anschrift="2345 Brunn am Gebirge, Industriestraße D2" veroeffentlicht="2017-06-01" rechtskraeftig="2017-04-10" fbnr="458167a" uid="ATU71468707">PEFA Bau GmbH</scheinfirma>
   <scheinfirma anschrift="9020 Klagenfurt am Wörthersee, Bahnhofplatz 5" veroeffentlicht="2016-11-23" rechtskraeftig="2016-11-21" fbnr="402162s" uid="ATU68138179">PEGAN Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Grundsteingasse 35" veroeffentlicht="2022-04-20" rechtskraeftig="2022-04-07" fbnr="450017s" uid="ATU70976027">Peldo GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Herndlgasse 3" veroeffentlicht="2026-08-24" rechtskraeftig="2026-08-14" seit="2026-02-16" geburtsdatum="1978-01-24" kennziffer="R160Y526W">PENEV Kiril</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Graumanngasse 42" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-11" seit="2024-02-07" geburtsdatum="1987-01-16" uid="ATU80323516" kennziffer="R146G990N">PEREZ CUEVAS Wilkin</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Hernalser Hauptstraße 9" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-14" seit="2023-12-28" geburtsdatum="1987-01-04" uid="ATU80139967" kennziffer="R144V2778">PEREZ MENDEZ Vianelis</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Bickgasse 1" veroeffentlicht="2023-09-15" rechtskraeftig="2023-09-12" geburtsdatum="1997-05-25" uid="ATU78228008">PERONI Giorgio</scheinfirma>
