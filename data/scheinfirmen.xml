@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-26" zeit="05:15:49" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1587">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-27" zeit="14:44:55" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1589">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -772,6 +772,7 @@
   <scheinfirma anschrift="1100 Wien, Knöllgasse 74" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-09" seit="2021-12-29" geburtsdatum="1978-04-24" uid="ATU79470449" kennziffer="R132U085K">KOLOMPAR Sebastian</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Aßmayergasse 60/2/22" veroeffentlicht="2018-07-06" rechtskraeftig="2018-07-03" fbnr="446705w" uid="ATU70507828">KOMPLEXX Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Salzachstraße 1/20" veroeffentlicht="2025-10-24" rechtskraeftig="2025-10-21" seit="2025-05-24" geburtsdatum="1961-02-12" uid="ATU82167628" kennziffer="R156G9616">KONCZ  Antal</scheinfirma>
+  <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-08-27" rechtskraeftig="2026-08-13" seit="2023-04-17" geburtsdatum="1991-11-27" uid="ATU79318579" kennziffer="R136N9140">KOPFSCHLÄGL Mate</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/Top 401" veroeffentlicht="2019-04-25" rechtskraeftig="2019-04-12" fbnr="486524b" uid="ATU73251517">KOSPA 18 KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Schröttergasse 29/11" veroeffentlicht="2022-01-11" rechtskraeftig="2021-12-17" geburtsdatum="1992-05-04" uid="ATU74726004">KOSTADINOV Mitko</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Donaufelder Straße 205/2" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-09" seit="2026-03-09" geburtsdatum="1975-04-28" uid="ATU82463718" kennziffer="R158F476H">KOVAC Jaroslav</scheinfirma>
@@ -921,6 +922,7 @@
   <scheinfirma anschrift="1100 Wien, Gußriegelstraße 51-59/22/7" veroeffentlicht="2019-05-16" rechtskraeftig="2019-04-17" fbnr="488060k" uid="ATU73192635">Mekan Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Frauenstiftgasse 12A" veroeffentlicht="2025-03-25" rechtskraeftig="2025-03-20" seit="2024-09-12" fbnr="629735g" uid="ATU80754257" kennziffer="R150A489U">MELENES Handelsagentur GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Prager Straße 68" veroeffentlicht="2024-09-17" rechtskraeftig="2024-09-04" seit="2023-11-29" geburtsdatum="1968-04-17" kennziffer="R143T951S">MENGYI Laszlo</scheinfirma>
+  <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-08-27" rechtskraeftig="2026-08-14" seit="2023-04-17" geburtsdatum="1979-07-04" uid="ATU78746369" kennziffer="R135Y8415">MESZLER Csaba</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Ehamgasse 42-44" veroeffentlicht="2026-03-30" rechtskraeftig="2026-03-24" seit="2025-09-12" fbnr="648196f" uid="ATU82257969" kennziffer="R154W6028">METRIX Projects GmbH</scheinfirma>
   <scheinfirma anschrift="4030 Linz, Traundorfer Straße 268" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-22" geburtsdatum="1989-12-15" uid="ATU72459029">METWALLY Ahmed</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gudrunstraße 172" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-12" seit="2025-04-29" geburtsdatum="1985-02-01" uid="ATU82111135" kennziffer="R155W3565">MEZEI Bela</scheinfirma>
