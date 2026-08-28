@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-27" zeit="14:44:55" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1589">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-28" zeit="16:18:28" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1593">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -46,6 +46,7 @@
   <scheinfirma anschrift="2345 Brunn/Gebirge, Heinrich Bablik-Straße 17b" veroeffentlicht="2025-10-15" rechtskraeftig="2025-10-15" seit="2025-04-01" fbnr="599230x" uid="ATU79300123" kennziffer="R139A101Z">ALES GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Staglgasse 12" veroeffentlicht="2025-08-13" rechtskraeftig="2025-08-05" seit="2025-04-09" geburtsdatum="1995-01-17" uid="ATU81912316" kennziffer="R150R6539">ALEXANDRESCU-VLANGAR Ionut-Gabriel</scheinfirma>
   <scheinfirma anschrift="9020 Klagenfurt am Wörthersee, Leutschacher Straße 36" veroeffentlicht="2016-08-17" rechtskraeftig="2016-08-10" fbnr="438502g" uid="ATU69818405">ALFA M GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Handelskai 102-112" veroeffentlicht="2026-08-28" rechtskraeftig="2026-08-21" seit="2025-09-01" fbnr="629367s" uid="ATU81027336" kennziffer="R150G3501">ALHA Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 34" veroeffentlicht="2024-10-21" rechtskraeftig="2024-10-11" seit="2024-04-17" geburtsdatum="1982-12-30" uid="ATU80551109" kennziffer="R148L590E">ALIEV Gurit Hakaev</scheinfirma>
   <scheinfirma anschrift="3424 Zeiselmauer, Bahnhofplatz 1" veroeffentlicht="2021-11-10" rechtskraeftig="2021-11-04" fbnr="381351k" uid="ATU67273158">All 4 Y GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Hasenleitengasse 10" veroeffentlicht="2024-07-05" rechtskraeftig="2024-07-02" seit="2022-09-03" uid="ATU79314136" kennziffer="R040C527N">ALLES GUTE - Verein zur Förderung der Direktvermarktung in Österreich und Europa</scheinfirma>
@@ -1144,6 +1145,7 @@
   <scheinfirma anschrift="1170 Wien, Hernalser Hauptstraße 84" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-10" seit="2021-04-16" geburtsdatum="1986-01-01" uid="ATU76895914" kennziffer="R128I619F">POPLIE Hargoben Singh</scheinfirma>
   <scheinfirma anschrift="4594 Grünburg, Steyrtalstraße 23" veroeffentlicht="2017-02-28" rechtskraeftig="2017-02-20" fbnr="434044a" uid="ATU69600005">PPB Protect Passiv Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Taborstraße 32" veroeffentlicht="2025-08-18" rechtskraeftig="2025-08-07" seit="2024-11-11" fbnr="628697f" uid="ATU81390415" kennziffer="R149U165S">P.R. Piotre Rafi Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Laxenburger Straße 32" veroeffentlicht="2026-08-28" rechtskraeftig="2026-08-24" seit="2024-04-25" geburtsdatum="1966-10-12" uid="ATU80628625" kennziffer="R149G357E">PRAZIENKOVA Ivana</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Hammer-Purgstallgasse 5/15" veroeffentlicht="2016-05-23" rechtskraeftig="2016-05-23" fbnr="300737k" uid="ATU64284358">PRESTIJ GmbH</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Martinstraße 10" veroeffentlicht="2026-04-21" rechtskraeftig="2026-04-09" seit="2025-01-30" fbnr="629741s" uid="ATU81079208" kennziffer="R149S841K">Princ Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Anton-Freunschlag-Gasse 47" veroeffentlicht="2023-07-27" rechtskraeftig="2023-06-27" fbnr="242458g" uid="ATU57640137">Printfactory Handel GmbH</scheinfirma>
@@ -1274,6 +1276,7 @@
   <scheinfirma anschrift="1010 Wien, Kohlmarkt 8-10" veroeffentlicht="2021-07-08" rechtskraeftig="2021-06-15" fbnr="520311p">SBSR Global Trade GmbH</scheinfirma>
   <scheinfirma anschrift="4651 Stadl-Paura, Franz-Keim-Straße 6" veroeffentlicht="2021-03-11" rechtskraeftig="2021-03-01" fbnr="505269v" uid="ATU74375703">SC Sportbar GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Lorenz-Bayer-Platz 18" veroeffentlicht="2018-06-20" rechtskraeftig="2018-06-13" fbnr="450332d" uid="ATU70981949">Schandl Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="1190 Wien, Hackhofergasse 1" veroeffentlicht="2026-08-28" rechtskraeftig="2026-08-21" seit="2025-07-16" fbnr="070898m" uid="ATU21389101" kennziffer="R014G381G">Scheumbauer Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Leopoldauer Straße 131" veroeffentlicht="2025-05-06" rechtskraeftig="2025-05-01" seit="2023-04-26" fbnr="603137t" uid="ATU79814079" kennziffer="R140B1573">SD Kleintransporte KG</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Felberstraße 34" veroeffentlicht="2024-09-03" rechtskraeftig="2024-07-17" seit="2023-04-01" fbnr="368584k" uid="ATU66707913" kennziffer="R043K9013">SEBERG-BAU GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Levasseurgasse 3" veroeffentlicht="2026-02-16" rechtskraeftig="2026-02-10" seit="2025-01-29" fbnr="543723v" uid="ATU76775036" kennziffer="R123Z708G">Sebusavac Handels GmbH</scheinfirma>
@@ -1512,6 +1515,7 @@
   <scheinfirma anschrift="1230 Wien, Forchheimergasse 34" veroeffentlicht="2023-10-06" rechtskraeftig="2023-10-02" fbnr="539784a" uid="ATU76071769">VBL Life Clean GmbH</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Florianigasse 51/UG" veroeffentlicht="2018-10-30" rechtskraeftig="2018-10-29" fbnr="399558k" uid="ATU68112259">VDHT Haustechnik GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Handelskai 94-96" veroeffentlicht="2024-02-20" rechtskraeftig="2024-02-12" seit="2023-11-29" fbnr="578752g" uid="ATU78071426" kennziffer="R133Z8346">VED Consulting GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Hartlgasse 20/10" veroeffentlicht="2026-08-28" rechtskraeftig="2026-08-21" seit="2026-01-08" geburtsdatum="1987-08-05" uid="ATU82817828" kennziffer="R159X790M">VEGH Tibor</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Kröllgasse 30/17" veroeffentlicht="2021-12-16" rechtskraeftig="2021-12-01" geburtsdatum="1977-09-09" uid="ATU74905819">VELICHKOV Georgi</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-24" rechtskraeftig="2025-03-21" seit="2023-05-30" geburtsdatum="1981-09-11" uid="ATU79478405" kennziffer="R140S322L">VELICHKOV Tsvetan Todorov</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-25" seit="2023-11-23" geburtsdatum="1998-12-14" uid="ATU80052158" kennziffer="R143R5776">VELIKOV Ilia Asenov</scheinfirma>
