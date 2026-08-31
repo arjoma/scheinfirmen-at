@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-28" zeit="16:18:28" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1593">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-08-31" zeit="10:36:17" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1596">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -98,6 +98,7 @@
   <scheinfirma anschrift="1210 Wien, Brünner Straße 124/53" veroeffentlicht="2026-06-18" rechtskraeftig="2026-06-16" seit="2025-04-26" geburtsdatum="1980-06-14" kennziffer="R152F476S">ASENOV Asen Iliev</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Scheugasse 9" veroeffentlicht="2026-08-11" rechtskraeftig="2026-08-05" seit="2025-08-26" geburtsdatum="1993-04-23" kennziffer="R157Z165M">ASENOV Asen Velev</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 28" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-08" seit="2024-08-27" geburtsdatum="1981-12-22" uid="ATU81061048" kennziffer="R151Q496O">ASENOV Georgi Iliev</scheinfirma>
+  <scheinfirma anschrift="1050 Wien, Margaretenstraße 102/1" veroeffentlicht="2026-08-31" rechtskraeftig="2026-08-28" seit="2026-04-02" geburtsdatum="1988-01-27" kennziffer="R162F338H">ASENOV Ivan</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Friedmanngasse 22/19" veroeffentlicht="2025-09-22" rechtskraeftig="2025-09-11" seit="2023-04-15" geburtsdatum="1987-12-24" fbnr="530441k" uid="ATU79047336" kennziffer="R137T555V">ASENOV Radoslav</scheinfirma>
   <scheinfirma anschrift="2700 Wiener Neustadt, Pernerstorferstraße 15" veroeffentlicht="2025-04-02" rechtskraeftig="2025-03-26" seit="2022-12-01" geburtsdatum="1998-06-08" uid="ATU78805358" kennziffer="R137T320Y">ASENOVA Antoaneta</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-15" seit="2025-03-04" fbnr="613281i" uid="ATU80027659" kennziffer="R142H4274">AS-GV GmbH</scheinfirma>
@@ -423,6 +424,7 @@
   <scheinfirma anschrift="1020 Wien, Obere Donaustraße 6" veroeffentlicht="2023-11-03" rechtskraeftig="2023-10-28" fbnr="356717i" uid="ATU66241836">Eigentumgesellschaft NAS 111 GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Großmarktstraße 4" veroeffentlicht="2026-08-03" rechtskraeftig="2026-07-24" seit="2024-03-16" fbnr="624261g" kennziffer="R147I260R">El Graf Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Anton-Störck-Gasse 78" veroeffentlicht="2025-06-23" rechtskraeftig="2025-06-11" seit="2025-06-11" geburtsdatum="1996-09-16" uid="ATU79999968" kennziffer="R141C122I">EL NAGGAR Mohamed</scheinfirma>
+  <scheinfirma anschrift="2100 Korneuburg, Wiener Straße 25" veroeffentlicht="2026-08-31" rechtskraeftig="2026-08-20" seit="2024-12-19" fbnr="580691h" uid="ATU78235447" kennziffer="R134O018Z">ELD Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Ybbsstraße 35" veroeffentlicht="2025-01-30" rechtskraeftig="2025-01-22" seit="2023-05-09" fbnr="460798w" uid="ATU71624316" kennziffer="R103P500E">Electrologics Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1090 Wien, Liechtensteinstraße 22A" veroeffentlicht="2025-01-14" rechtskraeftig="2024-12-16" seit="2024-06-03" fbnr="622178v" kennziffer="R146M4020">ELEG GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Albrechtsbergergasse 12" veroeffentlicht="2026-04-28" rechtskraeftig="2026-04-27" seit="2025-03-21" fbnr="624690m" uid="ATU82356567" kennziffer="R147X3450">Elektro Blitz ic e.U.</scheinfirma>
@@ -793,6 +795,7 @@
   <scheinfirma anschrift="1100 Wien, Columbusgasse 64" veroeffentlicht="2023-02-13" rechtskraeftig="2023-02-08" geburtsdatum="1985-09-18" uid="ATU77123015">KUMAR Harinder</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Kalvarienberggasse 74" veroeffentlicht="2025-08-12" rechtskraeftig="2025-08-02" seit="2023-11-22" fbnr="577656w" uid="ATU78109226" kennziffer="R134C346S">Kupro GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 43" veroeffentlicht="2026-02-03" rechtskraeftig="2026-02-02" seit="2025-02-27" fbnr="638875y" uid="ATU82117308" kennziffer="R154R908F">Kurma GetränkehandelsgesmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Kudlichgasse 23" veroeffentlicht="2026-08-31" rechtskraeftig="2026-08-28" seit="2025-07-25" geburtsdatum="1992-04-04" uid="ATU83267126" kennziffer="R157K793D">KUSKUNTLA Prabhanjan Reddy</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37" veroeffentlicht="2023-07-27" rechtskraeftig="2023-07-21" geburtsdatum="1999-01-05" uid="ATU77454201">KUTAK Tomas</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Draschestraße 26" veroeffentlicht="2026-06-02" rechtskraeftig="2026-06-02" seit="2025-01-15" geburtsdatum="1987-08-17" uid="ATU81873536" kennziffer="R154B898H">KUZMA Jozef</scheinfirma>
   <scheinfirma anschrift="6922 Wolfurt, Eichenstraße 31" veroeffentlicht="2020-07-17" rechtskraeftig="2020-07-13">KW High Class Interior LTD</scheinfirma>

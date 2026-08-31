@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-28T16:18:28 | 1593 | 2016-04-01 |
+| 2026-08-31T10:36:17 | 1596 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1643
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 318, 324, 345, 361, 371, 381, 394, 398, 410, 420, 435, 444, 449, 453, 462, 463, 471, 487, 495, 503, 506, 508, 518, 532, 548, 564, 580, 589, 608, 636, 644, 658, 675, 688, 698, 720, 738, 759, 777, 786, 811, 844, 872, 928, 988, 1011, 1042, 1064, 1104, 1145, 1180, 1203, 1227, 1247, 1275, 1347, 1403, 1461, 1493, 1531, 1593]
+    y-axis "Anzahl" 0 --> 1646
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 318, 324, 345, 361, 371, 381, 394, 398, 410, 420, 435, 444, 449, 453, 462, 463, 471, 487, 495, 503, 506, 508, 518, 532, 548, 564, 580, 589, 608, 636, 644, 658, 675, 688, 698, 720, 738, 759, 777, 786, 811, 844, 872, 928, 988, 1011, 1042, 1064, 1104, 1145, 1180, 1203, 1227, 1247, 1275, 1347, 1403, 1461, 1493, 1531, 1596]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -27,6 +27,7 @@ xychart-beta
 | AHMED Rafaqat Mehmood | ATU72159148 | 1100 Wien, Neilreichgasse 17 |
 | ALHA Transport GmbH | ATU81027336 | 1200 Wien, Handelskai 102-112 |
 | ASENOV Asen Velev |  | 1100 Wien, Scheugasse 9 |
+| ASENOV Ivan |  | 1050 Wien, Margaretenstraße 102/1 |
 | Abaci Express GmbH | ATU80229316 | 1100 Wien, Keplergasse 8/7 |
 | BABIC Trading GmbH | ATU80085346 | 1170 Wien, Frauenfelderstraße 15/16 |
 | BARCZA Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
@@ -40,7 +41,7 @@ xychart-beta
 | D+F TransClean GmbH | ATU81764636 | 1120 Wien, Arndtstraße 61 |
 | DEMIREV Angel Dimitrov |  | 1200 Wien, Salzachstraße 11 |
 | DORDE Ivica | ATU71924803 | 1160 Wien, Nauseagasse 28 |
-| DOVALOVA Simona |  | 1110 Wien, Hadatschgasse 7 |
+| ELD Bau GmbH | ATU78235447 | 2100 Korneuburg, Wiener Straße 25 |
 | ERONI Bau GmbH | ATU80330009 | 1210 Wien, Leopoldauer Straße 157A/1/16 |
 | El Graf Transport GmbH |  | 1230 Wien, Großmarktstraße 4 |
 | FEHER Viktor | ATU83075468 | 1100 Wien, Quellenstraße 177 |
@@ -59,6 +60,7 @@ xychart-beta
 | KALMAR Tamas |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KISS Janos |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KOPFSCHLÄGL Mate | ATU79318579 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| KUSKUNTLA Prabhanjan Reddy | ATU83267126 | 1100 Wien, Kudlichgasse 23 |
 | Kavai KG | ATU71707806 | 1160 Wien, Gablenzgasse 14/3 |
 | MATA Sandor | ATU82541448 | 1100 Wien, Quellenstraße 75 |
 | MATYAS Erik | ATU82259903 | 1170 Wien, Hernalser Hauptstraße 9 |
@@ -74,7 +76,6 @@ xychart-beta
 | PRAZIENKOVA Ivana | ATU80628625 | 1100 Wien, Laxenburger Straße 32 |
 | QPV Invest GmbH | ATU79969358 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
 | R. Sarko 1 Souvenirs GmbH | ATU79388404 | 1010 Wien, Rotenturmstraße 24 |
-| RADUCANU Vasile-Marin | ATU81261689 | 1150 Wien, Staglgasse 12 |
 | Robat I. Trade Handels GmbH | ATU82778326 | 1010 Wien, Jasomirgottstraße 4 |
 | Robert Sari KG | ATU60744788 | 1220 Wien, Stadlauer Straße 23 |
 | SALAY Michal | ATU82277858 | 1170 Wien, Hernalser Hauptstraße 9 |
@@ -83,7 +84,6 @@ xychart-beta
 | SUSHIL Sushil | ATU82410847 | 1100 Wien, Zohmanngasse 28 |
 | Scheumbauer Bau GmbH | ATU21389101 | 1190 Wien, Hackhofergasse 1 |
 | Stanka VASILEVA KG | ATU63075139 | 1050 Wien, Margaretenstraße 99/8 |
-| TAS Bau GmbH | ATU68164238 | 1170 Wien, Dornbacher Straße 5 |
 | Tiger Baumalerei GmbH | ATU81100737 | 1100 Wien, Neilreichgasse 22 |
 | TransSend Kleintransporte KG | ATU77725446 | 1030 Wien, Hagenmüllergasse 21-23 |
 | VEGH Tibor | ATU82817828 | 1200 Wien, Hartlgasse 20/10 |
