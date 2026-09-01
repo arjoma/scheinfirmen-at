@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-08-31T10:36:17 | 1596 | 2016-04-01 |
+| 2026-09-01T09:46:04 | 1597 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1646
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 318, 324, 345, 361, 371, 381, 394, 398, 410, 420, 435, 444, 449, 453, 462, 463, 471, 487, 495, 503, 506, 508, 518, 532, 548, 564, 580, 589, 608, 636, 644, 658, 675, 688, 698, 720, 738, 759, 777, 786, 811, 844, 872, 928, 988, 1011, 1042, 1064, 1104, 1145, 1180, 1203, 1227, 1247, 1275, 1347, 1403, 1461, 1493, 1531, 1596]
+    y-axis "Anzahl" 0 --> 1647
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1597]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -57,11 +57,13 @@ xychart-beta
 | HST 321 Projektentwicklung GMBH | ATU76200512 | 1140 Wien, Breitenseer Straße 18 |
 | Holle33 Souvenirs GmbH | ATU81855306 | 1010 Wien, Naglergasse 3 |
 | ILIC Milos | ATU74122656 | 1050 Wien, Arbeitergasse 21/2-5 |
+| JG Hausbetreuung & Reinigungs GmbH | ATU76885658 | 1010 Wien, Marc-Aurel-Straße 7 |
 | KALMAR Tamas |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KISS Janos |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KOPFSCHLÄGL Mate | ATU79318579 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KUSKUNTLA Prabhanjan Reddy | ATU83267126 | 1100 Wien, Kudlichgasse 23 |
 | Kavai KG | ATU71707806 | 1160 Wien, Gablenzgasse 14/3 |
+| M S Logistik KG | ATU79951937 | 5620 Schwarzach/Pongau, Salzachweg 6 |
 | MATA Sandor | ATU82541448 | 1100 Wien, Quellenstraße 75 |
 | MATYAS Erik | ATU82259903 | 1170 Wien, Hernalser Hauptstraße 9 |
 | MESZLER Csaba | ATU78746369 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
