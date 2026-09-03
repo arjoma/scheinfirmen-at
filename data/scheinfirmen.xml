@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-01" zeit="09:46:04" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1597">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-03" zeit="09:08:01" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1600">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -607,6 +607,7 @@
   <scheinfirma anschrift="1140 Wien, Missindorfstraße 9" veroeffentlicht="2022-01-26" rechtskraeftig="2022-01-19" fbnr="506423s" uid="ATU74118206">Helma TPB GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Lerchenfelder Gürtel 55A" veroeffentlicht="2024-12-03" rechtskraeftig="2024-11-20" seit="2024-01-03" fbnr="618811t" kennziffer="R144X688C">HEMMA Warenhandels KG</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Vivariumstraße 2" veroeffentlicht="2024-11-12" rechtskraeftig="2024-10-18" seit="2022-07-19" fbnr="585264h" uid="ATU78981345" kennziffer="R135K491F">Hermes Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="2201 Hagenbrunn, Brünnerstraße 31" veroeffentlicht="2026-09-03" rechtskraeftig="2026-09-03" seit="2025-08-13" fbnr="649047g" uid="ATU82215103" kennziffer="R155N679V">HERZ BAU GmbH</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Währinger Straße 180" veroeffentlicht="2019-06-06" rechtskraeftig="2019-05-24" fbnr="485830g" uid="ATU73144046">Hexenküche Gastronomiebetrieb GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Fockygasse 33" veroeffentlicht="2023-01-16" rechtskraeftig="2023-01-09" fbnr="501796k" uid="ATU73871205">HIC Bau GmbH</scheinfirma>
   <scheinfirma anschrift="110 Wien, Columbusplatz 7-8" veroeffentlicht="2025-07-11" rechtskraeftig="2025-07-05" seit="2024-05-01" fbnr="627424h" uid="ATU80729856" kennziffer="R148X427Z">HIEU &amp; TRUNG Beauty GmbH</scheinfirma>
@@ -827,6 +828,7 @@
   <scheinfirma anschrift="1230 Wien, Ketzergasse 65" veroeffentlicht="2017-06-13" rechtskraeftig="2017-06-02" fbnr="98484f" uid="ATU14800508">LDM Immobilien &amp; Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Märzstraße 60" veroeffentlicht="2025-09-29" rechtskraeftig="2025-09-19" seit="2024-10-24" geburtsdatum="1982-03-08" uid="ATU81263534" kennziffer="R152U124D">LEJKO Peter</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Gassergasse 11" veroeffentlicht="2023-09-19" rechtskraeftig="2023-09-13" fbnr="511323x" uid="ATU74421645">Lekic Renovierungs und Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Rossakgasse 8" veroeffentlicht="2026-09-03" rechtskraeftig="2026-08-28" seit="2023-06-14" fbnr="530444s" uid="ATU75862504" kennziffer="R121B398W">Lemon clean service GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Lände 29/2. OG" veroeffentlicht="2019-10-03" rechtskraeftig="2018-08-02" fbnr="376320m" uid="ATU67042309">LEMOS Industrieservice GmbH</scheinfirma>
   <scheinfirma anschrift="3422 Greifenstein, Hauptstraße 13" veroeffentlicht="2024-10-14" rechtskraeftig="2024-10-07" seit="2024-03-22" fbnr="454888d" uid="ATU72405168" kennziffer="R102G045F">LENA MB Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Nikischgasse 1" veroeffentlicht="2024-11-20" rechtskraeftig="2024-10-12" seit="2023-01-01" fbnr="550512b" uid="ATU76559804" kennziffer="R126Q779Y">LEPI.G Installationen GmbH</scheinfirma>
@@ -1332,6 +1334,7 @@
   <scheinfirma anschrift="1200 Wien, Wallensteinstraße 42" veroeffentlicht="2023-03-24" rechtskraeftig="2023-03-21" fbnr="306505v" uid="ATU74278756">Skip Trans KG</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Brunner Straße 69" veroeffentlicht="2023-12-27" rechtskraeftig="2023-06-07" fbnr="567681a" uid="ATU77788379">Sky Asenov Taxi KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Pernersdorfergasse 84" veroeffentlicht="2023-08-28" rechtskraeftig="2023-08-09" fbnr="567624t" uid="ATU77761049">Sky Georgieva Taxi KG</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Rossakgasse 8" veroeffentlicht="2026-09-03" rechtskraeftig="2026-08-28" seit="2023-01-12" fbnr="485846f" uid="ATU73398824" kennziffer="R110N669V">Sky Service GmbH</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Kleistgasse 30" veroeffentlicht="2020-11-25" rechtskraeftig="2020-11-18" fbnr="430667i" uid="ATU69689045">SL Isoliertechnik GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Gassergasse 27" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2025-06-15" geburtsdatum="2004-04-12" kennziffer="R156R7893">SLAMA Pavel</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Lützowgasse 24" veroeffentlicht="2021-06-21" rechtskraeftig="2021-06-09" fbnr="503861y" uid="ATU74446968">Slavchi ReMove GmbH</scheinfirma>
