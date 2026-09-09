@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-08" zeit="09:12:40" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1622">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-09" zeit="09:21:01" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1623">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1107,6 +1107,7 @@
   <scheinfirma anschrift="1010 Wien, Parkring 10" veroeffentlicht="2021-02-08" rechtskraeftig="2021-02-08" fbnr="523409w" uid="ATU74983958">PARO Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Kahlgasse 3" veroeffentlicht="2021-11-10" rechtskraeftig="2021-11-04" geburtsdatum="1983-08-22" uid="ATU76815056">PARVANOV Nikolay Emilov</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Loquaiplatz 9" veroeffentlicht="2018-10-19" rechtskraeftig="2018-10-15" fbnr="424500s" uid="ATU69253005">PaSa GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Kudlichgasse 23/14" veroeffentlicht="2026-09-09" rechtskraeftig="2026-09-07" seit="2025-09-22" geburtsdatum="1993-10-09" uid="ATU83172816" kennziffer="R158I854J">PATEL Keval Jagdish</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Gymnasiumstraße 15" veroeffentlicht="2024-03-15" rechtskraeftig="2024-03-06" seit="2023-05-05" fbnr="586924z" uid="ATU78507705" kennziffer="R136E004Y">Paten Mont RZ GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Elisabethstraße 22" veroeffentlicht="2024-08-06" rechtskraeftig="2024-07-16" seit="2018-05-23" fbnr="491781h" uid="ATU73417769" kennziffer="R112D852K">Patish Grow GmbH</scheinfirma>
   <scheinfirma anschrift="6900 Bregenz, St.-Anna-Straße 11" veroeffentlicht="2021-10-11" rechtskraeftig="2021-09-14" geburtsdatum="1958-02-01" uid="ATU75977757">PAUNA Nicolae</scheinfirma>
