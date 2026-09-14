@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-09-11T09:15:06 | 1626 | 2016-04-01 |
+| 2026-09-14T09:51:41 | 1628 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1676
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1626]
+    y-axis "Anzahl" 0 --> 1678
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1628]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -44,10 +44,9 @@ xychart-beta
 | D+F TransClean GmbH | ATU81764636 | 1120 Wien, Arndtstraße 61 |
 | DORDE Ivica | ATU71924803 | 1160 Wien, Nauseagasse 28 |
 | ELD Bau GmbH | ATU78235447 | 2100 Korneuburg, Wiener Straße 25 |
-| ERONI Bau GmbH | ATU80330009 | 1210 Wien, Leopoldauer Straße 157A/1/16 |
 | GALDA Helga |  | 8262 Ilz, Neudorf bei Ilz 147 |
 | GREGUS Eva |  | 8262 Ilz, Neudorf bei Ilz 147 |
-| Glow Clean GmbH | ATU82453523 | 2435 Ebergassing, Franzensthalstraße 21b |
+| HADJI Anouar | ATU82457912 | 1210 Wien, Brünner Straße 240/208 |
 | HAGA Edina |  | 1120 Wien, Siebertgasse 6 |
 | HANEX Holding und Transport GmbH | ATU73840347 | 1230 Wien, Mellergasse 4 |
 | HERZ BAU GmbH | ATU82215103 | 2201 Hagenbrunn, Brünnerstraße 31 |
@@ -66,6 +65,7 @@ xychart-beta
 | MAHMOOD Atif | ATU73620637 | 7423 Pinkafeld, Gerbergasse 32/15 |
 | MATYAS Erik | ATU82259903 | 1170 Wien, Hernalser Hauptstraße 9 |
 | MESZLER Csaba | ATU78746369 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| MEZEIOVA Katarina |  | 1100 Wien, Puchsbaumgasse 37/14 |
 | MLYNAROVIC Peter | ATU82338908 | 1160 Wien, Menzelgasse 11/4 |
 | MOLNAR Patrik |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | MÜLLER Tibor Laszlo |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |

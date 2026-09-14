@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-11" zeit="09:15:06" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1626">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-14" zeit="09:51:41" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1628">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -387,7 +387,7 @@
   <scheinfirma anschrift="1100 Wien, Muhrengasse 55" veroeffentlicht="2025-10-27" rechtskraeftig="2025-10-24" seit="2024-03-23" geburtsdatum="2005-02-07" uid="ATU80478957" kennziffer="R147V775O">DIMITROV Dimitar Mitkov</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Bickgasse 1" veroeffentlicht="2023-09-05" rechtskraeftig="2023-08-25" fbnr="468275s" uid="ATU72279946">DIN Clean Reinigung GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Jungstraße 15" veroeffentlicht="2025-07-08" rechtskraeftig="2025-06-30" seit="2022-09-01" fbnr="530441k" kennziffer="R121A765Y">DISPO TAXI GmbH</scheinfirma>
-  <scheinfirma anschrift="1230 Wien, Breitenfurter Straße 320//1/111" veroeffentlicht="2026-06-03" rechtskraeftig="2026-04-20" seit="2023-10-23" geburtsdatum="2005-04-06" uid="ATU80754836" kennziffer="R142V108W">DJORDJEVIC</scheinfirma>
+  <scheinfirma anschrift="1230 Wien, Breitenfurter Straße 320//1/111" veroeffentlicht="2026-06-03" rechtskraeftig="2026-04-20" seit="2023-10-23" geburtsdatum="2005-04-06" uid="ATU80754836" kennziffer="R142V108W">DJORDJEVIC Anastasia</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Hernalser Hauptstraße  23/2/4a" veroeffentlicht="2018-08-27" rechtskraeftig="2018-08-16" fbnr="487215v" uid="ATU73104008">DM Sanierung GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Obere Augartenstraße 64" veroeffentlicht="2025-04-02" rechtskraeftig="2025-03-24" seit="2024-04-09" fbnr="472952v" uid="ATU72500402" kennziffer="R107E234P">DMYTRON BAU GmbH</scheinfirma>
   <scheinfirma anschrift="2103 Langenzersdorf, Lagerstraße 1-5" veroeffentlicht="2024-11-12" rechtskraeftig="2024-10-20" seit="2024-01-15" fbnr="290945k" uid="ATU63253188" kennziffer="R024D4722">DN Bau GmbH</scheinfirma>
@@ -604,6 +604,7 @@
   <scheinfirma anschrift="1160 Wien, Fröbelgasse 2" veroeffentlicht="2021-05-04" rechtskraeftig="2021-04-28" fbnr="488852a" uid="ATU73178303">H. Posch GmbH</scheinfirma>
   <scheinfirma anschrift="6020 Innsbruck, Premstraße 31/12" veroeffentlicht="2026-03-16" rechtskraeftig="2026-03-10" seit="2025-12-18" geburtsdatum="2005-01-21" uid="ATU78990709" kennziffer="R159T683Q">HAAG Philipp</scheinfirma>
   <scheinfirma anschrift="4580 Edlbach, Edlbach 14" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-06" seit="2024-09-09" fbnr="634404y" kennziffer="R151R693X">Hades Logistics KG</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Brünner Straße 240/208" veroeffentlicht="2026-09-14" rechtskraeftig="2026-09-11" seit="2025-03-27" geburtsdatum="1994-05-15" uid="ATU82457912" kennziffer="R155K4011">HADJI Anouar</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Lorystraße 73" veroeffentlicht="2026-04-08" rechtskraeftig="2026-03-23" seit="2025-10-09" geburtsdatum="1979-03-31" uid="ATU82647619" kennziffer="R158R081B">HADZHIEV Radoslav Georgiev</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Lützowgasse 12-14" veroeffentlicht="2021-01-11" rechtskraeftig="2020-12-18" fbnr="519729h" uid="ATU74755507">Haftex Cleaning GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Siebertgasse 6" veroeffentlicht="2026-08-18" rechtskraeftig="2026-06-29" seit="2024-04-15" geburtsdatum="1992-08-30" kennziffer="R148U310X">HAGA Edina</scheinfirma>
@@ -952,6 +953,7 @@
   <scheinfirma anschrift="1110 Wien, Ehamgasse 42-44" veroeffentlicht="2026-03-30" rechtskraeftig="2026-03-24" seit="2025-09-12" fbnr="648196f" uid="ATU82257969" kennziffer="R154W6028">METRIX Projects GmbH</scheinfirma>
   <scheinfirma anschrift="4030 Linz, Traundorfer Straße 268" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-22" geburtsdatum="1989-12-15" uid="ATU72459029">METWALLY Ahmed</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gudrunstraße 172" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-12" seit="2025-04-29" geburtsdatum="1985-02-01" uid="ATU82111135" kennziffer="R155W3565">MEZEI Bela</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37/14" veroeffentlicht="2026-09-14" rechtskraeftig="2026-09-09" seit="2026-03-03" geburtsdatum="1992-11-18" kennziffer="R161G9161">MEZEIOVA Katarina</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Hopfengasse 5/3/4" veroeffentlicht="2018-09-20" rechtskraeftig="2018-09-10" fbnr="457505b" uid="ATU71567057">MGMO KG</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Neulerchenfelder Straße 82" veroeffentlicht="2020-02-12" rechtskraeftig="2020-02-05" fbnr="454316m" uid="ATU71182258">MHT Haustechnik GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Leebgasse 52/4" veroeffentlicht="2025-12-18" rechtskraeftig="2025-12-10" seit="2025-02-27" fbnr="628217z" uid="ATU80898156" kennziffer="R150B492O">MI. &amp; SA. Bau GmbH</scheinfirma>
