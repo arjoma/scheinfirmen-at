@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-14" zeit="09:51:41" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1628">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-15" zeit="09:40:23" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1631">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -151,6 +151,7 @@
   <scheinfirma anschrift="1150 Wien, Grangasse 2" veroeffentlicht="2023-03-07" rechtskraeftig="2023-02-24" fbnr="494425x" uid="ATU73599625">Balazsne Toth Agnes GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 32/Top 305" veroeffentlicht="2025-09-01" rechtskraeftig="2025-08-28" seit="2024-07-03" uid="ATU74277837" kennziffer="R116D803L">BALERA Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Kienmayergasse 44" veroeffentlicht="2021-10-27" rechtskraeftig="2021-10-19" fbnr="506861i">BAL.KO KG</scheinfirma>
+  <scheinfirma anschrift="1190 Wien, Barawitzkagasse 32" veroeffentlicht="2026-09-15" rechtskraeftig="2026-09-12" seit="2026-03-11" geburtsdatum="1991-02-19" uid="ATU83102713" kennziffer="R161I6838">BALOG Ferenc</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Senefeldergasse 37" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-07" seit="2023-11-12" geburtsdatum="1981-02-01" uid="ATU80547749" kennziffer="R143P6627">BALOGH Ilona</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-07" seit="2023-11-17" geburtsdatum="2005-05-31" uid="ATU80132526" kennziffer="R143Q808O">BALOGH Renato</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Quellenstraße 77" veroeffentlicht="2026-07-06" rechtskraeftig="2026-06-24" seit="2025-12-23" geburtsdatum="2001-02-02" uid="ATU82820226" kennziffer="R159W994E">BALOGH Zsofia Panka</scheinfirma>
@@ -392,6 +393,7 @@
   <scheinfirma anschrift="1020 Wien, Obere Augartenstraße 64" veroeffentlicht="2025-04-02" rechtskraeftig="2025-03-24" seit="2024-04-09" fbnr="472952v" uid="ATU72500402" kennziffer="R107E234P">DMYTRON BAU GmbH</scheinfirma>
   <scheinfirma anschrift="2103 Langenzersdorf, Lagerstraße 1-5" veroeffentlicht="2024-11-12" rechtskraeftig="2024-10-20" seit="2024-01-15" fbnr="290945k" uid="ATU63253188" kennziffer="R024D4722">DN Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Laxenburger Straße 82" veroeffentlicht="2022-08-12" rechtskraeftig="2022-08-05" geburtsdatum="1989-07-27" uid="ATU77529925">DOGAN Hakan</scheinfirma>
+  <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 170" veroeffentlicht="2026-09-15" rechtskraeftig="2026-09-12" seit="2026-03-22" geburtsdatum="1984-03-29" uid="ATU83126118" kennziffer="R161N347Y">DOMBROVSKIS Felikss</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Hainburger Straße 50" veroeffentlicht="2025-05-13" rechtskraeftig="2025-05-03" seit="2023-05-02" geburtsdatum="1975-06-29" uid="ATU80329958" kennziffer="R140I052O">DÖME Ondrej</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Keplergasse 3" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-18" seit="2025-08-30" geburtsdatum="1961-09-11" uid="ATU82541545" kennziffer="R158E809P">DÖMÖTÖR Joszef</scheinfirma>
   <scheinfirma anschrift="4020 Linz, Kremplstraße 5" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-25" geburtsdatum="1999-06-23" uid="ATU76803434">DÖNMEZ Müslim</scheinfirma>
@@ -473,6 +475,7 @@
   <scheinfirma anschrift="1190 Wien, Barawitzkagasse 6" veroeffentlicht="2025-10-20" rechtskraeftig="2025-10-10" seit="2024-11-13" geburtsdatum="1997-02-03" uid="ATU81332014" kennziffer="R153C454J">FACONA Adam</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Linzer Straße 174-180/12/EG" veroeffentlicht="2025-09-09" rechtskraeftig="2025-08-08" seit="2024-12-19" fbnr="542616s" uid="ATU76027924" kennziffer="R123T858A">FAJOSKA Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Schrickgasse 5" veroeffentlicht="2021-10-19" rechtskraeftig="2021-10-12" fbnr="380072f" uid="ATU67261107">FAKTI Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-09-15" rechtskraeftig="2026-08-07" seit="2023-10-03" geburtsdatum="1977-06-09" uid="ATU67711906" kennziffer="R079O703J">FARKAS Gyula Roland</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Miriam-Makeba-Gasse 5" veroeffentlicht="2025-02-25" rechtskraeftig="2025-02-19" seit="2024-08-01" geburtsdatum="1970-11-10" uid="ATU81058418" kennziffer="R151Q2046">FARKAS Ladislav</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Rauscherstraße 10" veroeffentlicht="2023-10-03" rechtskraeftig="2023-09-26" geburtsdatum="1958-01-30">FARKAS Laszlo Ferencne</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Columbusgasse 80" veroeffentlicht="2025-11-19" rechtskraeftig="2025-11-12" seit="2025-06-17" geburtsdatum="2004-01-14" kennziffer="R156Q326B">FARKAS Marcell Kristof</scheinfirma>
