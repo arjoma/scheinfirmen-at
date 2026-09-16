@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-09-15T09:40:23 | 1631 | 2016-04-01 |
+| 2026-09-16T09:38:54 | 1632 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1681
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1631]
+    y-axis "Anzahl" 0 --> 1682
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1632]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -72,14 +72,11 @@ xychart-beta
 | MLYNAROVIC Peter | ATU82338908 | 1160 Wien, Menzelgasse 11/4 |
 | MOLNAR Patrik |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | MÜLLER Tibor Laszlo |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
-| NEUNER Claudia Theresa | ATU81672904 | 6401 Inzing, Hauptstraße 31 |
 | Nexaro GmbH | ATU82461667 | 1030 Wien, Kleistgasse 30/Top1 |
-| OA Compact Construction GmbH | ATU82242814 | 2372 Gießhübl, Perlhofgasse 2b |
 | PATEL Keval Jagdish | ATU83172816 | 1100 Wien, Kudlichgasse 23/14 |
 | PENEV Kiril |  | 1100 Wien, Herndlgasse 3 |
 | POMPOVA Zdenka |  | 1120 Wien, Siebertgasse 6 |
 | PRAZIENKOVA Ivana | ATU80628625 | 1100 Wien, Laxenburger Straße 32 |
-| QPV Invest GmbH | ATU79969358 | 1210 Wien, Hofherr-Schrantz-Gasse 2 |
 | R. Sarko 1 Souvenirs GmbH | ATU79388404 | 1010 Wien, Rotenturmstraße 24 |
 | RADEV Angel Yuriev |  | 1120 Wien, Eckartsaugasse 5 |
 | Robert Sari KG | ATU60744788 | 1220 Wien, Stadlauer Straße 23 |
@@ -91,4 +88,5 @@ xychart-beta
 | TransSend Kleintransporte KG | ATU77725446 | 1030 Wien, Hagenmüllergasse 21-23 |
 | VEGH Tibor | ATU82817828 | 1200 Wien, Hartlgasse 20/10 |
 | Wintageluxury GmbH | ATU82165336 | 1010 Wien, Jasomirgottstraße 4 |
+| YHY Taxi Cars GmbH | ATU81313918 | 1100 Wien, Inzersdorfer Straße 18 |
 | Üreci KG | ATU80055146 | 1230 Wien, Großmarktstraße 4A |
