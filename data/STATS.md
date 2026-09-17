@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-09-16T09:38:54 | 1632 | 2016-04-01 |
+| 2026-09-17T09:35:31 | 1634 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1682
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1632]
+    y-axis "Anzahl" 0 --> 1684
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1634]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -37,7 +37,6 @@ xychart-beta
 | BARABAS Istvan |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | BEDA KG | ATU65623202 | 1140 Wien, Lützowgasse 14A |
 | BORSAI Felix | ATU82380308 | 8262 Ilz, Neudorf bei Ilz 147 |
-| Best Way Service GmbH | ATU78262078 | 1220 Wien, Erzherzog-Karl-Straße 5A |
 | Betonfloor Industrieböden GmbH | ATU77820379 | 7201 Neudörfl, Hauptstraße 167 |
 | BÖRÖCZ Erika |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | COCO Trade B GmbH | ATU81912913 | 2231 Strasshof an der Nordbahn, Gewerbeparkstraße 21 |
@@ -47,10 +46,10 @@ xychart-beta
 | DORDE Ivica | ATU71924803 | 1160 Wien, Nauseagasse 28 |
 | ELD Bau GmbH | ATU78235447 | 2100 Korneuburg, Wiener Straße 25 |
 | FARKAS Gyula Roland | ATU67711906 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| GAL Erika |  | 1200 Wien, Gerhardusgasse 30/13 |
 | GALDA Helga |  | 8262 Ilz, Neudorf bei Ilz 147 |
 | GREGUS Eva |  | 8262 Ilz, Neudorf bei Ilz 147 |
 | HADJI Anouar | ATU82457912 | 1210 Wien, Brünner Straße 240/208 |
-| HAGA Edina |  | 1120 Wien, Siebertgasse 6 |
 | HANEX Holding und Transport GmbH | ATU73840347 | 1230 Wien, Mellergasse 4 |
 | HERZ BAU GmbH | ATU82215103 | 2201 Hagenbrunn, Brünnerstraße 31 |
 | HESZLER Monika |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
@@ -75,9 +74,7 @@ xychart-beta
 | Nexaro GmbH | ATU82461667 | 1030 Wien, Kleistgasse 30/Top1 |
 | PATEL Keval Jagdish | ATU83172816 | 1100 Wien, Kudlichgasse 23/14 |
 | PENEV Kiril |  | 1100 Wien, Herndlgasse 3 |
-| POMPOVA Zdenka |  | 1120 Wien, Siebertgasse 6 |
 | PRAZIENKOVA Ivana | ATU80628625 | 1100 Wien, Laxenburger Straße 32 |
-| R. Sarko 1 Souvenirs GmbH | ATU79388404 | 1010 Wien, Rotenturmstraße 24 |
 | RADEV Angel Yuriev |  | 1120 Wien, Eckartsaugasse 5 |
 | Robert Sari KG | ATU60744788 | 1220 Wien, Stadlauer Straße 23 |
 | SALAY Michal | ATU82277858 | 1170 Wien, Hernalser Hauptstraße 9 |
@@ -85,8 +82,7 @@ xychart-beta
 | Scheumbauer Bau GmbH | ATU21389101 | 1190 Wien, Hackhofergasse 1 |
 | Sky Service GmbH | ATU73398824 | 1230 Wien, Rossakgasse 8 |
 | Tiger Baumalerei GmbH | ATU81100737 | 1100 Wien, Neilreichgasse 22 |
-| TransSend Kleintransporte KG | ATU77725446 | 1030 Wien, Hagenmüllergasse 21-23 |
 | VEGH Tibor | ATU82817828 | 1200 Wien, Hartlgasse 20/10 |
+| VELMA Mohan Reddy | ATU81406756 | 1110 Wien, Kudlichgasse 23 |
 | Wintageluxury GmbH | ATU82165336 | 1010 Wien, Jasomirgottstraße 4 |
 | YHY Taxi Cars GmbH | ATU81313918 | 1100 Wien, Inzersdorfer Straße 18 |
-| Üreci KG | ATU80055146 | 1230 Wien, Großmarktstraße 4A |

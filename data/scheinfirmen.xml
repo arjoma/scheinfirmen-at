@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-16" zeit="09:38:54" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1632">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-17" zeit="09:35:31" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1634">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -518,6 +518,7 @@
   <scheinfirma anschrift="1170 Wien, Kalvarienberggasse 5/2" veroeffentlicht="2017-05-29" rechtskraeftig="2017-05-23" fbnr="460785a">GAB Technologie- &amp; Handelsgesellschaft mbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Lohnergasse 9/ 4.Stock/ Top 3" veroeffentlicht="2016-11-23" rechtskraeftig="2016-11-21" fbnr="451290m">GA-Bau KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Ospelgasse 31" veroeffentlicht="2026-03-02" rechtskraeftig="2026-02-25" seit="2025-08-06" geburtsdatum="1998-05-03" uid="ATU82395409" kennziffer="R157R497W">GAFTON Alexandru-Iulian</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Gerhardusgasse 30/13" veroeffentlicht="2026-09-16" rechtskraeftig="2026-08-27" seit="2026-03-10" geburtsdatum="1975-08-22" kennziffer="R161I6846">GAL Erika</scheinfirma>
   <scheinfirma anschrift="8262 Ilz, Neudorf bei Ilz 147" veroeffentlicht="2026-09-03" rechtskraeftig="2026-08-28" seit="2026-06-15" geburtsdatum="1983-03-11">GALDA Helga</scheinfirma>
   <scheinfirma anschrift="2361 Laxenburg, Franz Josef Platz 3, Kaiserbahnhof" veroeffentlicht="2017-10-09" rechtskraeftig="2017-09-29" fbnr="362022k" uid="ATU66437616">Gallo Rosso GmbH</scheinfirma>
   <scheinfirma anschrift="4623 Gunskirchen, Mohnblumenstraße 6" veroeffentlicht="2018-01-31" rechtskraeftig="2017-12-13" fbnr="462335f">Gama Bau GmbH</scheinfirma>
@@ -1557,6 +1558,7 @@
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-24" rechtskraeftig="2025-03-21" seit="2023-05-30" geburtsdatum="1981-09-11" uid="ATU79478405" kennziffer="R140S322L">VELICHKOV Tsvetan Todorov</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-25" seit="2023-11-23" geburtsdatum="1998-12-14" uid="ATU80052158" kennziffer="R143R5776">VELIKOV Ilia Asenov</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Helblinggasse 1-3 0" veroeffentlicht="2024-06-05" rechtskraeftig="2024-05-22" seit="2021-11-18" fbnr="569318h" kennziffer="R131Y186F">VELKOVA KG</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Kudlichgasse 23" veroeffentlicht="2026-09-16" rechtskraeftig="2026-09-10" seit="2024-05-22" geburtsdatum="1953-10-06" uid="ATU81406756" kennziffer="R149W1286">VELMA Mohan Reddy</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Lände 29/2. OG" veroeffentlicht="2017-05-05" rechtskraeftig="2017-04-28" fbnr="448501k" uid="ATU70456026">Velora GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Johnstraße 69" veroeffentlicht="2024-03-22" rechtskraeftig="2024-03-19" seit="2024-03-19" geburtsdatum="1962-06-12" uid="ATU75857306" kennziffer="R120M836O">VELYANOVSKI Lyupcho Metodiev</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Sedlitzkygasse 49" veroeffentlicht="2022-10-18" rechtskraeftig="2022-09-22" geburtsdatum="1980-03-01" uid="ATU77331889">VENKOV Martin Vladimirov</scheinfirma>
