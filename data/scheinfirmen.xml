@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-17" zeit="09:35:31" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1634">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-18" zeit="09:22:14" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1636">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -288,6 +288,7 @@
   <scheinfirma anschrift="1200 Wien, Hannovergasse 14" veroeffentlicht="2024-07-01" rechtskraeftig="2024-06-19" seit="2022-10-02" uid="ATU80188324" kennziffer="R042B2351">Capoeira Sportunion Wien</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Tivoligasse 4-6" veroeffentlicht="2025-06-30" rechtskraeftig="2025-06-24" seit="2024-06-21" fbnr="594665h" uid="ATU79399839" kennziffer="R137U428T">Cardi KG</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Aichholzgasse 5" veroeffentlicht="2026-03-30" rechtskraeftig="2026-03-23" seit="2025-11-20" fbnr="615951k" uid="ATU80112012" kennziffer="R143G094X">Carlief GmbH</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Grellgasse 7" veroeffentlicht="2026-09-17" rechtskraeftig="2026-09-12" seit="2023-12-29" geburtsdatum="1947-03-17" kennziffer="R146J050Q">CARPACI Maria</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Hütteldorfer Straße 150-158" veroeffentlicht="2022-02-18" rechtskraeftig="2022-02-09" fbnr="563634z">Cäsar Installateur GmbH</scheinfirma>
   <scheinfirma anschrift="7210 Mattersburg, Walbersdorf Am Anger 1" veroeffentlicht="2022-06-30" rechtskraeftig="2022-06-13" fbnr="538465k" uid="ATU75894267">CBD Handel GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Leo-Mathauser-Gasse 71" veroeffentlicht="2020-05-20" rechtskraeftig="2020-05-13" fbnr="433906y" uid="ATU69683602">CBW CityBauWorker GmbH</scheinfirma>
@@ -921,6 +922,7 @@
   <scheinfirma anschrift="1100 Wien, Muhrengasse 55" veroeffentlicht="2025-08-05" rechtskraeftig="2025-07-29" seit="2024-03-28" geburtsdatum="1999-12-29" uid="ATU80503849" kennziffer="R147T870H">MARINOV Bozhidar Vasilev</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Kranzgasse 1-3/1-2" veroeffentlicht="2018-08-21" rechtskraeftig="2018-08-13">Markova Temenuga Tsvyatkova e.U.</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/408" veroeffentlicht="2019-05-06" rechtskraeftig="2019-04-26" fbnr="412512k" uid="ATU68583507">Marselle Personal GmbH</scheinfirma>
+  <scheinfirma anschrift="5550 Radstadt, Schloßstraße 45/1" veroeffentlicht="2026-09-17" rechtskraeftig="2026-09-09" seit="2025-07-22" geburtsdatum="1981-04-16">MARTINS DE CARVALHO Eduardo Miguel</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Mollardgasse 44" veroeffentlicht="2022-06-15" rechtskraeftig="2022-06-07" geburtsdatum="1991-03-25" uid="ATU73312024">MARU Bharath Kumar</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Mariahilfer Straße 185" veroeffentlicht="2023-08-02" rechtskraeftig="2023-07-21" fbnr="485098f" uid="ATU73119635">MARVA GmbH</scheinfirma>
   <scheinfirma anschrift="2340 Mödling, DI Wilhelm Haßlinger-Straße 3" veroeffentlicht="2020-10-30" rechtskraeftig="2020-09-14" fbnr="439832m" uid="ATU69870758">MAT Mietwagen &amp; Transport GmbH</scheinfirma>
