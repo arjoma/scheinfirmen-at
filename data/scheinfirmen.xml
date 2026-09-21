@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-19" zeit="09:18:03" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1637">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-21" zeit="09:55:22" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1639">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1087,6 +1087,7 @@
   <scheinfirma anschrift="1150 Wien, Mariahilfer Gürtel 5" veroeffentlicht="2019-11-14" rechtskraeftig="2019-10-30" fbnr="513815k">OLGA Gastro KG</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Brunner Straße 69" veroeffentlicht="2024-10-21" rechtskraeftig="2024-10-09" seit="2024-05-29" fbnr="496749p" uid="ATU73566759" kennziffer="R113J991I">OLIX GmbH</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Barawitzkagasse 6" veroeffentlicht="2025-08-18" rechtskraeftig="2025-08-08" seit="2024-11-20" geburtsdatum="1998-07-12" uid="ATU81332005" kennziffer="R153C458B">OLOS Darius</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Kudlichgasse 23" veroeffentlicht="2026-09-21" rechtskraeftig="2026-09-11" seit="2025-02-25" kennziffer="R154T155V">OLTEANU Ciprian</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Grillgasse 51" veroeffentlicht="2024-08-19" rechtskraeftig="2024-08-06" seit="2022-05-19" fbnr="587270h" uid="ATU78800068" kennziffer="R135Z5391">Omega Logistic GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Friedmanngasse 24" veroeffentlicht="2017-04-25" rechtskraeftig="2017-04-14" fbnr="455169t">Omega Mix KG</scheinfirma>
   <scheinfirma anschrift="5020 Salzburg, Josef-Schwer-Gasse 9" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="411268g" uid="ATU68606706">Omnia Bau GmbH</scheinfirma>
@@ -1186,6 +1187,7 @@
   <scheinfirma anschrift="1020 Wien, Taborstraße 32" veroeffentlicht="2025-08-18" rechtskraeftig="2025-08-07" seit="2024-11-11" fbnr="628697f" uid="ATU81390415" kennziffer="R149U165S">P.R. Piotre Rafi Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Laxenburger Straße 32" veroeffentlicht="2026-08-28" rechtskraeftig="2026-08-24" seit="2024-04-25" geburtsdatum="1966-10-12" uid="ATU80628625" kennziffer="R149G357E">PRAZIENKOVA Ivana</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Hammer-Purgstallgasse 5/15" veroeffentlicht="2016-05-23" rechtskraeftig="2016-05-23" fbnr="300737k" uid="ATU64284358">PRESTIJ GmbH</scheinfirma>
+  <scheinfirma anschrift="1020 Wien, Franzensbrückenstraße 14" veroeffentlicht="2026-09-21" rechtskraeftig="2026-09-04" seit="2025-12-03" fbnr="562574s" uid="ATU77220115" kennziffer="R130I390F">PrimoJob GmbH</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Martinstraße 10" veroeffentlicht="2026-04-21" rechtskraeftig="2026-04-09" seit="2025-01-30" fbnr="629741s" uid="ATU81079208" kennziffer="R149S841K">Princ Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Anton-Freunschlag-Gasse 47" veroeffentlicht="2023-07-27" rechtskraeftig="2023-06-27" fbnr="242458g" uid="ATU57640137">Printfactory Handel GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Fuchsenfeld 3/28/4" veroeffentlicht="2016-04-05" rechtskraeftig="2016-03-19" fbnr="385971f" uid="ATU67643847">PROFI BAT GmbH</scheinfirma>
