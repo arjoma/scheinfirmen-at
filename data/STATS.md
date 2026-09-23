@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-09-22T09:40:20 | 1640 | 2016-04-01 |
+| 2026-09-23T09:42:45 | 1641 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1690
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1640]
+    y-axis "Anzahl" 0 --> 1691
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1641]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -31,6 +31,7 @@ xychart-beta
 | ANTAL Tamas | ATU82694979 | 1140 Wien, Märzstraße 158/1-2 |
 | ASENOV Ivan |  | 1050 Wien, Margaretenstraße 102/1 |
 | ASZODI Gyula |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| BABAI Zsolt | ATU83028769 | 1190 Wien, Barawitzkagasse 32 |
 | BAICU Ionut |  | 1100 Wien, Kudlichgasse 23 |
 | BALOG Ferenc | ATU83102713 | 1190 Wien, Barawitzkagasse 32 |
 | BARABAS Istvan |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
@@ -42,7 +43,6 @@ xychart-beta
 | CARPACI Maria |  | 1210 Wien, Grellgasse 7 |
 | CSAGOLA Tamas | ATU79844046 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | DOMBROVSKIS Felikss | ATU83126118 | 1190 Wien, Heiligenstädter Straße 170 |
-| DORDE Ivica | ATU71924803 | 1160 Wien, Nauseagasse 28 |
 | ELD Bau GmbH | ATU78235447 | 2100 Korneuburg, Wiener Straße 25 |
 | FARKAS Gyula Roland | ATU67711906 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | GAL Erika |  | 1200 Wien, Gerhardusgasse 30/13 |
@@ -52,7 +52,6 @@ xychart-beta
 | HANEX Holding und Transport GmbH | ATU73840347 | 1230 Wien, Mellergasse 4 |
 | HERZ BAU GmbH | ATU82215103 | 2201 Hagenbrunn, Brünnerstraße 31 |
 | HESZLER Monika |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
-| ILIC Milos | ATU74122656 | 1050 Wien, Arbeitergasse 21/2-5 |
 | JG Hausbetreuung & Reinigungs GmbH | ATU76885658 | 1010 Wien, Marc-Aurel-Straße 7 |
 | KOPFSCHLÄGL Mate | ATU79318579 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KUSKUNTLA Prabhanjan Reddy | ATU83267126 | 1100 Wien, Kudlichgasse 23 |
@@ -71,7 +70,6 @@ xychart-beta
 | Nexaro GmbH | ATU82461667 | 1030 Wien, Kleistgasse 30/Top1 |
 | OLTEANU Ciprian |  | 1100 Wien, Kudlichgasse 23 |
 | PATEL Keval Jagdish | ATU83172816 | 1100 Wien, Kudlichgasse 23/14 |
-| PENEV Kiril |  | 1100 Wien, Herndlgasse 3 |
 | PRAZIENKOVA Ivana | ATU80628625 | 1100 Wien, Laxenburger Straße 32 |
 | PrimoJob GmbH | ATU77220115 | 1020 Wien, Franzensbrückenstraße 14 |
 | RADEV Angel Yuriev |  | 1120 Wien, Eckartsaugasse 5 |
