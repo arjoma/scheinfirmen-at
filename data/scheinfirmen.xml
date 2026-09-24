@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-23" zeit="09:42:45" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1641">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-09-24" zeit="09:33:47" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1642">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1063,6 +1063,7 @@
   <scheinfirma anschrift="1220 Wien, Am Krautgarten 23" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-21" seit="2023-06-19" geburtsdatum="1980-03-20" uid="ATU79581212" kennziffer="R141C212E">NIKOLOV Hristo Stanev</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Allerheiligenplatz 3" veroeffentlicht="2025-10-06" rechtskraeftig="2025-09-30" seit="2024-10-01" geburtsdatum="1996-09-29" uid="ATU81218656" kennziffer="R152D190E">NIKOLOV Ivan Veselinov</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 133" veroeffentlicht="2026-03-10" rechtskraeftig="2026-03-06" seit="2025-04-17" fbnr="481871i" uid="ATU72890927" kennziffer="R109P182O">Niobe Immobilien GmbH</scheinfirma>
+  <scheinfirma anschrift="1150 Wien, Europaplatz 2" veroeffentlicht="2026-09-24" rechtskraeftig="2026-08-07" seit="2025-10-07" fbnr="609384d" uid="ATU81255801" kennziffer="R141L238J">NITTIFIXX Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Hofherr-Schrantz-Gasse 2" veroeffentlicht="2020-12-18" rechtskraeftig="2020-12-11" fbnr="504282t" uid="ATU73961536">N.M.K. HandelsgesmbH</scheinfirma>
   <scheinfirma anschrift="2111 Tresdorf, Gewerbering 1" veroeffentlicht="2025-10-27" rechtskraeftig="2025-10-24" seit="2024-10-24" fbnr="446682k" uid="ATU70339724" kennziffer="R099I4073">NN Bau und Sanierung GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Elisenstraße 23" veroeffentlicht="2025-09-22" rechtskraeftig="2025-05-10" seit="2024-02-08" fbnr="427376w" uid="ATU69405547" kennziffer="R093W702F">NOMA Dienstleistungs KG</scheinfirma>

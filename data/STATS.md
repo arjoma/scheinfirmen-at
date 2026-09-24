@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-09-23T09:42:45 | 1641 | 2016-04-01 |
+| 2026-09-24T09:33:47 | 1642 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1691
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1641]
+    y-axis "Anzahl" 0 --> 1692
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1642]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -61,20 +61,18 @@ xychart-beta
 | M S Logistik KG | ATU79951937 | 5620 Schwarzach/Pongau, Salzachweg 6 |
 | MAHMOOD Atif | ATU73620637 | 7423 Pinkafeld, Gerbergasse 32/15 |
 | MARTINS DE CARVALHO Eduardo Miguel |  | 5550 Radstadt, Schloßstraße 45/1 |
-| MATYAS Erik | ATU82259903 | 1170 Wien, Hernalser Hauptstraße 9 |
 | MESZLER Csaba | ATU78746369 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | MEZEIOVA Katarina |  | 1100 Wien, Puchsbaumgasse 37/14 |
 | MLYNAROVIC Peter | ATU82338908 | 1160 Wien, Menzelgasse 11/4 |
 | MOLNAR Patrik |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | MÜLLER Tibor Laszlo |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| NITTIFIXX Handels GmbH | ATU81255801 | 1150 Wien, Europaplatz 2 |
 | Nexaro GmbH | ATU82461667 | 1030 Wien, Kleistgasse 30/Top1 |
 | OLTEANU Ciprian |  | 1100 Wien, Kudlichgasse 23 |
 | PATEL Keval Jagdish | ATU83172816 | 1100 Wien, Kudlichgasse 23/14 |
 | PRAZIENKOVA Ivana | ATU80628625 | 1100 Wien, Laxenburger Straße 32 |
 | PrimoJob GmbH | ATU77220115 | 1020 Wien, Franzensbrückenstraße 14 |
 | RADEV Angel Yuriev |  | 1120 Wien, Eckartsaugasse 5 |
-| SALAY Michal | ATU82277858 | 1170 Wien, Hernalser Hauptstraße 9 |
-| SIZ Handels GmbH | ATU74505458 | 1110 Wien, Simmeringer Hauptstraße 24 |
 | Scheumbauer Bau GmbH | ATU21389101 | 1190 Wien, Hackhofergasse 1 |
 | Sky Service GmbH | ATU73398824 | 1230 Wien, Rossakgasse 8 |
 | VEGH Tibor | ATU82817828 | 1200 Wien, Hartlgasse 20/10 |
