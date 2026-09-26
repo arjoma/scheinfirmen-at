@@ -48,9 +48,29 @@ class TestDiffRecords:
         assert diff.removed == [] and diff.added == []
         assert diff.changed == [(old[0], new[0])]
 
-    def test_different_dates_are_not_the_same_entity(self) -> None:
-        old = [_rec("A")]
-        new = [_rec("A", veroeffentlicht="2025-05-05")]
+    def test_corrected_rechtskraft_is_a_change(self) -> None:
+        # Real case (TRENDOV Dragi, 2026-08-12): Rechtskraft and Zeitpunkt corrected.
+        old = [_rec("TRENDOV Dragi", rechtskraeftig="2025-05-15", seit="2025-05-15")]
+        new = [_rec("TRENDOV Dragi", rechtskraeftig="2026-03-05", seit="2025-05-15")]
+        diff = diff_records(old, new)
+        assert diff.removed == [] and diff.added == []
+        assert len(diff.changed) == 1
+
+    def test_name_completion_is_a_change(self) -> None:
+        # Real case: "DJORDJEVIC" -> "DJORDJEVIC Anastasia"
+        old = [_rec("DJORDJEVIC", anschrift="1100 Wien, Gasse 1")]
+        new = [_rec("DJORDJEVIC Anastasia", anschrift="1100 Wien, Gasse 1")]
+        assert len(diff_records(old, new).changed) == 1
+
+    def test_same_name_different_person_is_not_a_change(self) -> None:
+        old = [_rec("HORVATH Daniel", geburtsdatum="1985-10-21", anschrift="Graz")]
+        new = [_rec("HORVATH Daniel", geburtsdatum="1992-03-31", anschrift="Linz")]
+        diff = diff_records(old, new)
+        assert len(diff.removed) == 1 and len(diff.added) == 1
+
+    def test_unrelated_records_are_not_matched(self) -> None:
+        old = [_rec("A", anschrift="Graz")]
+        new = [_rec("B", anschrift="Linz", veroeffentlicht="2025-05-05")]
         diff = diff_records(old, new)
         assert len(diff.removed) == 1 and len(diff.added) == 1
 

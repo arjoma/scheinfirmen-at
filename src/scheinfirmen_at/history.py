@@ -79,16 +79,24 @@ def _full_key(rec: Record) -> tuple[str | None, ...]:
 def _same_entity(old: Record, new: Record) -> bool:
     """Heuristic: is ``new`` an edited version of ``old``?
 
-    Edits seen in practice are name corrections (e.g. an encoding fix) or
-    corrected identifiers. Publication and legal-force dates never change,
-    so they must match, plus at least one identifying field.
+    Edits seen in practice: name corrections (an encoding fix, a first name
+    added, case changes), corrected identifiers and a corrected Rechtskraft
+    date. So a record counts as the same entity if
+
+    - the name is unchanged, or
+    - the publication date is unchanged and at least one identifying field
+      (address, UID, Firmenbuch-Nr, Kennziffer, birth date) still matches,
+
+    unless both carry a birth date and those differ (two different people
+    with the same name).
     """
-    if (old["veroeffentlicht"], old["rechtskraeftig"]) != (
-        new["veroeffentlicht"],
-        new["rechtskraeftig"],
-    ):
+    if old["geburtsdatum"] and new["geburtsdatum"] and old["geburtsdatum"] != new["geburtsdatum"]:
         return False
-    for name in ("name", "anschrift", "uid", "fbnr", "kennziffer"):
+    if old["name"] == new["name"]:
+        return True
+    if old["veroeffentlicht"] != new["veroeffentlicht"]:
+        return False
+    for name in ("anschrift", "uid", "fbnr", "kennziffer", "geburtsdatum"):
         if old[name] is not None and old[name] == new[name]:
             return True
     return False
