@@ -31,12 +31,12 @@ import re
 from dataclasses import dataclass
 
 from scheinfirmen_at.parse import ParseResult, ScheinfirmaRecord
-from scheinfirmen_at.validate import _RE_FIRMENBUCH, _RE_KENNZIFFER, _RE_UID
-
-# Generic EU-style VAT identifier: 2 country letters + digit/letter mix.
-# Loose on purpose — we only use it to *recognize* a foreign VAT placed in
-# the Kennziffer column. Strict per-country validation is out of scope.
-_RE_FOREIGN_VAT = re.compile(r"^[A-Z]{2}[A-Z0-9]{6,12}$")
+from scheinfirmen_at.validate import (
+    _RE_FIRMENBUCH,
+    _RE_FOREIGN_VAT,
+    _RE_KENNZIFFER,
+    _RE_UID,
+)
 
 # Firmenbuchnummer with an uppercase check letter (canonical form is lowercase).
 _RE_FIRMENBUCH_UPPER = re.compile(r"^\d{5,6}[A-Z]$")

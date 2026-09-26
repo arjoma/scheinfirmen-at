@@ -81,8 +81,7 @@ class TestComputeMonthlyStats:
             _make_record("A", date(2026, 1, 1)),
         ]
         rows = compute_monthly_stats(records)
-        assert rows[0].month_label == "2026-01"
-        assert rows[1].month_label == "2026-03"
+        assert [r.month_label for r in rows] == ["2026-01", "2026-02", "2026-03"]
 
     def test_skips_null_dates(self) -> None:
         records = [
@@ -120,9 +119,21 @@ class TestComputeMonthlyStats:
             _make_record("C", date(2026, 2, 1)),
         ]
         rows = compute_monthly_stats(records)
-        assert len(rows) == 3
+        # 2016-04 .. 2026-02 inclusive, gaps filled
+        assert len(rows) == 9 * 12 + 11
         assert rows[0].month_label == "2016-04"
+        assert rows[-1].month_label == "2026-02"
         assert rows[-1].total == 3
+
+    def test_gap_months_filled_with_zero(self) -> None:
+        records = [
+            _make_record("A", date(2025, 11, 5)),
+            _make_record("B", date(2026, 2, 5)),
+        ]
+        rows = compute_monthly_stats(records)
+        assert [r.month_label for r in rows] == ["2025-11", "2025-12", "2026-01", "2026-02"]
+        assert [r.additions for r in rows] == [1, 0, 0, 1]
+        assert [r.total for r in rows] == [1, 1, 1, 2]
 
 
 class TestFindRecentAdditions:
@@ -223,6 +234,11 @@ class TestRenderStatsMd:
         assert "## Neueste Scheinfirmen (letzte 30 Tage)" in md
         assert "| Firma A | ATU12345678 | 1010 Wien |" in md
         assert "| Firma B |  | 1020 Wien |" in md
+
+    def test_pipe_in_cell_is_escaped(self) -> None:
+        recent = [RecordInfo("A | B GmbH", None, "1010 Wien", date(2026, 2, 10))]
+        md = render_stats_md([], recent, "2026-02-18", 1)
+        assert "| A \\| B GmbH |  | 1010 Wien |" in md
 
     def test_no_recent_additions_message(self) -> None:
         md = render_stats_md([], [], "2026-01-05", 1)
@@ -340,3 +356,22 @@ class TestGenerateStats:
         output = tmp_path / "STATS.md"
         generate_stats(jsonl, output)
         assert not output.exists()
+
+    def test_recent_window_and_oldest_date_follow_data(self, tmp_path: Path) -> None:
+        """The report depends only on the data file: the 30-day window is
+        anchored at Stand (not the wall clock) and the first entry is the
+        actual oldest publication date (not the first of its month)."""
+        jsonl = tmp_path / "sf.jsonl"
+        lines = [
+            {"_metadata": {"stand": "2020-03-10T09:00:00", "count": 2}},
+            {"name": "Alt", "anschrift": "Wien", "veroeffentlicht": "2019-05-17"},
+            {"name": "Neu", "anschrift": "Graz", "veroeffentlicht": "2020-03-01"},
+        ]
+        jsonl.write_text("\n".join(json.dumps(x) for x in lines) + "\n", encoding="utf-8")
+        output = tmp_path / "STATS.md"
+        generate_stats(jsonl, output)
+
+        content = output.read_text(encoding="utf-8")
+        assert "| 2019-05-17 |" in content
+        assert "| Neu |  | Graz |" in content
+        assert "| Alt |" not in content

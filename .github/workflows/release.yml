@@ -21,6 +21,14 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Check tag matches pyproject version
+        run: |
+          VERSION=$(grep -m1 '^version = ' pyproject.toml | cut -d'"' -f2)
+          if [ "v$VERSION" != "$GITHUB_REF_NAME" ]; then
+            echo "ERROR: tag $GITHUB_REF_NAME does not match pyproject version v$VERSION" >&2
+            exit 1
+          fi
+
       - name: Install uv
         uses: astral-sh/setup-uv@v7
 
@@ -28,7 +36,7 @@ jobs:
         run: uv python install 3.12
 
       - name: Install dependencies
-        run: uv sync --dev
+        run: uv sync --locked
 
       - name: Run tests
         run: uv run pytest tests/ -v

@@ -12,8 +12,9 @@ from scheinfirmen_at.parse import ParseResult, ScheinfirmaRecord
 _RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _RE_UID = re.compile(r"^ATU\d{8}$")
 # Foreign EU VAT-style identifier: 2 country letters + alphanumeric tail.
-# Used to accept non-Austrian VAT numbers (e.g. RO, DE) that the BMF
-# occasionally publishes for cross-border shell entities.
+# Loose on purpose: used to accept non-Austrian VAT numbers (e.g. RO, DE)
+# that the BMF occasionally publishes for cross-border shell entities, and
+# by normalize.py to recognize them in the Kennziffer column.
 _RE_FOREIGN_VAT = re.compile(r"^[A-Z]{2}[A-Z0-9]{6,12}$")
 _RE_FIRMENBUCH = re.compile(r"^\d{5,6}[a-zA-Z]$")
 _RE_KENNZIFFER = re.compile(r"^R\d{3}[A-Z]\d{3,4}[A-Z0-9]?$")

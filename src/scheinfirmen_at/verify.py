@@ -8,6 +8,9 @@ import json
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+# Cap on reported schema errors so a systematic problem doesn't flood the log.
+_MAX_SCHEMA_ERRORS = 20
+
 
 def verify_outputs(
     csv_path: str | Path,
@@ -94,12 +97,26 @@ def verify_schemas(
         try:
             with open(json_schema_path, encoding="utf-8") as f:
                 schema = json.load(f)
+            validator_cls = jsonschema.validators.validator_for(schema)
+            validator = validator_cls(schema, format_checker=validator_cls.FORMAT_CHECKER)
+            schema_errors = 0
             with open(jsonl_path, encoding="utf-8") as f:
-                for _i, line in enumerate(f, 1):
+                for line_no, line in enumerate(f, 1):
                     obj = json.loads(line)
-                    if "$schema" in obj:
+                    if "_metadata" in obj:
                         continue
-                    jsonschema.validate(instance=obj, schema=schema)
+                    for err in validator.iter_errors(obj):
+                        schema_errors += 1
+                        if schema_errors <= _MAX_SCHEMA_ERRORS:
+                            path = "/".join(str(p) for p in err.absolute_path) or "<root>"
+                            errors.append(
+                                f"JSONL Schema Error: line {line_no} [{path}]: {err.message}"
+                            )
+            if schema_errors > _MAX_SCHEMA_ERRORS:
+                errors.append(
+                    f"JSONL Schema Error: {schema_errors - _MAX_SCHEMA_ERRORS} "
+                    "further error(s) not shown"
+                )
         except Exception as exc:
             errors.append(f"JSONL Validation failed: {exc}")
     except ImportError:
@@ -112,7 +129,7 @@ def _count_csv(path: Path) -> tuple[int, list[str]]:
     """Return (data row count, [first_name, last_name]) from a CSV output file."""
     names: list[str] = []
     with path.open(encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(line for line in f if not line.startswith("#"))
+        reader = csv.DictReader(f)
         for row in reader:
             names.append(row.get("Name", ""))
     count = len(names)

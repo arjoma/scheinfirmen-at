@@ -21,18 +21,22 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 - `src/scheinfirmen_at/` — Main package (zero runtime dependencies, stdlib only)
 - `download.py` — HTTP download from BMF with retry/backoff
 - `parse.py` — Tilde-CSV parsing, ISO-8859-1 decode, date conversion, HTML entity cleanup
+- `normalize.py` — Auto-correct known BMF data-entry quirks (runs before validation)
 - `validate.py` — Strict field validation with errors/warnings
 - `convert.py` — Output to CSV (UTF-8 BOM), JSONL ($schema), XML
 - `schema.py` — JSON Schema dict and XSD string constants + write functions
 - `verify.py` — Cross-format verification & schema validation (XSD/JSON Schema)
+- `stats.py` — `STATS.md` report (monthly totals chart, last 30 days)
 - `cli.py` — argparse CLI orchestrating the full pipeline
 
 ## Data Source
 
 - URL: https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp
 - Encoding: ISO-8859-1, Delimiter: ~, Line endings: CRLF
-- ~1270 rows, 9 columns
-- Footer line: Stand: DD.MM.YYYY HH:MM:SS
+- ~1650 rows (growing), 9 columns
+- Footer line: Stand: DD.MM.YYYY HH:MM:SS — generated **per request** (it is the
+  download time, not the time the data last changed). The nightly workflow therefore
+  ignores timestamp-only diffs.
 
 ## Known Data Quirks (BMF quality issues)
 
@@ -40,13 +44,13 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 - Column 4 (Zeitpunkt) has a trailing space in every value — strip
 - One Kennziffer field contains HTML-encoded &quot; wrapping — unescape + strip quotes
 - BMF data-entry quirks in UID/Kennziffer/Firmenbuch are auto-corrected by `normalize.py` before validation. Six rules: swap UID↔Kennziffer, swap Firmenbuch↔Kennziffer (e.g. Kennziffer `R120R501J` typed into Firmenbuch column), clear Kennziffer when it duplicates UID, clear Kennziffer when it duplicates Firmenbuch-Nr, promote a foreign EU VAT number from Kennziffer into the UID field, lowercase an uppercase Firmenbuch check letter (e.g. `436634I` → `436634i`).
-- Validation of UID, Firmenbuch-Nr, and Kennziffer format mismatches is a *warning* (not an error) — BMF data is authoritative and the nightly should never abort on a single oddly-formatted value.
+- Validation of UID, Firmenbuch-Nr, and Kennziffer format mismatches is a *warning* (not an error) — BMF data is authoritative and the nightly should never abort on a single oddly-formatted value. Keep the JSON Schema / XSD in line with this: they must not enforce `pattern`s for these fields, otherwise the verify step turns the warning into a fatal error.
 - UID validator accepts both Austrian (ATU + 8 digits) and generic EU VAT (`[A-Z]{2}[A-Z0-9]{6,12}`, e.g. RO/DE/IT) formats. Anything else → warning (not error).
 - One Kennziffer has unusual format RO38488384 — handled by the foreign-VAT-promotion rule above.
 
 ## Output Formats
 
-- **CSV**: UTF-8 with BOM, comma delimiter, # Stand: comment first line
+- **CSV**: UTF-8 with BOM, comma delimiter, header row first (no comment line)
 - **JSONL**: metadata object on first line (incl. `$schema` link), then one JSON object per record
 - **XML**: `<scheinfirmen>` root with stand/zeit/quelle/anzahl attributes, `<scheinfirma>` children (name as text content, all other fields as attributes)
 - Dates converted to ISO 8601 (YYYY-MM-DD)
@@ -59,7 +63,7 @@ To publish a new release to PyPI:
 1. **Update version** in `pyproject.toml` (`version = "X.Y.Z"`)
 2. **Write changelog entry** in `CHANGELOG.md` (German, following existing format)
 3. **Commit and push** to `main`
-4. **Wait for CI** — check that the CI workflow on `main` passes (ruff, mypy, pytest on 3.10/3.11/3.12). Do not tag a broken build.
+4. **Wait for CI** — check that the CI workflow on `main` passes (ruff, mypy, pytest on Python 3.10/3.13, Ubuntu + Windows). Do not tag a broken build.
 5. **Tag and push** — `git tag v<X.Y.Z> && git push origin v<X.Y.Z>`
    - The `release.yml` workflow triggers on `v*` tags
    - It runs tests again, builds the wheel, and publishes to PyPI via Trusted Publishing (OIDC)
@@ -79,7 +83,7 @@ Check the release at https://pypi.org/p/scheinfirmen-at after the workflow compl
 The CSV output is intentionally compatible with Microsoft Excel:
 - **UTF-8 BOM** (`\ufeff`, `utf-8-sig` encoding) — Excel uses this to auto-detect UTF-8;
   without it, Excel on Windows opens the file as Windows-1252 and mangles German umlauts
-- The `# Stand:` comment line appears before the header; Excel will treat it as a data row,
-  but this is acceptable since the file is primarily for programmatic use
+- No comment line before the header (removed in 1.2.0), so Excel detects the header row;
+  the Stand timestamp lives in the JSONL metadata and the XML root attributes
 - Note: the BOM prefix is not part of the CSV standard (RFC 4180), but is the de-facto
   standard for Excel-compatible UTF-8 CSVs

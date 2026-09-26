@@ -54,8 +54,12 @@ JSON_SCHEMA: dict[str, object] = {
         },
         "fbnr": {
             "type": ["string", "null"],
-            "description": "Company register number (Firmenbuchnummer)",
-            "pattern": r"^\d{5,6}[a-zA-Z]$",
+            "description": (
+                "Company register number (Firmenbuchnummer), normally 5-6 "
+                "digits followed by a lowercase check letter. Not enforced "
+                "by pattern: the BMF list is authoritative and unusual "
+                "values are passed through (reported as validation warnings)."
+            ),
         },
         "uid": {
             "type": ["string", "null"],
@@ -63,9 +67,10 @@ JSON_SCHEMA: dict[str, object] = {
                 "VAT identification number (UID-Nummer). Normally Austrian "
                 "(ATU + 8 digits), but the BMF list occasionally contains "
                 "foreign EU VAT numbers (e.g. RO…, DE…) which the "
-                "normalization step preserves in this field."
+                "normalization step preserves in this field. Not enforced "
+                "by pattern: unusual values are passed through (reported "
+                "as validation warnings)."
             ),
-            "pattern": r"^[A-Z]{2}[A-Z0-9]{6,12}$",
         },
         "kennziffer": {
             "type": ["string", "null"],

@@ -8,7 +8,8 @@ Automatischer Download und Konvertierung der österreichischen BMF **Scheinfirme
 (Liste der Scheinunternehmen) in maschinenlesbare Formate.
 
 > [!NOTE]
-> Die Daten werden täglich um ca. 3:15 Uhr früh (MEZ) automatisch aktualisiert.
+> Die Daten werden täglich automatisch aktualisiert (geplant 02:15 UTC; GitHub Actions
+> startet geplante Läufe teils mehrere Stunden verspätet).
 > Siehe [**Statistik & neueste Einträge**](data/STATS.md) für den neuesten Stand.
 
 > [!WARNING]
@@ -140,7 +141,7 @@ for rec in result.records:
 ```bash
 # Repository klonen
 git clone https://github.com/arjoma/scheinfirmen-at.git
-cd scheinfirmen-oesterreich
+cd scheinfirmen-at
 
 # Abhängigkeiten installieren (uv)
 uv sync
@@ -168,9 +169,11 @@ nach UID) konsistente Daten erhalten:
 | Regel | Beispiel (BMF-Eingabe) | Korrektur |
 |-------|------------------------|-----------|
 | **UID ↔ Kennziffer tauschen** | `uid="R134I594W"`, `kennziffer=""` | → `uid=null`, `kennziffer="R134I594W"` |
+| **Firmenbuch ↔ Kennziffer tauschen** | `fbnr="R120R501J"`, `kennziffer=""` | → `fbnr=null`, `kennziffer="R120R501J"` |
 | **Doppelten UID-Wert in Kennziffer löschen** | `uid="ATU80457319"`, `kennziffer="ATU80457319"` | → `kennziffer=null` |
 | **Doppelten Firmenbuch-Wert in Kennziffer löschen** | `fbnr="636821b"`, `kennziffer="636821b"` | → `kennziffer=null` |
 | **Ausländische EU-VAT-Nummer in UID übernehmen** | `kennziffer="RO38488384"`, `uid=null` | → `uid="RO38488384"`, `kennziffer=null` |
+| **Firmenbuch-Prüfbuchstabe kleinschreiben** | `fbnr="436634I"` | → `fbnr="436634i"` |
 
 Erkannte Fixe werden mit `WARNING: NORMALIZE: …` ins Log geschrieben.
 Die UID-Spalte wird auch für Nicht-AT-VAT-Nummern offen gehalten

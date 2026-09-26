@@ -163,3 +163,29 @@ def test_verify_schemas_invalid_jsonl(tmp_path: Path) -> None:
     errors = verify_schemas(jsonl_p, xml_p, schema_p, xsd_p)
     jsonl_errors = [e for e in errors if "JSONL" in e]
     assert len(jsonl_errors) > 0
+
+
+def test_verify_schemas_reports_every_bad_line(tmp_path: Path) -> None:
+    """All schema violations are reported, each with its JSONL line number."""
+    schema_p = tmp_path / "schema.json"
+    xsd_p = tmp_path / "schema.xsd"
+    write_json_schema(schema_p)
+    write_xsd(xsd_p)
+
+    good = {
+        "name": "Ok GmbH", "anschrift": "Wien", "veroeffentlicht": "2024-01-01",
+        "rechtskraeftig": "2024-01-01", "seit": None, "geburtsdatum": None,
+        "fbnr": None, "uid": None, "kennziffer": None,
+    }
+    jsonl_p = tmp_path / "bad.jsonl"
+    with jsonl_p.open("w", encoding="utf-8") as f:
+        f.write(json.dumps({"$schema": "x", "_metadata": {"stand": "2024-01-01"}}) + "\n")
+        f.write(json.dumps(good) + "\n")
+        f.write(json.dumps({**good, "anschrift": ""}) + "\n")  # line 3
+        f.write(json.dumps({**good, "seit": "2024-13-45"}) + "\n")  # line 4: bad date
+
+    xml_p = tmp_path / "missing.xml"  # XML side is irrelevant here
+    errors = [e for e in verify_schemas(jsonl_p, xml_p, schema_p, xsd_p) if "JSONL" in e]
+    assert len(errors) == 2
+    assert "line 3 [anschrift]" in errors[0]
+    assert "line 4 [seit]" in errors[1]

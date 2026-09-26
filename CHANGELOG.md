@@ -5,6 +5,20 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [Unreleased]
+
+### Behoben
+- **Nightly-Update bricht nicht mehr ab, wenn eine Firmenbuch-Nr oder UID ungewöhnlich formatiert ist.** Die Validierung meldet solche Werte nur als Warnung, das JSON-Schema erzwang aber weiterhin ein `pattern` — der Verify-Schritt machte daraus einen fatalen Fehler. Die `pattern`-Einschränkungen für `fbnr` und `uid` wurden aus dem JSON-Schema entfernt (analog zu `kennziffer` und zur XSD).
+- **Statistik:** „Erster Eintrag" zeigt jetzt das tatsächliche älteste Veröffentlichungsdatum statt des Monatsersten.
+- **Statistik:** Monate ohne neue Einträge werden im Verlaufsdiagramm mit 0 aufgefüllt, damit die Zeitachse linear ist.
+- **Statistik:** `|` in Namen/Adressen wird in der Markdown-Tabelle escaped.
+
+### Geändert
+- **Statistik:** Das Fenster „letzte 30 Tage" richtet sich nach dem Stand-Datum der Daten statt nach der Systemuhr (reproduzierbar).
+- **Verifizierung:** JSON-Schema-Prüfung meldet alle Verstöße (max. 20) mit JSONL-Zeilennummer und Feld, statt beim ersten abzubrechen; `format: date` wird jetzt ebenfalls geprüft.
+- **Workflows:** `uv sync --locked` (Lockfile muss aktuell sein); das tägliche Update läuft nie parallel zu sich selbst.
+- **Dokumentation:** README/CLAUDE.md/TODO.md an den aktuellen Stand angepasst (alle sechs Normalize-Regeln, CI-Matrix, kein `# Stand:`-Kommentar in der CSV).
+
 ## [1.5.2] - 2026-07-24
 
 ### Behoben

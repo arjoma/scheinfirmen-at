@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -26,7 +30,7 @@ jobs:
         run: uv python install 3.12
 
       - name: Install package
-        run: uv sync
+        run: uv sync --locked
 
       - name: Download, validate, and convert Scheinfirmen data
         run: uv run scheinfirmen-at --output-dir data/ --stats data/STATS.md --verbose

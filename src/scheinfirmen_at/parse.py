@@ -37,7 +37,7 @@ class ScheinfirmaRecord:
     seit: str | None  # ISO 8601 or None
     geburtsdatum: str | None  # ISO 8601 or None (only for natural persons)
     fbnr: str | None
-    uid: str | None  # ATUxxxxxxxx or None
+    uid: str | None  # ATUxxxxxxxx (or foreign EU VAT) or None
     kennziffer: str | None
 
 
@@ -65,6 +65,18 @@ def _convert_date(date_str: str) -> str:
 def _clean_field(value: str) -> str:
     """Strip whitespace and unescape HTML entities."""
     return html.unescape(value).strip()
+
+
+def _opt(value: str) -> str | None:
+    """Clean an optional field; empty → None."""
+    cleaned = _clean_field(value)
+    return cleaned if cleaned else None
+
+
+def _opt_date(value: str) -> str | None:
+    """Clean and convert an optional date field; empty → None."""
+    cleaned = _clean_field(value)
+    return _convert_date(cleaned) if cleaned else None
 
 
 def _clean_kennziffer(value: str) -> str | None:
@@ -95,9 +107,6 @@ def parse_bmf_csv(raw_data: bytes, encoding: str = "iso-8859-1") -> ParseResult:
     # Normalize line endings
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     lines = text.split("\n")
-
-    if not lines:
-        raise ValueError("Empty input: no lines found")
 
     # --- Validate header ---
     raw_headers = lines[0].split("~")
@@ -136,23 +145,15 @@ def parse_bmf_csv(raw_data: bytes, encoding: str = "iso-8859-1") -> ParseResult:
                 f"Line {line_no}: expected 9 fields, got {len(fields)}: {line!r}"
             )
 
-        def opt(v: str) -> str | None:
-            cleaned = _clean_field(v)
-            return cleaned if cleaned else None
-
-        def opt_date(v: str) -> str | None:
-            cleaned = _clean_field(v)
-            return _convert_date(cleaned) if cleaned else None
-
         record = ScheinfirmaRecord(
             name=_clean_field(fields[0]),
             anschrift=_clean_field(fields[1]),
             veroeffentlicht=_convert_date(_clean_field(fields[2])),
             rechtskraeftig=_convert_date(_clean_field(fields[3])),
-            seit=opt_date(fields[4]),
-            geburtsdatum=opt_date(fields[5]),
-            fbnr=opt(fields[6]),
-            uid=opt(fields[7]),
+            seit=_opt_date(fields[4]),
+            geburtsdatum=_opt_date(fields[5]),
+            fbnr=_opt(fields[6]),
+            uid=_opt(fields[7]),
             kennziffer=_clean_kennziffer(fields[8]),
         )
         records.append(record)

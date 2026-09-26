@@ -75,7 +75,8 @@ def parse_jsonl_records(jsonl_path: Path) -> tuple[list[RecordInfo], str, int]:
 def compute_monthly_stats(records: list[RecordInfo]) -> list[MonthRow]:
     """Group records by calendar month of veroeffentlicht, compute cumulative totals.
 
-    Only records with a veroeffentlicht date are included.
+    Only records with a veroeffentlicht date are included. Months without
+    additions between the first and last month are included with 0.
     Returns rows sorted chronologically (oldest first).
     """
     month_counts: dict[tuple[int, int], int] = {}
@@ -88,10 +89,14 @@ def compute_monthly_stats(records: list[RecordInfo]) -> list[MonthRow]:
     if not month_counts:
         return []
 
+    # Walk every calendar month from first to last (including months without
+    # additions) so the chart's x-axis is linear in time.
     rows: list[MonthRow] = []
     cumulative = 0
-    for year, month in sorted(month_counts.keys()):
-        additions = month_counts[(year, month)]
+    year, month = min(month_counts)
+    last = max(month_counts)
+    while (year, month) <= last:
+        additions = month_counts.get((year, month), 0)
         cumulative += additions
         rows.append(
             MonthRow(
@@ -101,6 +106,7 @@ def compute_monthly_stats(records: list[RecordInfo]) -> list[MonthRow]:
                 total=cumulative,
             )
         )
+        year, month = (year + 1, 1) if month == 12 else (year, month + 1)
 
     return rows
 
@@ -121,6 +127,11 @@ def find_recent_additions(
         if rec.veroeffentlicht is not None and rec.veroeffentlicht > cutoff
     ]
     return sorted(recent, key=lambda r: r.name)
+
+
+def _md_cell(value: str) -> str:
+    """Escape a value for use inside a Markdown table cell."""
+    return value.replace("|", "\\|")
 
 
 def render_stats_md(
@@ -178,8 +189,8 @@ def render_stats_md(
         lines.append("| Name | UID | Anschrift |")
         lines.append("|------|-----|-----------|")
         for rec in recent:
-            uid = rec.uid or ""
-            lines.append(f"| {rec.name} | {uid} | {rec.anschrift} |")
+            cells = [_md_cell(rec.name), _md_cell(rec.uid or ""), _md_cell(rec.anschrift)]
+            lines.append(f"| {' | '.join(cells)} |")
     else:
         lines.append("*Keine neuen Einträge in den letzten 30 Tagen.*\n")
 
@@ -196,10 +207,16 @@ def generate_stats(jsonl_path: Path, output_path: Path) -> None:
         return
 
     monthly = compute_monthly_stats(records)
-    today = date.today()
-    recent = find_recent_additions(records, days=30, today=today)
+    # Anchor the "last 30 days" window at the data's Stand date rather than
+    # the wall clock, so the report is a pure function of the data file.
+    try:
+        reference = date.fromisoformat(stand[:10])
+    except ValueError:
+        reference = date.today()
+    recent = find_recent_additions(records, days=30, today=reference)
 
-    oldest_date = monthly[0].month_start if monthly else None
+    dates = [r.veroeffentlicht for r in records if r.veroeffentlicht is not None]
+    oldest_date = min(dates) if dates else None
 
     md = render_stats_md(monthly, recent, stand, total, oldest_date)
     output_path.write_text(md, encoding="utf-8")

@@ -98,11 +98,9 @@ def test_cli_ok_message(tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> N
     assert "Stand:" in captured.out
 
 
-def test_cli_stats_nonfatal_without_git(tmp_path: Path) -> None:
-    """--stats in a non-git directory logs a warning but doesn't abort."""
+def test_cli_stats_writes_report(tmp_path: Path) -> None:
+    """--stats writes a Markdown report next to the data files."""
     stats_path = tmp_path / "STATS.md"
-    # tmp_path is not a git repo, so generate_stats will fail —
-    # but the CLI should still complete successfully
     main([
         "--input", str(SAMPLE_CSV),
         "-o", str(tmp_path),
@@ -110,8 +108,31 @@ def test_cli_stats_nonfatal_without_git(tmp_path: Path) -> None:
         "--stats", str(stats_path),
         *MIN_ROWS,
     ])
-    # Pipeline completed (didn't crash)
     assert (tmp_path / "scheinfirmen.csv").exists()
+    assert "# Scheinfirmen Österreich" in stats_path.read_text(encoding="utf-8")
+
+
+def test_cli_unusual_identifiers_do_not_abort(tmp_path: Path) -> None:
+    """Odd Firmenbuch/UID values are validation *warnings*; the schema check
+    in the verify step must not turn them into a fatal error."""
+    header = (
+        "Name~ Anschrift~ Veröffentlichung~ Rechtskraft Bescheid~"
+        " Zeitpunkt als Scheinunternehmen~ Geburts-Datum~"
+        " Firmenbuch-Nr~ UID-Nr.~ Kennziffer des UR "
+    )
+    rows = [
+        "Odd GmbH~1010 Wien, Ring 1~01.01.2026~01.01.2026~ ~~FN 12345 x~AT-U1234~",
+        "Stand: 02.01.2026 10:00:00",
+    ]
+    raw = tmp_path / "raw.csv"
+    raw.write_bytes(("\r\n".join([header, *rows]) + "\r\n").encode("iso-8859-1"))
+
+    out = tmp_path / "out"
+    main(["--input", str(raw), "-o", str(out), *MIN_ROWS])  # verify enabled
+
+    line = (out / "scheinfirmen.jsonl").read_text(encoding="utf-8").splitlines()[1]
+    assert '"fbnr": "FN 12345 x"' in line
+    assert '"uid": "AT-U1234"' in line
 
 
 @patch("scheinfirmen_at.cli.download_csv")
