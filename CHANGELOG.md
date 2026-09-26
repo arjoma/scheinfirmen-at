@@ -9,7 +9,7 @@ und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/d
 
 ### Hinzugefügt
 - **`geaendert`-Zeitstempel** in JSONL-Metadaten und XML-Wurzel (`xs:dateTime`): Zeitpunkt der letzten tatsächlichen Datenänderung. Hintergrund: Die „Stand"-Zeile erzeugt das BMF bei jedem Abruf neu, `stand` ist also nur der Download-Zeitpunkt.
-- **Abgänge-Protokoll `scheinfirmen-entfernt.jsonl`:** Einträge, die von der BMF-Liste verschwinden, werden mit Entfernungsdatum protokolliert; Namens-/Feldkorrekturen werden als Änderung erkannt, nicht als Abgang. Rückwirkend aus der Git-History befüllt (22 Abgänge seit Februar 2026, `scripts/backfill_removals.py`).
+- **Abgänge-Protokoll `scheinfirmen-entfernt.jsonl`:** Einträge, die von der BMF-Liste verschwinden, werden mit Entfernungsdatum protokolliert; Namens-/Feldkorrekturen werden als Änderung erkannt, nicht als Abgang. Rückwirkend aus der Git-History befüllt (21 Abgänge seit Februar 2026, `scripts/backfill_removals.py`).
 - **`STATS.md`:** Abschnitt „Entfernte Einträge (letzte 30 Tage)" mit Dauer auf der Liste; Kopfzeile zeigt „Letzte Änderung" und „Abgerufen".
 - **Schutz gegen abgeschnittene Downloads:** `--max-removals N` (Standard 25) bricht ab, bevor Ausgaben überschrieben werden, wenn zu viele Einträge auf einmal verschwinden. Im Workflow bei manuellem Start als Eingabe einstellbar.
 - **Plausibilitätswarnungen:** Rechtskraft nach Veröffentlichung, Zeitpunkt nach Rechtskraft, Datum nach Stand, unplausibles Alter bei natürlichen Personen, dieselbe UID/Firmenbuch-Nr/Kennziffer bei mehreren Einträgen.
