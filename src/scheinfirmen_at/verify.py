@@ -5,8 +5,11 @@
 
 import csv
 import json
+import logging
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+logger = logging.getLogger("scheinfirmen_at")
 
 # Cap on reported schema errors so a systematic problem doesn't flood the log.
 _MAX_SCHEMA_ERRORS = 20
@@ -69,8 +72,8 @@ def verify_schemas(
 ) -> list[str]:
     """Validate JSONL and XML files against their schemas.
 
-    Requires 'jsonschema' and 'lxml' packages. If not installed, this check is skipped
-    unless in a development/CI context.
+    Requires the optional 'jsonschema' and 'lxml' packages (dev dependencies).
+    If one is missing, that check is skipped with a logged warning.
     """
     errors: list[str] = []
 
@@ -88,7 +91,7 @@ def verify_schemas(
         except Exception as exc:
             errors.append(f"XML Validation failed to run: {exc}")
     except ImportError:
-        pass  # Optional dependency
+        logger.warning("XSD validation skipped: 'lxml' is not installed")
 
     # JSONL Validation
     try:
@@ -120,7 +123,7 @@ def verify_schemas(
         except Exception as exc:
             errors.append(f"JSONL Validation failed: {exc}")
     except ImportError:
-        pass  # Optional dependency
+        logger.warning("JSON Schema validation skipped: 'jsonschema' is not installed")
 
     return errors
 

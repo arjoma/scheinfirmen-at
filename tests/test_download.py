@@ -101,3 +101,19 @@ class TestDownloadCsv:
         assert mock_sleep.call_count == 2
         mock_sleep.assert_any_call(2.0)
         mock_sleep.assert_any_call(4.0)
+
+
+class TestDownloadRetryOnTruncatedBody:
+    @patch("scheinfirmen_at.download.time.sleep")
+    @patch("scheinfirmen_at.download.urllib.request.urlopen")
+    def test_incomplete_read_is_retried(self, mock_urlopen: MagicMock, _sleep: MagicMock) -> None:
+        import http.client
+
+        ok = MagicMock()
+        ok.read.return_value = b"data"
+        ok.__enter__ = lambda s: s
+        ok.__exit__ = MagicMock(return_value=False)
+        mock_urlopen.side_effect = [http.client.IncompleteRead(b"par"), ok]
+
+        assert download_csv(url="https://example.com/x.csv") == b"data"
+        assert mock_urlopen.call_count == 2

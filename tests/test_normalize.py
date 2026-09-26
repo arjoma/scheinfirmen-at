@@ -9,7 +9,6 @@ def _make_result(records: list[ScheinfirmaRecord]) -> ParseResult:
         records=records,
         stand_datum="2026-04-28",
         stand_zeit="07:00:00",
-        raw_row_count=len(records),
     )
 
 

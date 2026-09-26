@@ -183,3 +183,18 @@ def test_write_csv_creates_parent_dir(sample_result: ParseResult, tmp_path: Path
     path = tmp_path / "subdir" / "out.csv"
     write_csv(sample_result, path)
     assert path.exists()
+
+
+def test_geaendert_defaults_to_stand(sample_result: ParseResult, tmp_path: Path) -> None:
+    write_jsonl(sample_result, tmp_path / "a.jsonl")
+    meta = json.loads((tmp_path / "a.jsonl").read_text(encoding="utf-8").splitlines()[0])
+    assert meta["_metadata"]["geaendert"] == meta["_metadata"]["stand"]
+
+
+def test_geaendert_written_to_jsonl_and_xml(sample_result: ParseResult, tmp_path: Path) -> None:
+    write_jsonl(sample_result, tmp_path / "a.jsonl", geaendert="2020-01-02T03:04:05")
+    write_xml(sample_result, tmp_path / "a.xml", geaendert="2020-01-02T03:04:05")
+    meta = json.loads((tmp_path / "a.jsonl").read_text(encoding="utf-8").splitlines()[0])
+    assert meta["_metadata"]["geaendert"] == "2020-01-02T03:04:05"
+    root = ET.parse(tmp_path / "a.xml").getroot()
+    assert root.get("geaendert") == "2020-01-02T03:04:05"

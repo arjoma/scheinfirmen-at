@@ -17,7 +17,9 @@
 - [x] Tests für CLI (`test_cli.py`)
 - [x] CLI `--stats`: `STATS.md` mit Monatsverlauf und neuesten Einträgen
 - [x] Auto-Korrektur fehlplatzierter UID/Firmenbuch/Kennziffer-Werte (`normalize.py`)
+- [x] Abgänge protokollieren (`scheinfirmen-entfernt.jsonl`) und in `STATS.md` anzeigen
+- [x] `geaendert`-Zeitstempel (echter Datenstand statt BMF-Abrufzeit)
 
 ## Offen
-- [ ] `STATS.md`: Abgänge (gelöschte Einträge) aus der Git-History anzeigen
+- [ ] Atomares Schreiben: Ausgaben erst nach erfolgreicher Verifizierung ins Zielverzeichnis verschieben
 - [ ] SQLite-Output als zusätzliches Format

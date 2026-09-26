@@ -7,17 +7,13 @@ on:
 
 permissions:
   contents: read
-  id-token: write  # Required for PyPI Trusted Publishing (OIDC)
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  build-and-publish:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: pypi
-      url: https://pypi.org/p/scheinfirmen-at
     steps:
       - uses: actions/checkout@v6
 
@@ -43,6 +39,29 @@ jobs:
 
       - name: Build package
         run: uv build
+
+      - name: Upload distributions
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  # Separate job so the OIDC token (id-token: write) is only available to
+  # the step that actually publishes, not to tests or the build.
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/scheinfirmen-at
+    permissions:
+      id-token: write  # Required for PyPI Trusted Publishing (OIDC)
+    steps:
+      - name: Download distributions
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1

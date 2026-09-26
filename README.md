@@ -8,8 +8,8 @@ Automatischer Download und Konvertierung der österreichischen BMF **Scheinfirme
 (Liste der Scheinunternehmen) in maschinenlesbare Formate.
 
 > [!NOTE]
-> Die Daten werden täglich automatisch aktualisiert (geplant 02:15 UTC; GitHub Actions
-> startet geplante Läufe teils mehrere Stunden verspätet).
+> Die Daten werden zweimal täglich automatisch aktualisiert (geplant 06:17 und 14:17 UTC;
+> GitHub Actions startet geplante Läufe teils mehrere Stunden verspätet).
 > Siehe [**Statistik & neueste Einträge**](data/STATS.md) für den neuesten Stand.
 
 > [!WARNING]
@@ -31,7 +31,8 @@ missbraucht werden) unter:
 - **Webseite:** https://service.bmf.gv.at/service/allg/lsu/
 - **CSV:** https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp
 
-Die Daten stehen unter den Nutzungsbedingungen des BMF.
+Rechtsgrundlage der Veröffentlichung ist § 8 Sozialbetrugsbekämpfungsgesetz (SBBG).
+Zur Lizenz der Daten siehe [Lizenz](#lizenz).
 
 ## Output-Dateien
 
@@ -42,7 +43,8 @@ Die konvertierten und täglich aktualisierten Daten befinden sich im `data/` Ver
 | [`scheinfirmen.csv`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv) | CSV (UTF-8 mit BOM) | Komma-getrennt, Excel-kompatibel ([CSVW](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.csv-metadata.json)) |
 | [`scheinfirmen.jsonl`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.jsonl) | JSONL | Eine JSON-Zeile pro Eintrag, erste Zeile Metadaten ([Schema](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json)) |
 | [`scheinfirmen.xml`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xml) | XML | `<scheinfirma>`-Elemente mit Attributen ([XSD](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd)) |
-| [`STATS.md`](data/STATS.md) | Markdown | Statistiken, neue Einträge und Verlauf |
+| [`scheinfirmen-entfernt.jsonl`](https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen-entfernt.jsonl) | JSONL | Protokoll der von der Liste entfernten Einträge (siehe [Abgänge](#abgänge-entfernte-einträge)) |
+| [`STATS.md`](data/STATS.md) | Markdown | Statistiken, neue und entfernte Einträge, Verlauf |
 
 ### Datenfelder
 
@@ -59,6 +61,33 @@ Die konvertierten und täglich aktualisierten Daten befinden sich im `data/` Ver
 | `kennziffer` | String\|null | Kennziffer des Unternehmensregisters |
 
 Alle Datumsfelder sind im ISO-8601-Format (`YYYY-MM-DD`).
+
+### Metadaten: `stand` vs. `geaendert`
+
+Die erste JSONL-Zeile (`_metadata`) und das XML-Wurzelelement enthalten zwei Zeitstempel:
+
+| Feld | Bedeutung |
+|------|-----------|
+| `stand` | Die „Stand"-Zeile der BMF-CSV. Das BMF erzeugt sie **bei jedem Abruf neu** — sie ist also der Download-Zeitpunkt, nicht der Datenstand. (XML: `stand` + `zeit`) |
+| `geaendert` | Zeitpunkt, an dem sich die Einträge zuletzt tatsächlich geändert haben (ermittelt durch Vergleich mit dem vorherigen Stand). |
+
+Für „wie aktuell ist die Liste?" ist `geaendert` das richtige Feld.
+
+## Abgänge (entfernte Einträge)
+
+Das BMF entfernt Einträge wieder von der Liste. Das Tool vergleicht jeden Download mit
+dem vorherigen Stand und hängt verschwundene Einträge an
+`data/scheinfirmen-entfernt.jsonl` an — jeweils der vollständige letzte Datensatz plus
+Feld `entfernt` (Datum). Korrekturen (z. B. Schreibweise des Namens) werden als Änderung
+erkannt und *nicht* als Abgang gezählt. Das Protokoll wurde rückwirkend aus der
+Git-History ab Februar 2026 befüllt (`scripts/backfill_removals.py`).
+
+Beobachtung aus den bisherigen Daten: Die meisten Einträge verschwinden ziemlich genau
+**fünf Jahre nach der Veröffentlichung**; einige wenige bereits nach Tagen oder Wochen.
+Ältere Einträge (ab 2016) sind jedoch weiterhin gelistet — eine feste Regel ist das nicht.
+
+Als Schutz gegen abgeschnittene Downloads bricht das Update ab, wenn mehr als
+`--max-removals` Einträge (Standard: 25) auf einmal verschwinden; üblich sind 0–2 pro Tag.
 
 ## Voraussetzungen
 
@@ -105,6 +134,12 @@ scheinfirmen-at -o data/ -v
 
 # Lokale Datei konvertieren (kein Download)
 scheinfirmen-at --input rohdaten.csv -o output/
+
+# Statistik-Bericht erzeugen
+scheinfirmen-at -o data/ --stats data/STATS.md
+
+# Bewusst viele Abgänge zulassen (z. B. nach einer BMF-Bereinigung)
+scheinfirmen-at -o data/ --max-removals 500
 
 # Hilfe
 scheinfirmen-at --help
@@ -185,13 +220,21 @@ werden und in nachgelagerten Tools per UID auffindbar sein sollen.
 - **Abhängigkeiten:** Keine (reines Python stdlib, >= 3.10)
 - **Quell-Encoding:** ISO-8859-1 (Tilde-getrennt, CRLF)
 - **Output-Encoding:** UTF-8 (CSV mit BOM für Excel-Kompatibilität)
-- **Validierung:** Strenge Feldvalidierung mit Fehlern und Warnungen
+- **Validierung:** Strenge Feldvalidierung mit Fehlern und Warnungen, dazu
+  Plausibilitätswarnungen (Rechtskraft nach Veröffentlichung, Datum in der Zukunft,
+  unplausibles Alter, dieselbe UID/Firmenbuch-Nr/Kennziffer bei mehreren Einträgen)
+- **Änderungsverfolgung:** Vergleich mit dem vorherigen Stand (`geaendert`, Abgänge,
+  Schutz gegen abgeschnittene Downloads)
 - **Daten-Reparatur:** Auto-Korrektur fehlplatzierter UID/Kennziffer/Firmenbuch-Werte (siehe oben)
 - **Schema-Prüfung:** Automatische Validierung gegen XSD (XML) und JSON Schema (JSONL)
 - **Verifizierung:** Kreuz-Format-Prüfung (alle Formate müssen gleiche Zeilenanzahl haben)
 
 ## Lizenz
 
-Apache License 2.0 — siehe [LICENSE](LICENSE)
+**Code:** Apache License 2.0 — siehe [LICENSE](LICENSE)
 
-Die Scheinfirmenliste selbst ist eine öffentliche Verwaltungsinformation des BMF Österreich.
+**Daten:** Die Scheinfirmenliste ist eine amtliche Veröffentlichung des BMF gemäß
+§ 8 SBBG. Das BMF gibt dafür keine ausdrückliche Lizenz an. Als amtliche Bekanntmachung
+genießt sie voraussichtlich keinen urheberrechtlichen Schutz (§ 7 UrhG) — dies ist keine
+Rechtsberatung. Rechtsverbindlich ist ausschließlich die Liste auf der BMF-Website.
+Dieselbe Angabe steht als `dc:rights` in den CSVW-Metadaten.

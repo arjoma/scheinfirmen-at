@@ -6,79 +6,67 @@
 import json
 from pathlib import Path
 
+from scheinfirmen_at.fields import FIELDS, Field
+
+JSON_SCHEMA_URL = (
+    "https://raw.githubusercontent.com/arjoma/"
+    "scheinfirmen-at/main/data/scheinfirmen.json-schema.json"
+)
+XSD_URL = "https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd"
+
+# The BMF states no licence for the list. It is published under a statutory
+# obligation (§ 8 SBBG); as an official announcement it is most likely not
+# protected by copyright (§ 7 UrhG). We state exactly that — no more.
+DATA_RIGHTS_DE = (
+    "Amtliche Veröffentlichung des BMF gemäß § 8 SBBG. Das BMF gibt keine "
+    "ausdrückliche Lizenz an; als amtliche Bekanntmachung genießt die Liste "
+    "voraussichtlich keinen urheberrechtlichen Schutz (§ 7 UrhG). "
+    "Rechtsverbindlich ist ausschließlich die Liste auf der BMF-Website."
+)
+
+
+def _json_property(f: Field) -> dict[str, object]:
+    prop: dict[str, object] = {"type": "string" if f.required else ["string", "null"]}
+    if f.kind == "date":
+        prop["format"] = "date"
+    prop["description"] = f.description_en
+    if f.required and f.kind == "string":
+        prop["minLength"] = 1
+    return prop
+
+
+def _csvw_column(f: Field) -> dict[str, object]:
+    datatype: object = (
+        {"base": "date", "format": "yyyy-MM-dd"} if f.kind == "date" else "string"
+    )
+    return {
+        "name": f.name,
+        "titles": f.csv_title,
+        "datatype": datatype,
+        "required": f.required,
+        "dc:description": f.description_de,
+    }
+
+
+def _xsd_attribute(f: Field) -> str:
+    xs_type = "xs:date" if f.kind == "date" else "xs:string"
+    use = ' use="required"' if f.required else ""
+    return f'        <xs:attribute name="{f.name}" type="{xs_type}"{use}/>'
+
+
 # JSON Schema (Draft 2020-12)
 JSON_SCHEMA: dict[str, object] = {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": (
-        "https://raw.githubusercontent.com/arjoma/"
-        "scheinfirmen-at/main/data/scheinfirmen.json-schema.json"
-    ),
+    "$id": JSON_SCHEMA_URL,
     "title": "Scheinfirma",
     "description": (
         "A company or person listed on the Austrian BMF Scheinfirmen "
         "(shell company) list"
     ),
     "type": "object",
-    "required": ["name", "anschrift", "veroeffentlicht", "rechtskraeftig"],
+    "required": [f.name for f in FIELDS if f.required],
     "additionalProperties": False,
-    "properties": {
-        "name": {
-            "type": "string",
-            "description": "Name of the company or natural person",
-            "minLength": 1,
-        },
-        "anschrift": {
-            "type": "string",
-            "description": "Address (PLZ Ort, Strasse Nr)",
-            "minLength": 1,
-        },
-        "veroeffentlicht": {
-            "type": "string",
-            "format": "date",
-            "description": "Publication date (ISO 8601)",
-        },
-        "rechtskraeftig": {
-            "type": "string",
-            "format": "date",
-            "description": "Date the decree became legally binding (ISO 8601)",
-        },
-        "seit": {
-            "type": ["string", "null"],
-            "format": "date",
-            "description": "Date designated as shell company (ISO 8601)",
-        },
-        "geburtsdatum": {
-            "type": ["string", "null"],
-            "format": "date",
-            "description": "Birth date for natural persons (ISO 8601)",
-        },
-        "fbnr": {
-            "type": ["string", "null"],
-            "description": (
-                "Company register number (Firmenbuchnummer), normally 5-6 "
-                "digits followed by a lowercase check letter. Not enforced "
-                "by pattern: the BMF list is authoritative and unusual "
-                "values are passed through (reported as validation warnings)."
-            ),
-        },
-        "uid": {
-            "type": ["string", "null"],
-            "description": (
-                "VAT identification number (UID-Nummer). Normally Austrian "
-                "(ATU + 8 digits), but the BMF list occasionally contains "
-                "foreign EU VAT numbers (e.g. RO…, DE…) which the "
-                "normalization step preserves in this field. Not enforced "
-                "by pattern: unusual values are passed through (reported "
-                "as validation warnings)."
-            ),
-        },
-        "kennziffer": {
-            "type": ["string", "null"],
-            "description": (
-                "Register reference code (Kennziffer des Unternehmensregisters)"
-            ),
-        },
-    },
+    "properties": {f.name: _json_property(f) for f in FIELDS},
 }
 
 # CSVW metadata (W3C CSV on the Web)
@@ -92,84 +80,20 @@ CSVW_METADATA: dict[str, object] = {
         "veröffentlicht vom BMF Österreich"
     ),
     "dc:source": "https://service.bmf.gv.at/service/allg/lsu/",
-    "dc:license": {"@id": "https://creativecommons.org/publicdomain/mark/1.0/"},
+    "dc:rights": DATA_RIGHTS_DE,
     "dialect": {
         "encoding": "utf-8",
         "lineTerminators": ["\r\n", "\n"],
         "header": True,
         "skipRows": 0,
     },
-    "tableSchema": {
-        "columns": [
-            {
-                "name": "name",
-                "titles": "Name",
-                "datatype": "string",
-                "required": True,
-                "dc:description": "Name des Unternehmens oder der natürlichen Person",
-            },
-            {
-                "name": "anschrift",
-                "titles": "Anschrift",
-                "datatype": "string",
-                "required": True,
-                "dc:description": "Adresse (PLZ Ort, Straße Nr)",
-            },
-            {
-                "name": "veroeffentlicht",
-                "titles": "Veröffentlichung",
-                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
-                "required": True,
-                "dc:description": "Veröffentlichungsdatum",
-            },
-            {
-                "name": "rechtskraeftig",
-                "titles": "Rechtskräftig",
-                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
-                "required": True,
-                "dc:description": "Datum der Rechtskraft des Bescheids",
-            },
-            {
-                "name": "seit",
-                "titles": "Seit",
-                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
-                "required": False,
-                "dc:description": "Zeitpunkt als Scheinunternehmen",
-            },
-            {
-                "name": "geburtsdatum",
-                "titles": "Geburts-Datum",
-                "datatype": {"base": "date", "format": "yyyy-MM-dd"},
-                "required": False,
-                "dc:description": "Geburtsdatum (nur bei natürlichen Personen)",
-            },
-            {
-                "name": "fbnr",
-                "titles": "Firmenbuch-Nr",
-                "datatype": "string",
-                "required": False,
-                "dc:description": "Firmenbuchnummer",
-            },
-            {
-                "name": "uid",
-                "titles": "UID-Nr.",
-                "datatype": "string",
-                "required": False,
-                "dc:description": "UID-Nummer (Umsatzsteuer-Identifikationsnummer)",
-            },
-            {
-                "name": "kennziffer",
-                "titles": "Kennziffer des UR",
-                "datatype": "string",
-                "required": False,
-                "dc:description": "Kennziffer des Unternehmensregisters",
-            },
-        ],
-    },
+    "tableSchema": {"columns": [_csvw_column(f) for f in FIELDS]},
 }
 
-# XSD schema
-XSD_CONTENT = """\
+# XSD schema. The first field (name) is the element's text content; all
+# other fields are attributes.
+_XSD_ATTRIBUTES = "\n".join(_xsd_attribute(f) for f in FIELDS[1:])
+XSD_CONTENT = f"""\
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
@@ -178,24 +102,18 @@ XSD_CONTENT = """\
       <xs:sequence>
         <xs:element name="scheinfirma" type="ScheinfirmaType" maxOccurs="unbounded"/>
       </xs:sequence>
-      <xs:attribute name="stand"   type="xs:date"            use="required"/>
-      <xs:attribute name="zeit"    type="xs:time"            use="required"/>
-      <xs:attribute name="quelle"  type="xs:anyURI"          use="required"/>
-      <xs:attribute name="anzahl"  type="xs:positiveInteger" use="required"/>
+      <xs:attribute name="stand" type="xs:date" use="required"/>
+      <xs:attribute name="zeit" type="xs:time" use="required"/>
+      <xs:attribute name="geaendert" type="xs:dateTime"/>
+      <xs:attribute name="quelle" type="xs:anyURI" use="required"/>
+      <xs:attribute name="anzahl" type="xs:positiveInteger" use="required"/>
     </xs:complexType>
   </xs:element>
 
   <xs:complexType name="ScheinfirmaType">
     <xs:simpleContent>
       <xs:extension base="xs:string">
-        <xs:attribute name="anschrift"      type="xs:string" use="required"/>
-        <xs:attribute name="veroeffentlicht"      type="xs:date"   use="required"/>
-        <xs:attribute name="rechtskraeftig" type="xs:date"   use="required"/>
-        <xs:attribute name="seit"           type="xs:date"/>
-        <xs:attribute name="geburtsdatum"   type="xs:date"/>
-        <xs:attribute name="fbnr"           type="xs:string"/>
-        <xs:attribute name="uid"            type="xs:string"/>
-        <xs:attribute name="kennziffer"     type="xs:string"/>
+{_XSD_ATTRIBUTES}
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>

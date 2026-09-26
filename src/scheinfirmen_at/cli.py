@@ -11,10 +11,18 @@ from pathlib import Path
 from scheinfirmen_at import __version__
 from scheinfirmen_at.convert import write_csv, write_jsonl, write_xml
 from scheinfirmen_at.download import BMF_URL, download_csv
+from scheinfirmen_at.history import (
+    REMOVALS_FILENAME,
+    append_removals,
+    diff_records,
+    load_removals,
+    load_snapshot,
+    resolve_geaendert,
+)
 from scheinfirmen_at.normalize import normalize_field_swaps
 from scheinfirmen_at.parse import parse_bmf_csv
 from scheinfirmen_at.schema import write_csvw_metadata, write_json_schema, write_xsd
-from scheinfirmen_at.stats import generate_stats
+from scheinfirmen_at.stats import write_stats_for_result
 from scheinfirmen_at.validate import validate_records
 from scheinfirmen_at.verify import verify_outputs
 
@@ -59,6 +67,17 @@ def main(argv: list[str] | None = None) -> None:
         default=100,
         metavar="N",
         help="Minimum expected record count (default: 100)",
+    )
+    parser.add_argument(
+        "--max-removals",
+        type=int,
+        default=25,
+        metavar="N",
+        help=(
+            "Abort if more than N entries disappeared compared to the previous "
+            "output in DIR — guards against truncated downloads (default: 25; "
+            "the BMF list usually loses 0-2 entries per day)"
+        ),
     )
     parser.add_argument(
         "--skip-verify",
@@ -112,7 +131,7 @@ def main(argv: list[str] | None = None) -> None:
         sys.exit(1)
     logger.info(
         "Parsed %d records (Stand: %s %s)",
-        result.raw_row_count,
+        len(result.records),
         result.stand_datum,
         result.stand_zeit,
     )
@@ -144,7 +163,7 @@ def main(argv: list[str] | None = None) -> None:
 
     logger.info("Validation passed (%d warnings)", len(validation.warnings))
 
-    # --- Step 4: Write outputs ---
+    # --- Step 4: Compare with previous output (if any) ---
     out = args.output_dir
     csv_path = out / "scheinfirmen.csv"
     jsonl_path = out / "scheinfirmen.jsonl"
@@ -152,15 +171,45 @@ def main(argv: list[str] | None = None) -> None:
     json_schema_path = out / "scheinfirmen.json-schema.json"
     csvw_path = out / "scheinfirmen.csv-metadata.json"
     xsd_path = out / "scheinfirmen.xsd"
+    removals_path = out / REMOVALS_FILENAME
 
+    new_records = [rec.to_dict() for rec in result.records]
+    previous = load_snapshot(jsonl_path)
+    removed: list[dict[str, str | None]] = []
+    if previous is not None:
+        diff = diff_records(previous.records, new_records)
+        logger.info(
+            "Changes vs. previous output: %d added, %d removed, %d changed",
+            len(diff.added),
+            len(diff.removed),
+            len(diff.changed),
+        )
+        for old, new in diff.changed:
+            changed = {k: (old[k], new[k]) for k in old if old[k] != new[k]}
+            logger.info("CHANGED: %r: %s", old["name"], changed)
+        for rec in diff.removed:
+            logger.info("REMOVED: %r (veröffentlicht %s)", rec["name"], rec["veroeffentlicht"])
+        removed = diff.removed
+        if len(removed) > args.max_removals:
+            logger.error(
+                "%d entries disappeared (limit --max-removals=%d) — possibly a "
+                "truncated download; aborting without writing outputs",
+                len(removed),
+                args.max_removals,
+            )
+            sys.exit(1)
+    geaendert = resolve_geaendert(previous, new_records, result.stand)
+    logger.info("Data last changed: %s", geaendert)
+
+    # --- Step 5: Write outputs ---
     logger.info("Writing outputs to %s/", out)
     n_csv = write_csv(result, csv_path)
     logger.debug("Wrote %d rows to %s", n_csv, csv_path)
 
-    n_jsonl = write_jsonl(result, jsonl_path)
+    n_jsonl = write_jsonl(result, jsonl_path, geaendert=geaendert)
     logger.debug("Wrote %d rows to %s", n_jsonl, jsonl_path)
 
-    n_xml = write_xml(result, xml_path)
+    n_xml = write_xml(result, xml_path, geaendert=geaendert)
     logger.debug("Wrote %d rows to %s", n_xml, xml_path)
 
     write_json_schema(json_schema_path)
@@ -172,14 +221,18 @@ def main(argv: list[str] | None = None) -> None:
     write_xsd(xsd_path)
     logger.debug("Wrote XSD to %s", xsd_path)
 
-    # --- Step 5: Cross-format verification ---
+    if removed:
+        append_removals(removals_path, removed, result.stand_datum)
+        logger.info("Logged %d removal(s) to %s", len(removed), removals_path)
+
+    # --- Step 6: Cross-format verification ---
     if not args.skip_verify:
         logger.info("Verifying output consistency and schemas...")
         verify_errors = verify_outputs(
             csv_path,
             jsonl_path,
             xml_path,
-            result.raw_row_count,
+            len(result.records),
             json_schema_path=json_schema_path,
             xsd_path=xsd_path,
         )
@@ -188,17 +241,18 @@ def main(argv: list[str] | None = None) -> None:
                 logger.error("VERIFY ERROR: %s", ve)
             logger.error("Cross-format verification failed — outputs may be inconsistent")
             sys.exit(1)
-        logger.info("Verification passed: all formats contain %d records", result.raw_row_count)
+        logger.info("Verification passed: all formats contain %d records", len(result.records))
 
-    # --- Step 6: Stats report (optional) ---
+    # --- Step 7: Stats report (optional) ---
     if args.stats is not None:
         try:
-            generate_stats(jsonl_path.resolve(), args.stats.resolve())
+            removals = load_removals(removals_path) if removals_path.exists() else None
+            write_stats_for_result(result, args.stats, geaendert=geaendert, removals=removals)
         except Exception as exc:
             logger.warning("Stats generation failed (non-fatal): %s", exc)
 
     # --- Done ---
     print(
-        f"OK: wrote {result.raw_row_count} records to {out}/ "
+        f"OK: wrote {len(result.records)} records to {out}/ "
         f"(Stand: {result.stand_datum} {result.stand_zeit})"
     )

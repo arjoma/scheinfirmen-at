@@ -6,43 +6,15 @@
 import csv
 import json
 import xml.etree.ElementTree as ET
-from dataclasses import asdict
 from pathlib import Path
 
 from scheinfirmen_at.download import BMF_URL
-from scheinfirmen_at.parse import ParseResult, ScheinfirmaRecord
+from scheinfirmen_at.fields import FIELDS
+from scheinfirmen_at.parse import ParseResult
+from scheinfirmen_at.schema import JSON_SCHEMA_URL, XSD_URL
 
 # Human-readable German header names for CSV output
-CSV_HEADERS = [
-    "Name",
-    "Anschrift",
-    "Veröffentlichung",
-    "Rechtskräftig",
-    "Seit",
-    "Geburts-Datum",
-    "Firmenbuch-Nr",
-    "UID-Nr.",
-    "Kennziffer des UR",
-]
-
-# Mapping from dataclass field names to CSV/JSON keys
-_FIELD_ORDER = [
-    "name",
-    "anschrift",
-    "veroeffentlicht",
-    "rechtskraeftig",
-    "seit",
-    "geburtsdatum",
-    "fbnr",
-    "uid",
-    "kennziffer",
-]
-
-
-def _record_to_dict(rec: ScheinfirmaRecord) -> dict[str, str | None]:
-    """Convert a ScheinfirmaRecord to an ordered dict."""
-    d = asdict(rec)
-    return {k: d[k] for k in _FIELD_ORDER}
+CSV_HEADERS = [f.csv_title for f in FIELDS]
 
 
 def write_csv(result: ParseResult, output: str | Path) -> int:
@@ -63,17 +35,20 @@ def write_csv(result: ParseResult, output: str | Path) -> int:
         writer.writerow(CSV_HEADERS)
 
         for rec in result.records:
-            row = [v if v is not None else "" for v in _record_to_dict(rec).values()]
-            writer.writerow(row)
+            writer.writerow(["" if v is None else v for v in rec.to_dict().values()])
 
     return len(result.records)
 
 
-def write_jsonl(result: ParseResult, output: str | Path) -> int:
+def write_jsonl(
+    result: ParseResult, output: str | Path, geaendert: str | None = None
+) -> int:
     """Write records to a JSONL file (one JSON object per line).
 
     Format:
-    - Line 1: metadata object with _metadata key
+    - Line 1: metadata object with ``$schema`` and ``_metadata`` keys.
+      ``stand`` is the BMF timestamp (= download time); ``geaendert`` is the
+      time the record data last changed (defaults to ``stand``).
     - Lines 2+: one compact JSON object per record (None → null)
 
     Returns number of data rows written.
@@ -83,31 +58,34 @@ def write_jsonl(result: ParseResult, output: str | Path) -> int:
 
     with path.open("w", encoding="utf-8") as f:
         metadata = {
-            "$schema": "https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.json-schema.json",
+            "$schema": JSON_SCHEMA_URL,
             "_metadata": {
-                "stand": f"{result.stand_datum}T{result.stand_zeit}",
+                "stand": result.stand,
+                "geaendert": geaendert or result.stand,
                 "source": BMF_URL,
-                "count": result.raw_row_count,
+                "count": len(result.records),
             },
         }
         f.write(json.dumps(metadata, ensure_ascii=False) + "\n")
 
         for rec in result.records:
-            obj = _record_to_dict(rec)
-            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+            f.write(json.dumps(rec.to_dict(), ensure_ascii=False) + "\n")
 
     return len(result.records)
 
 
-def write_xml(result: ParseResult, output: str | Path) -> int:
+def write_xml(
+    result: ParseResult, output: str | Path, geaendert: str | None = None
+) -> int:
     """Write records to a pretty-printed XML file.
 
     Structure:
         <scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                       xsi:noNamespaceSchemaLocation="..."
                       stand="YYYY-MM-DD" zeit="HH:MM:SS"
+                      geaendert="YYYY-MM-DDTHH:MM:SS"
                       quelle="..." anzahl="N">
-          <scheinfirma anschrift="..." published="..." ...>Name</scheinfirma>
+          <scheinfirma anschrift="..." veroeffentlicht="..." ...>Name</scheinfirma>
         </scheinfirmen>
 
     Each record is a <scheinfirma> element with the name as text content
@@ -120,21 +98,15 @@ def write_xml(result: ParseResult, output: str | Path) -> int:
 
     root = ET.Element("scheinfirmen")
     root.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
-    root.set(
-        "xsi:noNamespaceSchemaLocation",
-        "https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd",
-    )
+    root.set("xsi:noNamespaceSchemaLocation", XSD_URL)
     root.set("stand", result.stand_datum)
     root.set("zeit", result.stand_zeit)
+    root.set("geaendert", geaendert or result.stand)
     root.set("quelle", BMF_URL)
-    root.set("anzahl", str(result.raw_row_count))
+    root.set("anzahl", str(len(result.records)))
 
     for rec in result.records:
-        attribs = {}
-        for field_name, value in _record_to_dict(rec).items():
-            if field_name == "name" or value is None:
-                continue
-            attribs[field_name] = value
+        attribs = {k: v for k, v in rec.to_dict().items() if k != "name" and v is not None}
         elem = ET.SubElement(root, "scheinfirma", attribs)
         elem.text = rec.name
 

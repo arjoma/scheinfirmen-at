@@ -4,9 +4,14 @@
 """Validate parsed Scheinfirma records."""
 
 import re
+from collections import defaultdict
 from dataclasses import dataclass
+from datetime import date
 
 from scheinfirmen_at.parse import ParseResult, ScheinfirmaRecord
+
+# Plausible age range (years) of a natural person at publication.
+_MIN_AGE, _MAX_AGE = 14, 100
 
 # Compiled validation regexes
 _RE_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -54,20 +59,21 @@ def validate_records(
 
     Errors:
     - Row count >= min_rows (sanity check against truncated/empty response)
-    - Name must be non-empty
-    - Anschrift must be non-empty
-    - Veröffentlichung must be a valid ISO date (YYYY-MM-DD)
-    - Rechtskraft Bescheid must be a valid ISO date
-    - Zeitpunkt: if present, must be valid ISO date
-    - Geburts-Datum: if present, must be valid ISO date
+    - Name and Anschrift must be non-empty
+    - Veröffentlichung and Rechtskraft must be valid ISO dates (YYYY-MM-DD)
+    - Zeitpunkt and Geburts-Datum: if present, must be valid ISO dates
 
-    Warnings (known BMF data quality issues):
+    Warnings (format — known BMF data quality issues):
     - Firmenbuch-Nr: if present and doesn't match digits + letter
     - Kennziffer: if present and doesn't match expected pattern
     - UID-Nr: if present and matches neither the Austrian pattern
       (ATU + 8 digits) nor a generic EU VAT pattern (e.g. RO…, DE…).
-      Foreign EU VATs are accepted silently because the BMF list
-      occasionally includes cross-border shell entities.
+
+    Warnings (plausibility):
+    - Rechtskraft after Veröffentlichung, or Zeitpunkt after Rechtskraft
+    - A date after the Stand date (i.e. in the future)
+    - Age at publication outside 14..100 years (natural persons)
+    - The same UID, Firmenbuch-Nr or Kennziffer on several records
     """
     errors: list[ValidationError] = []
     warnings: list[ValidationError] = []
@@ -83,16 +89,53 @@ def validate_records(
             )
         )
 
+    stand = _to_date(result.stand_datum)
     for row_idx, rec in enumerate(result.records, start=1):
-        row_errors, row_warnings = _validate_record(row_idx, rec)
+        row_errors, row_warnings = _validate_record(row_idx, rec, stand)
         errors.extend(row_errors)
         warnings.extend(row_warnings)
+
+    warnings.extend(_duplicate_identifier_warnings(result.records))
 
     return ValidationResult(errors=errors, warnings=warnings)
 
 
+def _to_date(value: str | None) -> date | None:
+    """Parse a strict ISO date (YYYY-MM-DD); None if absent or invalid."""
+    if value is None or not _RE_ISO_DATE.match(value):
+        return None
+    try:
+        return date.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def _duplicate_identifier_warnings(
+    records: list[ScheinfirmaRecord],
+) -> list[ValidationError]:
+    """Warn about UID/Firmenbuch/Kennziffer values shared by several rows."""
+    warnings: list[ValidationError] = []
+    for field_name in ("uid", "fbnr", "kennziffer"):
+        rows_by_value: dict[str, list[int]] = defaultdict(list)
+        for row_idx, rec in enumerate(records, start=1):
+            value = getattr(rec, field_name)
+            if value is not None:
+                rows_by_value[value].append(row_idx)
+        for value, rows in rows_by_value.items():
+            if len(rows) > 1:
+                warnings.append(
+                    ValidationError(
+                        row=rows[0],
+                        field=field_name,
+                        value=value,
+                        message=f"Same value on {len(rows)} rows: {rows}",
+                    )
+                )
+    return warnings
+
+
 def _validate_record(
-    row: int, rec: ScheinfirmaRecord
+    row: int, rec: ScheinfirmaRecord, stand: date | None = None
 ) -> tuple[list[ValidationError], list[ValidationError]]:
     """Validate a single record. Returns (errors, warnings)."""
     errors: list[ValidationError] = []
@@ -110,21 +153,36 @@ def _validate_record(
     if not rec.anschrift:
         err("anschrift", rec.anschrift, "Anschrift must not be empty")
 
-    # Required date fields
-    for field_name, value in [
-        ("veroeffentlicht", rec.veroeffentlicht),
-        ("rechtskraeftig", rec.rechtskraeftig),
+    # Date fields: required ones must be valid, optional ones valid if present
+    dates: dict[str, date | None] = {}
+    for field_name, value, required in [
+        ("veroeffentlicht", rec.veroeffentlicht, True),
+        ("rechtskraeftig", rec.rechtskraeftig, True),
+        ("seit", rec.seit, False),
+        ("geburtsdatum", rec.geburtsdatum, False),
     ]:
-        if not _RE_ISO_DATE.match(value):
+        dates[field_name] = parsed = _to_date(value)
+        if parsed is None and (required or value is not None):
             err(field_name, value, f"Expected ISO date YYYY-MM-DD, got {value!r}")
 
-    # Optional date fields
-    for field_name, opt_value in [
-        ("seit", rec.seit),
-        ("geburtsdatum", rec.geburtsdatum),
-    ]:
-        if opt_value is not None and not _RE_ISO_DATE.match(opt_value):
-            err(field_name, opt_value, f"Expected ISO date YYYY-MM-DD, got {opt_value!r}")
+    # Plausibility of dates (warnings only — BMF data is authoritative)
+    veroeff, rk, seit = dates["veroeffentlicht"], dates["rechtskraeftig"], dates["seit"]
+    geb = dates["geburtsdatum"]
+    if veroeff and rk and rk > veroeff:
+        warn("rechtskraeftig", rec.rechtskraeftig,
+             f"Rechtskraft after Veröffentlichung ({rec.veroeffentlicht})")
+    if seit and rk and seit > rk:
+        warn("seit", rec.seit, f"Zeitpunkt after Rechtskraft ({rec.rechtskraeftig})")
+    if stand:
+        for field_name in ("veroeffentlicht", "rechtskraeftig", "seit"):
+            d = dates[field_name]
+            if d and d > stand:
+                warn(field_name, d.isoformat(), f"Date is after Stand ({stand.isoformat()})")
+    if geb and veroeff:
+        age = (veroeff - geb).days / 365.25
+        if not _MIN_AGE <= age <= _MAX_AGE:
+            warn("geburtsdatum", rec.geburtsdatum,
+                 f"Implausible age at publication: {age:.0f} years")
 
     # UID-Nr format. Austrian (ATU + 8 digits) is the norm; foreign EU VAT
     # numbers (e.g. RO, DE) are accepted silently. Anything else → warning.

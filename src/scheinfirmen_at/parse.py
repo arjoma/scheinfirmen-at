@@ -8,18 +8,10 @@ import re
 from dataclasses import dataclass
 from datetime import datetime
 
+from scheinfirmen_at.fields import FIELD_NAMES, FIELDS
+
 # Expected column names after stripping whitespace
-EXPECTED_HEADERS = [
-    "Name",
-    "Anschrift",
-    "Veröffentlichung",
-    "Rechtskraft Bescheid",
-    "Zeitpunkt als Scheinunternehmen",
-    "Geburts-Datum",
-    "Firmenbuch-Nr",
-    "UID-Nr.",
-    "Kennziffer des UR",
-]
+EXPECTED_HEADERS = [f.bmf_header for f in FIELDS]
 
 _RE_STAND = re.compile(
     r"^Stand:\s+(\d{2}\.\d{2}\.\d{4})\s+(\d{2}:\d{2}:\d{2})\s*$"
@@ -40,15 +32,28 @@ class ScheinfirmaRecord:
     uid: str | None  # ATUxxxxxxxx (or foreign EU VAT) or None
     kennziffer: str | None
 
+    def to_dict(self) -> dict[str, str | None]:
+        """Return the record as a dict in canonical field order."""
+        return {name: getattr(self, name) for name in FIELD_NAMES}
+
 
 @dataclass
 class ParseResult:
     """Result of parsing the BMF CSV."""
 
     records: list[ScheinfirmaRecord]
-    stand_datum: str  # ISO 8601 date: YYYY-MM-DD
+    stand_datum: str  # ISO 8601 date: YYYY-MM-DD (BMF "Stand" = download time)
     stand_zeit: str  # HH:MM:SS
-    raw_row_count: int  # number of data rows found (before validation)
+
+    @property
+    def raw_row_count(self) -> int:
+        """Number of records (kept for backwards compatibility)."""
+        return len(self.records)
+
+    @property
+    def stand(self) -> str:
+        """Stand as ISO 8601 timestamp (YYYY-MM-DDTHH:MM:SS)."""
+        return f"{self.stand_datum}T{self.stand_zeit}"
 
 
 def _convert_date(date_str: str) -> str:
@@ -165,5 +170,4 @@ def parse_bmf_csv(raw_data: bytes, encoding: str = "iso-8859-1") -> ParseResult:
         records=records,
         stand_datum=stand_datum,
         stand_zeit=stand_zeit,
-        raw_row_count=len(records),
     )

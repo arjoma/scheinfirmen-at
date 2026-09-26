@@ -3,6 +3,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 from scheinfirmen_at.convert import write_csv, write_jsonl, write_xml
 from scheinfirmen_at.parse import ParseResult, ScheinfirmaRecord
 from scheinfirmen_at.schema import write_json_schema, write_xsd
@@ -77,7 +79,6 @@ def test_verify_spot_check_single_record(tmp_path: Path) -> None:
         ],
         stand_datum="2024-01-01",
         stand_zeit="10:00:00",
-        raw_row_count=1,
     )
     csv_p, jsonl_p, xml_p, js_p, xsd_p = _write_all(result, tmp_path)
     errors = verify_outputs(csv_p, jsonl_p, xml_p, 1, json_schema_path=js_p, xsd_path=xsd_p)
@@ -189,3 +190,18 @@ def test_verify_schemas_reports_every_bad_line(tmp_path: Path) -> None:
     assert len(errors) == 2
     assert "line 3 [anschrift]" in errors[0]
     assert "line 4 [seit]" in errors[1]
+
+
+def test_verify_schemas_warns_when_libraries_missing(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, caplog: pytest.LogCaptureFixture
+) -> None:
+    """Without lxml/jsonschema the checks are skipped, but not silently."""
+    import sys
+
+    monkeypatch.setitem(sys.modules, "lxml", None)
+    monkeypatch.setitem(sys.modules, "jsonschema", None)
+    with caplog.at_level("WARNING", logger="scheinfirmen_at"):
+        errors = verify_schemas(tmp_path / "a", tmp_path / "b", tmp_path / "c", tmp_path / "d")
+    assert errors == []
+    assert "'lxml' is not installed" in caplog.text
+    assert "'jsonschema' is not installed" in caplog.text

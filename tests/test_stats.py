@@ -10,6 +10,7 @@ from pathlib import Path
 from scheinfirmen_at.stats import (
     MonthRow,
     RecordInfo,
+    RemovalInfo,
     compute_monthly_stats,
     find_recent_additions,
     generate_stats,
@@ -375,3 +376,25 @@ class TestGenerateStats:
         assert "| 2019-05-17 |" in content
         assert "| Neu |  | Graz |" in content
         assert "| Alt |" not in content
+
+
+class TestRemovalsSection:
+    def test_no_section_without_log(self) -> None:
+        md = render_stats_md([], [], "2026-02-18T09:00:00", 1)
+        assert "Entfernte" not in md
+
+    def test_recent_removals_and_total(self) -> None:
+        removals = [
+            RemovalInfo("Alt GmbH", None, date(2021, 2, 1), date(2026, 2, 3)),
+            RemovalInfo("Uralt GmbH", "ATU1", date(2020, 1, 1), date(2025, 1, 1)),
+        ]
+        md = render_stats_md(
+            [], [], "2026-02-18T09:00:00", 1, removals=removals, reference=date(2026, 2, 18)
+        )
+        assert "| Alt GmbH |  | 2021-02-01 | 2026-02-03 | 5.0 |" in md
+        assert "Uralt GmbH" not in md  # older than 30 days
+        assert "Insgesamt 2 entfernte Einträge seit 2025-01-01" in md
+
+    def test_header_shows_last_change_and_download_time(self) -> None:
+        md = render_stats_md([], [], "2026-02-18T09:00:00", 7, geaendert="2026-02-01T08:00:00")
+        assert "| 2026-02-01T08:00:00 | 2026-02-18T09:00:00 | 7 |" in md

@@ -157,3 +157,78 @@ def test_cli_verify_failure_exits(mock_verify: MagicMock, tmp_path: Path) -> Non
     """CLI exits 1 when verification detects inconsistency."""
     with pytest.raises(SystemExit, match="1"):
         main(["--input", str(SAMPLE_CSV), "-o", str(tmp_path), *MIN_ROWS])
+
+
+def _write_raw(path: Path, rows: list[str], stand: str) -> Path:
+    header = (
+        "Name~ Anschrift~ Veröffentlichung~ Rechtskraft Bescheid~"
+        " Zeitpunkt als Scheinunternehmen~ Geburts-Datum~"
+        " Firmenbuch-Nr~ UID-Nr.~ Kennziffer des UR "
+    )
+    text = "\r\n".join([header, *rows, f"Stand: {stand}"]) + "\r\n"
+    path.write_bytes(text.encode("iso-8859-1"))
+    return path
+
+
+_ROW_A = "Alpha GmbH~1010 Wien, Ring 1~01.01.2021~01.12.2020~ ~~111111a~ATU11111111~"
+_ROW_B = "Beta GmbH~8010 Graz, Platz 2~02.02.2024~01.02.2024~ ~~222222b~ATU22222222~"
+_ROW_C = "Gamma GmbH~4020 Linz, Weg 3~03.03.2026~01.03.2026~ ~~333333c~ATU33333333~"
+
+
+def _metadata(out: Path) -> dict[str, object]:
+    import json
+
+    line = (out / "scheinfirmen.jsonl").read_text(encoding="utf-8").splitlines()[0]
+    meta = json.loads(line)["_metadata"]
+    assert isinstance(meta, dict)
+    return meta
+
+
+def test_cli_tracks_changes_and_removals(tmp_path: Path) -> None:
+    """Second run against the same output dir: geaendert is kept while the
+    data is unchanged, removals are logged, and STATS.md lists them."""
+    import json
+
+    out = tmp_path / "out"
+    raw1 = _write_raw(tmp_path / "r1.csv", [_ROW_A, _ROW_B], "01.04.2026 09:00:00")
+    main(["--input", str(raw1), "-o", str(out), *MIN_ROWS])
+    assert _metadata(out)["geaendert"] == "2026-04-01T09:00:00"
+
+    # Same data, new download time → geaendert unchanged, stand updated
+    raw2 = _write_raw(tmp_path / "r2.csv", [_ROW_A, _ROW_B], "02.04.2026 09:00:00")
+    main(["--input", str(raw2), "-o", str(out), *MIN_ROWS])
+    meta = _metadata(out)
+    assert meta["stand"] == "2026-04-02T09:00:00"
+    assert meta["geaendert"] == "2026-04-01T09:00:00"
+    assert not (out / "scheinfirmen-entfernt.jsonl").exists()
+
+    # Alpha removed, Gamma added
+    raw3 = _write_raw(tmp_path / "r3.csv", [_ROW_B, _ROW_C], "03.04.2026 09:00:00")
+    stats = out / "STATS.md"
+    main(["--input", str(raw3), "-o", str(out), "--stats", str(stats), *MIN_ROWS])
+    assert _metadata(out)["geaendert"] == "2026-04-03T09:00:00"
+    removed = [
+        json.loads(line)
+        for line in (out / "scheinfirmen-entfernt.jsonl").read_text(encoding="utf-8").splitlines()
+    ]
+    assert [(r["name"], r["entfernt"]) for r in removed] == [("Alpha GmbH", "2026-04-03")]
+    report = stats.read_text(encoding="utf-8")
+    assert "## Entfernte Einträge" in report
+    assert "| Alpha GmbH | ATU11111111 | 2021-01-01 | 2026-04-03 | 5.3 |" in report
+
+
+def test_cli_max_removals_aborts_without_writing(tmp_path: Path) -> None:
+    out = tmp_path / "out"
+    raw1 = _write_raw(tmp_path / "r1.csv", [_ROW_A, _ROW_B, _ROW_C], "01.04.2026 09:00:00")
+    main(["--input", str(raw1), "-o", str(out), *MIN_ROWS])
+    before = (out / "scheinfirmen.jsonl").read_bytes()
+
+    truncated = _write_raw(tmp_path / "r2.csv", [_ROW_A], "02.04.2026 09:00:00")
+    with pytest.raises(SystemExit, match="1"):
+        main(["--input", str(truncated), "-o", str(out), "--max-removals", "1", *MIN_ROWS])
+    assert (out / "scheinfirmen.jsonl").read_bytes() == before
+    assert not (out / "scheinfirmen-entfernt.jsonl").exists()
+
+    # A higher limit lets a deliberate mass removal through
+    main(["--input", str(truncated), "-o", str(out), "--max-removals", "2", *MIN_ROWS])
+    assert _metadata(out)["count"] == 1

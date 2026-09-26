@@ -5,8 +5,7 @@
       "Bash(wget:*)",
       "Bash(echo:*)",
       "Bash(iconv:*)",
-      "Bash(awk:*)",
-      "mcp__cclsp__rename_symbol"
+      "Bash(awk:*)"
     ]
   }
 }

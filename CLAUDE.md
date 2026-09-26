@@ -19,6 +19,9 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 ## Architecture
 
 - `src/scheinfirmen_at/` — Main package (zero runtime dependencies, stdlib only)
+- `fields.py` — **Single source of truth for the 9 record fields** (BMF header, CSV title,
+  type, descriptions). Parser headers, CSV headers, JSON Schema, CSVW and XSD are derived
+  from it; `tests/test_fields.py` keeps the dataclass and README field table in sync.
 - `download.py` — HTTP download from BMF with retry/backoff
 - `parse.py` — Tilde-CSV parsing, ISO-8859-1 decode, date conversion, HTML entity cleanup
 - `normalize.py` — Auto-correct known BMF data-entry quirks (runs before validation)
@@ -26,7 +29,11 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 - `convert.py` — Output to CSV (UTF-8 BOM), JSONL ($schema), XML
 - `schema.py` — JSON Schema dict and XSD string constants + write functions
 - `verify.py` — Cross-format verification & schema validation (XSD/JSON Schema)
-- `stats.py` — `STATS.md` report (monthly totals chart, last 30 days)
+- `history.py` — Diff against the previous JSONL output: `geaendert` timestamp,
+  removals log (`scheinfirmen-entfernt.jsonl`), `--max-removals` truncation guard.
+  Renames/corrections are matched as "changed", not removed.
+- `stats.py` — `STATS.md` report (monthly totals chart, last 30 days added/removed)
+- `scripts/backfill_removals.py` — one-off: rebuild the removals log from git history
 - `cli.py` — argparse CLI orchestrating the full pipeline
 
 ## Data Source
@@ -44,6 +51,9 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 - Column 4 (Zeitpunkt) has a trailing space in every value — strip
 - One Kennziffer field contains HTML-encoded &quot; wrapping — unescape + strip quotes
 - BMF data-entry quirks in UID/Kennziffer/Firmenbuch are auto-corrected by `normalize.py` before validation. Six rules: swap UID↔Kennziffer, swap Firmenbuch↔Kennziffer (e.g. Kennziffer `R120R501J` typed into Firmenbuch column), clear Kennziffer when it duplicates UID, clear Kennziffer when it duplicates Firmenbuch-Nr, promote a foreign EU VAT number from Kennziffer into the UID field, lowercase an uppercase Firmenbuch check letter (e.g. `436634I` → `436634i`).
+- Plausibility checks (Rechtskraft after Veröffentlichung, future dates, implausible age,
+  duplicate UID/Firmenbuch/Kennziffer) are warnings; ~10 fire on the current data.
+- Removals: ~1-2 per day; most entries disappear almost exactly 5 years after publication.
 - Validation of UID, Firmenbuch-Nr, and Kennziffer format mismatches is a *warning* (not an error) — BMF data is authoritative and the nightly should never abort on a single oddly-formatted value. Keep the JSON Schema / XSD in line with this: they must not enforce `pattern`s for these fields, otherwise the verify step turns the warning into a fatal error.
 - UID validator accepts both Austrian (ATU + 8 digits) and generic EU VAT (`[A-Z]{2}[A-Z0-9]{6,12}`, e.g. RO/DE/IT) formats. Anything else → warning (not error).
 - One Kennziffer has unusual format RO38488384 — handled by the foreign-VAT-promotion rule above.
@@ -51,8 +61,10 @@ uv run scheinfirmen-at --input path/to/local.csv -o data/  # Convert local file
 ## Output Formats
 
 - **CSV**: UTF-8 with BOM, comma delimiter, header row first (no comment line)
-- **JSONL**: metadata object on first line (incl. `$schema` link), then one JSON object per record
-- **XML**: `<scheinfirmen>` root with stand/zeit/quelle/anzahl attributes, `<scheinfirma>` children (name as text content, all other fields as attributes)
+- **JSONL**: metadata object on first line (incl. `$schema` link, `stand`, `geaendert`), then one JSON object per record
+- **XML**: `<scheinfirmen>` root with stand/zeit/geaendert/quelle/anzahl attributes, `<scheinfirma>` children (name as text content, all other fields as attributes)
+- **Removals log**: `scheinfirmen-entfernt.jsonl`, append-only, record + `entfernt` date
+- `stand` = BMF footer = download time; `geaendert` = last actual data change
 - Dates converted to ISO 8601 (YYYY-MM-DD)
 - Empty/null fields: empty string in CSV, null in JSON, attribute omitted in XML
 

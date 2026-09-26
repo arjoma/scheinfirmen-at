@@ -3,6 +3,7 @@
 
 """Download BMF Scheinfirmen CSV data."""
 
+import http.client
 import time
 import urllib.error
 import urllib.request
@@ -43,7 +44,9 @@ def download_csv(
             req = urllib.request.Request(url, headers={"User-Agent": _USER_AGENT})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.read()  # type: ignore[no-any-return]
-        except (urllib.error.URLError, OSError) as exc:
+        # HTTPException covers truncated bodies (IncompleteRead) and
+        # malformed responses, which are not OSErrors.
+        except (urllib.error.URLError, OSError, http.client.HTTPException) as exc:
             last_error = exc
     raise RuntimeError(
         f"Failed to download {url} after {retries} attempt(s): {last_error}"

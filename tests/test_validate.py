@@ -9,7 +9,6 @@ def _make_result(records: list[ScheinfirmaRecord], stand_datum: str = "2026-02-1
         records=records,
         stand_datum=stand_datum,
         stand_zeit="09:00:00",
-        raw_row_count=len(records),
     )
 
 
@@ -137,3 +136,45 @@ def test_validate_returns_validation_result(sample_result: ParseResult) -> None:
     assert isinstance(vr, ValidationResult)
     assert isinstance(vr.errors, list)
     assert isinstance(vr.warnings, list)
+
+
+def test_validate_impossible_calendar_date_is_error() -> None:
+    result = _make_result([_good_record(seit="2024-02-30")])
+    validation = validate_records(result, min_rows=1)
+    assert [e.field for e in validation.errors] == ["seit"]
+
+
+def test_validate_plausibility_warnings() -> None:
+    records = [
+        # Rechtskraft after Veröffentlichung (real case: probable year typo)
+        _good_record(name="A", veroeffentlicht="2025-01-09", rechtskraeftig="2026-01-25"),
+        # Zeitpunkt after Rechtskraft
+        _good_record(name="B", seit="2024-06-01"),
+        # 10 years old at publication
+        _good_record(name="C", geburtsdatum="2014-01-01"),
+    ]
+    validation = validate_records(_make_result(records, stand_datum="2026-02-10"), min_rows=1)
+    assert validation.ok
+    got = {(w.row, w.field) for w in validation.warnings}
+    # Row 1's Rechtskraft (2026-01-25) is before Stand 2026-02-10, so no future warning.
+    assert got == {(1, "rechtskraeftig"), (2, "seit"), (3, "geburtsdatum")}
+
+
+def test_validate_future_date_warning() -> None:
+    records = [_good_record(veroeffentlicht="2026-03-01", rechtskraeftig="2026-02-01")]
+    validation = validate_records(_make_result(records, stand_datum="2026-02-10"), min_rows=1)
+    assert validation.ok
+    assert [(w.field, w.value) for w in validation.warnings] == [("veroeffentlicht", "2026-03-01")]
+
+
+def test_validate_duplicate_identifier_warning() -> None:
+    records = [
+        _good_record(name="BARATH Peter", uid="ATU79831167", geburtsdatum="1980-05-21"),
+        _good_record(name="Andere GmbH"),
+        _good_record(name="BARATH Peter", uid="ATU79831167", geburtsdatum="2003-09-27"),
+    ]
+    validation = validate_records(_make_result(records), min_rows=1)
+    assert validation.ok
+    [w] = validation.warnings
+    assert (w.field, w.value, w.row) == ("uid", "ATU79831167", 1)
+    assert "[1, 3]" in w.message
