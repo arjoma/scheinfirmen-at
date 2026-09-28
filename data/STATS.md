@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-09-25T09:43:28 | 1651 | 2016-04-01 |
+| 2026-09-28T10:38:55 | 1652 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1701
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1651]
+    y-axis "Anzahl" 0 --> 1702
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1652]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -26,7 +26,6 @@ xychart-beta
 |------|-----|-----------|
 | ACSAI Geza |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | AGHOVA Simona |  | 1170 Wien, Wattgasse 73/8 |
-| ALHA Transport GmbH | ATU81027336 | 1200 Wien, Handelskai 102-112 |
 | AMREIN Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | ANTAL Tamas | ATU82694979 | 1140 Wien, Märzstraße 158/1-2 |
 | ASENOV Ivan |  | 1050 Wien, Margaretenstraße 102/1 |
@@ -50,13 +49,13 @@ xychart-beta
 | GAL Erika |  | 1200 Wien, Gerhardusgasse 30/13 |
 | GALDA Helga |  | 8262 Ilz, Neudorf bei Ilz 147 |
 | GREGUS Eva |  | 8262 Ilz, Neudorf bei Ilz 147 |
+| Gvtrans KG |  | 1140 Wien, Baumgartenstraße 63 |
 | HADJI Anouar | ATU82457912 | 1210 Wien, Brünner Straße 240/208 |
 | HANEX Holding und Transport GmbH | ATU73840347 | 1230 Wien, Mellergasse 4 |
 | HERZ BAU GmbH | ATU82215103 | 2201 Hagenbrunn, Brünnerstraße 31 |
 | HESZLER Monika |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | JG Hausbetreuung & Reinigungs GmbH | ATU76885658 | 1010 Wien, Marc-Aurel-Straße 7 |
 | KAJARI Jozsef |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
-| KOPFSCHLÄGL Mate | ATU79318579 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KOVACSNE TOTH  Emese |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KUSKUNTLA Prabhanjan Reddy | ATU83267126 | 1100 Wien, Kudlichgasse 23 |
 | LAKATOS Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
@@ -66,7 +65,6 @@ xychart-beta
 | M S Logistik KG | ATU79951937 | 5620 Schwarzach/Pongau, Salzachweg 6 |
 | MAHMOOD Atif | ATU73620637 | 7423 Pinkafeld, Gerbergasse 32/15 |
 | MARTINS DE CARVALHO Eduardo Miguel |  | 5550 Radstadt, Schloßstraße 45/1 |
-| MESZLER Csaba | ATU78746369 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | MEZEIOVA Katarina |  | 1100 Wien, Puchsbaumgasse 37/14 |
 | MLYNAROVIC Peter | ATU82338908 | 1160 Wien, Menzelgasse 11/4 |
 | MOLNAR Patrik |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
@@ -78,13 +76,10 @@ xychart-beta
 | OLAH Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | OLTEANU Ciprian |  | 1100 Wien, Kudlichgasse 23 |
 | PATEL Keval Jagdish | ATU83172816 | 1100 Wien, Kudlichgasse 23/14 |
-| PRAZIENKOVA Ivana | ATU80628625 | 1100 Wien, Laxenburger Straße 32 |
 | PrimoJob GmbH | ATU77220115 | 1020 Wien, Franzensbrückenstraße 14 |
 | RADEV Angel Yuriev |  | 1120 Wien, Eckartsaugasse 5 |
 | SZANYI Jozsef |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
-| Scheumbauer Bau GmbH | ATU21389101 | 1190 Wien, Hackhofergasse 1 |
 | Sky Service GmbH | ATU73398824 | 1230 Wien, Rossakgasse 8 |
-| VEGH Tibor | ATU82817828 | 1200 Wien, Hartlgasse 20/10 |
 | VELMA Mohan Reddy | ATU81406756 | 1110 Wien, Kudlichgasse 23 |
 | Wintageluxury GmbH | ATU82165336 | 1010 Wien, Jasomirgottstraße 4 |
 | YHY Taxi Cars GmbH | ATU81313918 | 1100 Wien, Inzersdorfer Straße 18 |
