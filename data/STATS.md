@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-09-30T10:28:23 | 1662 | 2016-04-01 |
+| 2026-10-01T10:51:02 | 1665 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1712
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 344, 360, 370, 380, 393, 397, 409, 419, 434, 443, 448, 452, 461, 462, 470, 486, 494, 502, 505, 507, 517, 531, 547, 563, 579, 588, 607, 635, 643, 657, 674, 687, 697, 719, 737, 758, 776, 785, 810, 843, 871, 927, 987, 1010, 1041, 1063, 1103, 1144, 1179, 1202, 1226, 1246, 1274, 1346, 1402, 1460, 1492, 1530, 1596, 1662]
+    y-axis "Anzahl" 0 --> 1715
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 343, 359, 369, 379, 392, 396, 408, 418, 433, 442, 447, 451, 460, 461, 469, 485, 493, 501, 504, 506, 516, 530, 546, 562, 578, 587, 606, 634, 642, 656, 673, 686, 696, 718, 736, 757, 775, 784, 809, 842, 870, 926, 986, 1009, 1040, 1062, 1102, 1143, 1178, 1201, 1225, 1245, 1273, 1345, 1401, 1459, 1491, 1529, 1595, 1661, 1665]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -27,6 +27,7 @@ xychart-beta
 | ACSAI Geza |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | AGHOVA Simona |  | 1170 Wien, Wattgasse 73/8 |
 | AMREIN Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| ANINI Projektentwicklungs GmbH | ATU71400548 | 1160 Wien, Koppstraße 43/6 |
 | ANTAL Tamas | ATU82694979 | 1140 Wien, Märzstraße 158/1-2 |
 | ASZODI Gyula |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | BABAI Zsolt | ATU83028769 | 1190 Wien, Barawitzkagasse 32 |
@@ -44,6 +45,7 @@ xychart-beta
 | DIMITROV Aleks |  | 1200 Wien, Hellwagstraße 32 |
 | DOLMANY Laszlo |  | 8262 Ilz, Neudorf bei Ilz 147 |
 | DOMBROVSKIS Felikss | ATU83126118 | 1190 Wien, Heiligenstädter Straße 170 |
+| Dr. HEGEDÜS György |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | FARKAS Gyula Roland | ATU67711906 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | GAL Erika |  | 1200 Wien, Gerhardusgasse 30/13 |
 | GALDA Helga |  | 8262 Ilz, Neudorf bei Ilz 147 |
@@ -52,13 +54,14 @@ xychart-beta
 | Gvtrans KG |  | 1140 Wien, Baumgartenstraße 63 |
 | HADJI Anouar | ATU82457912 | 1210 Wien, Brünner Straße 240/208 |
 | HANEX Holding und Transport GmbH | ATU73840347 | 1230 Wien, Mellergasse 4 |
+| HATTAB GmbH | ATU76839236 | 1170 Wien, Gschwandnergasse 37 |
 | HERZ BAU GmbH | ATU82215103 | 2201 Hagenbrunn, Brünnerstraße 31 |
 | HESZLER Monika |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | HORVATH Klaudia | ATU80596589 | 1150 Wien, Storchengasse 17 |
-| JG Hausbetreuung & Reinigungs GmbH | ATU76885658 | 1010 Wien, Marc-Aurel-Straße 7 |
 | KAJARI Jozsef |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KOVACSNE TOTH  Emese |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | Kielbau GmbH | ATU68733855 | 8041 Graz, Senefeldergasse 18 |
+| Klick Montage GmbH | ATU68361701 | 1230 Wien, Ketzergasse 65 |
 | LAKATOS Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | LEVINSKAS Alvidas |  | 1230 Wien, Ketzergasse 58 |
 | LIPTAI Zoltan | ATU80031957 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
