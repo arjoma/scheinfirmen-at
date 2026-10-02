@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-10-01T10:51:02 | 1665 | 2016-04-01 |
+| 2026-10-02T10:26:36 | 1667 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1715
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 343, 359, 369, 379, 392, 396, 408, 418, 433, 442, 447, 451, 460, 461, 469, 485, 493, 501, 504, 506, 516, 530, 546, 562, 578, 587, 606, 634, 642, 656, 673, 686, 696, 718, 736, 757, 775, 784, 809, 842, 870, 926, 986, 1009, 1040, 1062, 1102, 1143, 1178, 1201, 1225, 1245, 1273, 1345, 1401, 1459, 1491, 1529, 1595, 1661, 1665]
+    y-axis "Anzahl" 0 --> 1717
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 343, 359, 369, 379, 392, 396, 408, 418, 433, 442, 447, 451, 460, 461, 469, 485, 493, 501, 504, 506, 516, 530, 546, 562, 578, 587, 606, 634, 642, 656, 673, 686, 696, 718, 736, 757, 775, 784, 809, 842, 870, 926, 986, 1009, 1040, 1062, 1102, 1143, 1178, 1201, 1225, 1245, 1273, 1345, 1401, 1459, 1491, 1529, 1595, 1661, 1667]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -26,6 +26,7 @@ xychart-beta
 |------|-----|-----------|
 | ACSAI Geza |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | AGHOVA Simona |  | 1170 Wien, Wattgasse 73/8 |
+| ALDEMIROV Sider |  | 1200 Wien, Greiseneckergasse 6 |
 | AMREIN Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | ANINI Projektentwicklungs GmbH | ATU71400548 | 1160 Wien, Koppstraße 43/6 |
 | ANTAL Tamas | ATU82694979 | 1140 Wien, Märzstraße 158/1-2 |
@@ -58,6 +59,7 @@ xychart-beta
 | HERZ BAU GmbH | ATU82215103 | 2201 Hagenbrunn, Brünnerstraße 31 |
 | HESZLER Monika |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | HORVATH Klaudia | ATU80596589 | 1150 Wien, Storchengasse 17 |
+| ILIEV David |  | 1160 Wien, Hasnerstraße 82 |
 | KAJARI Jozsef |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | KOVACSNE TOTH  Emese |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | Kielbau GmbH | ATU68733855 | 8041 Graz, Senefeldergasse 18 |

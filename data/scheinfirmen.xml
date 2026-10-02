@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-01" zeit="10:51:02" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1665">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-02" zeit="10:26:36" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1667">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -44,6 +44,7 @@
   <scheinfirma anschrift="1150 Wien, Rauchfangkehrergasse 31/1" veroeffentlicht="2025-08-11" rechtskraeftig="2025-07-25" seit="2024-10-09" geburtsdatum="1976-01-05" uid="ATU81025347" kennziffer="R148O966G">AL ISA Hamoud</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Sechshauser Straße 87" veroeffentlicht="2026-03-02" rechtskraeftig="2026-02-24" seit="2024-07-12" geburtsdatum="1990-01-15" uid="ATU81782616" kennziffer="R151N696J">AL ISSA Ibrahim</scheinfirma>
   <scheinfirma anschrift="1070 Wien, Halbgasse 18" veroeffentlicht="2021-10-27" rechtskraeftig="2021-10-14" fbnr="477746v" uid="ATU72553257">Albertgasse 5 DG Projektentw GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Greiseneckergasse 6" veroeffentlicht="2026-10-02" rechtskraeftig="2026-10-01" seit="2026-06-10" geburtsdatum="1983-08-02" kennziffer="R162Y8902">ALDEMIROV Sider</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Muhrengasse 55" veroeffentlicht="2025-05-06" rechtskraeftig="2025-04-22" seit="2024-10-23" fbnr="638874x" kennziffer="R152Q097M">Alena Handelsges.m.b.H.</scheinfirma>
   <scheinfirma anschrift="2345 Brunn/Gebirge, Heinrich Bablik-Straße 17b" veroeffentlicht="2025-10-15" rechtskraeftig="2025-10-15" seit="2025-04-01" fbnr="599230x" uid="ATU79300123" kennziffer="R139A101Z">ALES GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Staglgasse 12" veroeffentlicht="2025-08-13" rechtskraeftig="2025-08-05" seit="2025-04-09" geburtsdatum="1995-01-17" uid="ATU81912316" kennziffer="R150R6539">ALEXANDRESCU-VLANGAR Ionut-Gabriel</scheinfirma>
@@ -695,6 +696,7 @@
   <scheinfirma anschrift="6130 Schwaz, Andreas-Hofer-Straße 5 0" veroeffentlicht="2024-08-30" rechtskraeftig="2024-08-09" seit="2024-05-18" fbnr="448300s" kennziffer="R099Z510D">ILEANA Immobilienvermittlung und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Arbeitergasse 21/2-5" veroeffentlicht="2026-08-24" rechtskraeftig="2026-08-24" seit="2023-04-21" geburtsdatum="1998-03-17" uid="ATU74122656" kennziffer="R115E7302">ILIC Milos</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-01-17" rechtskraeftig="2024-12-20" seit="2023-11-29" geburtsdatum="1989-03-17" uid="ATU80069514" kennziffer="R143T953O">ILIEV Aleksandar Petkov</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Hasnerstraße 82" veroeffentlicht="2026-10-02" rechtskraeftig="2026-09-26" seit="2026-04-14" geburtsdatum="2005-02-18" kennziffer="R162C934P">ILIEV David</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Blindengasse 16" veroeffentlicht="2025-03-28" rechtskraeftig="2025-03-25" seit="2023-11-20" geburtsdatum="2002-08-10" uid="ATU80030547" kennziffer="R143N009L">ILIEV Ilia Vesov</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gellertgasse 16" veroeffentlicht="2024-01-24" rechtskraeftig="2023-09-06" fbnr="218655b" uid="ATU53996403">ILJU Projekt GmbH</scheinfirma>
   <scheinfirma anschrift="7071 Rust, Am Seekanal 8" veroeffentlicht="2026-01-27" rechtskraeftig="2026-01-20" seit="2024-03-10" fbnr="618766a" uid="ATU80715567" kennziffer="R145R472Q">Ilmaser GmbH</scheinfirma>
