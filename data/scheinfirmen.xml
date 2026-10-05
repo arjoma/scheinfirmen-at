@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-02" zeit="10:26:36" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1667">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-05" zeit="10:57:01" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1671">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -136,6 +136,7 @@
   <scheinfirma anschrift="1060 Wien, Schmalzhofgasse 19" veroeffentlicht="2022-07-04" rechtskraeftig="2022-06-30" geburtsdatum="1975-02-10" uid="ATU73730046">AYITLA Tirupati</scheinfirma>
   <scheinfirma anschrift="2340 Mödling, Josefsgasse 4/2" veroeffentlicht="2018-04-24" rechtskraeftig="2018-04-14" fbnr="385004h" uid="ATU67469349">A-Z Reinigungsservice GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 85" veroeffentlicht="2024-08-30" rechtskraeftig="2024-08-16" seit="2023-12-07" fbnr="616412p" uid="ATU80431702" kennziffer="R143U5550">AZHAR Trading GmbH</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Hasnerstraße 82" veroeffentlicht="2026-10-05" rechtskraeftig="2026-09-28" seit="2026-02-11" fbnr="588416v" uid="ATU78633926" kennziffer="R136I9241">A4 Energy GmbH</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Semperstraße 6" veroeffentlicht="2020-03-10" rechtskraeftig="2020-02-20" fbnr="376647v" uid="ATU68126306">B &amp; B Bau Service KG</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Mellergasse 4" veroeffentlicht="2023-08-01" rechtskraeftig="2023-07-21" fbnr="190247a" uid="ATU60787777">BAB Lanzer GmbH</scheinfirma>
   <scheinfirma anschrift="1030 Wien, Keinergasse 18/21" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-02" seit="2024-11-16" geburtsdatum="2000-08-03" uid="ATU81061556" kennziffer="R151K027U">BABAI Andras</scheinfirma>
@@ -710,6 +711,7 @@
   <scheinfirma anschrift="1150 Wien, Märzstraße 60" veroeffentlicht="2021-01-25" rechtskraeftig="2020-12-29" fbnr="417924w" uid="ATU69276838">InterCon CE GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Spengergasse 52/8" veroeffentlicht="2026-04-23" rechtskraeftig="2026-04-21" seit="2025-09-02" fbnr="629962s" uid="ATU82573528" kennziffer="R150N5617">IPH Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Inzersdorfer Straße 97/33" veroeffentlicht="2026-04-23" rechtskraeftig="2026-04-18" seit="2025-04-17" geburtsdatum="2002-08-06" fbnr="662879y" uid="ATU82077217" kennziffer="R158I1373">IQBAL ZAFAR Muhammad Zohaib</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Kahlgasse 3" veroeffentlicht="2026-10-05" rechtskraeftig="2026-09-24" seit="2025-08-13" geburtsdatum="1990-03-10" uid="ATU74140404" kennziffer="R102Z868S">IRFAQ Abdul</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2025-03-05" rechtskraeftig="2025-02-28" seit="2024-01-23" geburtsdatum="1971-04-15" uid="ATU80775626" kennziffer="R146G996B">ISAKOV Asen</scheinfirma>
   <scheinfirma anschrift="2620 Neunkirchen, Triesterstraße 53" veroeffentlicht="2025-04-01" rechtskraeftig="2025-03-19" seit="2024-03-01" fbnr="595471v" uid="ATU78948114" kennziffer="R138A165Z">ISOL GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2026-03-06" rechtskraeftig="2026-03-02" seit="2023-12-21" fbnr="615908y" uid="ATU81026248" kennziffer="R144E802B">ISSO-Instant Staff Solution GmbH in Liquidation</scheinfirma>
@@ -1234,6 +1236,7 @@
   <scheinfirma anschrift="2000 Stockerau, Schießstattgasse 7a" veroeffentlicht="2019-09-12" rechtskraeftig="2019-08-30" fbnr="309004v" uid="ATU73311203">CELLCOM e.U. Inh: LAH Ivan</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 397" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-11" fbnr="431777t" uid="ATU69530046">Royal Akustik GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Opernring 1, R745-R748" veroeffentlicht="2025-11-25" rechtskraeftig="2025-11-11" seit="2025-03-11" fbnr="578013w" uid="ATU78134779" kennziffer="R133U475Y">R &amp; G Raumausstattung GmbH</scheinfirma>
+  <scheinfirma anschrift="2500 Baden, Mühlgasse 2-4" veroeffentlicht="2026-10-05" rechtskraeftig="2026-10-02" seit="2026-03-17" fbnr="381569g" uid="ATU67330747" kennziffer="R069S403R">R &amp; R Consulting GmbH</scheinfirma>
   <scheinfirma anschrift="3562 Schönberg, Hauptstraße 29" veroeffentlicht="2019-07-23" rechtskraeftig="2019-07-17" fbnr="504171d" uid="ATU73921857">R &amp; S Interline KG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Rotenturmstraße 24" veroeffentlicht="2026-08-18" rechtskraeftig="2026-08-05" seit="2026-01-07" fbnr="599512k" uid="ATU79388404" kennziffer="R139E7010">R. Sarko 1 Souvenirs GmbH</scheinfirma>
   <scheinfirma anschrift="4030 Linz, Simonystraße 1a" veroeffentlicht="2021-04-21" rechtskraeftig="2021-04-08" fbnr="424066b" uid="ATU69422403">RAC GmbH</scheinfirma>
@@ -1482,6 +1485,7 @@
   <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-09-24" rechtskraeftig="2026-08-31" seit="2024-05-03" geburtsdatum="1989-12-11">SZANYI Jozsef</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Schlösselgasse 11" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-27" fbnr="522510y" uid="ATU75099126">Szarlitt Bau KG</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Franzensbrückenstraße 14" veroeffentlicht="2025-04-23" rechtskraeftig="2025-04-16" seit="2024-11-18" fbnr="571264w" uid="ATU77837708" kennziffer="R132L5138">Szekely Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Leebgasse 45/1C" veroeffentlicht="2026-10-05" rechtskraeftig="2026-10-01" seit="2026-03-27" geburtsdatum="1982-10-23" uid="ATU83215637" kennziffer="R161X633A">SZILAGYI Maria Magdolna</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Gschwandnergasse 8/11 0" veroeffentlicht="2022-10-18" rechtskraeftig="2022-09-22" geburtsdatum="1981-12-20" uid="ATU75918615">SZUHOGYI Norbert Janos</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Jheringgasse 14/16" veroeffentlicht="2016-07-29" rechtskraeftig="2016-07-18" fbnr="447682g">Takenari e.U.</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Sonnenallee 110" veroeffentlicht="2026-03-18" rechtskraeftig="2026-03-07" seit="2025-12-12" fbnr="541401d" uid="ATU76434878" kennziffer="R123N424A">TAL Building GmbH</scheinfirma>
