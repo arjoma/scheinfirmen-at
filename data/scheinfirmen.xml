@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-05" zeit="10:57:01" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1671">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-06" zeit="10:55:42" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1672">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1623,6 +1623,7 @@
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 34" veroeffentlicht="2024-08-19" rechtskraeftig="2024-05-24" seit="2023-09-07" geburtsdatum="1963-09-12" kennziffer="R144A928I">VRABEL Jozef</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Großmarktstraße 4" veroeffentlicht="2025-07-15" rechtskraeftig="2025-07-02" seit="2024-05-01" fbnr="578192h" uid="ATU79042803" kennziffer="R135B813J">VT Toremi KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Salzachstraße 37" veroeffentlicht="2025-06-10" rechtskraeftig="2025-06-03" seit="2024-12-17" fbnr="297146f" uid="ATU63800809" kennziffer="R025F738R">W. Tiefbau und Transport GmbH</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Nauseagasse 25" veroeffentlicht="2026-10-06" rechtskraeftig="2026-10-05" seit="2026-05-19" fbnr="572379i" uid="ATU77711424" kennziffer="R132Y166S">Wallhof Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Steinbauergasse 24" veroeffentlicht="2026-01-07" rechtskraeftig="2025-12-20" seit="2025-02-20" fbnr="614768x" uid="ATU80315008" kennziffer="R142P550I">Walter Schragl GmbH</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Hirschstettner Straße 19" veroeffentlicht="2024-06-04" rechtskraeftig="2024-05-21" seit="2022-11-10" fbnr="575893b" uid="ATU78153178" kennziffer="R133P115E">WE Work Personal KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Wehlistraße 27B" veroeffentlicht="2026-01-23" rechtskraeftig="2026-01-20" seit="2023-04-12" fbnr="520983b" uid="ATU74849505" kennziffer="R118W815S">Wegscheid 4 Dienstleistung GmbH</scheinfirma>
