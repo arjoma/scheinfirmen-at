@@ -5,6 +5,14 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
 und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
 
+## [1.5.3] - 2026-10-12
+
+### Behoben
+- **Nightly-Update bricht nicht mehr am UID-Suffix ab.** Konkreter Vorfall ab 2026-10-09: Zeile „FEHER Handels GmbH in Liquidation" enthielt die UID `ATU69539948-B`. Die Validierung meldete das nur als Warnung, aber die JSON-Schema-Prüfung der Ausgabe schlug fehl. Der Kern `ATU69539948` hat eine gültige Prüfziffer.
+
+### Hinzugefügt
+- **Normalize-Regel `strip-uid-suffix`:** schneidet einen kurzen Anhang (`-B`, `/1`, …) von einer sonst gültigen österreichischen UID ab. Läuft vor den Swap/Clear-Regeln, damit diese bereits den bereinigten Wert sehen.
+
 ## [1.5.2] - 2026-07-24
 
 ### Behoben

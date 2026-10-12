@@ -159,6 +159,35 @@ def test_no_foreign_vat_promotion_for_random_string() -> None:
     assert fixes == []
 
 
+# --- UID suffix rule -----------------------------------------------------
+
+
+def test_strip_uid_suffix() -> None:
+    """Real-world case: Row with uid='ATU69539948-B' (FEHER Handels GmbH)."""
+    rec = _rec(fbnr="432579x", uid="ATU69539948-B", kennziffer="R095D845F")
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert [f.rule for f in fixes] == ["strip-uid-suffix"]
+    assert rec.uid == "ATU69539948"
+    assert rec.kennziffer == "R095D845F"
+
+
+def test_no_uid_suffix_strip_for_other_garbage() -> None:
+    """Only a short suffix after a well-formed UID is stripped."""
+    for uid in ["ATU6953994-B", "ATU69539948-LONG", "ATU69539948B"]:
+        rec = _rec(uid=uid)
+        assert normalize_field_swaps(_make_result([rec])) == []
+        assert rec.uid == uid
+
+
+def test_duplicate_clear_after_uid_suffix_strip() -> None:
+    """The stripped UID is seen by the later duplicate-clear rule."""
+    rec = _rec(uid="ATU12345678-B", kennziffer="ATU12345678")
+    fixes = normalize_field_swaps(_make_result([rec]))
+    assert [f.rule for f in fixes] == ["strip-uid-suffix", "clear-duplicate-uid"]
+    assert rec.uid == "ATU12345678"
+    assert rec.kennziffer is None
+
+
 # --- Firmenbuch case rule ------------------------------------------------
 
 

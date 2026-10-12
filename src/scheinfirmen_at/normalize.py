@@ -10,6 +10,9 @@ fields. This module detects and repairs them so downstream consumers
 
 Rules applied (in order):
 
+0. **Strip UID suffix**: a valid Austrian UID followed by a short suffix
+   (e.g. ``ATU69539948-B``) is cut back to the bare ``ATU`` + 8 digits.
+   Runs first so the swap/clear rules below see the cleaned value.
 1. **Swap UID ↔ Kennziffer**: when each column holds a value matching the
    *other* column's pattern (or one is empty and the other is misplaced),
    swap them. Handles both true swaps and "move one over" cases.
@@ -38,6 +41,9 @@ from scheinfirmen_at.validate import _RE_FIRMENBUCH, _RE_KENNZIFFER, _RE_UID
 # the Kennziffer column. Strict per-country validation is out of scope.
 _RE_FOREIGN_VAT = re.compile(r"^[A-Z]{2}[A-Z0-9]{6,12}$")
 
+# Austrian UID with a short trailing suffix (e.g. ``ATU69539948-B``).
+_RE_UID_SUFFIX = re.compile(r"^(ATU\d{8})[-/ ][A-Z0-9]{1,3}$")
+
 # Firmenbuchnummer with an uppercase check letter (canonical form is lowercase).
 _RE_FIRMENBUCH_UPPER = re.compile(r"^\d{5,6}[A-Z]$")
 
@@ -62,6 +68,10 @@ def normalize_field_swaps(result: ParseResult) -> list[FieldFix]:
     """
     fixes: list[FieldFix] = []
     for row_idx, rec in enumerate(result.records, start=1):
+        fix = _apply_uid_suffix_strip(rec, row_idx)
+        if fix is not None:
+            fixes.append(fix)
+
         fix = _apply_swap(rec, row_idx)
         if fix is None:
             fix = _apply_fbnr_kennziffer_swap(rec, row_idx)
@@ -79,6 +89,23 @@ def normalize_field_swaps(result: ParseResult) -> list[FieldFix]:
             fixes.append(fix)
 
     return fixes
+
+
+def _apply_uid_suffix_strip(rec: ScheinfirmaRecord, row: int) -> FieldFix | None:
+    """Strip a short suffix from an otherwise valid UID (``ATU69539948-B``)."""
+    if rec.uid is None:
+        return None
+    m = _RE_UID_SUFFIX.match(rec.uid)
+    if m is None:
+        return None
+    before = rec.uid
+    rec.uid = m.group(1)
+    return FieldFix(
+        row=row,
+        name=rec.name,
+        rule="strip-uid-suffix",
+        description=f"stripped suffix from UID (was {before!r}, now {rec.uid!r})",
+    )
 
 
 def _apply_swap(rec: ScheinfirmaRecord, row: int) -> FieldFix | None:

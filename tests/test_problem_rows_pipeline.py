@@ -1,5 +1,5 @@
 """End-to-end demonstration: how the parse → normalize → validate pipeline
-handles the four real-world BMF data quirks observed in the live data.
+handles the real-world BMF data quirks observed in the live data.
 
 Each row in the synthetic CSV below mirrors a concrete row from the BMF
 list (Stand 2026-04-28). The test exercises the full pipeline and asserts:
@@ -45,6 +45,10 @@ def _build_csv() -> bytes:
         "1060 Wien, Eisvogelgasse 6~"
         "27.04.2026~18.03.2026~13.08.2024 ~~580355p~R134I594W~",
 
+        # 6. Real-world Row 496 (FEHER Handels GmbH): suffix "-B" after the UID.
+        "FEHER Handels GmbH in Liquidation~1010 Wien, Ebendorferstraße 10/8~"
+        "08.10.2026~29.09.2026~16.02.2024 ~~432579x~ATU69539948-B~R095D845F",
+
         "Stand: 28.04.2026 07:00:00",
     ]
     text = "\r\n".join([header, *rows]) + "\r\n"
@@ -56,14 +60,15 @@ def test_problem_rows_full_pipeline() -> None:
 
     # --- Step 1: parse ---
     result = parse_bmf_csv(raw)
-    assert len(result.records) == 5
-    clean, aran, horvat, jovanluka, wikri = result.records
+    assert len(result.records) == 6
+    clean, aran, horvat, jovanluka, wikri, feher = result.records
 
     # Sanity: raw parse keeps values exactly as the BMF supplied them.
     assert aran.kennziffer == "636821b"
     assert horvat.kennziffer == "ATU80457319"
     assert jovanluka.kennziffer == "RO38488384"
     assert wikri.uid == "R134I594W" and wikri.kennziffer is None
+    assert feher.uid == "ATU69539948-B"
 
     # --- Step 2: normalize ---
     fixes = normalize_field_swaps(result)
@@ -77,7 +82,8 @@ def test_problem_rows_full_pipeline() -> None:
         by_name["Wikri Alpha Projektmanagement Gesellschaft m.b.H."].rule
         == "swap-uid-kennziffer"
     )
-    assert len(fixes) == 4
+    assert by_name["FEHER Handels GmbH in Liquidation"].rule == "strip-uid-suffix"
+    assert len(fixes) == 5
 
     # --- Step 3: post-normalize state ---
     # Clean row untouched.
@@ -100,10 +106,15 @@ def test_problem_rows_full_pipeline() -> None:
     assert wikri.uid is None
     assert wikri.kennziffer == "R134I594W"
 
+    # Suffix stripped from the UID, other fields untouched.
+    assert feher.uid == "ATU69539948"
+    assert feher.fbnr == "432579x"
+    assert feher.kennziffer == "R095D845F"
+
     # --- Step 4: validation passes (no errors, no warnings) ---
     validation = validate_records(result, min_rows=1)
     assert validation.ok, f"Unexpected errors: {validation.errors}"
     assert validation.warnings == [], (
-        f"All four problem rows should validate cleanly after normalization, "
+        f"All problem rows should validate cleanly after normalization, "
         f"but got: {validation.warnings}"
     )
