@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-13" zeit="11:21:11" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1681">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-14" zeit="09:32:22" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1682">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -864,6 +864,7 @@
   <scheinfirma anschrift="1150 Wien, Goldschlagstraße 97/28-38" veroeffentlicht="2016-08-22" rechtskraeftig="2016-07-28" fbnr="418035h" uid="ATU68877147">Laszlo Földi KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3/31" veroeffentlicht="2025-09-24" rechtskraeftig="2025-09-20" seit="2025-02-18" geburtsdatum="1985-10-17" uid="ATU81746504" kennziffer="R154O0020">LAZAR Tibor</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Brigittenauer Lände 58" veroeffentlicht="2025-10-06" rechtskraeftig="2025-10-03" seit="2025-02-06" geburtsdatum="1982-07-22" kennziffer="R154N8421">LAZAR Tiborne</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Knöllgasse 26" veroeffentlicht="2026-10-14" rechtskraeftig="2026-10-12" seit="2026-01-12" geburtsdatum="1993-11-16" uid="ATU82801746" kennziffer="R159Y628Q">LAZAR Zsolt</scheinfirma>
   <scheinfirma anschrift="2223 Martinsdorf, Bergring 3" veroeffentlicht="2022-02-10" rechtskraeftig="2022-02-03" fbnr="553673a" uid="ATU76922403">Laziri GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Gerhardusgasse 8/Top 102" veroeffentlicht="2019-01-09" rechtskraeftig="2018-12-31" fbnr="370289v" uid="ATU66784526">Lazo GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Donaufelder Straße 59" veroeffentlicht="2023-11-15" rechtskraeftig="2023-11-07" fbnr="578190f" uid="ATU78806525">LBR-Transport KG</scheinfirma>

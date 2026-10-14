@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-10-13T11:21:11 | 1681 | 2016-04-01 |
+| 2026-10-14T09:32:22 | 1682 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1731
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 341, 357, 367, 377, 390, 394, 406, 416, 431, 440, 445, 449, 458, 459, 467, 483, 491, 499, 502, 504, 514, 528, 544, 560, 576, 585, 604, 632, 640, 654, 671, 684, 694, 716, 734, 755, 773, 782, 807, 840, 868, 924, 984, 1007, 1038, 1060, 1100, 1141, 1176, 1199, 1223, 1243, 1271, 1343, 1399, 1457, 1489, 1527, 1593, 1659, 1681]
+    y-axis "Anzahl" 0 --> 1732
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 341, 357, 367, 377, 390, 394, 406, 416, 431, 440, 445, 449, 458, 459, 467, 483, 491, 499, 502, 504, 514, 528, 544, 560, 576, 585, 604, 632, 640, 654, 671, 684, 694, 716, 734, 755, 773, 782, 807, 840, 868, 924, 984, 1007, 1038, 1060, 1100, 1141, 1176, 1199, 1223, 1243, 1271, 1343, 1399, 1457, 1489, 1527, 1593, 1659, 1682]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -42,7 +42,6 @@ xychart-beta
 | GORBA Vasile | ATU83040978 | 1100 Wien, Zohmanngasse 8 |
 | GRG Garage GmbH | ATU79238978 | 1100 Wien, Laxenburger Straße 32 |
 | Gvtrans KG |  | 1140 Wien, Baumgartenstraße 63 |
-| HADJI Anouar | ATU82457912 | 1210 Wien, Brünner Straße 240/208 |
 | HATTAB GmbH | ATU76839236 | 1170 Wien, Gschwandnergasse 37 |
 | HORVATH Klaudia | ATU80596589 | 1150 Wien, Storchengasse 17 |
 | ILIEV David |  | 1160 Wien, Hasnerstraße 82 |
@@ -52,10 +51,10 @@ xychart-beta
 | Kielbau GmbH | ATU68733855 | 8041 Graz, Senefeldergasse 18 |
 | Klick Montage GmbH | ATU68361701 | 1230 Wien, Ketzergasse 65 |
 | LAKATOS Gabor |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
+| LAZAR Zsolt | ATU82801746 | 1100 Wien, Knöllgasse 26 |
 | MARTINS DE CARVALHO Eduardo Miguel |  | 5550 Radstadt, Schloßstraße 45/1 |
 | MEZEI Miklos |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | MEZEI Nikolett |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
-| MEZEIOVA Katarina |  | 1100 Wien, Puchsbaumgasse 37/14 |
 | Mookhy GmbH | ATU78880356 | 2333 Leopoldsdorf, MAN-Straße 6 |
 | NAGY Gabriella | ATU79452003 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | NAGY Janos |  | 7464 Markt Neuhodis, Graben 17 |
