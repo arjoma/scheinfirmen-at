@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-10-14T09:32:22 | 1682 | 2016-04-01 |
+| 2026-10-16T09:05:46 | 1682 | 2016-04-01 |
 
 ## Verlauf
 
@@ -17,7 +17,7 @@ xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
     y-axis "Anzahl" 0 --> 1732
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 341, 357, 367, 377, 390, 394, 406, 416, 431, 440, 445, 449, 458, 459, 467, 483, 491, 499, 502, 504, 514, 528, 544, 560, 576, 585, 604, 632, 640, 654, 671, 684, 694, 716, 734, 755, 773, 782, 807, 840, 868, 924, 984, 1007, 1038, 1060, 1100, 1141, 1176, 1199, 1223, 1243, 1271, 1343, 1399, 1457, 1489, 1527, 1593, 1659, 1682]
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 339, 355, 365, 375, 388, 392, 404, 414, 429, 438, 443, 447, 456, 457, 465, 481, 489, 497, 500, 502, 512, 526, 542, 558, 574, 583, 602, 630, 638, 652, 669, 682, 692, 714, 732, 753, 771, 780, 805, 838, 866, 922, 982, 1005, 1036, 1058, 1098, 1139, 1174, 1197, 1221, 1241, 1269, 1341, 1397, 1455, 1487, 1525, 1591, 1657, 1682]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -28,17 +28,14 @@ xychart-beta
 | ALDEMIROV Sider |  | 1200 Wien, Greiseneckergasse 6 |
 | ANINI Projektentwicklungs GmbH | ATU71400548 | 1160 Wien, Koppstraße 43/6 |
 | BABAI Zsolt | ATU83028769 | 1190 Wien, Barawitzkagasse 32 |
-| BALOG Ferenc | ATU83102713 | 1190 Wien, Barawitzkagasse 32 |
 | BOEM BB GmbH | ATU78179445 | 1150 Wien, Märzstraße 96/Lokal |
 | BOKA Tünde |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | CARPACI Maria |  | 1210 Wien, Grellgasse 7 |
+| CHITHIRANANDAN Asviin |  | 1110 Wien, Miltnerweg 23/16/20 |
 | DIMITROV Aleks |  | 1200 Wien, Hellwagstraße 32 |
 | DOLMANY Laszlo |  | 8262 Ilz, Neudorf bei Ilz 147 |
-| DOMBROVSKIS Felikss | ATU83126118 | 1190 Wien, Heiligenstädter Straße 170 |
 | Dr. HEGEDÜS György |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
-| FARKAS Gyula Roland | ATU67711906 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | FEHER Handels GmbH in Liquidation | ATU69539948 | 1010 Wien, Ebendorferstraße 10/8 |
-| GAL Erika |  | 1200 Wien, Gerhardusgasse 30/13 |
 | GORBA Vasile | ATU83040978 | 1100 Wien, Zohmanngasse 8 |
 | GRG Garage GmbH | ATU79238978 | 1100 Wien, Laxenburger Straße 32 |
 | Gvtrans KG |  | 1140 Wien, Baumgartenstraße 63 |
@@ -75,9 +72,8 @@ xychart-beta
 | SZILAGYI Maria Magdolna | ATU83215637 | 1100 Wien, Leebgasse 45/1C |
 | VAGI Sandor Zsolt | ATU79760279 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | VARSANYI Zsolt | ATU78982905 | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
-| VELMA Mohan Reddy | ATU81406756 | 1110 Wien, Kudlichgasse 23 |
+| VASILE Ioan-Eugen | ATU81264819 | 1160 Wien, Lerchenfelder Gürtel 33 |
 | VITTMAYER Peter |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | WATOR Tamas |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | Wallhof Bau GmbH | ATU77711424 | 1160 Wien, Nauseagasse 25 |
-| YHY Taxi Cars GmbH | ATU81313918 | 1100 Wien, Inzersdorfer Straße 18 |
 | Zentari GmbH | ATU83129124 | 1230 Wien, Carlbergergasse 7 |
