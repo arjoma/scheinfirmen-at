@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-16" zeit="09:05:46" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1682">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-20" zeit="09:28:21" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1685">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -11,12 +11,14 @@
   <scheinfirma anschrift="8055 Graz, Brauquartier 21" veroeffentlicht="2020-10-19" rechtskraeftig="2020-10-13" fbnr="480650p" uid="ATU72811479">ABGM GmbH</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Mariahilfer Straße 123" veroeffentlicht="2023-08-10" rechtskraeftig="2023-07-25" fbnr="508402a" uid="ATU74639359">ACA/BU/Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3/2/6" veroeffentlicht="2018-11-09" rechtskraeftig="2018-11-02" fbnr="458149z" uid="ATU71704729">ACID HANDELS- UND TRANSPORT GMBH</scheinfirma>
+  <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-10-20" rechtskraeftig="2026-09-09" seit="2023-01-02" geburtsdatum="1971-04-22" kennziffer="R090U9156">ACS Gyula</scheinfirma>
   <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-09-11" rechtskraeftig="2026-08-13" seit="2026-08-13" geburtsdatum="1974-11-25" kennziffer="R152G782P">ACSAI Geza</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Lützowgasse 14A" veroeffentlicht="2021-02-08" rechtskraeftig="2021-02-03" fbnr="495484d" uid="ATU74338512">AD Job Assist GmbH</scheinfirma>
   <scheinfirma anschrift="8020 Graz, Neubaugasse 24" veroeffentlicht="2026-02-24" rechtskraeftig="2026-02-05" seit="2025-03-26" geburtsdatum="1978-08-07" uid="ATU81732136" kennziffer="R156M1525">ADAM Ervin</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Ernst-Ludwig-Gasse 11" veroeffentlicht="2024-06-13" rechtskraeftig="2024-05-22" seit="2021-02-12" fbnr="509308h" uid="ATU74774014" kennziffer="R116Q377J">Adetta Immobilien Marketing &amp; Medien GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Schinnaglgasse 12" veroeffentlicht="2024-05-22" rechtskraeftig="2024-05-11" seit="2021-08-20" fbnr="554899d" uid="ATU76990213" kennziffer="R127U840Q">ADEXS Baumanagement GmbH</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Währinger Gürtel 61/18" veroeffentlicht="2025-10-06" rechtskraeftig="2025-09-02" seit="2023-11-18" fbnr="615880g" uid="ATU80407114" kennziffer="R143G088T">Adil Fassaden Bau Malerei GmbH</scheinfirma>
+  <scheinfirma anschrift="1110 Wien, Geiselbergstraße 34-36" veroeffentlicht="2026-10-20" rechtskraeftig="2026-10-17" seit="2024-05-22" geburtsdatum="1993-04-08" uid="ATU81206106" kennziffer="R149W112M">ADIPALLY Saikrishna</scheinfirma>
   <scheinfirma anschrift="8045 Graz, Ziegelstraße 33c" veroeffentlicht="2020-10-30" rechtskraeftig="2020-10-27" fbnr="514484w" uid="ATU74575989">Admir Hrstic Baugesellschaft m.b.H.</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Birostraße 11/6" veroeffentlicht="2026-06-23" rechtskraeftig="2026-05-30" seit="2026-02-20" fbnr="548644f" uid="ATU76562346" kennziffer="R126D980Q">A.D.M.K. GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Lohnergasse 8" veroeffentlicht="2021-01-11" rechtskraeftig="2020-12-17" fbnr="502379v" uid="ATU74092206">ADO Installationstechnik GmbH</scheinfirma>
@@ -547,6 +549,7 @@
   <scheinfirma anschrift="1210 Wien, Marchfeldstrasse 15/8" veroeffentlicht="2017-10-09" rechtskraeftig="2017-09-29">Genex XI s.r.o.</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Kalvarienberggasse 5/2" veroeffentlicht="2016-05-31" rechtskraeftig="2016-05-31" fbnr="368102b" uid="ATU66681236">Genial Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Koppstraße 69-73" veroeffentlicht="2022-02-08" rechtskraeftig="2022-02-01" fbnr="533585i" uid="ATU75352119">Genial Universal Estrich e.U.</scheinfirma>
+  <scheinfirma anschrift="7000 Eisenstadt, Mattersburger Straße 26/1" veroeffentlicht="2026-10-20" rechtskraeftig="2026-10-03" seit="2022-10-16" fbnr="584867z" uid="ATU78577835" kennziffer="R135K141Q">GEOMASTER Bohrtechnik GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Frömmlgasse 38" veroeffentlicht="2025-08-13" rechtskraeftig="2025-08-11" seit="2024-02-01" geburtsdatum="1992-02-19" uid="ATU80428146" kennziffer="R146P094D">GEORGIEV Dimitar Ivanov</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Heinrich-Lefler-Gasse 21" veroeffentlicht="2023-02-15" rechtskraeftig="2023-02-02" geburtsdatum="2000-11-28" uid="ATU77471727">GEORGIEV Dobri Ognyanov</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Sapphogasse 3" veroeffentlicht="2025-04-15" rechtskraeftig="2025-04-09" seit="2023-03-13" geburtsdatum="2002-12-05" uid="ATU79303424" kennziffer="R139P829D">GEORGIEV Gabriel Nikolaev</scheinfirma>
