@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-27" zeit="08:45:43" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1689">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-28" zeit="09:23:08" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1696">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -8,6 +8,7 @@
   <scheinfirma anschrift="1160 Wien, Habichergasse 5" veroeffentlicht="2023-01-11" rechtskraeftig="2022-12-30" geburtsdatum="1990-02-02" uid="ATU76773047">ABBAS Qamar</scheinfirma>
   <scheinfirma anschrift="8731 Gaal, Bischoffeld 61" veroeffentlicht="2017-11-30" rechtskraeftig="2017-11-28" fbnr="469902h" uid="ATU72156267">ABC-OPTIMA GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Obere Donaustraße 6" veroeffentlicht="2023-11-03" rechtskraeftig="2023-10-28" fbnr="222163k" uid="ATU61017624">Abd Elgalil GmbH &amp; Co KG</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Hauffgasse 17" veroeffentlicht="2026-10-27" rechtskraeftig="2026-10-20" seit="2024-11-19" fbnr="640311i" uid="ATU81356523" kennziffer="R153B820N">ABEVA Handels GmbH</scheinfirma>
   <scheinfirma anschrift="8055 Graz, Brauquartier 21" veroeffentlicht="2020-10-19" rechtskraeftig="2020-10-13" fbnr="480650p" uid="ATU72811479">ABGM GmbH</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Mariahilfer Straße 123" veroeffentlicht="2023-08-10" rechtskraeftig="2023-07-25" fbnr="508402a" uid="ATU74639359">ACA/BU/Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3/2/6" veroeffentlicht="2018-11-09" rechtskraeftig="2018-11-02" fbnr="458149z" uid="ATU71704729">ACID HANDELS- UND TRANSPORT GMBH</scheinfirma>
@@ -865,6 +866,7 @@
   <scheinfirma anschrift="1110 Wien, Geiselbergstraße 16-24/12/8" veroeffentlicht="2026-07-27" rechtskraeftig="2026-07-20" seit="2026-01-29" geburtsdatum="1971-05-19" uid="ATU83211819" kennziffer="R160P8168">LAKATOS Vera</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-18" seit="2024-08-12" geburtsdatum="1989-07-24" kennziffer="R151O896O">LAKATOSOVA Nina</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Schiffamtsgasse 11" veroeffentlicht="2025-11-11" rechtskraeftig="2025-11-06" seit="2022-09-10" fbnr="588065b" uid="ATU78604137" kennziffer="R136G9829">LAKO Immobilien &amp; Handel GmbH</scheinfirma>
+  <scheinfirma anschrift="1170 Wien, Schulthessgasse 3" veroeffentlicht="2026-10-27" rechtskraeftig="2026-10-27" seit="2026-07-16" fbnr="642834w" kennziffer="R153O439A">Lamberts Holding GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Rappgasse 2" veroeffentlicht="2025-05-19" rechtskraeftig="2025-05-13" seit="2024-08-03" geburtsdatum="1967-04-11" uid="ATU81072802" kennziffer="R151H404N">LANTOSI Tibor</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Hofherr-Schrantzgasse 2/2/4" veroeffentlicht="2019-03-13" rechtskraeftig="2019-02-14" fbnr="475855m" uid="ATU72604746">Lascala GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Goldschlagstraße 209" veroeffentlicht="2023-09-15" rechtskraeftig="2023-09-08" fbnr="561032y" uid="ATU77221347">Lasva Projektentwicklungs GmbH</scheinfirma>
@@ -1083,6 +1085,7 @@
   <scheinfirma anschrift="1210 Wien, Stammersdorfer Straße 226" veroeffentlicht="2025-09-29" rechtskraeftig="2025-09-23" seit="2025-07-05" geburtsdatum="1990-04-11" uid="ATU80905825" kennziffer="R150Z803V">NEMET Janos</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 12/23-24" veroeffentlicht="2025-09-12" rechtskraeftig="2025-08-28" seit="2025-05-02" geburtsdatum="1975-07-17" uid="ATU82208834" kennziffer="R155W4529">NEMETH Andrea</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Quellenstraße 4" veroeffentlicht="2026-07-23" rechtskraeftig="2026-07-21" seit="2022-08-08" geburtsdatum="1993-11-30" fbnr="658993h" kennziffer="R157K686J">NEMETH Daniel</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Rieplstraße 8" veroeffentlicht="2026-10-27" rechtskraeftig="2026-10-21" seit="2026-01-05" geburtsdatum="2007-10-22" uid="ATU82789939" kennziffer="R159X5649">NEMETH Levente Gabor</scheinfirma>
   <scheinfirma anschrift="2201 Hagenbrunn, Sechste Gasse 2" veroeffentlicht="2026-06-15" rechtskraeftig="2026-06-08" seit="2025-11-01" geburtsdatum="1974-04-07" uid="ATU81491609" kennziffer="R154A595U">NEMETH Sandor</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Erlachgasse 137/31" veroeffentlicht="2026-07-29" rechtskraeftig="2026-07-28" seit="2025-11-27" fbnr="360842a" uid="ATU66640977" kennziffer="R035G749M">Neo Trans Clean GmbH</scheinfirma>
   <scheinfirma anschrift="2432 Schwadorf, Richard Trenkwalder-Platz 1 0" veroeffentlicht="2021-10-08" rechtskraeftig="2021-09-08" fbnr="122248b" uid="ATU15556501">Netbal Gesellschaft m.b.H.</scheinfirma>
@@ -1153,6 +1156,7 @@
   <scheinfirma anschrift="1050 Wien, Schönbrunner Straße 85" veroeffentlicht="2025-12-01" rechtskraeftig="2025-11-26" seit="2024-12-17" fbnr="608812m" uid="ATU80497801" kennziffer="R141I749R">PAKHTO TRANS UND GASTRO GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3" veroeffentlicht="2023-06-16" rechtskraeftig="2023-06-09" geburtsdatum="1976-04-28">PAL Laszlo</scheinfirma>
   <scheinfirma anschrift="2700 Wiener Neustadt, Hauptplatz 10" veroeffentlicht="2024-08-19" rechtskraeftig="2024-07-30" seit="2024-01-11" fbnr="592168k" uid="ATU79037347" kennziffer="R137M587I">Palinkas Handels GmbH</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Jagdgasse 36" veroeffentlicht="2026-10-27" rechtskraeftig="2026-10-16" seit="2025-10-29" geburtsdatum="1999-07-08" uid="ATU82680537" kennziffer="R159A6707">PAMIDALA Venkata Sai Teja</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Wieningerplatz 5" veroeffentlicht="2020-03-26" rechtskraeftig="2020-03-17" fbnr="039562f" uid="ATU37829007">PANNON GmbH in Liquidation</scheinfirma>
   <scheinfirma anschrift="7571 Rudersdorf, Hauptstraße 37" veroeffentlicht="2026-03-11" rechtskraeftig="2026-02-26" seit="2025-01-01" geburtsdatum="1977-04-04" kennziffer="R096V9674">PAP Zoltan</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Parkring 10" veroeffentlicht="2021-02-08" rechtskraeftig="2021-02-08" fbnr="523409w" uid="ATU74983958">PARO Bau GmbH</scheinfirma>
@@ -1185,6 +1189,7 @@
   <scheinfirma anschrift="1220 Wien, Am Krautgarten 23" veroeffentlicht="2025-04-15" rechtskraeftig="2025-04-09" seit="2023-02-06" geburtsdatum="1979-02-03" uid="ATU79049959" kennziffer="R138Z459G">PETROV Nikolay Lukanov</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Obere Donaustraße 6" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-18" seit="2024-02-07" fbnr="621173s" uid="ATU80508504" kennziffer="R146B840K">PETROV WORKERS KG</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 34/2/55-56" veroeffentlicht="2025-10-15" rechtskraeftig="2025-10-09" seit="2024-04-01" geburtsdatum="1992-11-30" uid="ATU80745179" kennziffer="R150I0738">PETROVICS Peter</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Fernkorngasse 36" veroeffentlicht="2026-10-27" rechtskraeftig="2026-10-21" seit="2026-03-22" geburtsdatum="1977-08-12" uid="ATU83199548" kennziffer="R161N3460">PETROVS Vitalijs</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3/2/6" veroeffentlicht="2018-07-24" rechtskraeftig="2018-07-19" fbnr="395619v" uid="ATU67937469">PI Dienstleistungen GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Jagdgasse 2F/1/1" veroeffentlicht="2018-06-28" rechtskraeftig="2018-06-25" fbnr="478111f">Piatra Global KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Adalbert-Stifter-Straße 35" veroeffentlicht="2022-05-02" rechtskraeftig="2021-10-19" fbnr="550538s" uid="ATU76423906">Piku &amp; Zeus Dienstleistungen e.U.</scheinfirma>
@@ -1230,6 +1235,7 @@
   <scheinfirma anschrift="1120 Wien, Fuchsenfeld 3/28/4" veroeffentlicht="2016-04-05" rechtskraeftig="2016-03-19" fbnr="385971f" uid="ATU67643847">PROFI BAT GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Robertgasse 1" veroeffentlicht="2026-05-06" rechtskraeftig="2026-05-05" seit="2023-07-15" fbnr="607276d" uid="ATU79933306" kennziffer="R141G686M">Profi PV-Anlagen GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Slamastraße 23/B Objekt 3" veroeffentlicht="2016-10-21" rechtskraeftig="2016-10-17" fbnr="436776v" uid="ATU69759905">Profilhaus GmbH</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, Schillgasse 16" veroeffentlicht="2026-10-28" rechtskraeftig="2026-10-22" seit="2024-11-14" fbnr="539954a" uid="ATU75880067" kennziffer="R123I4928">Project RK GmbH</scheinfirma>
   <scheinfirma anschrift="6800 Feldkirch, Runastraße 3" veroeffentlicht="2024-07-24" rechtskraeftig="2024-07-17" seit="2022-06-10" fbnr="559480s" uid="ATU78463468" kennziffer="R129D485Q">Prometheus Group GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Hauptstraße 133/1/4a" veroeffentlicht="2026-04-20" rechtskraeftig="2026-04-16" seit="2022-08-11" fbnr="500775i" uid="ATU73864026" kennziffer="R114F895D">PRO-ODIM Immo &amp; Trade GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29/1/120" veroeffentlicht="2017-12-13" rechtskraeftig="2017-12-06">PROPERTA spol. s.r.l.</scheinfirma>
@@ -1337,6 +1343,7 @@
   <scheinfirma anschrift="8700 Leoben, Erzherzog Johann-Straße 9" veroeffentlicht="2025-06-30" rechtskraeftig="2025-06-24" seit="2025-02-05" fbnr="420729w" uid="ATU68968049" kennziffer="R091X185W">Sal Immobilien GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Hernalser Hauptstraße 9" veroeffentlicht="2026-08-25" rechtskraeftig="2026-08-22" seit="2025-06-01" geburtsdatum="1988-07-18" uid="ATU82277858" kennziffer="R157D349N">SALAY Michal</scheinfirma>
   <scheinfirma anschrift="8020 Graz, Ghegagasse 27a" veroeffentlicht="2022-02-24" rechtskraeftig="2022-02-14" fbnr="200417g" uid="ATU60853115">SAMO Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="1220 Wien, Haberergasse 5/6" veroeffentlicht="2026-10-27" rechtskraeftig="2026-10-15" seit="2025-02-06" fbnr="645896y" uid="ATU81730548" kennziffer="R154H9691">SAMT e.U.</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Volkertstraße 14/9" veroeffentlicht="2026-06-08" rechtskraeftig="2026-06-03" seit="2024-10-30" geburtsdatum="2006-06-22" kennziffer="R152U757L">SAMU Teli</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Linzer Straße 182" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-18" seit="2023-11-17" fbnr="539271x" uid="ATU76410769" kennziffer="R123J582L">Sanama Immobilieninvest GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Ketzergasse 61-65/B14" veroeffentlicht="2019-06-14" rechtskraeftig="2018-05-29" fbnr="476533i" uid="ATU72671824">Sandor Dien GmbH</scheinfirma>
