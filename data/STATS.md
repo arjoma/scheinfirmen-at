@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-10-28T09:23:08 | 1696 | 2016-04-01 |
+| 2026-10-29T09:24:03 | 1696 | 2016-04-01 |
 
 ## Verlauf
 
@@ -36,31 +36,23 @@ xychart-beta
 | Dr. HEGEDÜS György |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | FEHER Handels GmbH in Liquidation | ATU69539948 | 1010 Wien, Ebendorferstraße 10/8 |
 | GEOMASTER Bohrtechnik GmbH | ATU78577835 | 7000 Eisenstadt, Mattersburger Straße 26/1 |
-| GORBA Vasile | ATU83040978 | 1100 Wien, Zohmanngasse 8 |
 | GRG Garage GmbH | ATU79238978 | 1100 Wien, Laxenburger Straße 32 |
 | HATTAB GmbH | ATU76839236 | 1170 Wien, Gschwandnergasse 37 |
-| HORVATH Klaudia | ATU80596589 | 1150 Wien, Storchengasse 17 |
 | ILIEV David |  | 1160 Wien, Hasnerstraße 82 |
 | ILIEV Sasho | ATU82826328 | 1100 Wien, Erlachgasse 137 |
 | IRFAQ Abdul | ATU74140404 | 1210 Wien, Kahlgasse 3 |
-| Kielbau GmbH | ATU68733855 | 8041 Graz, Senefeldergasse 18 |
 | Klick Montage GmbH | ATU68361701 | 1230 Wien, Ketzergasse 65 |
 | LADIC Albert | ATU82656207 | 1200 Wien, Treustraße 34 |
 | LAZAR Zsolt | ATU82801746 | 1100 Wien, Knöllgasse 26 |
 | LIV Living Concepts GmbH |  | 9500 Villach, Kärntner Straße 8 |
 | Lamberts Holding GmbH |  | 1170 Wien, Schulthessgasse 3 |
-| MEZEI Miklos |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | MEZEI Nikolett |  | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
-| Mookhy GmbH | ATU78880356 | 2333 Leopoldsdorf, MAN-Straße 6 |
 | NAGY Gabriella | ATU79452003 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | NEMETH Levente Gabor | ATU82789939 | 1100 Wien, Rieplstraße 8 |
-| Nasu HandelsgmbH | ATU67484224 | 1010 Wien, Kärtner Straße 22 |
 | PAMIDALA Venkata Sai Teja | ATU82680537 | 1100 Wien, Jagdgasse 36 |
 | PETROVS Vitalijs | ATU83199548 | 1100 Wien, Fernkorngasse 36 |
 | Project RK GmbH | ATU75880067 | 1210 Wien, Schillgasse 16 |
 | R & R Consulting GmbH | ATU67330747 | 2500 Baden, Mühlgasse 2-4 |
-| RIGO Marianna | ATU83091912 | 1190 Wien, Barawitzkagasse 32 |
-| Rotana Verpackung GmbH in Liquidation | ATU80879925 | 1100 Wien, Emil-Fucik-Gasse 3 |
 | SAMT e.U. | ATU81730548 | 1220 Wien, Haberergasse 5/6 |
 | SZARVAS Jozef |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | SZATMARI Tamas | ATU79880112 | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |

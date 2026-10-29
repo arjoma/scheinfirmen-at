@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-28" zeit="09:23:08" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1696">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-10-29" zeit="09:24:03" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1696">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -498,6 +498,7 @@
   <scheinfirma anschrift="1210 Wien, Schererstraße 1" veroeffentlicht="2023-09-05" rechtskraeftig="2023-08-31" fbnr="554366w" uid="ATU76873956">F.B. Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Birostraße 25" veroeffentlicht="2025-09-29" rechtskraeftig="2025-09-09" seit="2025-05-21" fbnr="569846i" uid="ATU77889304" kennziffer="R132C078Q">FD Nuts GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29" veroeffentlicht="2023-02-15" rechtskraeftig="2023-02-08" fbnr="570397w" uid="ATU77683017">FDE Eisenstahl GmbH</scheinfirma>
+  <scheinfirma anschrift="1210 Wien, O''Brien-Gasse 24/1" veroeffentlicht="2026-09-03" rechtskraeftig="2026-08-19" seit="2025-03-25" fbnr="648884t" uid="ATU82165336" kennziffer="R154X965C">FDFAPL GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Forchheimergasse 34" veroeffentlicht="2021-09-13" rechtskraeftig="2021-09-01" fbnr="492382t" uid="ATU73435838">FE MOBILITY KG</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Lorystraße 73/8-9" veroeffentlicht="2025-12-19" rechtskraeftig="2025-12-10" seit="2025-10-04" fbnr="663696z" kennziffer="R158M808C">Feast Freight KG</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Ebendorferstraße 10/8" veroeffentlicht="2026-10-08" rechtskraeftig="2026-09-29" seit="2024-02-16" fbnr="432579x" uid="ATU69539948" kennziffer="R095D845F">FEHER Handels GmbH in Liquidation</scheinfirma>
@@ -1660,7 +1661,6 @@
   <scheinfirma anschrift="2514 Traiskirchen, Wienerstraße 99" veroeffentlicht="2017-08-23" rechtskraeftig="2017-08-17" fbnr="400745g" uid="ATU68292206">WieSa Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Eisvogelgasse 6" veroeffentlicht="2026-04-27" rechtskraeftig="2026-03-18" seit="2024-08-13" fbnr="580355p" kennziffer="R134I594W">Wikri Alpha Projektmanagement Gesellschaft m.b.H.</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Hadikgasse 64" veroeffentlicht="2026-07-06" rechtskraeftig="2026-06-24" seit="2024-11-25" fbnr="502790y" uid="ATU73845949" kennziffer="R114R469Q">WILLTOOL GmbH</scheinfirma>
-  <scheinfirma anschrift="1010 Wien, Jasomirgottstraße 4" veroeffentlicht="2026-09-03" rechtskraeftig="2026-08-19" seit="2025-03-25" fbnr="648884t" uid="ATU82165336" kennziffer="R154X965C">Wintageluxury GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schönbrunner Str. 213-215/30" veroeffentlicht="2016-12-14" rechtskraeftig="2016-11-24" fbnr="434192v" uid="ATU69627157">Wohnleben GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Forchheimergasse 34/238 0" veroeffentlicht="2022-12-13" rechtskraeftig="2022-11-19" fbnr="516390y">Wolf Bau Concept GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3" veroeffentlicht="2022-06-15" rechtskraeftig="2022-06-07" fbnr="484776g" uid="ATU73031827">Worx Quartier GmbH</scheinfirma>
