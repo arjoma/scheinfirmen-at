@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-03" zeit="10:27:49" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1702">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-04" zeit="10:04:01" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1702">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -56,6 +56,7 @@
   <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 34" veroeffentlicht="2024-10-21" rechtskraeftig="2024-10-11" seit="2024-04-17" geburtsdatum="1982-12-30" uid="ATU80551109" kennziffer="R148L590E">ALIEV Gurit Hakaev</scheinfirma>
   <scheinfirma anschrift="3424 Zeiselmauer, Bahnhofplatz 1" veroeffentlicht="2021-11-10" rechtskraeftig="2021-11-04" fbnr="381351k" uid="ATU67273158">All 4 Y GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Hasenleitengasse 10" veroeffentlicht="2024-07-05" rechtskraeftig="2024-07-02" seit="2022-09-03" uid="ATU79314136" kennziffer="R040C527N">ALLES GUTE - Verein zur Förderung der Direktvermarktung in Österreich und Europa</scheinfirma>
+  <scheinfirma anschrift="1010 Wien, Kohlmarkt 8-10" veroeffentlicht="2026-11-04" rechtskraeftig="2026-10-27" seit="2019-12-18" fbnr="515568p" uid="ATU74567426" kennziffer="R117N426G">All-in Trockenbau GmbH</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Siebenbrunnengasse 41" veroeffentlicht="2024-04-08" rechtskraeftig="2024-03-27" seit="2023-09-19" fbnr="497862a" uid="ATU73737548" kennziffer="R113P656I">Almira-Technik KG</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Loschmidtgasse 15" veroeffentlicht="2023-11-15" rechtskraeftig="2023-11-10" fbnr="521180t" uid="ATU74964149">Alpenmetallbau GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Ernst-Ludwig-Gasse 11" veroeffentlicht="2024-09-03" rechtskraeftig="2024-07-17" seit="2023-07-25" uid="ATU73415912" kennziffer="R041S710J">ALPENTORGESELLSCHAFT</scheinfirma>
@@ -1507,7 +1508,6 @@
   <scheinfirma anschrift="1210 Wien, Rappgasse 2" veroeffentlicht="2023-06-23" rechtskraeftig="2023-06-14" fbnr="561655p" uid="ATU77415557">Szalai TX KG</scheinfirma>
   <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-09-24" rechtskraeftig="2026-08-31" seit="2024-05-03" geburtsdatum="1989-12-11">SZANYI Jozsef</scheinfirma>
   <scheinfirma anschrift="1080 Wien, Schlösselgasse 11" veroeffentlicht="2021-12-07" rechtskraeftig="2021-11-27" fbnr="522510y" uid="ATU75099126">Szarlitt Bau KG</scheinfirma>
-  <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-10-08" rechtskraeftig="2026-09-29" seit="2023-08-18" geburtsdatum="1977-03-09">SZARVAS Jozef</scheinfirma>
   <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1/3" veroeffentlicht="2026-10-08" rechtskraeftig="2026-09-29" seit="2023-02-14" geburtsdatum="1971-05-13" uid="ATU79880112" kennziffer="R140H500O">SZATMARI Tamas</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Franzensbrückenstraße 14" veroeffentlicht="2025-04-23" rechtskraeftig="2025-04-16" seit="2024-11-18" fbnr="571264w" uid="ATU77837708" kennziffer="R132L5138">Szekely Handels GmbH</scheinfirma>
   <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-10-08" rechtskraeftig="2026-09-29" seit="2023-01-16" geburtsdatum="1964-06-19" uid="ATU79297814" kennziffer="R139Q306E">SZEKERES Istvan</scheinfirma>

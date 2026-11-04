@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-11-03T10:27:49 | 1702 | 2016-04-01 |
+| 2026-11-04T10:04:01 | 1702 | 2016-04-01 |
 
 ## Verlauf
 
@@ -17,17 +17,17 @@ xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
     y-axis "Anzahl" 0 --> 1752
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 338, 354, 364, 374, 387, 391, 403, 413, 428, 437, 442, 446, 455, 456, 464, 480, 488, 496, 499, 501, 511, 525, 541, 557, 573, 582, 601, 629, 637, 651, 668, 681, 691, 713, 731, 752, 770, 779, 804, 837, 865, 921, 981, 1004, 1035, 1057, 1097, 1138, 1173, 1196, 1220, 1240, 1268, 1340, 1396, 1454, 1486, 1524, 1590, 1656, 1697, 1702]
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 338, 354, 364, 374, 387, 391, 403, 413, 428, 437, 442, 446, 455, 456, 464, 480, 488, 496, 499, 501, 511, 525, 541, 557, 573, 582, 601, 629, 637, 651, 668, 681, 691, 713, 731, 752, 770, 779, 804, 837, 865, 921, 981, 1004, 1035, 1057, 1097, 1138, 1173, 1196, 1220, 1240, 1268, 1340, 1396, 1454, 1486, 1524, 1590, 1656, 1696, 1702]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
 
 | Name | UID | Anschrift |
 |------|-----|-----------|
-| A4 Energy GmbH | ATU78633926 | 1160 Wien, Hasnerstraße 82 |
 | ABEVA Handels GmbH | ATU81356523 | 1100 Wien, Hauffgasse 17 |
 | ACS Gyula |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | ADIPALLY Saikrishna | ATU81206106 | 1110 Wien, Geiselbergstraße 34-36 |
+| All-in Trockenbau GmbH | ATU74567426 | 1010 Wien, Kohlmarkt 8-10 |
 | BABIC Petar | ATU83092546 | 1140 Wien, Ameisgasse 36 |
 | BAKRO Bertalan | ATU82731947 | 1160 Wien, Hasnerstraße 82/6 |
 | BOLLA Lilla | ATU68313611 | 7471 Rechnitz, Herrengasse 24 |
@@ -37,7 +37,6 @@ xychart-beta
 | GRG Garage GmbH | ATU79238978 | 1100 Wien, Laxenburger Straße 32 |
 | Geani GmbH | ATU83019323 | 1230 Wien, Lastenstraße 23/3/3 |
 | ILIEV Sasho | ATU82826328 | 1100 Wien, Erlachgasse 137 |
-| IRFAQ Abdul | ATU74140404 | 1210 Wien, Kahlgasse 3 |
 | LADIC Albert | ATU82656207 | 1200 Wien, Treustraße 34 |
 | LAZAR Zsolt | ATU82801746 | 1100 Wien, Knöllgasse 26 |
 | LIV Living Concepts GmbH |  | 9500 Villach, Kärntner Straße 8 |
@@ -52,12 +51,9 @@ xychart-beta
 | PREDESCU Ionut-Lucian | ATU81508469 | 6020 Innsbruck, Dr.-Stumpf-Straße 57 |
 | Prog Up GmbH | ATU80501645 | 1220 Wien, Schillingstraße 14A |
 | Project RK GmbH | ATU75880067 | 1210 Wien, Schillgasse 16 |
-| R & R Consulting GmbH | ATU67330747 | 2500 Baden, Mühlgasse 2-4 |
 | SAMT e.U. | ATU81730548 | 1220 Wien, Haberergasse 5/6 |
-| SZARVAS Jozef |  | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | SZATMARI Tamas | ATU79880112 | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | SZEKERES Istvan | ATU79297814 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
-| SZILAGYI Maria Magdolna | ATU83215637 | 1100 Wien, Leebgasse 45/1C |
 | VAGI Sandor Zsolt | ATU79760279 | 7503 Großpetersdorf, Raiffeisenplatz 1 |
 | VARSANYI Zsolt | ATU78982905 | 7503 Großpetersdorf, Raiffeisenplatz 1/3 |
 | VASILE Ioan-Eugen | ATU81264819 | 1160 Wien, Lerchenfelder Gürtel 33 |
