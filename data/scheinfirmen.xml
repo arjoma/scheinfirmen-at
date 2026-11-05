@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-04" zeit="10:04:01" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1702">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-05" zeit="10:24:17" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1704">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -745,6 +745,7 @@
   <scheinfirma anschrift="1120 Wien, Am Euro Platz 2" veroeffentlicht="2016-04-14" rechtskraeftig="2016-04-08" fbnr="384982a">J. Kois GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Hofherr Schrantz Gasse 4/1/6" veroeffentlicht="2018-03-12" rechtskraeftig="2018-03-08" fbnr="431648b" uid="ATU69533409">J. u. B. Taxi u. Mietwagen KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Laxenburger Straße 49-57" veroeffentlicht="2022-01-11" rechtskraeftig="2021-12-30" fbnr="448256a" uid="ATU71190515">Jag Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-11-04" rechtskraeftig="2026-09-18" seit="2022-08-30" geburtsdatum="1966-11-09" uid="ATU79403316" kennziffer="R136I7570">JAMBOR Gabor</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Quellenstraße 43" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-10" seit="2025-02-27" geburtsdatum="1997-03-21" uid="ATU81775125" kennziffer="R154U607U">JAMBOR Katalin Dzsenifer</scheinfirma>
   <scheinfirma anschrift="1180 Wien, Mitterberggasse 32" veroeffentlicht="2025-12-10" rechtskraeftig="2025-11-26" seit="2025-07-03" fbnr="591615y" uid="ATU79151329" kennziffer="R136Z393A">JasenCO GmbH</scheinfirma>
   <scheinfirma anschrift="2700 Wiener Neustadt, Petersgasse 12" veroeffentlicht="2017-09-06" rechtskraeftig="2017-09-04" fbnr="318701d" uid="ATU64897268">JD Transport GmbH</scheinfirma>
@@ -1523,6 +1524,7 @@
   <scheinfirma anschrift="2540 Bad Vöslau, Großauer Straße 7" veroeffentlicht="2025-09-03" rechtskraeftig="2025-08-26" seit="2024-12-24" fbnr="642315g" uid="ATU81597924" kennziffer="R153P7390">Targa Gastro Trans GmbH</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Dornbacher Straße 5" veroeffentlicht="2026-07-31" rechtskraeftig="2026-07-21" seit="2025-10-20" fbnr="400130b" uid="ATU68164238" kennziffer="R083C299F">TAS Bau GmbH</scheinfirma>
   <scheinfirma anschrift="9020 Klagenfurt am Wörther See, Völkermarkter Straße 97" veroeffentlicht="2017-02-22" rechtskraeftig="2017-02-17" fbnr="432490s" uid="ATU69552968">TAYRA Transport GmbH</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Hasnerstraße 82" veroeffentlicht="2026-11-05" rechtskraeftig="2026-11-04" seit="2026-04-01" fbnr="478419h" uid="ATU72598824" kennziffer="R108P6071">TCI Technical Center for Innovations GmbH</scheinfirma>
   <scheinfirma anschrift="2334 Vösendorf, Eisgrubengasse 2-6 B1/604" veroeffentlicht="2016-07-14" rechtskraeftig="2016-07-12" fbnr="323914w" uid="ATU64878902">Team Mond GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Wichtelgasse 37A" veroeffentlicht="2024-07-15" rechtskraeftig="2024-06-20" seit="2024-02-23" fbnr="570507g" uid="ATU77805109" kennziffer="R132F420J">TEBRA Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Triester Straße 238" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-12" seit="2025-01-09" fbnr="653084v" uid="ATU81734134" kennziffer="R155Y646T">TechVersand e.U.</scheinfirma>
