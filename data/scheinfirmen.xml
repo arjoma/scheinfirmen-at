@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-06" zeit="10:18:32" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1705">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-09" zeit="10:42:47" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1710">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -190,6 +190,7 @@
   <scheinfirma anschrift="1210 Wien, Angerer Straße 7" veroeffentlicht="2023-10-11" rechtskraeftig="2023-09-30" fbnr="591175a" uid="ATU78702557">Bascha Express GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Stättermayergasse 9" veroeffentlicht="2023-09-05" rechtskraeftig="2023-08-18" fbnr="458387z" uid="ATU71900918">BATOG BAU GmbH</scheinfirma>
   <scheinfirma anschrift="1230 Wien, Forchheimergasse 34" veroeffentlicht="2021-11-02" rechtskraeftig="2021-10-29" fbnr="432543v" uid="ATU69723445">Bau einsA GmbH</scheinfirma>
+  <scheinfirma anschrift="8731 Gaal, Puchschachen 50" veroeffentlicht="2026-11-09" rechtskraeftig="2026-10-27" seit="2025-08-04" fbnr="342859f" uid="ATU65643716" kennziffer="R029N7836">Bauer Consulting GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Schönbrunner Straße 213-215/412" veroeffentlicht="2019-04-15" rechtskraeftig="2019-04-08" fbnr="379629d" uid="ATU67856377">Baufit KG</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Sandleitengasse 15-17/1/1/25" veroeffentlicht="2017-07-17" rechtskraeftig="2017-07-12" fbnr="382433b" uid="ATU62485466">Bauimpuls GmbH</scheinfirma>
   <scheinfirma anschrift="1040 Wien, Kettenbrückengasse 6" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-21" seit="2025-03-21" fbnr="563114i" uid="ATU77248836" kennziffer="R130N201E">Baumaschinen Bauroos GmbH</scheinfirma>
@@ -376,6 +377,7 @@
   <scheinfirma anschrift="1100 Wien, Humboldtgasse 25" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-18" seit="2025-02-25" geburtsdatum="2006-09-01" uid="ATU81779602" kennziffer="R154T319N">DAVID Renato</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Hernalser Hauptstraße 189" veroeffentlicht="2025-05-06" rechtskraeftig="2025-04-25" seit="2024-10-02" fbnr="613661v" uid="ATU80140848" kennziffer="R142I6480">DCM Express KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Columbusgasse 36" veroeffentlicht="2022-04-29" rechtskraeftig="2022-02-14" fbnr="495922y" uid="ATU73667524">DCpoint GmbH</scheinfirma>
+  <scheinfirma anschrift="1200 Wien, Klosterneuburger Straße 8" veroeffentlicht="2026-11-09" rechtskraeftig="2026-11-06" seit="2024-04-11" fbnr="615084k" uid="ATU80312109" kennziffer="R142T900G">DDS TOP KG</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 29" veroeffentlicht="2021-09-02" rechtskraeftig="2021-08-06" fbnr="497796d" uid="ATU73964613">DE Personal BAU GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Seitenstettengasse 5/37" veroeffentlicht="2026-04-30" rechtskraeftig="2026-04-28" seit="2019-01-05" fbnr="504215v" uid="ATU74093214" kennziffer="R114X617C">Debo Zwölf Immobilien GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Lützowgasse 12" veroeffentlicht="2021-06-09" rechtskraeftig="2021-06-03" fbnr="313313f" uid="ATU65197967">Decco GmbH</scheinfirma>
@@ -601,6 +603,7 @@
   <scheinfirma anschrift="1160 Wien, Possingergasse 65" veroeffentlicht="2019-10-29" rechtskraeftig="2019-10-11" fbnr="471107f" uid="ATU72340479">good work Personalservice GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Zohmanngasse 8" veroeffentlicht="2026-09-29" rechtskraeftig="2026-09-25" seit="2026-03-02" geburtsdatum="1961-06-06" uid="ATU83040978" kennziffer="R161D233T">GORBA Vasile</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gudrunstraße 137-139" veroeffentlicht="2025-11-18" rechtskraeftig="2025-09-22" seit="2021-07-01" geburtsdatum="1993-06-13" fbnr="568806f" uid="ATU77112036" kennziffer="R131W673H">GOSHEV Sergey</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Gablenzgasse 34" veroeffentlicht="2026-11-09" rechtskraeftig="2026-11-06" seit="2024-12-04" geburtsdatum="1989-04-13" uid="ATU81379526" kennziffer="R153J0725">GOSHEVA Vaska</scheinfirma>
   <scheinfirma anschrift="1060 Wien, Mollardgasse 50" veroeffentlicht="2026-03-13" rechtskraeftig="2026-03-12" seit="2025-02-01" geburtsdatum="1991-04-22" uid="ATU82558215" kennziffer="R158J898O">GOZORA Stefan</scheinfirma>
   <scheinfirma anschrift="1130 Wien, Hietzinger Hauptstraße 94" veroeffentlicht="2016-05-13" rechtskraeftig="2016-05-04" fbnr="394870t" uid="ATU68029858">GPD Development GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Lorystraße 73" veroeffentlicht="2026-03-12" rechtskraeftig="2026-03-06" seit="2023-01-04" fbnr="538711y" uid="ATU76599218" kennziffer="R122Z7419">G.rajender KG</scheinfirma>
@@ -848,6 +851,7 @@
   <scheinfirma anschrift="1230 Wien, Richard-Strauss-Straße 20" veroeffentlicht="2025-09-23" rechtskraeftig="2025-09-22" seit="2023-11-08" fbnr="615303h" uid="ATU80082223" kennziffer="R142Y607C">KSRK Logistik GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Schmelzgasse 10" veroeffentlicht="2020-08-20" rechtskraeftig="2020-07-27" fbnr="491423g" uid="ATU73479559">KST Transport GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Maroltingergasse 57" veroeffentlicht="2023-01-02" rechtskraeftig="2022-12-22" fbnr="301482g" uid="ATU64998514">Kula Projekt Bau GmbH</scheinfirma>
+  <scheinfirma anschrift="9999 Unbekannte PLZ, XXX X" veroeffentlicht="2026-11-09" rechtskraeftig="2026-10-28" seit="2020-06-18" fbnr="534450g" uid="ATU75629205" kennziffer="R122D276L">Kulov GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Columbusgasse 64" veroeffentlicht="2023-02-13" rechtskraeftig="2023-02-08" geburtsdatum="1985-09-18" uid="ATU77123015">KUMAR Harinder</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Kalvarienberggasse 74" veroeffentlicht="2025-08-12" rechtskraeftig="2025-08-02" seit="2023-11-22" fbnr="577656w" uid="ATU78109226" kennziffer="R134C346S">Kupro GmbH</scheinfirma>
   <scheinfirma anschrift="1110 Wien, Simmeringer Hauptstraße 43" veroeffentlicht="2026-02-03" rechtskraeftig="2026-02-02" seit="2025-02-27" fbnr="638875y" uid="ATU82117308" kennziffer="R154R908F">Kurma GetränkehandelsgesmbH</scheinfirma>
@@ -877,6 +881,7 @@
   <scheinfirma anschrift="1210 Wien, Hofherr-Schrantzgasse 2/2/4" veroeffentlicht="2019-03-13" rechtskraeftig="2019-02-14" fbnr="475855m" uid="ATU72604746">Lascala GmbH</scheinfirma>
   <scheinfirma anschrift="1140 Wien, Goldschlagstraße 209" veroeffentlicht="2023-09-15" rechtskraeftig="2023-09-08" fbnr="561032y" uid="ATU77221347">Lasva Projektentwicklungs GmbH</scheinfirma>
   <scheinfirma anschrift="1150 Wien, Goldschlagstraße 97/28-38" veroeffentlicht="2016-08-22" rechtskraeftig="2016-07-28" fbnr="418035h" uid="ATU68877147">Laszlo Földi KG</scheinfirma>
+  <scheinfirma anschrift="1160 Wien, Gablenzgasse 14" veroeffentlicht="2026-11-09" rechtskraeftig="2026-10-21" seit="2025-04-17" fbnr="466063m" uid="ATU72368047" kennziffer="R105J895D">LAYA Lerchenfeldergürtel 55A Pro GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Sachsenplatz 3/31" veroeffentlicht="2025-09-24" rechtskraeftig="2025-09-20" seit="2025-02-18" geburtsdatum="1985-10-17" uid="ATU81746504" kennziffer="R154O0020">LAZAR Tibor</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Brigittenauer Lände 58" veroeffentlicht="2025-10-06" rechtskraeftig="2025-10-03" seit="2025-02-06" geburtsdatum="1982-07-22" kennziffer="R154N8421">LAZAR Tiborne</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Knöllgasse 26" veroeffentlicht="2026-10-14" rechtskraeftig="2026-10-12" seit="2026-01-12" geburtsdatum="1993-11-16" uid="ATU82801746" kennziffer="R159Y628Q">LAZAR Zsolt</scheinfirma>
