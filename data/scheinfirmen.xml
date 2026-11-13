@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-12" zeit="10:44:11" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1710">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-13" zeit="10:27:29" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1711">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1202,6 +1202,7 @@
   <scheinfirma anschrift="1020 Wien, Obere Donaustraße 6" veroeffentlicht="2025-04-24" rechtskraeftig="2025-04-18" seit="2024-02-07" fbnr="621173s" uid="ATU80508504" kennziffer="R146B840K">PETROV WORKERS KG</scheinfirma>
   <scheinfirma anschrift="1190 Wien, Heiligenstädter Straße 34/2/55-56" veroeffentlicht="2025-10-15" rechtskraeftig="2025-10-09" seit="2024-04-01" geburtsdatum="1992-11-30" uid="ATU80745179" kennziffer="R150I0738">PETROVICS Peter</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Fernkorngasse 36" veroeffentlicht="2026-10-27" rechtskraeftig="2026-10-21" seit="2026-03-22" geburtsdatum="1977-08-12" uid="ATU83199548" kennziffer="R161N3460">PETROVS Vitalijs</scheinfirma>
+  <scheinfirma anschrift="1100 Wien, Absberggasse 29/1/39" veroeffentlicht="2026-11-12" rechtskraeftig="2026-10-28" seit="2025-09-15" fbnr="663892m" uid="ATU82727024" kennziffer="R158O004F">Pflasterprinz GmbH</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Sterngasse 3/2/6" veroeffentlicht="2018-07-24" rechtskraeftig="2018-07-19" fbnr="395619v" uid="ATU67937469">PI Dienstleistungen GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Jagdgasse 2F/1/1" veroeffentlicht="2018-06-28" rechtskraeftig="2018-06-25" fbnr="478111f">Piatra Global KG</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Adalbert-Stifter-Straße 35" veroeffentlicht="2022-05-02" rechtskraeftig="2021-10-19" fbnr="550538s" uid="ATU76423906">Piku &amp; Zeus Dienstleistungen e.U.</scheinfirma>
