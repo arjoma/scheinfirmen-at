@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-13" zeit="10:27:29" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1711">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-16" zeit="10:33:12" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1712">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -460,6 +460,7 @@
   <scheinfirma anschrift="1020 Wien, Ybbsstraße 35" veroeffentlicht="2025-01-30" rechtskraeftig="2025-01-22" seit="2023-05-09" fbnr="460798w" uid="ATU71624316" kennziffer="R103P500E">Electrologics Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1090 Wien, Liechtensteinstraße 22A" veroeffentlicht="2025-01-14" rechtskraeftig="2024-12-16" seit="2024-06-03" fbnr="622178v" kennziffer="R146M4020">ELEG GmbH</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Albrechtsbergergasse 12" veroeffentlicht="2026-04-28" rechtskraeftig="2026-04-27" seit="2025-03-21" fbnr="624690m" uid="ATU82356567" kennziffer="R147X3450">Elektro Blitz ic e.U.</scheinfirma>
+  <scheinfirma anschrift="1140 Wien, Ameisgasse 36" veroeffentlicht="2026-11-16" rechtskraeftig="2026-11-10" seit="2026-02-13" fbnr="580253p" uid="ATU78200313" kennziffer="R134J842G">Elektro ELLA GmbH</scheinfirma>
   <scheinfirma anschrift="1200 Wien, Handelskai 94-96/24. Stock 201" veroeffentlicht="2018-11-19" rechtskraeftig="2018-10-24">Elenel s.r.o.</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Pastorstraße 14" veroeffentlicht="2020-12-11" rechtskraeftig="2020-11-17" fbnr="506199k" uid="ATU74421128">Elite Crew GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Handelskai 208" veroeffentlicht="2025-12-09" rechtskraeftig="2025-12-09" seit="2025-07-11" fbnr="641923f" uid="ATU81648503" kennziffer="R153S9647">Elite Omni Security GmbH</scheinfirma>

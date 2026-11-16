@@ -2,7 +2,7 @@
 
 | Stand | Gesamt | Erster Eintrag |
 |-------|-------:|----------------|
-| 2026-11-13T10:27:29 | 1711 | 2016-04-01 |
+| 2026-11-16T10:33:12 | 1712 | 2016-04-01 |
 
 ## Verlauf
 
@@ -16,8 +16,8 @@ config:
 xychart-beta
     title "Scheinfirmen: Gesamtanzahl"
     x-axis "Jahr" 2016 --> 2026
-    y-axis "Anzahl" 0 --> 1761
-    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 338, 351, 361, 371, 384, 388, 400, 410, 425, 434, 439, 443, 452, 453, 461, 477, 485, 493, 496, 498, 508, 522, 538, 554, 570, 579, 598, 626, 634, 648, 665, 678, 688, 710, 728, 749, 767, 776, 801, 834, 862, 918, 978, 1001, 1032, 1054, 1094, 1135, 1170, 1193, 1217, 1237, 1265, 1337, 1393, 1451, 1483, 1521, 1587, 1653, 1693, 1711]
+    y-axis "Anzahl" 0 --> 1762
+    line [7, 13, 14, 17, 24, 28, 32, 36, 40, 44, 51, 53, 57, 63, 67, 69, 72, 77, 82, 86, 91, 95, 97, 102, 106, 111, 116, 126, 134, 144, 155, 157, 163, 166, 169, 178, 182, 193, 199, 203, 207, 214, 215, 216, 217, 220, 222, 225, 227, 229, 236, 240, 246, 252, 258, 270, 274, 285, 291, 296, 303, 313, 317, 323, 338, 351, 361, 371, 384, 388, 400, 410, 425, 434, 439, 443, 452, 453, 461, 477, 485, 493, 496, 498, 508, 522, 538, 554, 570, 579, 598, 626, 634, 648, 665, 678, 688, 710, 728, 749, 767, 776, 801, 834, 862, 918, 978, 1001, 1032, 1054, 1094, 1135, 1170, 1193, 1217, 1237, 1265, 1337, 1393, 1451, 1483, 1521, 1587, 1653, 1693, 1712]
 ```
 
 ## Neueste Scheinfirmen (letzte 30 Tage)
@@ -33,8 +33,8 @@ xychart-beta
 | BAKRO Bertalan | ATU82731947 | 1160 Wien, Hasnerstraße 82/6 |
 | BOLLA Lilla | ATU68313611 | 7471 Rechnitz, Herrengasse 24 |
 | Bauer Consulting GmbH | ATU65643716 | 8731 Gaal, Puchschachen 50 |
-| CHITHIRANANDAN Asviin |  | 1110 Wien, Miltnerweg 23/16/20 |
 | DDS TOP KG | ATU80312109 | 1200 Wien, Klosterneuburger Straße 8 |
+| Elektro ELLA GmbH | ATU78200313 | 1140 Wien, Ameisgasse 36 |
 | FourSense GmbH | ATU67925025 | 1010 Wien, Sterngasse 3 |
 | GEOMASTER Bohrtechnik GmbH | ATU78577835 | 7000 Eisenstadt, Mattersburger Straße 26/1 |
 | GOSHEVA Vaska | ATU81379526 | 1160 Wien, Gablenzgasse 34 |
@@ -59,4 +59,3 @@ xychart-beta
 | SAMT e.U. | ATU81730548 | 1220 Wien, Haberergasse 5/6 |
 | TCI Technical Center for Innovations GmbH | ATU72598824 | 1160 Wien, Hasnerstraße 82 |
 | VANAMALA Rashmitha | ATU82172346 | 1160 Wien, Herbststraße 47 |
-| VASILE Ioan-Eugen | ATU81264819 | 1160 Wien, Lerchenfelder Gürtel 33 |
