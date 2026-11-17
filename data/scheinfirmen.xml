@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-16" zeit="10:33:12" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1712">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-17" zeit="11:39:00" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1714">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -1239,6 +1239,7 @@
   <scheinfirma anschrift="1100 Wien, Puchsbaumgasse 37" veroeffentlicht="2026-07-06" rechtskraeftig="2026-07-03" seit="2024-04-15" geburtsdatum="2006-02-20" kennziffer="R148M7983">POMPOVA Annamaria</scheinfirma>
   <scheinfirma anschrift="1120 Wien, Siebertgasse 6" veroeffentlicht="2026-08-18" rechtskraeftig="2026-07-01" seit="2024-03-04" geburtsdatum="1984-10-02" kennziffer="R147M652Y">POMPOVA Zdenka</scheinfirma>
   <scheinfirma anschrift="1170 Wien, Hernalser Hauptstraße 84" veroeffentlicht="2025-03-19" rechtskraeftig="2025-03-10" seit="2021-04-16" geburtsdatum="1986-01-01" uid="ATU76895914" kennziffer="R128I619F">POPLIE Hargoben Singh</scheinfirma>
+  <scheinfirma anschrift="5071 Wals-Siezenheim, Dr.-Hans-Lechner-Straße 6" veroeffentlicht="2026-11-17" rechtskraeftig="2026-11-11" seit="2026-03-15" fbnr="646850a" uid="ATU82147614" kennziffer="R154T007K">Power Clean KFZ GmbH</scheinfirma>
   <scheinfirma anschrift="4594 Grünburg, Steyrtalstraße 23" veroeffentlicht="2017-02-28" rechtskraeftig="2017-02-20" fbnr="434044a" uid="ATU69600005">PPB Protect Passiv Bau GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Taborstraße 32" veroeffentlicht="2025-08-18" rechtskraeftig="2025-08-07" seit="2024-11-11" fbnr="628697f" uid="ATU81390415" kennziffer="R149U165S">P.R. Piotre Rafi Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Laxenburger Straße 32" veroeffentlicht="2026-08-28" rechtskraeftig="2026-08-24" seit="2024-04-25" geburtsdatum="1966-10-12" uid="ATU80628625" kennziffer="R149G357E">PRAZIENKOVA Ivana</scheinfirma>
@@ -1610,6 +1611,7 @@
   <scheinfirma anschrift="7503 Großpetersdorf, Raiffeisenplatz 1" veroeffentlicht="2026-10-08" rechtskraeftig="2026-09-29" seit="2023-08-22" geburtsdatum="1970-12-10" uid="ATU79760279" kennziffer="R140N5360">VAGI Sandor Zsolt</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Absberggasse 45A" veroeffentlicht="2026-04-27" rechtskraeftig="2026-04-02" seit="2025-04-27" geburtsdatum="1993-07-18" uid="ATU82102029" kennziffer="R155Y1185">VAGVOLGYI Tamas</scheinfirma>
   <scheinfirma anschrift="2552 Hirtenberg, Leobersdorfer Straße 62" veroeffentlicht="2025-02-28" rechtskraeftig="2025-02-18" seit="2024-05-27" geburtsdatum="1996-05-02" uid="ATU80899814" kennziffer="R150Q8811">VAJDA Janos Attila</scheinfirma>
+  <scheinfirma anschrift="1140 Wien, Dreyhausenstraße 5/15a" veroeffentlicht="2026-11-17" rechtskraeftig="2026-11-06" seit="2026-01-22" geburtsdatum="1982-12-14" uid="ATU82943148" kennziffer="R160L944J">VAJDA Krisztian</scheinfirma>
   <scheinfirma anschrift="6020 Innsbruck, Kaufmannstraße 21b" veroeffentlicht="2026-02-24" rechtskraeftig="2026-02-11" seit="2025-07-22" geburtsdatum="1970-04-28" uid="ATU82261259" kennziffer="R154D548V">VALENCIUS Marius</scheinfirma>
   <scheinfirma anschrift="2620 Neunkirchen, Wienerstraße 21" veroeffentlicht="2025-01-14" rechtskraeftig="2025-01-08" seit="2022-12-21" fbnr="352136y" uid="ATU65938649" kennziffer="R033K5539">VALENTINO GmbH</scheinfirma>
   <scheinfirma anschrift="1160 Wien, Herbststraße 47" veroeffentlicht="2026-11-11" rechtskraeftig="2026-11-06" seit="2025-05-16" geburtsdatum="1992-12-23" uid="ATU82172346" kennziffer="R156F073C">VANAMALA Rashmitha</scheinfirma>
