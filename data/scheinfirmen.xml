@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-19" zeit="11:14:34" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1717">
+<scheinfirmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/arjoma/scheinfirmen-at/main/data/scheinfirmen.xsd" stand="2026-11-21" zeit="10:42:03" quelle="https://service.bmf.gv.at/service/allg/lsu/__Gen_Csv.asp" anzahl="1718">
   <scheinfirma anschrift="1100 Wien, Quellenstraße 145" veroeffentlicht="2023-12-14" rechtskraeftig="2023-12-12" fbnr="597821z" uid="ATU79209223">A &amp; HK Bau und Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1020 Wien, Rembrandtstraße 15" veroeffentlicht="2025-01-21" rechtskraeftig="2025-01-11" seit="2024-06-06" fbnr="575302h" uid="ATU78016816" kennziffer="R133R5574">A &amp; U Teambau GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Siegfriedgasse 23, Tor 1" veroeffentlicht="2018-12-04" rechtskraeftig="2018-11-22" fbnr="476240d" uid="ATU72572156">AAS Installationen GmbH</scheinfirma>
@@ -998,6 +998,7 @@
   <scheinfirma anschrift="1190 Wien, Barawitzkagasse 6" veroeffentlicht="2025-04-16" rechtskraeftig="2025-04-09" seit="2023-10-11" geburtsdatum="1980-12-22" uid="ATU79940502" kennziffer="R142R111W">MEHMEDOV Mustafa Aliev</scheinfirma>
   <scheinfirma anschrift="1050 Wien, Zentagasse 5" veroeffentlicht="2025-03-05" rechtskraeftig="2025-02-28" seit="2023-12-05" geburtsdatum="1983-08-02" uid="ATU80270804" kennziffer="R143Y379H">MEHMEDOV Sunay Ismailov</scheinfirma>
   <scheinfirma anschrift="1010 Wien, Graben 12" veroeffentlicht="2021-09-13" rechtskraeftig="2021-09-01" fbnr="425066y" uid="ATU69451078">MeinHausBau GmbH</scheinfirma>
+  <scheinfirma anschrift="1020 Wien, Taborstraße 75A" veroeffentlicht="2026-11-20" rechtskraeftig="2026-11-10" seit="2023-04-27" fbnr="262512y" uid="ATU61762569" kennziffer="R021Z162C">MEIR Consulting &amp; Immobilien GmbH</scheinfirma>
   <scheinfirma anschrift="1220 Wien, Schüttaustraße 20-40" veroeffentlicht="2020-11-11" rechtskraeftig="2020-11-06" fbnr="522086z" uid="ATU75038326">Meistermann HST GmbH</scheinfirma>
   <scheinfirma anschrift="1100 Wien, Gußriegelstraße 51-59/22/7" veroeffentlicht="2019-05-16" rechtskraeftig="2019-04-17" fbnr="488060k" uid="ATU73192635">Mekan Handels GmbH</scheinfirma>
   <scheinfirma anschrift="1210 Wien, Frauenstiftgasse 12A" veroeffentlicht="2025-03-25" rechtskraeftig="2025-03-20" seit="2024-09-12" fbnr="629735g" uid="ATU80754257" kennziffer="R150A489U">MELENES Handelsagentur GmbH</scheinfirma>
